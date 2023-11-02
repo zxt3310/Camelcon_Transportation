@@ -2,6 +2,7 @@
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
     "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
-    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "liu-choose-address": "/uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address"
   }
 }

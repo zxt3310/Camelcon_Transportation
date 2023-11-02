@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"uni_modules/uview-ui/components/u-button/u-button":1,"uni_modules/uview-ui/components/u-input/u-input":1,"uni_modules/uview-ui/components/u-icon/u-icon":1,"uni_modules/uview-ui/components/u-loading-icon/u-loading-icon":1};
+/******/ 		var cssChunks = {"uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address":1,"uni_modules/uview-ui/components/u-button/u-button":1,"uni_modules/uview-ui/components/u-input/u-input":1,"uni_modules/uview-ui/components/u-icon/u-icon":1,"uni_modules/uview-ui/components/u-loading-icon/u-loading-icon":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"uni_modules/uview-ui/components/u--input/u--input":"uni_modules/uview-ui/components/u--input/u--input","uni_modules/uview-ui/components/u-button/u-button":"uni_modules/uview-ui/components/u-button/u-button","uni_modules/uview-ui/components/u-input/u-input":"uni_modules/uview-ui/components/u-input/u-input","uni_modules/uview-ui/components/u-icon/u-icon":"uni_modules/uview-ui/components/u-icon/u-icon","uni_modules/uview-ui/components/u-loading-icon/u-loading-icon":"uni_modules/uview-ui/components/u-loading-icon/u-loading-icon"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address":"uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address","uni_modules/uview-ui/components/u--input/u--input":"uni_modules/uview-ui/components/u--input/u--input","uni_modules/uview-ui/components/u-button/u-button":"uni_modules/uview-ui/components/u-button/u-button","uni_modules/uview-ui/components/u-input/u-input":"uni_modules/uview-ui/components/u-input/u-input","uni_modules/uview-ui/components/u-icon/u-icon":"uni_modules/uview-ui/components/u-icon/u-icon","uni_modules/uview-ui/components/u-loading-icon/u-loading-icon":"uni_modules/uview-ui/components/u-loading-icon/u-loading-icon"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

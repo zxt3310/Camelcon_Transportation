@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="">
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title u-line-1">是日也，天朗气清，惠风和畅，仰观宇宙之大，俯察品类之盛</text>
@@ -7,9 +7,11 @@
 		</view>
 		<view class="">
 			<u--input></u--input>
-			<u-button type="primary">adsf</u-button>
+			<u-button type="primary" @click="openAddress">adsf</u-button>
 		</view>
+		<liu-choose-address ref="scroll" @change='chooseSuccess'></liu-choose-address>
 	</view>
+	
 </template>
 
 <script>
@@ -26,9 +28,21 @@
 				userInfo: state => state.user.userInfo
 			})
 		},
-		onLoad() {},
+		onLoad() {
+			
+		},
 		methods: {
-
+			jump(){
+				uni.navigateTo({
+					url:"/pages/CitySelect/CitySelect"
+				})
+			},
+			openAddress() {
+				this.$refs.scroll.open()
+			},
+			chooseSuccess(e){
+				console.log(e)
+			}
 		}
 	}
 </script>

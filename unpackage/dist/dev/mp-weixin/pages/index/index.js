@@ -101,10 +101,13 @@ var components
 try {
   components = {
     "u-Input": function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u--input/u--input */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u--input/u--input")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u--input/u--input.vue */ 175))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u--input/u--input */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u--input/u--input")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u--input/u--input.vue */ 181))
     },
     uButton: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 199))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 187))
+    },
+    liuChooseAddress: function () {
+      return Promise.all(/*! import() | uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address")]).then(__webpack_require__.bind(null, /*! @/uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address.vue */ 222))
     },
   }
 } catch (e) {
@@ -161,7 +164,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(uni) {
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 Object.defineProperty(exports, "__esModule", {
@@ -184,9 +187,22 @@ var _default = {
     }
   })),
   onLoad: function onLoad() {},
-  methods: {}
+  methods: {
+    jump: function jump() {
+      uni.navigateTo({
+        url: "/pages/CitySelect/CitySelect"
+      });
+    },
+    openAddress: function openAddress() {
+      this.$refs.scroll.open();
+    },
+    chooseSuccess: function chooseSuccess(e) {
+      console.log(e);
+    }
+  }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 
