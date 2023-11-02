@@ -1,0 +1,26 @@
+{
+    "name": "项目快速开发模板",
+    "version": "1.0.1",
+    "description": "整合模块，快速开发：uview2.0+vue-simple-router+store基本配置（modules）+ zhouWei-request",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "uni-read-pages": "^1.0.5",
+        "uni-simple-router": "^2.0.8-beta.3"
+    },
+    "id": "muxihuakai-projectTemplate",
+    "keywords": [
+        "快速开发",
+        "模板"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}
