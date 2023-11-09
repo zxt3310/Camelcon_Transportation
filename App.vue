@@ -15,4 +15,9 @@
 <style lang="scss">
 	/*每个页面公共css */
 	@import "@/uni_modules/uview-ui/index.scss";
+	page {
+		background-color: #F4F7FC;
+		width: 100%;
+		height: 100%;
+	}
 </style>

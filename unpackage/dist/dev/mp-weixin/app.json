@@ -1,14 +1,39 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/CitySelect/CitySelect"
+    "pages/CitySelect/CitySelect",
+    "pages/OrderList/OrderList",
+    "pages/User/User"
   ],
   "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0081FF"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "selectedColor": "#0081FF",
+    "color": "#C4CDD7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/mainpage_unselect.png",
+        "selectedIconPath": "static/tabbar/mainpage_select.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/OrderList/OrderList",
+        "iconPath": "static/tabbar/orderlist_unselect.png",
+        "selectedIconPath": "static/tabbar/orderlist_select.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/User/User",
+        "iconPath": "static/tabbar/me_unselect.png",
+        "selectedIconPath": "static/tabbar/me_select.png",
+        "text": "我的"
+      }
+    ]
   },
   "usingComponents": {}
 }

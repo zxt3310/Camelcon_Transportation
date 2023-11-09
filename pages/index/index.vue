@@ -1,15 +1,16 @@
 <template>
-	<view class="">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title u-line-1">是日也，天朗气清，惠风和畅，仰观宇宙之大，俯察品类之盛</text>
-			
+	<view class="page_in">
+		<view class="header">
+			<view class="switch">
+				
+			</view>
 		</view>
-		<view class="">
+		
+		<!-- <view class="">
 			<u--input></u--input>
 			<u-button type="primary" @click="openAddress">adsf</u-button>
 		</view>
-		<liu-choose-address ref="scroll" @change='chooseSuccess'></liu-choose-address>
+		<liu-choose-address ref="scroll" @change='chooseSuccess'></liu-choose-address> -->
 	</view>
 	
 </template>
@@ -48,29 +49,24 @@
 </script>
 
 <style lang="scss" scoped>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+	.page_in{
+		width: 100%;
+		height: 100%;
 	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
+	.header {
+		height: 25%;
+		background-color: #0081FF;
+		border-radius: 0 0 50% 50%;
+		position: relative;
 	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+	.switch{
+		position: absolute;
+		margin: 0 6%;
+		height: 100%;
+		width: 88%;
+		border-radius: 20upx;
+		background-color: white;
+		bottom: -50px;
+		
 	}
 </style>
