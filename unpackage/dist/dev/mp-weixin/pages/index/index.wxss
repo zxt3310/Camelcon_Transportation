@@ -40,7 +40,15 @@
   height: 100%;
   width: 88%;
   border-radius: 20rpx;
-  background-color: white;
   bottom: -50px;
+  overflow: hidden;
+}
+.dashbord.data-v-57280228 {
+  padding-top: 20%;
+  height: 100%;
+}
+.func_view.data-v-57280228 {
+  padding: 20rpx;
+  background-color: white;
 }
 
