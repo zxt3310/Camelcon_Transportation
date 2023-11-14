@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/CitySelect/CitySelect",
     "pages/OrderList/OrderList",
-    "pages/User/User"
+    "pages/User/User",
+    "pages/OrderCreate/OrderCreate"
   ],
   "subPackages": [],
   "window": {

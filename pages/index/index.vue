@@ -7,7 +7,7 @@
 		</view>
 		<view class="padding-hor dashbord">
 			<u-row justify="space-between" gutter="40">
-				<u-col span="6">
+				<u-col span="6" @click="jumpToCreateOrder">
 					<view class="func_view">
 						<u-row>
 							<u-col span="6">
@@ -88,6 +88,11 @@
 			jump(){
 				uni.navigateTo({
 					url:"/pages/CitySelect/CitySelect"
+				})
+			},
+			jumpToCreateOrder(){
+				uni.navigateTo({
+					url:"/pages/OrderCreate/OrderCreate"
 				})
 			},
 			openAddress() {

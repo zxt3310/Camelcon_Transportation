@@ -30,6 +30,14 @@
 				"navigationBarTitleText" : "我的",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/OrderCreate/OrderCreate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创建订单",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

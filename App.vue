@@ -15,6 +15,7 @@
 <style lang="scss">
 	/*每个页面公共css */
 	@import "@/uni_modules/uview-ui/index.scss";
+	@import "@/css/iconfont.css";
 	page {
 		background-color: #F4F7FC;
 		width: 100%;
