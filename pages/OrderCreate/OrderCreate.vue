@@ -53,7 +53,7 @@
 				</view>
 				<u-gap height="20" bg-color="#F4F7FC"></u-gap>
 			</view>
-			<u-button icon="plus-circle" :plain="true" type="primary" text="添加盒子"></u-button>
+			<u-button icon="plus-circle" :plain="true" type="primary" text="添加盒子" @click="add_Order_Box"></u-button>
 		</view>
 	</view>
 </template>
@@ -72,11 +72,19 @@
 					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明"},
 					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明"},
 					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明"}
-				]
+				],
+				
 			}
 		},
-		methods: {
+		onShow(option) {
 			
+		},
+		methods: {
+			add_Order_Box(){
+				uni.navigateTo({
+					url:"/pages/OrderCreate/Box_input"
+				})
+			}
 		}
 	}
 </script>

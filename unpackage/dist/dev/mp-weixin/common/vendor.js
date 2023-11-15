@@ -9477,9 +9477,9 @@ internalMixin(Vue);
 
 /***/ }),
 /* 26 */
-/*!**********************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/pages.json ***!
-  \**********************************************************************************/
+/*!**************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/pages.json ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9623,9 +9623,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 33 */
-/*!**************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/index.js ***!
-  \**************************************************************************************/
+/*!******************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/store/index.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10915,9 +10915,9 @@ module.exports = index_cjs;
 
 /***/ }),
 /* 35 */
-/*!*************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/modules sync nonrecursive \.js$ ***!
-  \*************************************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/store/modules sync nonrecursive \.js$ ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10947,9 +10947,9 @@ webpackContext.id = 35;
 
 /***/ }),
 /* 36 */
-/*!*********************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/modules/user.js ***!
-  \*********************************************************************************************/
+/*!*************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/store/modules/user.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10977,9 +10977,9 @@ exports.default = _default;
 
 /***/ }),
 /* 37 */
-/*!***************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/router/index.js ***!
-  \***************************************************************************************/
+/*!*******************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/router/index.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11017,9 +11017,9 @@ router.afterEach(function (to, from) {
 
 /***/ }),
 /* 38 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/node_modules/uni-simple-router/dist/uni-simple-router.js ***!
-  \********************************************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/node_modules/uni-simple-router/dist/uni-simple-router.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13018,7 +13018,7 @@ router.afterEach(function (to, from) {
   }(607);
   var e, t;
 });
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"], __webpack_require__(/*! ./../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/module.js */ 39)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"], __webpack_require__(/*! ./../../../../../HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/module.js */ 39)(module)))
 
 /***/ }),
 /* 39 */
@@ -13054,9 +13054,9 @@ module.exports = function(module) {
 
 /***/ }),
 /* 40 */
-/*!*****************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/index.js ***!
-  \*****************************************************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/index.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13143,9 +13143,9 @@ exports.default = _default;
 
 /***/ }),
 /* 41 */
-/*!****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mixin.js ***!
-  \****************************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13309,9 +13309,9 @@ exports.default = _default;
 
 /***/ }),
 /* 42 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
-  \******************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13332,9 +13332,9 @@ exports.default = _default;
 
 /***/ }),
 /* 43 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/index.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13352,9 +13352,9 @@ exports.default = _default;
 
 /***/ }),
 /* 44 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
-  \******************************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13558,9 +13558,9 @@ exports.default = Request;
 
 /***/ }),
 /* 45 */
-/*!**************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
-  \**************************************************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13580,9 +13580,9 @@ exports.default = _default;
 
 /***/ }),
 /* 46 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
-  \********************************************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13661,9 +13661,9 @@ exports.default = _default;
 
 /***/ }),
 /* 47 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
-  \**********************************************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13731,9 +13731,9 @@ function buildURL(url, params) {
 
 /***/ }),
 /* 48 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13884,9 +13884,9 @@ function isUndefined(val) {
 
 /***/ }),
 /* 49 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
-  \************************************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13918,9 +13918,9 @@ function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 /* 50 */
-/*!***************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
-  \***************************************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13946,9 +13946,9 @@ function isAbsoluteURL(url) {
 
 /***/ }),
 /* 51 */
-/*!*************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
-  \*************************************************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13972,9 +13972,9 @@ function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 52 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14004,9 +14004,9 @@ function settle(resolve, reject, response) {
 
 /***/ }),
 /* 53 */
-/*!*****************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
-  \*****************************************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14068,9 +14068,9 @@ exports.default = _default;
 
 /***/ }),
 /* 54 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
-  \**********************************************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14144,9 +14144,9 @@ exports.default = _default;
 
 /***/ }),
 /* 55 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
-  \*******************************************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14176,9 +14176,9 @@ exports.default = _default;
 
 /***/ }),
 /* 56 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14424,7 +14424,7 @@ var clone = function () {
 }();
 var _default = clone;
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 57).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 57).Buffer))
 
 /***/ }),
 /* 57 */
@@ -16500,9 +16500,9 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 61 */
-/*!***************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/util/route.js ***!
-  \***************************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/util/route.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17062,9 +17062,9 @@ module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exp
 
 /***/ }),
 /* 65 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/colorGradient.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17217,9 +17217,9 @@ exports.default = _default;
 
 /***/ }),
 /* 66 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/test.js ***!
-  \******************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/test.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17521,9 +17521,9 @@ exports.default = _default;
 
 /***/ }),
 /* 67 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/debounce.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17568,9 +17568,9 @@ exports.default = _default;
 
 /***/ }),
 /* 68 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/throttle.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17617,9 +17617,9 @@ exports.default = _default;
 
 /***/ }),
 /* 69 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/index.js ***!
-  \*******************************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/index.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18374,9 +18374,9 @@ exports.default = _default;
 
 /***/ }),
 /* 70 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/digit.js ***!
-  \*******************************************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/digit.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18593,9 +18593,9 @@ module.exports = _toArray, module.exports.__esModule = true, module.exports["def
 
 /***/ }),
 /* 72 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/config.js ***!
-  \******************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/config.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18637,9 +18637,9 @@ exports.default = _default;
 
 /***/ }),
 /* 73 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props.js ***!
-  \*****************************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18749,9 +18749,9 @@ exports.default = _default;
 
 /***/ }),
 /* 74 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18793,9 +18793,9 @@ exports.default = _default;
 
 /***/ }),
 /* 75 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/album.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18837,9 +18837,9 @@ exports.default = _default;
 
 /***/ }),
 /* 76 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/alert.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18876,9 +18876,9 @@ exports.default = _default;
 
 /***/ }),
 /* 77 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatar.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18921,9 +18921,9 @@ exports.default = _default;
 
 /***/ }),
 /* 78 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18963,9 +18963,9 @@ exports.default = _default;
 
 /***/ }),
 /* 79 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/backtop.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19009,9 +19009,9 @@ exports.default = _default;
 
 /***/ }),
 /* 80 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/badge.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19055,9 +19055,9 @@ exports.default = _default;
 
 /***/ }),
 /* 81 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/button.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19114,9 +19114,9 @@ exports.default = _default;
 
 /***/ }),
 /* 82 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/calendar.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19177,9 +19177,9 @@ exports.default = _default;
 
 /***/ }),
 /* 83 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19209,9 +19209,9 @@ exports.default = _default;
 
 /***/ }),
 /* 84 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cell.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19261,9 +19261,9 @@ exports.default = _default;
 
 /***/ }),
 /* 85 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19295,9 +19295,9 @@ exports.default = _default;
 
 /***/ }),
 /* 86 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19339,9 +19339,9 @@ exports.default = _default;
 
 /***/ }),
 /* 87 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
-  \*******************************************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19387,9 +19387,9 @@ exports.default = _default;
 
 /***/ }),
 /* 88 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
-  \********************************************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19419,9 +19419,9 @@ exports.default = _default;
 
 /***/ }),
 /* 89 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/code.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19456,9 +19456,9 @@ exports.default = _default;
 
 /***/ }),
 /* 90 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19501,9 +19501,9 @@ exports.default = _default;
 
 /***/ }),
 /* 91 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/col.js ***!
-  \*********************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19537,9 +19537,9 @@ exports.default = _default;
 
 /***/ }),
 /* 92 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapse.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19571,9 +19571,9 @@ exports.default = _default;
 
 /***/ }),
 /* 93 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
-  \******************************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19613,9 +19613,9 @@ exports.default = _default;
 
 /***/ }),
 /* 94 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
-  \******************************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19654,9 +19654,9 @@ exports.default = _default;
 
 /***/ }),
 /* 95 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countDown.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19689,9 +19689,9 @@ exports.default = _default;
 
 /***/ }),
 /* 96 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countTo.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19731,9 +19731,9 @@ exports.default = _default;
 
 /***/ }),
 /* 97 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
-  \********************************************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19786,9 +19786,9 @@ exports.default = _default;
 
 /***/ }),
 /* 98 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/divider.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19825,9 +19825,9 @@ exports.default = _default;
 
 /***/ }),
 /* 99 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/empty.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19867,9 +19867,9 @@ exports.default = _default;
 
 /***/ }),
 /* 100 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/form.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19912,9 +19912,9 @@ exports.default = _default;
 
 /***/ }),
 /* 101 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/formItem.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19951,9 +19951,9 @@ exports.default = _default;
 
 /***/ }),
 /* 102 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gap.js ***!
-  \*********************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19987,9 +19987,9 @@ exports.default = _default;
 
 /***/ }),
 /* 103 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/grid.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20021,9 +20021,9 @@ exports.default = _default;
 
 /***/ }),
 /* 104 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20054,9 +20054,9 @@ exports.default = _default;
 
 /***/ }),
 /* 105 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/icon.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20106,9 +20106,9 @@ exports.default = _default;
 
 /***/ }),
 /* 106 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/image.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20153,9 +20153,9 @@ exports.default = _default;
 
 /***/ }),
 /* 107 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20189,9 +20189,9 @@ exports.default = _default;
 
 /***/ }),
 /* 108 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexList.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20227,9 +20227,9 @@ exports.default = _default;
 
 /***/ }),
 /* 109 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/input.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20292,9 +20292,9 @@ exports.default = _default;
 
 /***/ }),
 /* 110 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20339,9 +20339,9 @@ exports.default = _default;
 
 /***/ }),
 /* 111 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/line.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20376,9 +20376,9 @@ exports.default = _default;
 
 /***/ }),
 /* 112 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
-  \******************************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20412,9 +20412,9 @@ exports.default = _default;
 
 /***/ }),
 /* 113 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/link.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20454,9 +20454,9 @@ exports.default = _default;
 
 /***/ }),
 /* 114 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/list.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20499,9 +20499,9 @@ exports.default = _default;
 
 /***/ }),
 /* 115 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/listItem.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20531,9 +20531,9 @@ exports.default = _default;
 
 /***/ }),
 /* 116 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20577,9 +20577,9 @@ exports.default = _default;
 
 /***/ }),
 /* 117 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20616,9 +20616,9 @@ exports.default = _default;
 
 /***/ }),
 /* 118 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20662,9 +20662,9 @@ exports.default = _default;
 
 /***/ }),
 /* 119 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/modal.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20709,9 +20709,9 @@ exports.default = _default;
 
 /***/ }),
 /* 120 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/navbar.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20758,9 +20758,9 @@ exports.default = _default;
 
 /***/ }),
 /* 121 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/color.js ***!
-  \*****************************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/color.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20791,9 +20791,9 @@ exports.default = _default;
 
 /***/ }),
 /* 122 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20825,9 +20825,9 @@ exports.default = _default;
 
 /***/ }),
 /* 123 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20871,9 +20871,9 @@ exports.default = _default;
 
 /***/ }),
 /* 124 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/notify.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20910,9 +20910,9 @@ exports.default = _default;
 
 /***/ }),
 /* 125 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20962,9 +20962,9 @@ exports.default = _default;
 
 /***/ }),
 /* 126 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
-  \********************************************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20996,9 +20996,9 @@ exports.default = _default;
 
 /***/ }),
 /* 127 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/overlay.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21031,9 +21031,9 @@ exports.default = _default;
 
 /***/ }),
 /* 128 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/parse.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21070,9 +21070,9 @@ exports.default = _default;
 
 /***/ }),
 /* 129 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/picker.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21121,9 +21121,9 @@ exports.default = _default;
 
 /***/ }),
 /* 130 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/popup.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21167,9 +21167,9 @@ exports.default = _default;
 
 /***/ }),
 /* 131 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radio.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21211,9 +21211,9 @@ exports.default = _default;
 
 /***/ }),
 /* 132 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
-  \****************************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21258,9 +21258,9 @@ exports.default = _default;
 
 /***/ }),
 /* 133 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rate.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21301,9 +21301,9 @@ exports.default = _default;
 
 /***/ }),
 /* 134 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/readMore.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21340,9 +21340,9 @@ exports.default = _default;
 
 /***/ }),
 /* 135 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/row.js ***!
-  \*********************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21374,9 +21374,9 @@ exports.default = _default;
 
 /***/ }),
 /* 136 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21412,9 +21412,9 @@ exports.default = _default;
 
 /***/ }),
 /* 137 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
-  \****************************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21449,9 +21449,9 @@ exports.default = _default;
 
 /***/ }),
 /* 138 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/search.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21507,9 +21507,9 @@ exports.default = _default;
 
 /***/ }),
 /* 139 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/section.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21548,9 +21548,9 @@ exports.default = _default;
 
 /***/ }),
 /* 140 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21590,9 +21590,9 @@ exports.default = _default;
 
 /***/ }),
 /* 141 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/slider.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21632,9 +21632,9 @@ exports.default = _default;
 
 /***/ }),
 /* 142 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21664,9 +21664,9 @@ exports.default = _default;
 
 /***/ }),
 /* 143 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/steps.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21702,9 +21702,9 @@ exports.default = _default;
 
 /***/ }),
 /* 144 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
-  \***************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21737,9 +21737,9 @@ exports.default = _default;
 
 /***/ }),
 /* 145 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/sticky.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21774,9 +21774,9 @@ exports.default = _default;
 
 /***/ }),
 /* 146 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/subsection.js ***!
-  \****************************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21814,9 +21814,9 @@ exports.default = _default;
 
 /***/ }),
 /* 147 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
-  \*****************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21846,9 +21846,9 @@ exports.default = _default;
 
 /***/ }),
 /* 148 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
-  \*********************************************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21884,9 +21884,9 @@ exports.default = _default;
 
 /***/ }),
 /* 149 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swiper.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21941,9 +21941,9 @@ exports.default = _default;
 
 /***/ }),
 /* 150 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
-  \**********************************************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21977,9 +21977,9 @@ exports.default = _default;
 
 /***/ }),
 /* 151 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/switch.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22018,9 +22018,9 @@ exports.default = _default;
 
 /***/ }),
 /* 152 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22057,9 +22057,9 @@ exports.default = _default;
 
 /***/ }),
 /* 153 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
-  \****************************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22094,9 +22094,9 @@ exports.default = _default;
 
 /***/ }),
 /* 154 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabs.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22150,9 +22150,9 @@ exports.default = _default;
 
 /***/ }),
 /* 155 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tag.js ***!
-  \*********************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22196,9 +22196,9 @@ exports.default = _default;
 
 /***/ }),
 /* 156 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/text.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22252,9 +22252,9 @@ exports.default = _default;
 
 /***/ }),
 /* 157 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/textarea.js ***!
-  \**************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22305,9 +22305,9 @@ exports.default = _default;
 
 /***/ }),
 /* 158 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toast.js ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22351,9 +22351,9 @@ exports.default = _default;
 
 /***/ }),
 /* 159 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22388,9 +22388,9 @@ exports.default = _default;
 
 /***/ }),
 /* 160 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22432,9 +22432,9 @@ exports.default = _default;
 
 /***/ }),
 /* 161 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/transition.js ***!
-  \****************************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22467,9 +22467,9 @@ exports.default = _default;
 
 /***/ }),
 /* 162 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/upload.js ***!
-  \************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22526,9 +22526,9 @@ exports.default = _default;
 
 /***/ }),
 /* 163 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/zIndex.js ***!
-  \******************************************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22562,9 +22562,9 @@ exports.default = _default;
 
 /***/ }),
 /* 164 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/platform.js ***!
-  \**********************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/platform.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22630,10 +22630,16 @@ exports.default = _default;
 /* 201 */,
 /* 202 */,
 /* 203 */,
-/* 204 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
-  \*************************************************************************************************************************/
+/* 204 */,
+/* 205 */,
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22773,17 +22779,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
 /* 211 */,
-/* 212 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
-  \**********************************************************************************************************************/
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22817,17 +22823,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
 /* 219 */,
-/* 220 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
-  \**********************************************************************************************************************/
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22871,17 +22877,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
 /* 227 */,
-/* 228 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
-  \***********************************************************************************************************************/
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23109,10 +23115,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 229 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
-  \***********************************************************************************************************************/
+/* 235 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23216,17 +23222,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
 /* 236 */,
-/* 237 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
-  \***********************************************************************************************************************/
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23274,101 +23280,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
 /* 244 */,
-/* 245 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
-  \*******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 是否显示组件
-    show: {
-      type: Boolean,
-      default: uni.$u.props.loadingIcon.show
-    },
-    // 颜色
-    color: {
-      type: String,
-      default: uni.$u.props.loadingIcon.color
-    },
-    // 提示文字颜色
-    textColor: {
-      type: String,
-      default: uni.$u.props.loadingIcon.textColor
-    },
-    // 文字和图标是否垂直排列
-    vertical: {
-      type: Boolean,
-      default: uni.$u.props.loadingIcon.vertical
-    },
-    // 模式选择，circle-圆形，spinner-花朵形，semicircle-半圆形
-    mode: {
-      type: String,
-      default: uni.$u.props.loadingIcon.mode
-    },
-    // 图标大小，单位默认px
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.loadingIcon.size
-    },
-    // 文字大小
-    textSize: {
-      type: [String, Number],
-      default: uni.$u.props.loadingIcon.textSize
-    },
-    // 文字内容
-    text: {
-      type: [String, Number],
-      default: uni.$u.props.loadingIcon.text
-    },
-    // 动画模式
-    timingFunction: {
-      type: String,
-      default: uni.$u.props.loadingIcon.timingFunction
-    },
-    // 动画执行周期时间
-    duration: {
-      type: [String, Number],
-      default: uni.$u.props.loadingIcon.duration
-    },
-    // mode=circle时的暗边颜色
-    inactiveColor: {
-      type: String,
-      default: uni.$u.props.loadingIcon.inactiveColor
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
+/* 245 */,
 /* 246 */,
 /* 247 */,
 /* 248 */,
 /* 249 */,
 /* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
-  \***********************************************************************************************************************************/
+/* 251 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23381,30 +23303,70 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   props: {
-    // 轮播的长度
-    length: {
+    // checkbox的名称
+    name: {
+      type: [String, Number, Boolean],
+      default: uni.$u.props.checkbox.name
+    },
+    // 形状，square为方形，circle为圆型
+    shape: {
+      type: String,
+      default: uni.$u.props.checkbox.shape
+    },
+    // 整体的大小
+    size: {
       type: [String, Number],
-      default: uni.$u.props.swiperIndicator.length
+      default: uni.$u.props.checkbox.size
     },
-    // 当前处于活动状态的轮播的索引
-    current: {
+    // 是否默认选中
+    checked: {
+      type: Boolean,
+      default: uni.$u.props.checkbox.checked
+    },
+    // 是否禁用
+    disabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.disabled
+    },
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkbox.activeColor
+    },
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkbox.inactiveColor
+    },
+    // 图标的大小，单位px
+    iconSize: {
       type: [String, Number],
-      default: uni.$u.props.swiperIndicator.current
+      default: uni.$u.props.checkbox.iconSize
     },
-    // 指示器非激活颜色
-    indicatorActiveColor: {
+    // 图标颜色
+    iconColor: {
       type: String,
-      default: uni.$u.props.swiperIndicator.indicatorActiveColor
+      default: uni.$u.props.checkbox.iconColor
     },
-    // 指示器的激活颜色
-    indicatorInactiveColor: {
-      type: String,
-      default: uni.$u.props.swiperIndicator.indicatorInactiveColor
+    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
+    label: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.label
     },
-    // 指示器模式，line-线型，dot-点型
-    indicatorMode: {
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.labelSize
+    },
+    // label的颜色
+    labelColor: {
       type: String,
-      default: uni.$u.props.swiperIndicator.indicatorMode
+      default: uni.$u.props.checkbox.labelColor
+    },
+    // 是否禁止点击提示语选中复选框
+    labelDisabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.labelDisabled
     }
   }
 };
@@ -23412,286 +23374,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
+/* 252 */,
+/* 253 */,
 /* 254 */,
 /* 255 */,
 /* 256 */,
 /* 257 */,
 /* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  computed: {
-    // 经处理后需要显示的值
-    value: function value() {
-      var text = this.text,
-        mode = this.mode,
-        format = this.format,
-        href = this.href;
-      // 价格类型
-      if (mode === 'price') {
-        // 如果text不为金额进行提示
-        if (!/^\d+(\.\d+)?$/.test(text)) {
-          uni.$u.error('金额模式下，text参数需要为金额格式');
-        }
-        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的金额格式化处理
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }
-        // 如果format非正则，非函数，则使用默认的金额格式化方法进行操作
-        return uni.$u.priceFormat(text, 2);
-      }
-      if (mode === 'date') {
-        // 判断是否合法的日期或者时间戳
-        !uni.$u.test.date(text) && uni.$u.error('日期模式下，text参数需要为日期或时间戳格式');
-        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的格式化处理
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }
-        if (format) {
-          // 如果format非正则，非函数，则使用默认的时间格式化方法进行操作
-          return uni.$u.timeFormat(text, format);
-        }
-        // 如果没有设置format，则设置为默认的时间格式化形式
-        return uni.$u.timeFormat(text, 'yyyy-mm-dd');
-      }
-      if (mode === 'phone') {
-        // 判断是否合法的手机号
-        !uni.$u.test.mobile(text) && uni.$u.error('手机号模式下，text参数需要为手机号码格式');
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }
-        if (format === 'encrypt') {
-          // 如果format为encrypt，则将手机号进行星号加密处理
-          return "".concat(text.substr(0, 3), "****").concat(text.substr(7));
-        }
-        return text;
-      }
-      if (mode === 'name') {
-        // 判断是否合法的字符粗
-        !(typeof text === 'string') && uni.$u.error('姓名模式下，text参数需要为字符串格式');
-        if (uni.$u.test.func(format)) {
-          // 如果用户传入的是函数，使用函数格式化
-          return format(text);
-        }
-        if (format === 'encrypt') {
-          // 如果format为encrypt，则将姓名进行星号加密处理
-          return this.formatName(text);
-        }
-        return text;
-      }
-      if (mode === 'link') {
-        // 判断是否合法的字符粗
-        !uni.$u.test.url(href) && uni.$u.error('超链接模式下，href参数需要为URL格式');
-        return text;
-      }
-      return text;
-    }
-  },
-  methods: {
-    // 默认的姓名脱敏规则
-    formatName: function formatName(name) {
-      var value = '';
-      if (name.length === 2) {
-        value = name.substr(0, 1) + '*';
-      } else if (name.length > 2) {
-        var char = '';
-        for (var i = 0, len = name.length - 2; i < len; i++) {
-          char += '*';
-        }
-        value = name.substr(0, 1) + char + name.substr(-1, 1);
-      } else {
-        value = name;
-      }
-      return value;
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 278 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    lang: String,
-    sessionFrom: String,
-    sendMessageTitle: String,
-    sendMessagePath: String,
-    sendMessageImg: String,
-    showMessageCard: Boolean,
-    appParameter: String,
-    formType: String,
-    openType: String
-  }
-};
-exports.default = _default;
-
-/***/ }),
-/* 279 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
-  \*******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    openType: String
-  },
-  methods: {
-    onGetUserInfo: function onGetUserInfo(event) {
-      this.$emit('getuserinfo', event.detail);
-    },
-    onContact: function onContact(event) {
-      this.$emit('contact', event.detail);
-    },
-    onGetPhoneNumber: function onGetPhoneNumber(event) {
-      this.$emit('getphonenumber', event.detail);
-    },
-    onError: function onError(event) {
-      this.$emit('error', event.detail);
-    },
-    onLaunchApp: function onLaunchApp(event) {
-      this.$emit('launchapp', event.detail);
-    },
-    onOpenSetting: function onOpenSetting(event) {
-      this.$emit('opensetting', event.detail);
-    }
-  }
-};
-exports.default = _default;
-
-/***/ }),
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 文字颜色
-    color: {
-      type: String,
-      default: uni.$u.props.link.color
-    },
-    // 字体大小，单位px
-    fontSize: {
-      type: [String, Number],
-      default: uni.$u.props.link.fontSize
-    },
-    // 是否显示下划线
-    underLine: {
-      type: Boolean,
-      default: uni.$u.props.link.underLine
-    },
-    // 要跳转的链接
-    href: {
-      type: String,
-      default: uni.$u.props.link.href
-    },
-    // 小程序中复制到粘贴板的提示语
-    mpTips: {
-      type: String,
-      default: uni.$u.props.link.mpTips
-    },
-    // 下划线颜色
-    lineColor: {
-      type: String,
-      default: uni.$u.props.link.lineColor
-    },
-    // 超链接的问题，不使用slot形式传入，是因为nvue下无法修改颜色
-    text: {
-      type: String,
-      default: uni.$u.props.link.text
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
-  \***********************************************************************************************************************/
+/* 259 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23816,15 +23509,15 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
-  \**********************************************************************************************************************/
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23863,18 +23556,89 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
-/* 312 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
-  \*************************************************************************************************************************/
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */
+/*!*********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    lang: String,
+    sessionFrom: String,
+    sendMessageTitle: String,
+    sendMessagePath: String,
+    sendMessageImg: String,
+    showMessageCard: Boolean,
+    appParameter: String,
+    formType: String,
+    openType: String
+  }
+};
+exports.default = _default;
+
+/***/ }),
+/* 274 */
+/*!***********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    openType: String
+  },
+  methods: {
+    onGetUserInfo: function onGetUserInfo(event) {
+      this.$emit('getuserinfo', event.detail);
+    },
+    onContact: function onContact(event) {
+      this.$emit('contact', event.detail);
+    },
+    onGetPhoneNumber: function onGetPhoneNumber(event) {
+      this.$emit('getphonenumber', event.detail);
+    },
+    onError: function onError(event) {
+      this.$emit('error', event.detail);
+    },
+    onLaunchApp: function onLaunchApp(event) {
+      this.$emit('launchapp', event.detail);
+    },
+    onOpenSetting: function onOpenSetting(event) {
+      this.$emit('opensetting', event.detail);
+    }
+  }
+};
+exports.default = _default;
+
+/***/ }),
+/* 275 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24050,18 +23814,24 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
-  \***************************************************************************************************************************/
+/* 276 */,
+/* 277 */,
+/* 278 */,
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */
+/*!***********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24074,70 +23844,307 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   props: {
-    // checkbox的名称
-    name: {
-      type: [String, Number, Boolean],
-      default: uni.$u.props.checkbox.name
+    // 是否显示组件
+    show: {
+      type: Boolean,
+      default: uni.$u.props.loadingIcon.show
     },
-    // 形状，square为方形，circle为圆型
-    shape: {
+    // 颜色
+    color: {
       type: String,
-      default: uni.$u.props.checkbox.shape
+      default: uni.$u.props.loadingIcon.color
     },
-    // 整体的大小
+    // 提示文字颜色
+    textColor: {
+      type: String,
+      default: uni.$u.props.loadingIcon.textColor
+    },
+    // 文字和图标是否垂直排列
+    vertical: {
+      type: Boolean,
+      default: uni.$u.props.loadingIcon.vertical
+    },
+    // 模式选择，circle-圆形，spinner-花朵形，semicircle-半圆形
+    mode: {
+      type: String,
+      default: uni.$u.props.loadingIcon.mode
+    },
+    // 图标大小，单位默认px
     size: {
       type: [String, Number],
-      default: uni.$u.props.checkbox.size
+      default: uni.$u.props.loadingIcon.size
     },
-    // 是否默认选中
-    checked: {
-      type: Boolean,
-      default: uni.$u.props.checkbox.checked
+    // 文字大小
+    textSize: {
+      type: [String, Number],
+      default: uni.$u.props.loadingIcon.textSize
     },
-    // 是否禁用
-    disabled: {
-      type: [String, Boolean],
-      default: uni.$u.props.checkbox.disabled
+    // 文字内容
+    text: {
+      type: [String, Number],
+      default: uni.$u.props.loadingIcon.text
     },
-    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
-    activeColor: {
+    // 动画模式
+    timingFunction: {
       type: String,
-      default: uni.$u.props.checkbox.activeColor
+      default: uni.$u.props.loadingIcon.timingFunction
     },
-    // 未选中的颜色
+    // 动画执行周期时间
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.loadingIcon.duration
+    },
+    // mode=circle时的暗边颜色
     inactiveColor: {
       type: String,
-      default: uni.$u.props.checkbox.inactiveColor
-    },
-    // 图标的大小，单位px
-    iconSize: {
+      default: uni.$u.props.loadingIcon.inactiveColor
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */,
+/* 295 */,
+/* 296 */,
+/* 297 */,
+/* 298 */
+/*!***************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 轮播的长度
+    length: {
       type: [String, Number],
-      default: uni.$u.props.checkbox.iconSize
+      default: uni.$u.props.swiperIndicator.length
     },
-    // 图标颜色
-    iconColor: {
+    // 当前处于活动状态的轮播的索引
+    current: {
+      type: [String, Number],
+      default: uni.$u.props.swiperIndicator.current
+    },
+    // 指示器非激活颜色
+    indicatorActiveColor: {
       type: String,
-      default: uni.$u.props.checkbox.iconColor
+      default: uni.$u.props.swiperIndicator.indicatorActiveColor
     },
-    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
-    label: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.label
-    },
-    // label的字体大小，px单位
-    labelSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.labelSize
-    },
-    // label的颜色
-    labelColor: {
+    // 指示器的激活颜色
+    indicatorInactiveColor: {
       type: String,
-      default: uni.$u.props.checkbox.labelColor
+      default: uni.$u.props.swiperIndicator.indicatorInactiveColor
     },
-    // 是否禁止点击提示语选中复选框
-    labelDisabled: {
-      type: [String, Boolean],
-      default: uni.$u.props.checkbox.labelDisabled
+    // 指示器模式，line-线型，dot-点型
+    indicatorMode: {
+      type: String,
+      default: uni.$u.props.swiperIndicator.indicatorMode
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 299 */,
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */,
+/* 304 */,
+/* 305 */,
+/* 306 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  computed: {
+    // 经处理后需要显示的值
+    value: function value() {
+      var text = this.text,
+        mode = this.mode,
+        format = this.format,
+        href = this.href;
+      // 价格类型
+      if (mode === 'price') {
+        // 如果text不为金额进行提示
+        if (!/^\d+(\.\d+)?$/.test(text)) {
+          uni.$u.error('金额模式下，text参数需要为金额格式');
+        }
+        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的金额格式化处理
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }
+        // 如果format非正则，非函数，则使用默认的金额格式化方法进行操作
+        return uni.$u.priceFormat(text, 2);
+      }
+      if (mode === 'date') {
+        // 判断是否合法的日期或者时间戳
+        !uni.$u.test.date(text) && uni.$u.error('日期模式下，text参数需要为日期或时间戳格式');
+        // 进行格式化，判断用户传入的format参数为正则，或者函数，如果没有传入format，则使用默认的格式化处理
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }
+        if (format) {
+          // 如果format非正则，非函数，则使用默认的时间格式化方法进行操作
+          return uni.$u.timeFormat(text, format);
+        }
+        // 如果没有设置format，则设置为默认的时间格式化形式
+        return uni.$u.timeFormat(text, 'yyyy-mm-dd');
+      }
+      if (mode === 'phone') {
+        // 判断是否合法的手机号
+        !uni.$u.test.mobile(text) && uni.$u.error('手机号模式下，text参数需要为手机号码格式');
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }
+        if (format === 'encrypt') {
+          // 如果format为encrypt，则将手机号进行星号加密处理
+          return "".concat(text.substr(0, 3), "****").concat(text.substr(7));
+        }
+        return text;
+      }
+      if (mode === 'name') {
+        // 判断是否合法的字符粗
+        !(typeof text === 'string') && uni.$u.error('姓名模式下，text参数需要为字符串格式');
+        if (uni.$u.test.func(format)) {
+          // 如果用户传入的是函数，使用函数格式化
+          return format(text);
+        }
+        if (format === 'encrypt') {
+          // 如果format为encrypt，则将姓名进行星号加密处理
+          return this.formatName(text);
+        }
+        return text;
+      }
+      if (mode === 'link') {
+        // 判断是否合法的字符粗
+        !uni.$u.test.url(href) && uni.$u.error('超链接模式下，href参数需要为URL格式');
+        return text;
+      }
+      return text;
+    }
+  },
+  methods: {
+    // 默认的姓名脱敏规则
+    formatName: function formatName(name) {
+      var value = '';
+      if (name.length === 2) {
+        value = name.substr(0, 1) + '*';
+      } else if (name.length > 2) {
+        var char = '';
+        for (var i = 0, len = name.length - 2; i < len; i++) {
+          char += '*';
+        }
+        value = name.substr(0, 1) + char + name.substr(-1, 1);
+      } else {
+        value = name;
+      }
+      return value;
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 307 */,
+/* 308 */,
+/* 309 */,
+/* 310 */,
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */,
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */,
+/* 327 */,
+/* 328 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 文字颜色
+    color: {
+      type: String,
+      default: uni.$u.props.link.color
+    },
+    // 字体大小，单位px
+    fontSize: {
+      type: [String, Number],
+      default: uni.$u.props.link.fontSize
+    },
+    // 是否显示下划线
+    underLine: {
+      type: Boolean,
+      default: uni.$u.props.link.underLine
+    },
+    // 要跳转的链接
+    href: {
+      type: String,
+      default: uni.$u.props.link.href
+    },
+    // 小程序中复制到粘贴板的提示语
+    mpTips: {
+      type: String,
+      default: uni.$u.props.link.mpTips
+    },
+    // 下划线颜色
+    lineColor: {
+      type: String,
+      default: uni.$u.props.link.lineColor
+    },
+    // 超链接的问题，不使用slot形式传入，是因为nvue下无法修改颜色
+    text: {
+      type: String,
+      default: uni.$u.props.link.text
     }
   }
 };

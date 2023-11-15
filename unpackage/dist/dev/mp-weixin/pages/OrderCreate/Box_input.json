@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "动物信息",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "lonjin-form": "/uni_modules/lonjin-form/components/lonjin-form/lonjin-form"
+  }
 }

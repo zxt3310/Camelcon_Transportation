@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "rrf-checkbox": "/uni_modules/lonjin-form/components/lonjin-form/components/RrfCheckbox",
+    "rrf-button": "/uni_modules/lonjin-form/components/lonjin-form/components/RrfButton"
+  }
+}

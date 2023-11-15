@@ -43,7 +43,7 @@
 			"path" : "pages/OrderCreate/Box_input",
 			"style" : 
 			{
-				"navigationBarTitleText" : "",
+				"navigationBarTitleText" : "动物信息",
 				"enablePullDownRefresh" : false
 			}
 		}
