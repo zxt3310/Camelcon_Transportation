@@ -11003,7 +11003,7 @@ var _uniSimpleRouter = __webpack_require__(/*! uni-simple-router */ 38);
 
 var router = (0, _uniSimpleRouter.createRouter)({
   platform: "mp-weixin",
-  routes: (0, _toConsumableArray2.default)([{"path":"/pages/index/index","aliasPath":"/"},{"path":"/pages/CitySelect/CitySelect"},{"path":"/pages/OrderList/OrderList"},{"path":"/pages/User/User"},{"path":"/pages/OrderCreate/OrderCreate"},{"path":"/pages/OrderCreate/Box_input"}])
+  routes: (0, _toConsumableArray2.default)([{"path":"/pages/index/index","aliasPath":"/"},{"path":"/pages/OrderList/OrderList"},{"path":"/pages/User/User"},{"path":"/pages/OrderCreate/OrderCreate"},{"path":"/pages/OrderCreate/Box_input"}])
 });
 //全局路由前置守卫
 exports.router = router;
