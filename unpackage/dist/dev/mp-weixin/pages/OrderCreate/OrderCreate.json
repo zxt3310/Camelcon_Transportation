@@ -2,6 +2,11 @@
   "navigationBarTitleText": "创建订单",
   "enablePullDownRefresh": false,
   "usingComponents": {
-    "u-line": "/uni_modules/uview-ui/components/u-line/u-line"
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "u-checkbox": "/uni_modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
   }
 }

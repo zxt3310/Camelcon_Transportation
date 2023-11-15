@@ -38,6 +38,14 @@
 				"navigationBarTitleText" : "创建订单",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/OrderCreate/Box_input",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

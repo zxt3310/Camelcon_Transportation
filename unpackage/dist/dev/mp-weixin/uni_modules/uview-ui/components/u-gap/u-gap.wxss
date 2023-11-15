@@ -24,33 +24,13 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content_view {
-  margin: 40rpx;
-  background-color: white;
-  border-radius: 20rpx;
-  position: relative;
-}
-.ship_style {
-  /* height: 150upx; */
+view.data-v-b138c5b2, scroll-view.data-v-b138c5b2, swiper-item.data-v-b138c5b2 {
   display: flex;
-  flex-direction: row;
-  padding: 40rpx;
-  font-size: 15px;
-}
-.ship_style .Icon {
-  width: 40rpx;
-  height: 40rpx;
-  line-height: 40rpx;
-  text-align: center;
-  border-radius: 10rpx;
-  color: white;
-  font-size: 12px;
-}
-.box_list_unit {
-  position: relative;
-  font-size: 20rpx;
-}
-.box_list_unit .box_content {
-  padding: 30rpx;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
 }
 

@@ -100,8 +100,23 @@ __webpack_require__.r(__webpack_exports__);
 var components
 try {
   components = {
+    uIcon: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 223))
+    },
     uLine: function () {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-line/u-line */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-line/u-line")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-line/u-line.vue */ 232))
+    },
+    uCheckbox: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-checkbox/u-checkbox */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-checkbox/u-checkbox")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-checkbox/u-checkbox.vue */ 316))
+    },
+    "u-Text": function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u--text/u--text */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u--text/u--text")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u--text/u--text.vue */ 292))
+    },
+    uGap: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-gap/u-gap */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-gap/u-gap")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-gap/u-gap.vue */ 298))
+    },
+    uButton: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 307))
     },
   }
 } catch (e) {
@@ -182,11 +197,82 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
     return {
       ship_from: "请选择取货地址",
-      ship_to: "请选择收货地址"
+      ship_to: "请选择收货地址",
+      invoice: {
+        title: "请选择常用开票信息",
+        code: ""
+      },
+      unit_obj: [{
+        type: "小鼠",
+        name: "基因小鼠",
+        sex: "公",
+        qty: "6",
+        age: "9周",
+        gen: "B6;129-Tg",
+        des: "测试说明"
+      }, {
+        type: "小鼠",
+        name: "基因小鼠",
+        sex: "公",
+        qty: "6",
+        age: "9周",
+        gen: "B6;129-Tg",
+        des: "测试说明"
+      }, {
+        type: "小鼠",
+        name: "基因小鼠",
+        sex: "公",
+        qty: "6",
+        age: "9周",
+        gen: "B6;129-Tg",
+        des: "测试说明"
+      }]
     };
   },
   methods: {}

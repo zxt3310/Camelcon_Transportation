@@ -4,7 +4,8 @@
     "pages/CitySelect/CitySelect",
     "pages/OrderList/OrderList",
     "pages/User/User",
-    "pages/OrderCreate/OrderCreate"
+    "pages/OrderCreate/OrderCreate",
+    "pages/OrderCreate/Box_input"
   ],
   "subPackages": [],
   "window": {
