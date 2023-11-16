@@ -35,12 +35,11 @@
 			submit(val){
 				let pages = getCurrentPages();
 				let prevPage = pages[pages.length - 2];
-				prevPage.data.unit_obj.push(this.formData);
-				// prevPage.setData({
-				// 	unit_obj:prevPage.data.unit_obj
-				// })
-				uni.navigateBack();
-				console.log(val);
+				uni.navigateBack({
+					success: () => {
+						prevPage.$vm.pushin_List(val)
+					}
+				});
 			}
 		}
 	}

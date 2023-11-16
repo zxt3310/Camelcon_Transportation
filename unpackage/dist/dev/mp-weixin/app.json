@@ -4,7 +4,11 @@
     "pages/OrderList/OrderList",
     "pages/User/User",
     "pages/OrderCreate/OrderCreate",
-    "pages/OrderCreate/Box_input"
+    "pages/OrderCreate/Box_input",
+    "pages/AddressList/AddressList",
+    "pages/AddressList/AddAddress",
+    "pages/InvoiceInfoList/InvoiceInfoList",
+    "pages/InvoiceInfoList/AddInvoiceInfo"
   ],
   "subPackages": [],
   "window": {

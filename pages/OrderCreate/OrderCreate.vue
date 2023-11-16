@@ -3,7 +3,7 @@
 		<view class="content_view">
 			<view class="ship_style">
 				<view class="Icon" style="background-color: #0081FF;">寄</view>
-				<view class="u-flex-row u-flex-between u-flex-grow">
+				<view class="u-flex-row u-flex-between u-flex-grow" @click="selectAddress">
 					<text style="flex: 1; margin-left: 40upx;">{{ship_from}}</text>
 					<u-icon name="arrow-right"></u-icon>
 				</view>
@@ -26,7 +26,11 @@
 					<view>{{`税号代码：${invoice.code}`}}</view>
 					<view>发票内容：运输服务费</view>
 					<view class="" style="margin-top: 20upx;">
-						<u-checkbox size="14px" icon-size="14px" label-size="20upx" label="需要明细单"></u-checkbox>
+						<u-checkbox-group>
+							<u-checkbox size="14px" icon-size="14px" label-size="20upx" label="需要明细单"></u-checkbox>
+							<view style="width: 20upx;"></view>
+							<u-checkbox size="14px" icon-size="14px" label-size="20upx" label="增值税专用发票"></u-checkbox>
+						</u-checkbox-group>
 					</view>
 				</view>
 				<u-icon name="arrow-right"></u-icon>
@@ -36,7 +40,7 @@
 		<view class="content_view" style="margin-top: 0;">
 			<view class="box_list_unit" v-for="(item, index) in unit_obj" :key="index">
 				<view style="position: absolute; left:0,top:0; background-color: #0081FF; border-radius: 0 0 100% 0; padding:5upx 10upx 10upx 5upx; color: white;">
-					{{`盒${index+1}`}}
+					{{index+1}}
 				</view>
 				<view class="box_content">
 					<view class="u-flex-row">
@@ -54,6 +58,10 @@
 				<u-gap height="20" bg-color="#F4F7FC"></u-gap>
 			</view>
 			<u-button icon="plus-circle" :plain="true" type="primary" text="添加盒子" @click="add_Order_Box"></u-button>
+			<view class="" style="margin-top: 20upx;">
+				<u-text size="24" type="warning" :text="`备注1: 自行完成打包，请放入充足垫料、饲料、果冻。`"></u-text>
+				<u-text size="24" type="warning" :text="`备注2: 发生过交配的雄鼠,具有暴力、抑郁、自闭或其他精神疾病症状的品系必须每只单独放置一盒,避免运输出现死亡情况。`"></u-text>
+			</view>
 		</view>
 	</view>
 </template>
@@ -83,6 +91,14 @@
 			add_Order_Box(){
 				uni.navigateTo({
 					url:"/pages/OrderCreate/Box_input"
+				})
+			},
+			pushin_List(box_obj){
+				this.unit_obj.push(box_obj);
+			},
+			selectAddress(){
+				uni.navigateTo({
+					url:"/pages/AddressList/AddAddress"
 				})
 			}
 		}

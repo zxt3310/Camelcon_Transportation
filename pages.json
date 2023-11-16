@@ -39,6 +39,38 @@
 				"navigationBarTitleText" : "动物信息",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/AddressList/AddressList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地址管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/AddressList/AddAddress",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新建地址",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/InvoiceInfoList/InvoiceInfoList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "常用开票信息管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/InvoiceInfoList/AddInvoiceInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新建开票信息",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {
