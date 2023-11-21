@@ -1,1 +1,1 @@
-<view></view>
+<view style="padding:40rpx;"><block wx:for="{{addr_list}}" wx:for-item="addr" wx:for-index="index" wx:key="index"><view class="addr_unit"><view><text style="font-size:14px;">{{addr.name}}</text><text>{{addr.phone}}</text></view></view></block></view>
