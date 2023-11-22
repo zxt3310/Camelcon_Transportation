@@ -42,7 +42,7 @@
                 v-if="icon"
                 :name="icon"
                 :color="iconColorCom"
-                :size="textSize * 1.35"
+                :size="textSize * 2.35"
                 :customStyle="{ marginRight: '2px' }"
             ></u-icon>
             <slot>

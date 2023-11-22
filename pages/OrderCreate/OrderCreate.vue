@@ -1,16 +1,16 @@
 <template>
 	<view class="">
 		<view class="content_view">
-			<view class="ship_style">
+			<view class="ship_style" @click="selectAddress">
 				<view class="Icon" style="background-color: #0081FF;">寄</view>
-				<view class="u-flex-row u-flex-between u-flex-grow" @click="selectAddress">
+				<view class="u-flex-row u-flex-between u-flex-grow">
 					<text style="flex: 1; margin-left: 40upx;">{{ship_from}}</text>
 					<u-icon name="arrow-right"></u-icon>
 				</view>
 			</view>
 			<u-line length="80%" margin="0 0 0 15%"></u-line>
 			<u-line customStyle="position: absolute; left:8.5%; top:38%" direction="col" length="25%" color="gray" dashed></u-line>
-			<view class="ship_style">
+			<view class="ship_style"  @click="selectAddress">
 				<view class="Icon" style="background-color: #2EAD1C;">收</view>
 				<view class="u-flex-row u-flex-between u-flex-grow">
 					<text style="flex: 1; margin-left: 40upx;">{{ship_to}}</text>
@@ -98,7 +98,7 @@
 			},
 			selectAddress(){
 				uni.navigateTo({
-					url:"/pages/AddressList/AddAddress"
+					url:"/pages/AddressList/AddressList"
 				})
 			}
 		}

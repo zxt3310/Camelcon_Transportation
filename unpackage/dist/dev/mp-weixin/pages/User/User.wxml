@@ -1,1 +1,1 @@
-<view></view>
+<view class="page_in"><view class="header"><view class="user-info u-flex-row"><u-avatar vue-id="73b8fde0-1" size="120" bind:__l="__l"></u-avatar><text style="margin-left:40rpx;color:white;">{{$root.m0}}</text></view><view class="service">基础服务</view></view></view>

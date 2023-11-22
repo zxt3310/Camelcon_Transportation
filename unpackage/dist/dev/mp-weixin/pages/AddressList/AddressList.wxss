@@ -25,6 +25,11 @@
 /* 透明度 */
 /* 文章场景相关 */
 .addr_unit {
-  padding: 40rpx;
+  padding: 30rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  font-size: 26rpx;
+  line-height: 44rpx;
+  margin-bottom: 40rpx;
 }
 
