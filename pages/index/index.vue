@@ -132,5 +132,7 @@
 	.func_view{
 		padding: 20upx;
 		background-color: white;
+		border-radius: 10upx;
+		box-shadow: 0 0 10upx rgba(0, 0, 0, 0.2);
 	}
 </style>
