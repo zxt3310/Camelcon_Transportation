@@ -36,9 +36,7 @@
   background-color: white;
 }
 .page_in .content_box .detail_box .title {
-  text-align: center;
   line-height: 45rpx;
-  padding: 20rpx;
 }
 .page_in .content_box .detail_box .content {
   padding: 20rpx;

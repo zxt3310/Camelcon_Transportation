@@ -24,7 +24,7 @@
 						class="u-steps-item__wrapper__circle__text" :style="{
 							color: index == parentData.current ? '#ffffff' : parentData.inactiveColor
 						}">{{ index + 1}}</text>
-					<u-icon v-else :color="statusClass === 'error' ? 'error' : parentData.activeColor" size="12"
+					<u-icon v-else :color="statusClass === 'error' ? 'error' : parentData.activeColor" size="20"
 						:name="statusClass === 'error' ? 'close' : 'checkmark'"></u-icon>
 				</view>
 			</slot>
@@ -32,9 +32,9 @@
 		<view class="u-steps-item__content" :class="[`u-steps-item__content--${parentData.direction}`]"
 			:style="[contentStyle]">
 			<u--text :text="title" :type="parentData.current == index ? 'main' : 'content'" lineHeight="20px"
-				:size="parentData.current == index ? 14 : 13"></u--text>
+				:size="parentData.current == index ? 36 : 30"></u--text>
 			<slot name="desc">
-				<u--text :text="desc" type="tips" size="12"></u--text>
+				<u--text :text="desc" type="tips" size="28"></u--text>
 			</slot>
 		</view>
 		<!-- <view
@@ -249,8 +249,8 @@
 			}
 
 			&__circle {
-				width: 20px;
-				height: 20px;
+				width: 18px;
+				height: 18px;
 				/* #ifndef APP-NVUE */
 				box-sizing: border-box;
 				flex-shrink: 0;
@@ -266,12 +266,12 @@
 
 				&__text {
 					color: $u-tips-color;
-					font-size: 11px;
+					font-size: 12px;
 					@include flex(row);
 					align-items: center;
 					justify-content: center;
 					text-align: center;
-					line-height: 11px;
+					line-height: 12px;
 				}
 			}
 
