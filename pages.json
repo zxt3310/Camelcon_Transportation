@@ -71,6 +71,14 @@
 				"navigationBarTitleText" : "新建开票信息",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/OrderList/OrderDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "运单详情",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

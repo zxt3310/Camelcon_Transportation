@@ -8,7 +8,8 @@
     "pages/AddressList/AddressList",
     "pages/AddressList/AddAddress",
     "pages/InvoiceInfoList/InvoiceInfoList",
-    "pages/InvoiceInfoList/AddInvoiceInfo"
+    "pages/InvoiceInfoList/AddInvoiceInfo",
+    "pages/OrderList/OrderDetail"
   ],
   "subPackages": [],
   "window": {
