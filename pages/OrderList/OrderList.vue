@@ -1,9 +1,7 @@
 <template>
 	<view>
 		<u-subsection fontSize="26" :list="['进行中','已完成']" :current="current" @change="onChange"></u-subsection>
-		<view class="">
-			<u-button type="primary" text="press" @click="jump"></u-button>
-		</view>
+		<u-button @click="jump"></u-button>
 	</view>
 </template>
 
@@ -11,16 +9,21 @@
 	export default {
 		data() {
 			return {
-				current:0
+				current: 0,
+				in_shipping_list:[],
+				delivered_list:[]
 			}
 		},
+		onLoad() {
+			
+		},
 		methods: {
-			onChange(index){
+			onChange(index) {
 				this.current = index;
 			},
-			jump(){
+			jump() {
 				uni.navigateTo({
-					url:"/pages/OrderList/OrderDetail"
+					url: "/pages/OrderList/OrderDetail"
 				})
 			}
 		}

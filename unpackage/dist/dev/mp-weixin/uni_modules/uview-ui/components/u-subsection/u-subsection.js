@@ -85,11 +85,11 @@ var render = function () {
   var s1 = _vm.__get_style([_vm.barStyle])
   var g0 =
     _vm.current > 0 &&
-    _vm.current < this.list.length - 1 &&
+    _vm.current < _vm.list.length - 1 &&
     _vm.mode === "subsection" &&
     "u-subsection__bar--center"
   var g1 =
-    _vm.current === this.list.length - 1 &&
+    _vm.current === _vm.list.length - 1 &&
     _vm.mode === "subsection" &&
     "u-subsection__bar--last"
   var l0 = _vm.__map(_vm.list, function (item, index) {

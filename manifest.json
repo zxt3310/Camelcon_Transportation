@@ -45,11 +45,14 @@
         "appid" : "wx9f34e693141c5a02",
         "setting" : {
             "urlCheck" : false,
-            "minified" : true
+            "minified" : true,
+            "es6" : false
         },
         "usingComponents" : true,
-		"lazyCodeLoading" : "requiredComponents",
-		"optimization" : {"subPackages": true}
+        "lazyCodeLoading" : "requiredComponents",
+        "optimization" : {
+            "subPackages" : true
+        }
     },
     "mp-alipay" : {
         "usingComponents" : true

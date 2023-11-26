@@ -83,7 +83,7 @@ try {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 261))
     },
     uLink: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-link/u-link */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-link/u-link")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-link/u-link.vue */ 397))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-link/u-link */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-link/u-link")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-link/u-link.vue */ 412))
     },
   }
 } catch (e) {
@@ -172,9 +172,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _value = _interopRequireDefault(__webpack_require__(/*! ./value.js */ 339));
-var _button = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/button.js */ 283));
-var _openType = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/openType.js */ 284));
-var _props = _interopRequireDefault(__webpack_require__(/*! ./props.js */ 325));
+var _button = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/button.js */ 329));
+var _openType = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/openType.js */ 330));
+var _props = _interopRequireDefault(__webpack_require__(/*! ./props.js */ 315));
 //
 //
 //
@@ -307,7 +307,7 @@ var _default = {
   methods: {
     clickHandler: function clickHandler() {
       // 如果为手机号模式，拨打电话
-      if (this.call && this.mode === 'phone' && uni.$u.test.mobile(this.text)) {
+      if (this.call && this.mode === 'phone') {
         uni.makePhoneCall({
           phoneNumber: this.text
         });

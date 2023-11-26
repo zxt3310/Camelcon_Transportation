@@ -27,6 +27,11 @@
 .page_in {
   padding: 40rpx;
 }
+.page_in .sender {
+  padding: 20rpx;
+  background-color: white;
+  border-radius: 20rpx;
+}
 .page_in .content_box {
   font-size: 28rpx;
   background-color: #F2F7FD;

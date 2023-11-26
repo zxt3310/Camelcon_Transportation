@@ -167,12 +167,12 @@ exports.default = void 0;
 var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
 var RrfCheckbox = function RrfCheckbox() {
   __webpack_require__.e(/*! require.ensure | uni_modules/lonjin-form/components/lonjin-form/components/RrfCheckbox */ "uni_modules/lonjin-form/components/lonjin-form/components/RrfCheckbox").then((function () {
-    return resolve(__webpack_require__(/*! ./components/RrfCheckbox.vue */ 405));
+    return resolve(__webpack_require__(/*! ./components/RrfCheckbox.vue */ 420));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var RrfButton = function RrfButton() {
   __webpack_require__.e(/*! require.ensure | uni_modules/lonjin-form/components/lonjin-form/components/RrfButton */ "uni_modules/lonjin-form/components/lonjin-form/components/RrfButton").then((function () {
-    return resolve(__webpack_require__(/*! ./components/RrfButton.vue */ 412));
+    return resolve(__webpack_require__(/*! ./components/RrfButton.vue */ 427));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default2 = {

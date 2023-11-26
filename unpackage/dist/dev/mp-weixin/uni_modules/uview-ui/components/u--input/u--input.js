@@ -81,12 +81,15 @@ var render = function () {
   var _c = _vm._self._c || _h
   if (!_vm._isMounted) {
     _vm.e0 = function (e) {
-      return _vm.$emit("change", e)
+      return _vm.$emit("blur", e)
     }
     _vm.e1 = function (e) {
-      return _vm.$emit("input", e)
+      return _vm.$emit("change", e)
     }
     _vm.e2 = function (e) {
+      return _vm.$emit("input", e)
+    }
+    _vm.e3 = function (e) {
       return _vm.$emit("confirm", e)
     }
   }
@@ -133,7 +136,7 @@ exports.default = void 0;
 var _props = _interopRequireDefault(__webpack_require__(/*! ../u-input/props.js */ 362));
 var uvInput = function uvInput() {
   __webpack_require__.e(/*! require.ensure | uni_modules/uview-ui/components/u-input/u-input */ "uni_modules/uview-ui/components/u-input/u-input").then((function () {
-    return resolve(__webpack_require__(/*! ../u-input/u-input.vue */ 419));
+    return resolve(__webpack_require__(/*! ../u-input/u-input.vue */ 434));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

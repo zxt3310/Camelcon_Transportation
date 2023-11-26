@@ -142,7 +142,7 @@ exports.default = void 0;
 var _props = _interopRequireDefault(__webpack_require__(/*! ../u-textarea/props.js */ 368));
 var uvTextarea = function uvTextarea() {
   __webpack_require__.e(/*! require.ensure | uni_modules/uview-ui/components/u-textarea/u-textarea */ "uni_modules/uview-ui/components/u-textarea/u-textarea").then((function () {
-    return resolve(__webpack_require__(/*! ../u-textarea/u-textarea.vue */ 426));
+    return resolve(__webpack_require__(/*! ../u-textarea/u-textarea.vue */ 441));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

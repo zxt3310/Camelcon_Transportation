@@ -1,7 +1,6 @@
 // 引入公共基础类
 @import "./libs/css/common.scss";
 @import "./libs/css/color.scss";
-@import "./libs/css/flex.scss";
 
 // 非nvue的样式
 /* #ifndef APP-NVUE */
@@ -22,3 +21,5 @@
 /* #ifdef H5 */
 @import "./libs/css/h5.scss";
 /* #endif */
+
+@import "./libs/css/flex.scss"

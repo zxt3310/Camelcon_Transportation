@@ -80,10 +80,10 @@ var components
 try {
   components = {
     uLoadingIcon: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-loading-icon/u-loading-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-loading-icon/u-loading-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon.vue */ 381))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-loading-icon/u-loading-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-loading-icon/u-loading-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon.vue */ 396))
     },
     uSwiperIndicator: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-swiper-indicator/u-swiper-indicator */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-swiper-indicator/u-swiper-indicator")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-swiper-indicator/u-swiper-indicator.vue */ 389))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-swiper-indicator/u-swiper-indicator */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-swiper-indicator/u-swiper-indicator")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-swiper-indicator/u-swiper-indicator.vue */ 404))
     },
   }
 } catch (e) {
@@ -116,18 +116,19 @@ var render = function () {
     ? _vm.__map(_vm.list, function (item, index) {
         var $orig = _vm.__get_orig(item)
         var s0 = _vm.__get_style([_vm.itemStyle(index)])
-        var g5 = _vm.$u.test.image(_vm.getSource(item))
-        var g6 = g5 ? _vm.$u.addUnit(_vm.height) : null
-        var g7 = g5 ? _vm.$u.addUnit(_vm.radius) : null
-        var m0 = g5 ? _vm.getSource(item) : null
-        var g8 = _vm.$u.test.video(_vm.getSource(item))
-        var g9 = g8 ? _vm.$u.addUnit(_vm.height) : null
-        var m1 = g8 ? _vm.getSource(item) : null
-        var m2 = g8 ? _vm.getPoster(item) : null
-        var g10 = g8
-          ? _vm.showTitle && _vm.$u.test.object(item) && item.title
-          : null
-        var g11 =
+        var m0 = _vm.getItemType(item)
+        var g5 = m0 === "image" ? _vm.$u.addUnit(_vm.height) : null
+        var g6 = m0 === "image" ? _vm.$u.addUnit(_vm.radius) : null
+        var m1 = m0 === "image" ? _vm.getSource(item) : null
+        var m2 = _vm.getItemType(item)
+        var g7 = m2 === "video" ? _vm.$u.addUnit(_vm.height) : null
+        var m3 = m2 === "video" ? _vm.getSource(item) : null
+        var m4 = m2 === "video" ? _vm.getPoster(item) : null
+        var g8 =
+          m2 === "video"
+            ? _vm.showTitle && _vm.$u.test.object(item) && item.title
+            : null
+        var g9 =
           _vm.showTitle &&
           _vm.$u.test.object(item) &&
           item.title &&
@@ -135,21 +136,21 @@ var render = function () {
         return {
           $orig: $orig,
           s0: s0,
+          m0: m0,
           g5: g5,
           g6: g6,
-          g7: g7,
-          m0: m0,
-          g8: g8,
-          g9: g9,
           m1: m1,
           m2: m2,
-          g10: g10,
-          g11: g11,
+          g7: g7,
+          m3: m3,
+          m4: m4,
+          g8: g8,
+          g9: g9,
         }
       })
     : null
   var s1 = _vm.__get_style([_vm.$u.addStyle(_vm.indicatorStyle)])
-  var g12 =
+  var g10 =
     !_vm.loading && _vm.indicator && !_vm.showTitle ? _vm.list.length : null
   _vm.$mp.data = Object.assign(
     {},
@@ -162,7 +163,7 @@ var render = function () {
         g4: g4,
         l0: l0,
         s1: s1,
-        g12: g12,
+        g10: g10,
       },
     }
   )
@@ -363,6 +364,15 @@ var _default = {
     }
   },
   methods: {
+    getItemType: function getItemType(item) {
+      if (typeof item === 'string') return uni.$u.test.video(this.getSource(item)) ? 'video' : 'image';
+      if ((0, _typeof2.default)(item) === 'object' && this.keyName) {
+        if (!item.type) return uni.$u.test.video(this.getSource(item)) ? 'video' : 'image';
+        if (item.type === 'image') return 'image';
+        if (item.type === 'video') return 'video';
+        return 'image';
+      }
+    },
     // 获取目标路径，可能数组中为字符串，对象的形式，额外可指定对象的目标属性名keyName
     getSource: function getSource(item) {
       if (typeof item === 'string') return item;

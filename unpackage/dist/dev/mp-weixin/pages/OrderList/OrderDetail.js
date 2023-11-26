@@ -106,14 +106,20 @@ try {
     uCol: function () {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-col/u-col */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-col/u-col")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-col/u-col.vue */ 253))
     },
+    uAvatar: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-avatar/u-avatar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-avatar/u-avatar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-avatar/u-avatar.vue */ 278))
+    },
+    uRate: function () {
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-rate/u-rate */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-rate/u-rate")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-rate/u-rate.vue */ 381))
+    },
     uIcon: function () {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 261))
     },
     uLine: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-line/u-line */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-line/u-line")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-line/u-line.vue */ 296))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-line/u-line */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-line/u-line")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-line/u-line.vue */ 286))
     },
     ccDefineStep: function () {
-      return __webpack_require__.e(/*! import() | uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep */ "uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep").then(__webpack_require__.bind(null, /*! @/uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep.vue */ 456))
+      return __webpack_require__.e(/*! import() | uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep */ "uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep").then(__webpack_require__.bind(null, /*! @/uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep.vue */ 389))
     },
   }
 } catch (e) {
@@ -206,6 +212,26 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
     return {
@@ -229,7 +255,13 @@ var _default = {
       }, {
         name: "到达xx中转点",
         time: "2023-02-05 9:45",
-        desc: "正在派送，司机王强 电话：13800138000",
+        desc: "",
+        type: 1,
+        isNow: 0
+      }, {
+        name: "正在派送",
+        time: "2023-02-05 10:20",
+        desc: "司机王强 电话：13800138000",
         type: 1,
         isNow: 0
       }, {
@@ -238,7 +270,8 @@ var _default = {
         desc: "您的货物已签收，如有疑问，请联系我公司，期待再次为您服务",
         type: 1,
         isNow: 1
-      }]
+      }],
+      rate: 3.5
     };
   },
   onLoad: function onLoad() {

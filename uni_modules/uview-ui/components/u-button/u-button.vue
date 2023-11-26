@@ -28,7 +28,7 @@
         <template v-if="loading">
             <u-loading-icon
                 :mode="loadingMode"
-                :size="textSize * 1.15"
+                :size="loadingSize * 1.15"
                 :color="loadingColor"
             ></u-loading-icon>
             <text
@@ -42,7 +42,7 @@
                 v-if="icon"
                 :name="icon"
                 :color="iconColorCom"
-                :size="textSize * 2.35"
+                :size="textSize * 2"
                 :customStyle="{ marginRight: '2px' }"
             ></u-icon>
             <slot>
@@ -75,7 +75,7 @@
         <template v-if="loading">
             <u-loading-icon
                 :mode="loadingMode"
-                :size="textSize * 1.15"
+                :size="loadingSize * 1.15"
                 :color="loadingColor"
             ></u-loading-icon>
             <text
@@ -90,7 +90,7 @@
                 v-if="icon"
                 :name="icon"
                 :color="iconColorCom"
-                :size="textSize * 1.35"
+                :size="textSize * 2"
             ></u-icon>
             <text
                 class="u-button__text"

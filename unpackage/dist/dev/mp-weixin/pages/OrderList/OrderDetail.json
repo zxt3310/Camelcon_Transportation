@@ -4,6 +4,8 @@
   "usingComponents": {
     "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
     "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate",
     "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
     "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
     "cc-define-step": "/uni_modules/cc-defineStep/components/cc-defineStep/cc-defineStep"

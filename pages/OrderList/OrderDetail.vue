@@ -1,5 +1,25 @@
 <template>
 	<view class="page_in">
+		<view class="sender">
+			<u-row>
+				<u-col span="2">
+					<u-avatar size="60"></u-avatar>
+				</u-col>
+				<u-col span="6.4">
+					<text>王五</text>
+					<u-rate count="5" v-model="rate" readonly size="30"></u-rate>
+				</u-col>
+				<u-col span="2">
+					<u-icon name="edit-pen-fill" labelPos="bottom" size="50" labelSize="20" label="评价他"></u-icon>
+				</u-col>
+				<u-col span="0.2">
+					<u-line direction="col" color="gray" length="60"></u-line>
+				</u-col>
+				<u-col span="1.4">
+					<u-icon name="phone" labelPos="bottom" size="50" labelSize="20" label="联系他"></u-icon>
+				</u-col>
+			</u-row>
+		</view>
 		<view class="content_box">
 			<view style="line-height: 50upx; font-size: 28upx; color: gray;">运单号:{{order.id}}</view>
 			<view class="detail_box">
@@ -55,7 +75,14 @@
 					{
 						name:"到达xx中转点",
 						time:"2023-02-05 9:45",
-						desc:"正在派送，司机王强 电话：13800138000",
+						desc:"",
+						type:1,
+						isNow:0
+					},
+					{
+						name:"正在派送",
+						time:"2023-02-05 10:20",
+						desc:"司机王强 电话：13800138000",
 						type:1,
 						isNow:0
 					},
@@ -66,7 +93,8 @@
 						type:1,
 						isNow:1
 					}
-				]
+				],
+				rate:3.5
 			}
 		},
 		onLoad() {
@@ -81,6 +109,11 @@
 <style lang="scss">
 	.page_in{
 		padding: 40upx;
+		.sender{
+			padding: 20upx;
+			background-color: white;
+			border-radius: 20upx;
+		}
 		.content_box{
 			font-size: 28upx;
 			background-color: #F2F7FD;

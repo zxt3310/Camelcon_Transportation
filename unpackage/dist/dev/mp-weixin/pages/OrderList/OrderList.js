@@ -102,7 +102,7 @@ try {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-subsection/u-subsection */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-subsection/u-subsection")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-subsection/u-subsection.vue */ 270))
     },
     uButton: function () {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 278))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 324))
     },
   }
 } catch (e) {
@@ -172,14 +172,15 @@ exports.default = void 0;
 //
 //
 //
-//
-//
 var _default = {
   data: function data() {
     return {
-      current: 0
+      current: 0,
+      in_shipping_list: [],
+      delivered_list: []
     };
   },
+  onLoad: function onLoad() {},
   methods: {
     onChange: function onChange(index) {
       this.current = index;
