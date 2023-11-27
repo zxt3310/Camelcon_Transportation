@@ -18,7 +18,7 @@
 						<u-icon labelSize="22" size="60" labelPos="bottom" name="order" label="历史订单"></u-icon>
 					</u-col>
 					<u-col span="3">
-						<u-icon labelSize="22" size="60" labelPos="bottom" name="phone" label="客服订单"></u-icon>
+						<u-icon labelSize="22" size="60" labelPos="bottom" name="phone" label="客服电话"></u-icon>
 					</u-col>
 				</u-row>  
 				<u-row customStyle="margin-bottom:20px" gutter="10">

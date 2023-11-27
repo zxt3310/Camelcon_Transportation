@@ -63,6 +63,15 @@
 				<u-text size="24" type="warning" :text="`备注2: 发生过交配的雄鼠,具有暴力、抑郁、自闭或其他精神疾病症状的品系必须每只单独放置一盒,避免运输出现死亡情况。`"></u-text>
 			</view>
 		</view>
+		<view class="submit_btn">
+			<view class="u-flex-row u-flex-grow">
+				<text>定金:</text>
+				<text style="color: #0081FF;">￥500</text>
+			</view>
+			<view style="margin-right: 40px;">
+				<u-button text="支付并提交" type="primary" shape="circle"></u-button>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -134,5 +143,17 @@
 		.box_content{
 			padding: 30upx;
 		}
+	}
+	.submit_btn{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 20upx;
+		font-size: 28upx;
+		position: fixed;
+		bottom: 30px;
+		background-color: white;
 	}
 </style>
