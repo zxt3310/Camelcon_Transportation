@@ -79,6 +79,14 @@
 				"navigationBarTitleText" : "运单详情",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/Feedback/Feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "投诉建议",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

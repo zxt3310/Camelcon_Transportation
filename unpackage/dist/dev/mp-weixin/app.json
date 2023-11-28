@@ -9,7 +9,8 @@
     "pages/AddressList/AddAddress",
     "pages/InvoiceInfoList/InvoiceInfoList",
     "pages/InvoiceInfoList/AddInvoiceInfo",
-    "pages/OrderList/OrderDetail"
+    "pages/OrderList/OrderDetail",
+    "pages/Feedback/Feedback"
   ],
   "subPackages": [],
   "window": {

@@ -9,7 +9,7 @@
 				<view style="font-size: 24upx; font-weight: 900; padding: 20upx;">基础服务</view>
 				<u-row customStyle="margin-bottom:16px" gutter="10">
 					<u-col span="3">
-						<u-icon labelSize="22" size="60" labelPos="bottom" name="file-text" label="地址管理"></u-icon>
+						<u-icon labelSize="22" size="60" labelPos="bottom" name="file-text" label="地址管理" @click="jumpToAddr"></u-icon>
 					</u-col>
 					<u-col span="3">
 						<u-icon labelSize="22" size="60" labelPos="bottom" name="coupon" label="开票管理"></u-icon>
@@ -18,7 +18,7 @@
 						<u-icon labelSize="22" size="60" labelPos="bottom" name="order" label="历史订单"></u-icon>
 					</u-col>
 					<u-col span="3">
-						<u-icon labelSize="22" size="60" labelPos="bottom" name="phone" label="客服电话"></u-icon>
+						<u-icon labelSize="22" size="60" labelPos="bottom" name="phone" label="客服电话" @click="onSelect"></u-icon>
 					</u-col>
 				</u-row>  
 				<u-row customStyle="margin-bottom:20px" gutter="10">
@@ -31,6 +31,7 @@
 				</u-row>  
 			</view>
 		</view>
+		<!-- <u-action-sheet :actions="list" title="客服电话" :show="show" closeOnClickOverlay @close="show=false" @select="onSelect"></u-action-sheet> -->
 	</view>
 </template>
 
@@ -38,15 +39,29 @@
 	export default {
 		data() {
 			return {
+				// show:false,
 				user:{
 					avatar:"",
 					phone:"13800138000"
 				}
+				// list:[
+				// 	{name:"010-86683333"}
+				// ]
 			}
 		},
 		methods: {
 			maskPhone(phone){
 				return phone.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2')
+			},
+			jumpToAddr(){
+				uni.navigateTo({
+					url:"/pages/AddressList/AddressList"
+				})
+			},
+			onSelect(){
+				uni.makePhoneCall({
+					phoneNumber:"010-86683333"
+				})
 			}
 		}
 	}

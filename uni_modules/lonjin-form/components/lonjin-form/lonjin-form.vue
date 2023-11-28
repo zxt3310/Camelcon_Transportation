@@ -53,12 +53,12 @@
 					</view>
 				</template>
 				<template  v-if="item.type=='textarea'">
-					<textarea :value="form[item.key]" @input="change" :data-key="item.key" :placeholder="item.placeholder"  cols="30" rows="10"></textarea>
+					<textarea style="padding: 0px; height: 200px;" :value="form[item.key]" @input="change" :data-key="item.key" :placeholder="item.placeholder"  cols="30" rows="10"></textarea>
 				</template>
 				<template v-if="item.type == 'pictureGroup'">
 					<view class="pictureGroup flex-start">
 						<view class="child flex-center" v-for="(child, childIndex) in form[item.key]" :key="childIndex">
-							<image @click="previewImage(item, child)" :src="child"  mode="widthFix"></image>
+							<image @click="previewImage(item, childIndex)" :src="child"  mode="aspectFit"></image>
 							<image @click="deleteImage(item, child)" src="../../static/images/close.png" class="close"></image>
 						</view>
 						<view v-if="!form[item.key] || (form[item.key].length) < (item.max || 1)" class="add flex-center" @click="uploadPicture(item)">
@@ -285,6 +285,7 @@
 				let url = this.form[item.key]
 				uni.previewImage({
 				    urls: url,
+					current: current
 				})
 			},
 			

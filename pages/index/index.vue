@@ -7,8 +7,8 @@
 		</view>
 		<view class="padding-hor dashbord">
 			<u-row justify="space-between" gutter="40">
-				<u-col span="6" @click="jumpToCreateOrder">
-					<view class="func_view">
+				<u-col span="6">
+					<button class="func_view" @click="jumpToCreateOrder">
 						<u-row>
 							<u-col span="6">
 								<u-icon name="/static/icon/order_create.png" size="86"></u-icon>
@@ -18,10 +18,10 @@
 								<u-row><text style="font-size: 9px; color: gray;">下订单</text></u-row>
 							</u-col>
 						</u-row>
-					</view>
+					</button>
 				</u-col>
 				<u-col span="6">
-					<view class="func_view">
+					<button class="func_view" open-type="contact">
 						<u-row>
 							<u-col span="6">
 								<u-icon name="/static/icon/custom_service.png" size="86"></u-icon>
@@ -31,7 +31,7 @@
 								<u-row><text style="font-size: 9px; color: gray;">运费及时效查询</text></u-row>
 							</u-col>
 						</u-row>
-					</view>
+					</button>
 				</u-col>
 			</u-row>
 			<view style="height: 40upx;">
@@ -39,7 +39,7 @@
 			</view>
 			<u-row justify="space-between" gutter="40">
 				<u-col span="6">
-					<view class="func_view">
+					<button class="func_view" @click="jumpToFeedback">
 						<u-row>
 							<u-col span="6">
 								<u-icon name="/static/icon/message.png" size="86"></u-icon>
@@ -49,7 +49,7 @@
 								<u-row><text style="font-size: 9px; color: gray;">实时反馈</text></u-row>
 							</u-col>
 						</u-row>
-					</view>
+					</button>
 				</u-col>
 			</u-row>
 		</view>
@@ -85,21 +85,15 @@
 			
 		},
 		methods: {
-			jump(){
-				uni.navigateTo({
-					url:"/pages/CitySelect/CitySelect"
-				})
-			},
 			jumpToCreateOrder(){
 				uni.navigateTo({
 					url:"/pages/OrderCreate/OrderCreate"
 				})
 			},
-			openAddress() {
-				this.$refs.scroll.open()
-			},
-			chooseSuccess(e){
-				console.log(e)
+			jumpToFeedback(){
+				uni.navigateTo({
+					url:"/pages/Feedback/Feedback"
+				})
 			}
 		}
 	}

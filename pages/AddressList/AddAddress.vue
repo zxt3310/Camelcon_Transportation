@@ -15,6 +15,13 @@
 			<view style="padding-left: 20upx; padding-right: 20upx;">
 				<u-line color="gray"></u-line>
 			</view>
+			<view class="u-flex-row unit_input">
+				<text>单位：</text>
+				<u--input border="none" placeholder="请输入单位" :value="addr_text_Obj.workplace"></u--input>
+			</view>
+			<view style="padding-left: 20upx; padding-right: 20upx;">
+				<u-line color="gray"></u-line>
+			</view>
 			<view class="u-flex-row unit_input" @click.stop="show_picker">
 				<text>省市区：</text>
 				<u--input border="none" placeholder="请选择省市区" :value="addr_text_Obj.addr_1" readonly></u--input>
@@ -23,15 +30,8 @@
 				<u-line color="gray"></u-line>
 			</view>
 			<view class="u-flex-row unit_input">
-				<text>单位：</text>
-				<u--input border="none" placeholder="请输入单位" :value="addr_text_Obj.workplace"></u--input>
-			</view>
-			<view style="padding-left: 20upx; padding-right: 20upx;">
-				<u-line color="gray"></u-line>
-			</view>
-			<view class="u-flex-row unit_input">
 				<text>详细地址：</text>
-				<u--textarea height="200" border="none" disableDefaultPadding placeholder="请输入详细地址" customStyle="padding: 1px;" :value="addr_text_Obj.addr_2"></u--textarea>
+				<u--textarea height="200" border="none" disableDefaultPadding placeholder="街道门牌号" customStyle="padding: 1px;" :value="addr_text_Obj.addr_2"></u--textarea>
 			</view>
 			<view style="padding-left: 20upx; padding-right: 20upx;">
 				<u-line color="gray"></u-line>
