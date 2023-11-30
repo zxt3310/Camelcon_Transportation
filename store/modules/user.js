@@ -1,17 +1,23 @@
-const state = {
-	userInfo: { name: '用户呢称' },
+const user = {
+	state: {
+		userInfo: {
+			userId: "",
+			phone: ""
+		},
+		token: '',
+	}
 }
 
 const mutations = {
-	
+	SET_TOKEN: (state, value) => {
+		state.token = value;
+	},
+	SET_USER: (state, value) => {
+		state.userInfo = value;
+	}
 }
 
 const actions = {
 
 }
-export default {
-	state,
-	mutations,
-	actions,
-	namespaced: true,
-};
+export default user

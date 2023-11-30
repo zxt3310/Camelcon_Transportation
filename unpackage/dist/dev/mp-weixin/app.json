@@ -10,7 +10,8 @@
     "pages/InvoiceInfoList/InvoiceInfoList",
     "pages/InvoiceInfoList/AddInvoiceInfo",
     "pages/OrderList/OrderDetail",
-    "pages/Feedback/Feedback"
+    "pages/Feedback/Feedback",
+    "pages/Login/Login"
   ],
   "subPackages": [],
   "window": {

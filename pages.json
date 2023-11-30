@@ -87,6 +87,14 @@
 				"navigationBarTitleText" : "投诉建议",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/Login/Login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

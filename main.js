@@ -2,6 +2,7 @@ import App from './App'
 import store from './store'
 import { router, RouterMount } from './router/index.js'
 import uView from '@/uni_modules/uview-ui'
+import $http from '@/uni_modules/zhouWei-request/js_sdk/requestConfig';
 
 // #ifndef VUE3
 import Vue from 'vue'
@@ -12,6 +13,7 @@ Vue.use(router)
 Vue.use(uView)
 // 如此配置即可
 uni.$u.config.unit = 'rpx'
+Vue.prototype.$http = $http;
 
 const app = new Vue({
 	...App
