@@ -9477,9 +9477,9 @@ internalMixin(Vue);
 
 /***/ }),
 /* 26 */
-/*!************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/pages.json ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/pages.json ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9623,9 +9623,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 33 */
-/*!****************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/store/index.js ***!
-  \****************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/index.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10915,9 +10915,9 @@ module.exports = index_cjs;
 
 /***/ }),
 /* 35 */
-/*!***************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/store/modules sync nonrecursive \.js$ ***!
-  \***************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/modules sync nonrecursive \.js$ ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10947,9 +10947,9 @@ webpackContext.id = 35;
 
 /***/ }),
 /* 36 */
-/*!***********************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/store/modules/user.js ***!
-  \***********************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/modules/user.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10983,9 +10983,9 @@ exports.default = _default;
 
 /***/ }),
 /* 37 */
-/*!*****************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/router/index.js ***!
-  \*****************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/router/index.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11023,9 +11023,9 @@ router.afterEach(function (to, from) {
 
 /***/ }),
 /* 38 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/node_modules/uni-simple-router/dist/uni-simple-router.js ***!
-  \**********************************************************************************************************************************/
+/*!********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/node_modules/uni-simple-router/dist/uni-simple-router.js ***!
+  \********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13060,9 +13060,9 @@ module.exports = function(module) {
 
 /***/ }),
 /* 40 */
-/*!*******************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/index.js ***!
-  \*******************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/index.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13149,9 +13149,9 @@ exports.default = _default;
 
 /***/ }),
 /* 41 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mixin.js ***!
-  \******************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13317,9 +13317,9 @@ exports.default = _default;
 
 /***/ }),
 /* 42 */
-/*!********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
-  \********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13340,9 +13340,9 @@ exports.default = _default;
 
 /***/ }),
 /* 43 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/index.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13360,9 +13360,9 @@ exports.default = _default;
 
 /***/ }),
 /* 44 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
-  \********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13566,9 +13566,9 @@ exports.default = Request;
 
 /***/ }),
 /* 45 */
-/*!****************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
-  \****************************************************************************************************************************************/
+/*!**************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13588,9 +13588,9 @@ exports.default = _default;
 
 /***/ }),
 /* 46 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
-  \**********************************************************************************************************************************/
+/*!********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13669,9 +13669,9 @@ exports.default = _default;
 
 /***/ }),
 /* 47 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
-  \************************************************************************************************************************************/
+/*!**********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13739,9 +13739,9 @@ function buildURL(url, params) {
 
 /***/ }),
 /* 48 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13892,9 +13892,9 @@ function isUndefined(val) {
 
 /***/ }),
 /* 49 */
-/*!**************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
-  \**************************************************************************************************************************************/
+/*!************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13926,9 +13926,9 @@ function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 /* 50 */
-/*!*****************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
-  \*****************************************************************************************************************************************/
+/*!***************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13954,9 +13954,9 @@ function isAbsoluteURL(url) {
 
 /***/ }),
 /* 51 */
-/*!***************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
-  \***************************************************************************************************************************************/
+/*!*************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13980,9 +13980,9 @@ function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 52 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14012,9 +14012,9 @@ function settle(resolve, reject, response) {
 
 /***/ }),
 /* 53 */
-/*!*******************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
-  \*******************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14076,9 +14076,9 @@ exports.default = _default;
 
 /***/ }),
 /* 54 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
-  \************************************************************************************************************************************/
+/*!**********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14152,9 +14152,9 @@ exports.default = _default;
 
 /***/ }),
 /* 55 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
-  \*********************************************************************************************************************************/
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14184,9 +14184,9 @@ exports.default = _default;
 
 /***/ }),
 /* 56 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16508,9 +16508,9 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 61 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/util/route.js ***!
-  \*****************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/util/route.js ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17070,9 +17070,9 @@ module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exp
 
 /***/ }),
 /* 65 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/colorGradient.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17225,9 +17225,9 @@ exports.default = _default;
 
 /***/ }),
 /* 66 */
-/*!********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/test.js ***!
-  \********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/test.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17530,9 +17530,9 @@ exports.default = _default;
 
 /***/ }),
 /* 67 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/debounce.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17577,9 +17577,9 @@ exports.default = _default;
 
 /***/ }),
 /* 68 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/throttle.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17626,9 +17626,9 @@ exports.default = _default;
 
 /***/ }),
 /* 69 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/index.js ***!
-  \*********************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/index.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18427,9 +18427,9 @@ exports.default = _default;
 
 /***/ }),
 /* 70 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/digit.js ***!
-  \*********************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/digit.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18646,9 +18646,9 @@ module.exports = _toArray, module.exports.__esModule = true, module.exports["def
 
 /***/ }),
 /* 72 */
-/*!********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/config.js ***!
-  \********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/config.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18690,9 +18690,9 @@ exports.default = _default;
 
 /***/ }),
 /* 73 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props.js ***!
-  \*******************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props.js ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18802,9 +18802,9 @@ exports.default = _default;
 
 /***/ }),
 /* 74 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18846,9 +18846,9 @@ exports.default = _default;
 
 /***/ }),
 /* 75 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/album.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18890,9 +18890,9 @@ exports.default = _default;
 
 /***/ }),
 /* 76 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/alert.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18929,9 +18929,9 @@ exports.default = _default;
 
 /***/ }),
 /* 77 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatar.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18974,9 +18974,9 @@ exports.default = _default;
 
 /***/ }),
 /* 78 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19016,9 +19016,9 @@ exports.default = _default;
 
 /***/ }),
 /* 79 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/backtop.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19062,9 +19062,9 @@ exports.default = _default;
 
 /***/ }),
 /* 80 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/badge.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19108,9 +19108,9 @@ exports.default = _default;
 
 /***/ }),
 /* 81 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/button.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19167,9 +19167,9 @@ exports.default = _default;
 
 /***/ }),
 /* 82 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/calendar.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19230,9 +19230,9 @@ exports.default = _default;
 
 /***/ }),
 /* 83 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19262,9 +19262,9 @@ exports.default = _default;
 
 /***/ }),
 /* 84 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cell.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19314,9 +19314,9 @@ exports.default = _default;
 
 /***/ }),
 /* 85 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19348,9 +19348,9 @@ exports.default = _default;
 
 /***/ }),
 /* 86 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19392,9 +19392,9 @@ exports.default = _default;
 
 /***/ }),
 /* 87 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
-  \*********************************************************************************************************************************/
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19440,9 +19440,9 @@ exports.default = _default;
 
 /***/ }),
 /* 88 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
-  \**********************************************************************************************************************************/
+/*!********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19472,9 +19472,9 @@ exports.default = _default;
 
 /***/ }),
 /* 89 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/code.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19509,9 +19509,9 @@ exports.default = _default;
 
 /***/ }),
 /* 90 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19555,9 +19555,9 @@ exports.default = _default;
 
 /***/ }),
 /* 91 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/col.js ***!
-  \***********************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19591,9 +19591,9 @@ exports.default = _default;
 
 /***/ }),
 /* 92 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapse.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19625,9 +19625,9 @@ exports.default = _default;
 
 /***/ }),
 /* 93 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
-  \********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19667,9 +19667,9 @@ exports.default = _default;
 
 /***/ }),
 /* 94 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
-  \********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19708,9 +19708,9 @@ exports.default = _default;
 
 /***/ }),
 /* 95 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countDown.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19743,9 +19743,9 @@ exports.default = _default;
 
 /***/ }),
 /* 96 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countTo.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19785,9 +19785,9 @@ exports.default = _default;
 
 /***/ }),
 /* 97 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
-  \**********************************************************************************************************************************/
+/*!********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19840,9 +19840,9 @@ exports.default = _default;
 
 /***/ }),
 /* 98 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/divider.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19879,9 +19879,9 @@ exports.default = _default;
 
 /***/ }),
 /* 99 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/empty.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19921,9 +19921,9 @@ exports.default = _default;
 
 /***/ }),
 /* 100 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/form.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19966,9 +19966,9 @@ exports.default = _default;
 
 /***/ }),
 /* 101 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/formItem.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20006,9 +20006,9 @@ exports.default = _default;
 
 /***/ }),
 /* 102 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gap.js ***!
-  \***********************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20042,9 +20042,9 @@ exports.default = _default;
 
 /***/ }),
 /* 103 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/grid.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20076,9 +20076,9 @@ exports.default = _default;
 
 /***/ }),
 /* 104 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20109,9 +20109,9 @@ exports.default = _default;
 
 /***/ }),
 /* 105 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/icon.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20161,9 +20161,9 @@ exports.default = _default;
 
 /***/ }),
 /* 106 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/image.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20208,9 +20208,9 @@ exports.default = _default;
 
 /***/ }),
 /* 107 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20244,9 +20244,9 @@ exports.default = _default;
 
 /***/ }),
 /* 108 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexList.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20282,9 +20282,9 @@ exports.default = _default;
 
 /***/ }),
 /* 109 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/input.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20347,9 +20347,9 @@ exports.default = _default;
 
 /***/ }),
 /* 110 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20394,9 +20394,9 @@ exports.default = _default;
 
 /***/ }),
 /* 111 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/line.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20431,9 +20431,9 @@ exports.default = _default;
 
 /***/ }),
 /* 112 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
-  \********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20467,9 +20467,9 @@ exports.default = _default;
 
 /***/ }),
 /* 113 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/link.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20509,9 +20509,9 @@ exports.default = _default;
 
 /***/ }),
 /* 114 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/list.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20554,9 +20554,9 @@ exports.default = _default;
 
 /***/ }),
 /* 115 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/listItem.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20586,9 +20586,9 @@ exports.default = _default;
 
 /***/ }),
 /* 116 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20632,9 +20632,9 @@ exports.default = _default;
 
 /***/ }),
 /* 117 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20672,9 +20672,9 @@ exports.default = _default;
 
 /***/ }),
 /* 118 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20721,9 +20721,9 @@ exports.default = _default;
 
 /***/ }),
 /* 119 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/modal.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20768,9 +20768,9 @@ exports.default = _default;
 
 /***/ }),
 /* 120 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/navbar.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20817,9 +20817,9 @@ exports.default = _default;
 
 /***/ }),
 /* 121 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/color.js ***!
-  \*******************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/color.js ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20850,9 +20850,9 @@ exports.default = _default;
 
 /***/ }),
 /* 122 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20884,9 +20884,9 @@ exports.default = _default;
 
 /***/ }),
 /* 123 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20930,9 +20930,9 @@ exports.default = _default;
 
 /***/ }),
 /* 124 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/notify.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20969,9 +20969,9 @@ exports.default = _default;
 
 /***/ }),
 /* 125 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21021,9 +21021,9 @@ exports.default = _default;
 
 /***/ }),
 /* 126 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
-  \**********************************************************************************************************************************/
+/*!********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21055,9 +21055,9 @@ exports.default = _default;
 
 /***/ }),
 /* 127 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/overlay.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21090,9 +21090,9 @@ exports.default = _default;
 
 /***/ }),
 /* 128 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/parse.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21129,9 +21129,9 @@ exports.default = _default;
 
 /***/ }),
 /* 129 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/picker.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21179,9 +21179,9 @@ exports.default = _default;
 
 /***/ }),
 /* 130 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/popup.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21225,9 +21225,9 @@ exports.default = _default;
 
 /***/ }),
 /* 131 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radio.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21269,9 +21269,9 @@ exports.default = _default;
 
 /***/ }),
 /* 132 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
-  \******************************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21316,9 +21316,9 @@ exports.default = _default;
 
 /***/ }),
 /* 133 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rate.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21359,9 +21359,9 @@ exports.default = _default;
 
 /***/ }),
 /* 134 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/readMore.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21398,9 +21398,9 @@ exports.default = _default;
 
 /***/ }),
 /* 135 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/row.js ***!
-  \***********************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21432,9 +21432,9 @@ exports.default = _default;
 
 /***/ }),
 /* 136 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21470,9 +21470,9 @@ exports.default = _default;
 
 /***/ }),
 /* 137 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
-  \******************************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21507,9 +21507,9 @@ exports.default = _default;
 
 /***/ }),
 /* 138 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/search.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21565,9 +21565,9 @@ exports.default = _default;
 
 /***/ }),
 /* 139 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/section.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21606,9 +21606,9 @@ exports.default = _default;
 
 /***/ }),
 /* 140 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21648,9 +21648,9 @@ exports.default = _default;
 
 /***/ }),
 /* 141 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/slider.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21690,9 +21690,9 @@ exports.default = _default;
 
 /***/ }),
 /* 142 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21722,9 +21722,9 @@ exports.default = _default;
 
 /***/ }),
 /* 143 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/steps.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21760,9 +21760,9 @@ exports.default = _default;
 
 /***/ }),
 /* 144 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
-  \*****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21795,9 +21795,9 @@ exports.default = _default;
 
 /***/ }),
 /* 145 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/sticky.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21832,9 +21832,9 @@ exports.default = _default;
 
 /***/ }),
 /* 146 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/subsection.js ***!
-  \******************************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21872,9 +21872,9 @@ exports.default = _default;
 
 /***/ }),
 /* 147 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21904,9 +21904,9 @@ exports.default = _default;
 
 /***/ }),
 /* 148 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
-  \***********************************************************************************************************************************/
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21942,9 +21942,9 @@ exports.default = _default;
 
 /***/ }),
 /* 149 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swiper.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21999,9 +21999,9 @@ exports.default = _default;
 
 /***/ }),
 /* 150 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
-  \************************************************************************************************************************************/
+/*!**********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22035,9 +22035,9 @@ exports.default = _default;
 
 /***/ }),
 /* 151 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/switch.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22076,9 +22076,9 @@ exports.default = _default;
 
 /***/ }),
 /* 152 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22115,9 +22115,9 @@ exports.default = _default;
 
 /***/ }),
 /* 153 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
-  \******************************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22152,9 +22152,9 @@ exports.default = _default;
 
 /***/ }),
 /* 154 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabs.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22209,9 +22209,9 @@ exports.default = _default;
 
 /***/ }),
 /* 155 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tag.js ***!
-  \***********************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22255,9 +22255,9 @@ exports.default = _default;
 
 /***/ }),
 /* 156 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/text.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22311,9 +22311,9 @@ exports.default = _default;
 
 /***/ }),
 /* 157 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/textarea.js ***!
-  \****************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22364,9 +22364,9 @@ exports.default = _default;
 
 /***/ }),
 /* 158 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toast.js ***!
-  \*************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22410,9 +22410,9 @@ exports.default = _default;
 
 /***/ }),
 /* 159 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22447,9 +22447,9 @@ exports.default = _default;
 
 /***/ }),
 /* 160 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
-  \***************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22491,9 +22491,9 @@ exports.default = _default;
 
 /***/ }),
 /* 161 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/transition.js ***!
-  \******************************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22526,9 +22526,9 @@ exports.default = _default;
 
 /***/ }),
 /* 162 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/upload.js ***!
-  \**************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22585,9 +22585,9 @@ exports.default = _default;
 
 /***/ }),
 /* 163 */
-/*!********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/zIndex.js ***!
-  \********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22621,9 +22621,9 @@ exports.default = _default;
 
 /***/ }),
 /* 164 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/platform.js ***!
-  \************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/platform.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22650,22 +22650,2286 @@ var _default = platform;
 exports.default = _default;
 
 /***/ }),
-/* 165 */,
-/* 166 */,
-/* 167 */,
-/* 168 */,
-/* 169 */,
-/* 170 */,
-/* 171 */,
-/* 172 */,
-/* 173 */,
-/* 174 */,
-/* 175 */,
-/* 176 */,
-/* 177 */,
-/* 178 */,
-/* 179 */,
-/* 180 */,
+/* 165 */
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/requestConfig.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
+var _request = _interopRequireDefault(__webpack_require__(/*! ./request */ 166));
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+// 全局配置的请求域名
+var baseUrl = "http://www.xxx.com/api/";
+//可以new多个request来支持多个域名请求
+var $http = new _request.default({
+  //接口请求地址
+  baseUrl: baseUrl,
+  //服务器本地上传文件地址
+  fileUrl: baseUrl,
+  // 服务器上传图片默认url
+  defaultUploadUrl: "api/common/v1/upload_image",
+  //设置请求头（如果使用报错跨域问题，可能是content-type请求类型和后台那边设置的不一致）
+  header: {
+    'content-type': 'application/json;charset=UTF-8'
+  },
+  // 请求超时时间（默认6000）
+  timeout: 6000,
+  // 默认配置（可不写）
+  config: {
+    // 是否自动提示错误
+    isPrompt: true,
+    // 是否显示加载动画
+    load: true,
+    // 是否使用数据工厂
+    isFactory: true
+  }
+});
+
+// 添加获取七牛云token的方法
+$http.getQnToken = function (callback) {
+  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
+  $http.get("api/kemean/aid/qn_upload").then(function (data) {
+    /*
+     *接口返回参数：
+     *visitPrefix:访问文件的域名
+     *token:七牛云上传token
+     *folderPath:上传的文件夹
+     *region: 地区 默认为：SCN
+     */
+    callback({
+      visitPrefix: data.visitPrefix,
+      token: data.token,
+      folderPath: data.folderPath,
+      region: "SCN"
+    });
+  });
+};
+// 添加获取阿里云token的方法
+$http.getAliToken = function (callback) {
+  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
+  $http.get("api/open/v1/ali_oss_upload").then(function (data) {
+    /*
+     *接口返回参数：
+     *visitPrefix: 访问文件的域名
+     *folderPath: 上传的文件夹
+     *region: 地区 
+     *bucket: 阿里云的 bucket
+     *accessKeyId: 阿里云的访问ID
+     *accessKeySecret: 阿里云的访问密钥
+     *stsToken: 阿里云的访问token
+     */
+    callback({
+      accessKeyId: data.accessKeyId,
+      accessKeySecret: data.accessKeySecret,
+      bucket: data.bucket,
+      region: data.region,
+      visitPrefix: data.visitPrefix,
+      token: data.token,
+      folderPath: data.folderPath,
+      stsToken: data.securityToken
+    });
+  });
+};
+//当前接口请求数
+var requestNum = 0;
+//请求开始拦截器
+$http.requestStart = function (options) {
+  if (options.load) {
+    if (requestNum <= 0) {
+      //打开加载动画
+      uni.showLoading({
+        title: '加载中',
+        mask: true
+      });
+    }
+    requestNum += 1;
+  }
+  // 图片、视频上传大小限制
+  if (options.method == "FILE") {
+    // 文件最大字节: options.maxSize 可以在调用方法的时候加入参数
+    var maxSize = options.maxSize || '';
+    var _iterator = _createForOfIteratorHelper(options.files),
+      _step;
+    try {
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        var item = _step.value;
+        if (item.fileType == 'image') {
+          if (maxSize && item.size > maxSize) {
+            setTimeout(function () {
+              uni.showToast({
+                title: "图片过大，请重新上传",
+                icon: "none"
+              });
+            }, 500);
+            return false;
+          }
+        } else if (item.fileType == "video") {
+          if (item.duration < 3) {
+            setTimeout(function () {
+              uni.showToast({
+                title: "视频长度不足3秒，请重新上传",
+                icon: "none"
+              });
+            }, 500);
+            return false;
+          }
+        }
+      }
+    } catch (err) {
+      _iterator.e(err);
+    } finally {
+      _iterator.f();
+    }
+  }
+  //请求前加入token
+  options.header['token'] = "你的项目登录token";
+  return options; // return false 表示请求拦截，不会继续请求
+};
+//请求结束
+$http.requestEnd = function (options) {
+  //判断当前接口是否需要加载动画
+  if (options.load) {
+    requestNum = requestNum - 1;
+    if (requestNum <= 0) {
+      uni.hideLoading();
+    }
+  }
+};
+//登录弹窗次数
+var loginPopupNum = 0;
+//所有接口数据处理（可在接口里设置不调用此方法）
+//此方法需要开发者根据各自的接口返回类型修改，以下只是模板
+$http.dataFactory = /*#__PURE__*/function () {
+  var _ref = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(res) {
+    var httpData, content;
+    return _regenerator.default.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            console.log("接口请求数据", {
+              url: res.url,
+              resolve: res.response,
+              header: res.header,
+              data: res.data,
+              method: res.method
+            });
+            if (!(res.response.statusCode && res.response.statusCode == 200)) {
+              _context.next = 18;
+              break;
+            }
+            httpData = res.response.data;
+            if (typeof httpData == "string") {
+              httpData = JSON.parse(httpData);
+            }
+            /*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
+
+            //判断数据是否请求成功
+            if (!(httpData.success || httpData.code == 200)) {
+              _context.next = 8;
+              break;
+            }
+            return _context.abrupt("return", Promise.resolve(httpData.data));
+          case 8:
+            if (!(httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100)) {
+              _context.next = 14;
+              break;
+            }
+            content = '此时此刻需要您登录喔~';
+            if (loginPopupNum <= 0) {
+              loginPopupNum++;
+              uni.showModal({
+                title: '温馨提示',
+                content: content,
+                confirmText: "去登录",
+                cancelText: "再逛会",
+                success: function success(res) {
+                  loginPopupNum--;
+                  if (res.confirm) {
+                    uni.navigateTo({
+                      url: "/pages/user/login"
+                    });
+                  }
+                }
+              });
+            }
+            // 返回错误的结果(catch接受数据)
+            return _context.abrupt("return", Promise.reject({
+              statusCode: 0,
+              errMsg: "【request】" + (httpData.info || httpData.msg)
+            }));
+          case 14:
+            //其他错误提示
+            if (res.isPrompt) {
+              uni.showToast({
+                title: httpData.info || httpData.msg,
+                icon: "none",
+                duration: 3000
+              });
+            }
+            // 返回错误的结果(catch接受数据)
+            return _context.abrupt("return", Promise.reject({
+              statusCode: 0,
+              errMsg: "【request】" + (httpData.info || httpData.msg)
+            }));
+          case 16:
+            _context.next = 19;
+            break;
+          case 18:
+            return _context.abrupt("return", Promise.reject({
+              statusCode: res.response.statusCode,
+              errMsg: "【request】数据工厂验证不通过"
+            }));
+          case 19:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return function (_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
+// 错误回调
+$http.requestError = function (e) {
+  // e.statusCode === 0 是参数效验错误抛出的
+  if (e.statusCode === 0) {
+    throw e;
+  } else {
+    uni.showToast({
+      title: "网络错误，请检查一下网络",
+      icon: "none"
+    });
+  }
+};
+var _default = $http;
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 166 */
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/index.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _upload = _interopRequireDefault(__webpack_require__(/*! ./upload/upload.js */ 167));
+/***************纯粹的数据请求（如果使用这种可以删除掉fileUpload.js）******************/
+// import request from "./core/request.js";
+// export default request;
+/********数据请求同时继承了文件上传（包括七牛云上传）************/
+var _default = _upload.default;
+exports.default = _default;
+
+/***/ }),
+/* 167 */
+/*!***********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/upload.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inherits */ 168));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ 169));
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ 171));
+var _request2 = _interopRequireDefault(__webpack_require__(/*! ./../core/request.js */ 172));
+var _utils = __webpack_require__(/*! ./../core/utils.js */ 173);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var _require = __webpack_require__(/*! ./utils */ 174),
+  chooseImage = _require.chooseImage,
+  chooseVideo = _require.chooseVideo,
+  qiniuUpload = _require.qiniuUpload,
+  aliUpload = _require.aliUpload,
+  urlUpload = _require.urlUpload;
+var fileUpload = /*#__PURE__*/function (_request) {
+  (0, _inherits2.default)(fileUpload, _request);
+  var _super = _createSuper(fileUpload);
+  function fileUpload(props) {
+    (0, _classCallCheck2.default)(this, fileUpload);
+    // 调用实现父类的构造函数
+    return _super.call(this, props);
+  }
+  //七牛云上传图片
+  (0, _createClass2.default)(fileUpload, [{
+    key: "qnImgUpload",
+    value: function () {
+      var _qnImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
+        var options,
+          files,
+          _args = arguments;
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                options = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};
+                _context.prev = 1;
+                _context.next = 4;
+                return chooseImage(options);
+              case 4:
+                files = _context.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context.next = 12;
+                break;
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](1);
+                this.requestError && this.requestError(_context.t0);
+                return _context.abrupt("return", Promise.reject(_context.t0));
+              case 12:
+                if (!files) {
+                  _context.next = 14;
+                  break;
+                }
+                return _context.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[1, 8]]);
+      }));
+      function qnImgUpload() {
+        return _qnImgUpload.apply(this, arguments);
+      }
+      return qnImgUpload;
+    }() //七牛云上传视频
+  }, {
+    key: "qnVideoUpload",
+    value: function () {
+      var _qnVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee2() {
+        var options,
+          files,
+          _args2 = arguments;
+        return _regenerator.default.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                options = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : {};
+                _context2.prev = 1;
+                _context2.next = 4;
+                return chooseVideo(options);
+              case 4:
+                files = _context2.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context2.next = 12;
+                break;
+              case 8:
+                _context2.prev = 8;
+                _context2.t0 = _context2["catch"](1);
+                this.requestError && this.requestError(_context2.t0);
+                return _context2.abrupt("return", Promise.reject(_context2.t0));
+              case 12:
+                if (!files) {
+                  _context2.next = 14;
+                  break;
+                }
+                return _context2.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this, [[1, 8]]);
+      }));
+      function qnVideoUpload() {
+        return _qnVideoUpload.apply(this, arguments);
+      }
+      return qnVideoUpload;
+    }() //七牛云文件上传（支持多张上传）
+  }, {
+    key: "qnFileUpload",
+    value: function () {
+      var _qnFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee3() {
+        var options,
+          requestInfo,
+          requestStart,
+          changekeys,
+          requestResult,
+          _args3 = arguments;
+        return _regenerator.default.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                options = _args3.length > 0 && _args3[0] !== undefined ? _args3[0] : {};
+                _context3.prev = 1;
+                // 数据合并
+                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
+                  header: {},
+                  method: "FILE"
+                });
+                //请求前回调
+                if (!this.requestStart) {
+                  _context3.next = 11;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context3.next = 10;
+                  break;
+                }
+                changekeys = ["load", "files"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context3.next = 11;
+                break;
+              case 10:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 11:
+                _context3.next = 13;
+                return qiniuUpload(requestInfo, this.getQnToken);
+              case 13:
+                requestResult = _context3.sent;
+                return _context3.abrupt("return", Promise.resolve(requestResult));
+              case 17:
+                _context3.prev = 17;
+                _context3.t0 = _context3["catch"](1);
+                this.requestError && this.requestError(_context3.t0);
+                return _context3.abrupt("return", Promise.reject(_context3.t0));
+              case 21:
+                _context3.prev = 21;
+                this.requestEnd && this.requestEnd(requestInfo);
+                return _context3.finish(21);
+              case 24:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, this, [[1, 17, 21, 24]]);
+      }));
+      function qnFileUpload() {
+        return _qnFileUpload.apply(this, arguments);
+      }
+      return qnFileUpload;
+    }() //阿里云上传图片
+  }, {
+    key: "aliImgUpload",
+    value: function () {
+      var _aliImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee4() {
+        var options,
+          files,
+          _args4 = arguments;
+        return _regenerator.default.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                options = _args4.length > 0 && _args4[0] !== undefined ? _args4[0] : {};
+                _context4.prev = 1;
+                _context4.next = 4;
+                return chooseImage(options);
+              case 4:
+                files = _context4.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context4.next = 12;
+                break;
+              case 8:
+                _context4.prev = 8;
+                _context4.t0 = _context4["catch"](1);
+                this.requestError && this.requestError(_context4.t0);
+                return _context4.abrupt("return", Promise.reject(_context4.t0));
+              case 12:
+                if (!files) {
+                  _context4.next = 14;
+                  break;
+                }
+                return _context4.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4, this, [[1, 8]]);
+      }));
+      function aliImgUpload() {
+        return _aliImgUpload.apply(this, arguments);
+      }
+      return aliImgUpload;
+    }() //阿里云上传视频
+  }, {
+    key: "aliVideoUpload",
+    value: function () {
+      var _aliVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee5() {
+        var options,
+          files,
+          _args5 = arguments;
+        return _regenerator.default.wrap(function _callee5$(_context5) {
+          while (1) {
+            switch (_context5.prev = _context5.next) {
+              case 0:
+                options = _args5.length > 0 && _args5[0] !== undefined ? _args5[0] : {};
+                _context5.prev = 1;
+                _context5.next = 4;
+                return chooseVideo(options);
+              case 4:
+                files = _context5.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context5.next = 12;
+                break;
+              case 8:
+                _context5.prev = 8;
+                _context5.t0 = _context5["catch"](1);
+                this.requestError && this.requestError(_context5.t0);
+                return _context5.abrupt("return", Promise.reject(_context5.t0));
+              case 12:
+                if (!files) {
+                  _context5.next = 14;
+                  break;
+                }
+                return _context5.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context5.stop();
+            }
+          }
+        }, _callee5, this, [[1, 8]]);
+      }));
+      function aliVideoUpload() {
+        return _aliVideoUpload.apply(this, arguments);
+      }
+      return aliVideoUpload;
+    }() //阿里云文件上传（支持多张上传）
+  }, {
+    key: "aliFileUpload",
+    value: function () {
+      var _aliFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee6() {
+        var options,
+          requestInfo,
+          requestStart,
+          changekeys,
+          requestResult,
+          _args6 = arguments;
+        return _regenerator.default.wrap(function _callee6$(_context6) {
+          while (1) {
+            switch (_context6.prev = _context6.next) {
+              case 0:
+                options = _args6.length > 0 && _args6[0] !== undefined ? _args6[0] : {};
+                _context6.prev = 1;
+                // 数据合并
+                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
+                  header: {},
+                  method: "FILE"
+                });
+                //请求前回调
+                if (!this.requestStart) {
+                  _context6.next = 11;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context6.next = 10;
+                  break;
+                }
+                changekeys = ["load", "files"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context6.next = 11;
+                break;
+              case 10:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 11:
+                _context6.next = 13;
+                return aliUpload(requestInfo, this.getAliToken);
+              case 13:
+                requestResult = _context6.sent;
+                return _context6.abrupt("return", Promise.resolve(requestResult));
+              case 17:
+                _context6.prev = 17;
+                _context6.t0 = _context6["catch"](1);
+                this.requestError && this.requestError(_context6.t0);
+                return _context6.abrupt("return", Promise.reject(_context6.t0));
+              case 21:
+                _context6.prev = 21;
+                this.requestEnd && this.requestEnd(requestInfo);
+                return _context6.finish(21);
+              case 24:
+              case "end":
+                return _context6.stop();
+            }
+          }
+        }, _callee6, this, [[1, 17, 21, 24]]);
+      }));
+      function aliFileUpload() {
+        return _aliFileUpload.apply(this, arguments);
+      }
+      return aliFileUpload;
+    }() //本地服务器图片上传
+  }, {
+    key: "urlImgUpload",
+    value: function () {
+      var _urlImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee7() {
+        var options,
+          _args7 = arguments;
+        return _regenerator.default.wrap(function _callee7$(_context7) {
+          while (1) {
+            switch (_context7.prev = _context7.next) {
+              case 0:
+                options = {};
+                if (_args7[0]) {
+                  if (typeof _args7[0] == "string") {
+                    options.url = _args7[0];
+                  } else if ((0, _typeof2.default)(_args7[0]) == "object") {
+                    options = Object.assign(options, _args7[0]);
+                  }
+                }
+                if (_args7[1] && (0, _typeof2.default)(_args7[1]) == "object") {
+                  options = Object.assign(options, _args7[1]);
+                }
+                _context7.prev = 3;
+                _context7.next = 6;
+                return chooseImage(options);
+              case 6:
+                options.files = _context7.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(options.files);
+                _context7.next = 14;
+                break;
+              case 10:
+                _context7.prev = 10;
+                _context7.t0 = _context7["catch"](3);
+                this.requestError && this.requestError(_context7.t0);
+                return _context7.abrupt("return", Promise.reject(_context7.t0));
+              case 14:
+                if (!options.files) {
+                  _context7.next = 16;
+                  break;
+                }
+                return _context7.abrupt("return", this.urlFileUpload(options));
+              case 16:
+              case "end":
+                return _context7.stop();
+            }
+          }
+        }, _callee7, this, [[3, 10]]);
+      }));
+      function urlImgUpload() {
+        return _urlImgUpload.apply(this, arguments);
+      }
+      return urlImgUpload;
+    }() //本地服务器上传视频
+  }, {
+    key: "urlVideoUpload",
+    value: function () {
+      var _urlVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee8() {
+        var options,
+          _args8 = arguments;
+        return _regenerator.default.wrap(function _callee8$(_context8) {
+          while (1) {
+            switch (_context8.prev = _context8.next) {
+              case 0:
+                options = {};
+                if (_args8[0]) {
+                  if (typeof _args8[0] == "string") {
+                    options.url = _args8[0];
+                  } else if ((0, _typeof2.default)(_args8[0]) == "object") {
+                    options = Object.assign(options, _args8[0]);
+                  }
+                }
+                if (_args8[1] && (0, _typeof2.default)(_args8[1]) == "object") {
+                  options = Object.assign(options, _args8[1]);
+                }
+                _context8.prev = 3;
+                _context8.next = 6;
+                return chooseVideo(options);
+              case 6:
+                options.files = _context8.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(options.files);
+                _context8.next = 14;
+                break;
+              case 10:
+                _context8.prev = 10;
+                _context8.t0 = _context8["catch"](3);
+                this.requestError && this.requestError(_context8.t0);
+                return _context8.abrupt("return", Promise.reject(_context8.t0));
+              case 14:
+                if (!options.files) {
+                  _context8.next = 16;
+                  break;
+                }
+                return _context8.abrupt("return", this.urlFileUpload(options));
+              case 16:
+              case "end":
+                return _context8.stop();
+            }
+          }
+        }, _callee8, this, [[3, 10]]);
+      }));
+      function urlVideoUpload() {
+        return _urlVideoUpload.apply(this, arguments);
+      }
+      return urlVideoUpload;
+    }() //本地服务器文件上传方法
+  }, {
+    key: "urlFileUpload",
+    value: function () {
+      var _urlFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee9() {
+        var requestInfo,
+          runRequestStart,
+          requestStart,
+          changekeys,
+          requestResult,
+          _args9 = arguments;
+        return _regenerator.default.wrap(function _callee9$(_context9) {
+          while (1) {
+            switch (_context9.prev = _context9.next) {
+              case 0:
+                requestInfo = {
+                  method: "FILE"
+                };
+                if (_args9[0]) {
+                  if (typeof _args9[0] == "string") {
+                    requestInfo.url = _args9[0];
+                  } else if ((0, _typeof2.default)(_args9[0]) == "object") {
+                    requestInfo = Object.assign(requestInfo, _args9[0]);
+                  }
+                }
+                if (_args9[1] && (0, _typeof2.default)(_args9[1]) == "object") {
+                  requestInfo = Object.assign(requestInfo, _args9[1]);
+                }
+                if (!requestInfo.url && this.defaultUploadUrl) {
+                  requestInfo.url = this.defaultUploadUrl;
+                }
+                if (!requestInfo.name && this.defaultFileName) {
+                  requestInfo.name = this.defaultFileName;
+                }
+                // 请求数据
+                // 是否运行过请求开始钩子
+                runRequestStart = false;
+                _context9.prev = 6;
+                if (requestInfo.url) {
+                  _context9.next = 9;
+                  break;
+                }
+                throw {
+                  errMsg: "【request】文件上传缺失数据url",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 9:
+                // 数据合并
+                requestInfo = (0, _utils.mergeConfig)(this, requestInfo);
+                // 代表之前运行到这里
+                runRequestStart = true;
+                //请求前回调
+                if (!this.requestStart) {
+                  _context9.next = 19;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context9.next = 18;
+                  break;
+                }
+                changekeys = ["data", "header", "isPrompt", "load", "isFactory", "files"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context9.next = 19;
+                break;
+              case 18:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 19:
+                _context9.next = 21;
+                return urlUpload(requestInfo, this.dataFactory);
+              case 21:
+                requestResult = _context9.sent;
+                return _context9.abrupt("return", Promise.resolve(requestResult));
+              case 25:
+                _context9.prev = 25;
+                _context9.t0 = _context9["catch"](6);
+                this.requestError && this.requestError(_context9.t0);
+                return _context9.abrupt("return", Promise.reject(_context9.t0));
+              case 29:
+                _context9.prev = 29;
+                if (runRequestStart) {
+                  this.requestEnd && this.requestEnd(requestInfo);
+                }
+                return _context9.finish(29);
+              case 32:
+              case "end":
+                return _context9.stop();
+            }
+          }
+        }, _callee9, this, [[6, 25, 29, 32]]);
+      }));
+      function urlFileUpload() {
+        return _urlFileUpload.apply(this, arguments);
+      }
+      return urlFileUpload;
+    }()
+  }]);
+  return fileUpload;
+}(_request2.default);
+exports.default = fileUpload;
+
+/***/ }),
+/* 168 */
+/*!*********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  Object.defineProperty(subClass, "prototype", {
+    writable: false
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 169 */
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized.js */ 170);
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  } else if (call !== void 0) {
+    throw new TypeError("Derived constructors may only return object or undefined");
+  }
+  return assertThisInitialized(self);
+}
+module.exports = _possibleConstructorReturn, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 170 */
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+  return self;
+}
+module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 171 */
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _getPrototypeOf(o);
+}
+module.exports = _getPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 172 */
+/*!**********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/request.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
+var _utils = __webpack_require__(/*! ./utils.js */ 173);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+var request = /*#__PURE__*/function () {
+  function request(options) {
+    (0, _classCallCheck2.default)(this, request);
+    //请求公共地址
+    this.baseUrl = options.baseUrl || "";
+    //公共文件上传请求地址
+    this.fileUrl = options.fileUrl || "";
+    // 超时时间
+    this.timeout = options.timeout || 6000;
+    // 服务器上传图片默认url
+    this.defaultUploadUrl = options.defaultUploadUrl || "";
+    // 服务器上传文件名称
+    this.defaultFileName = options.defaultFileName || "";
+    //默认请求头
+    this.header = options.header || {};
+    //默认配置
+    this.config = options.config || {
+      isPrompt: true,
+      load: true,
+      isFactory: true,
+      resend: 0
+    };
+  }
+  //post请求
+  (0, _createClass2.default)(request, [{
+    key: "post",
+    value: function post() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "POST",
+        data: data,
+        url: url
+      }, options));
+    }
+
+    //get请求
+  }, {
+    key: "get",
+    value: function get() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "GET",
+        data: data,
+        url: url
+      }, options));
+    }
+
+    //put请求
+  }, {
+    key: "put",
+    value: function put() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "PUT",
+        data: data,
+        url: url
+      }, options));
+    }
+
+    //delete请求
+  }, {
+    key: "delete",
+    value: function _delete() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "DELETE",
+        data: data,
+        url: url
+      }, options));
+    }
+    //jsonp请求(只限于H5使用)
+  }, {
+    key: "jsonp",
+    value: function jsonp() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "JSONP",
+        data: data,
+        url: url
+      }, options));
+    }
+    //接口请求方法
+  }, {
+    key: "request",
+    value: function () {
+      var _request = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(data) {
+        var requestInfo, runRequestStart, requestStart, changekeys, requestResult, result;
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                // 请求数据
+                runRequestStart = false;
+                _context.prev = 1;
+                if (data.url) {
+                  _context.next = 4;
+                  break;
+                }
+                throw {
+                  errMsg: "【request】缺失数据url",
+                  statusCode: 0
+                };
+              case 4:
+                // 数据合并
+                requestInfo = (0, _utils.mergeConfig)(this, data);
+                // 代表之前运行到这里
+                runRequestStart = true;
+                //请求前回调
+                if (!this.requestStart) {
+                  _context.next = 14;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context.next = 13;
+                  break;
+                }
+                changekeys = ["data", "header", "isPrompt", "load", "isFactory"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context.next = 14;
+                break;
+              case 13:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 14:
+                requestResult = {};
+                if (!(requestInfo.method == "JSONP")) {
+                  _context.next = 21;
+                  break;
+                }
+                _context.next = 18;
+                return (0, _utils.jsonpRequest)(requestInfo);
+              case 18:
+                requestResult = _context.sent;
+                _context.next = 24;
+                break;
+              case 21:
+                _context.next = 23;
+                return (0, _utils.dispatchRequest)(requestInfo);
+              case 23:
+                requestResult = _context.sent;
+              case 24:
+                if (!(requestInfo.isFactory && this.dataFactory)) {
+                  _context.next = 31;
+                  break;
+                }
+                _context.next = 27;
+                return this.dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
+                  response: requestResult
+                }));
+              case 27:
+                result = _context.sent;
+                return _context.abrupt("return", Promise.resolve(result));
+              case 31:
+                return _context.abrupt("return", Promise.resolve(requestResult));
+              case 32:
+                _context.next = 38;
+                break;
+              case 34:
+                _context.prev = 34;
+                _context.t0 = _context["catch"](1);
+                this.requestError && this.requestError(_context.t0);
+                return _context.abrupt("return", Promise.reject(_context.t0));
+              case 38:
+                _context.prev = 38;
+                // 如果请求开始未运行到，请求结束也不运行
+                if (runRequestStart) {
+                  this.requestEnd && this.requestEnd(requestInfo);
+                }
+                return _context.finish(38);
+              case 41:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[1, 34, 38, 41]]);
+      }));
+      function request(_x) {
+        return _request.apply(this, arguments);
+      }
+      return request;
+    }()
+  }]);
+  return request;
+}();
+exports.default = request;
+
+/***/ }),
+/* 173 */
+/*!********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/utils.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.mergeConfig = exports.jsonpRequest = exports.dispatchRequest = void 0;
+// 获取合并的数据
+var mergeConfig = function mergeConfig(_this, options) {
+  //判断url是不是链接
+  var urlType = /^(http|https):\/\//.test(options.url);
+  var config = Object.assign({
+    timeout: _this.timeout
+  }, _this.config, options);
+  if (options.method == "FILE") {
+    config.url = urlType ? options.url : _this.fileUrl + options.url;
+  } else {
+    config.url = urlType ? options.url : _this.baseUrl + options.url;
+  }
+  //请求头
+  if (options.header) {
+    config.header = Object.assign({}, _this.header, options.header);
+  } else {
+    config.header = Object.assign({}, _this.header);
+  }
+  return config;
+};
+// 请求
+exports.mergeConfig = mergeConfig;
+var dispatchRequest = function dispatchRequest(requestInfo) {
+  return new Promise(function (resolve, reject) {
+    var requestAbort = true;
+    var requestData = {
+      url: requestInfo.url,
+      header: requestInfo.header,
+      //加入请求头
+      success: function success(res) {
+        requestAbort = false;
+        resolve(res);
+      },
+      fail: function fail(err) {
+        requestAbort = false;
+        if (err.errMsg == "request:fail abort") {
+          reject({
+            errMsg: "请求超时，请重新尝试",
+            statusCode: 0
+          });
+        } else {
+          reject(err);
+        }
+      }
+    };
+    //请求类型
+    if (requestInfo.method) {
+      requestData.method = requestInfo.method;
+    }
+    if (requestInfo.data) {
+      requestData.data = requestInfo.data;
+    }
+    if (requestInfo.timeout) {
+      requestData.timeout = requestInfo.timeout;
+    }
+    if (requestInfo.dataType) {
+      requestData.dataType = requestInfo.dataType;
+    }
+    if (requestInfo.responseType) {
+      requestData.responseType = requestInfo.responseType;
+    }
+    var requestTask = uni.request(requestData);
+    setTimeout(function () {
+      if (requestAbort) {
+        requestTask.abort();
+      }
+    }, requestInfo.timeout);
+  });
+};
+// jsonp请求
+exports.dispatchRequest = dispatchRequest;
+var jsonpRequest = function jsonpRequest(requestInfo) {
+  return new Promise(function (resolve, reject) {
+    var dataStr = '';
+    Object.keys(requestInfo.data).forEach(function (key) {
+      dataStr += key + '=' + requestInfo.data[key] + '&';
+    });
+    //匹配最后一个&并去除
+    if (dataStr !== '') {
+      dataStr = dataStr.substr(0, dataStr.lastIndexOf('&'));
+    }
+    requestInfo.url = requestInfo.url + '?' + dataStr;
+    var callbackName = "callback" + Math.ceil(Math.random() * 1000000);
+  });
+};
+exports.jsonpRequest = jsonpRequest;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 174 */
+/*!**********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/utils.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.urlUpload = exports.randomChar = exports.qiniuUpload = exports.chooseVideo = exports.chooseImage = exports.aliUpload = void 0;
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+var qiniuUploader = __webpack_require__(/*! ./qiniuUploader */ 175);
+var aliUploader = __webpack_require__(/*! ./aliUploader */ 176);
+//七牛云上传文件命名
+var randomChar = function randomChar(l) {
+  var url = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
+  var x = "0123456789qwertyuioplkjhgfdsazxcvbnm";
+  var tmp = "";
+  var time = new Date();
+  for (var i = 0; i < l; i++) {
+    tmp += x.charAt(Math.ceil(Math.random() * 100000000) % x.length);
+  }
+  return "file/" + url + time.getTime() + tmp;
+};
+//图片选择
+exports.randomChar = randomChar;
+var chooseImage = function chooseImage(data) {
+  return new Promise(function (resolve, reject) {
+    uni.chooseImage({
+      count: data.count || 9,
+      //默认9
+      sizeType: data.sizeType || ['original', 'compressed'],
+      //可以指定是原图还是压缩图，默认二者都有
+      sourceType: data.sourceType || ['album', 'camera'],
+      //从相册选择
+      success: function success(res) {
+        for (var i = 0; i < res.tempFiles.length; i++) {
+          res.tempFiles[i].fileType = "image";
+        }
+        resolve(res.tempFiles);
+      },
+      fail: function fail(err) {
+        reject({
+          errMsg: err.errMsg,
+          errCode: err.errCode,
+          statusCode: 0
+        });
+      }
+    });
+  });
+};
+//视频选择
+exports.chooseImage = chooseImage;
+var chooseVideo = function chooseVideo(data) {
+  return new Promise(function (resolve, reject) {
+    uni.chooseVideo({
+      sourceType: data.sourceType || ['album', 'camera'],
+      //从相册选择
+      compressed: data.compressed || false,
+      //是否压缩所选的视频源文件，默认值为 true，需要压缩。
+      maxDuration: data.maxDuration || 60,
+      //拍摄视频最长拍摄时间，单位秒。最长支持 60 秒。
+      camera: data.camera || 'back',
+      //'front'、'back'，默认'back'
+      success: function success(res) {
+        var files = [{
+          path: res.tempFilePath,
+          fileType: "video"
+        }];
+        files[0].duration = res.duration;
+        files[0].size = res.size;
+        files[0].height = res.height;
+        files[0].width = res.width;
+        resolve(files);
+      },
+      fail: function fail(err) {
+        reject({
+          errMsg: err.errMsg,
+          errCode: err.errCode,
+          statusCode: 0
+        });
+      }
+    });
+  });
+};
+// 七牛云上传
+exports.chooseVideo = chooseVideo;
+var qiniuUpload = function qiniuUpload(requestInfo, getQnToken) {
+  return new Promise(function (resolve, reject) {
+    if (Array.isArray(requestInfo.files)) {
+      var len = requestInfo.files.length;
+      var fileList = new Array();
+      if (getQnToken) {
+        getQnToken(function (qnRes) {
+          /*
+           *接口返回参数：
+           *visitPrefix:访问文件的域名
+           *token:七牛云上传token
+           *folderPath:上传的文件夹
+           *region: 地区 默认为：SCN
+           */
+          var prefixLen = qnRes.visitPrefix.length;
+          if (qnRes.visitPrefix.charAt(prefixLen - 1) == '/') {
+            qnRes.visitPrefix = qnRes.visitPrefix.substring(0, prefixLen - 1);
+          }
+          uploadFile(0);
+          function uploadFile(i) {
+            var item = requestInfo.files[i];
+            var updateUrl = randomChar(10, qnRes.folderPath);
+            var fileData = _objectSpread({
+              fileIndex: i,
+              files: requestInfo.files
+            }, item);
+            if (item.name) {
+              fileData.name = item.name;
+              var nameArr = item.name.split(".");
+              updateUrl += "." + nameArr[nameArr.length - 1];
+            }
+            // 交给七牛上传
+            qiniuUploader.upload(item.path || item, function (res) {
+              fileData.url = res.imageURL;
+              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                url: res.imageURL
+              }, fileData));
+              fileList.push(res.imageURL);
+              if (len - 1 > i) {
+                uploadFile(i + 1);
+              } else {
+                resolve(fileList);
+              }
+            }, function (error) {
+              reject(error);
+            }, {
+              region: qnRes.region || 'SCN',
+              //地区
+              domain: qnRes.visitPrefix,
+              // bucket 域名，下载资源时用到。
+              key: updateUrl,
+              uptoken: qnRes.token,
+              // 由其他程序生成七牛 uptoken
+              uptokenURL: 'UpTokenURL.com/uptoken' // 上传地址
+            }, function (res) {
+              console.log(requestInfo);
+              requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
+              // console.log('上传进度', res.progress)
+              // console.log('已经上传的数据长度', res.totalBytesSent)
+              // console.log('预期需要上传的数据总长度', res.totalBytesExpectedToSend)
+            });
+          }
+        });
+      } else {
+        reject({
+          errMsg: "请添加七牛云回调方法：getQnToken",
+          statusCode: 0
+        });
+      }
+    } else {
+      reject({
+        errMsg: "files 必须是数组类型",
+        statusCode: 0
+      });
+    }
+    ;
+  });
+};
+// 阿里云oss上传
+exports.qiniuUpload = qiniuUpload;
+var aliUpload = function aliUpload(requestInfo, getAliToken) {
+  return new Promise(function (resolve, reject) {
+    if (Array.isArray(requestInfo.files)) {
+      var len = requestInfo.files.length;
+      var fileList = new Array();
+      if (getAliToken) {
+        getAliToken(function (aliRes) {
+          /*
+           *接口返回参数：
+           *visitPrefix:访问文件的域名
+           *folderPath:上传的文件夹
+           *accessKeyId: 您的oss的访问ID
+           *accessKeySecret: 您的oss的访问密钥
+           * timeout: 签名过期时间（毫秒）
+           */
+          var aliyunOssKey = aliUploader({
+            accessKeyId: aliRes.accessKeyId,
+            accessKeySecret: aliRes.accessKeySecret,
+            timeout: aliRes.timeout
+          });
+          var prefixLen = aliRes.visitPrefix.length;
+          if (aliRes.visitPrefix.charAt(prefixLen - 1) == '/') {
+            aliRes.visitPrefix = aliRes.visitPrefix.substring(0, prefixLen - 1);
+          }
+          uploadFile(0);
+          function uploadFile(i) {
+            var item = requestInfo.files[i];
+            var updateUrl = randomChar(10, aliRes.folderPath);
+            var fileData = _objectSpread({
+              fileIndex: i,
+              files: requestInfo.files
+            }, item);
+            if (item.name) {
+              fileData.name = item.name;
+              var nameArr = item.name.split(".");
+              updateUrl += "." + nameArr[nameArr.length - 1];
+            }
+            if (item.path) {
+              var _nameArr = item.path.split(".");
+              updateUrl += "." + _nameArr[_nameArr.length - 1];
+            }
+            console.log("----------111", {
+              url: aliRes.visitPrefix,
+              // 开发者服务器的URL。
+              filePath: item.path,
+              name: 'file',
+              // 必须填file。
+              formData: {
+                key: updateUrl,
+                policy: aliyunOssKey.policy,
+                OSSAccessKeyId: aliyunOssKey.accessKeyId,
+                signature: aliyunOssKey.signature
+              }
+            });
+            uni.uploadFile({
+              url: aliRes.visitPrefix,
+              // 开发者服务器的URL。
+              filePath: item.path,
+              name: 'file',
+              // 必须填file。
+              formData: {
+                key: updateUrl,
+                policy: aliyunOssKey.policy,
+                OSSAccessKeyId: aliyunOssKey.accessKeyId,
+                signature: aliyunOssKey.signature
+              },
+              success: function success(res) {
+                if (res.statusCode === 204) {
+                  fileData.url = aliRes.visitPrefix + "/" + updateUrl;
+                  requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                    url: fileData.url
+                  }, fileData));
+                  fileList.push(fileData.url);
+                  if (len - 1 > i) {
+                    uploadFile(i + 1);
+                  } else {
+                    resolve(fileList);
+                  }
+                } else {
+                  console.log("----失败", res);
+                  reject(res);
+                }
+              },
+              fail: function fail(err) {
+                console.log("----失败", err);
+                reject(err);
+              }
+            });
+          }
+        });
+      } else {
+        reject({
+          errMsg: "请添加阿里云回调方法：getAliToken",
+          statusCode: 0
+        });
+      }
+    } else {
+      reject({
+        errMsg: "files 必须是数组类型",
+        statusCode: 0
+      });
+    }
+    ;
+  });
+};
+// 服务器URL上传
+exports.aliUpload = aliUpload;
+var urlUpload = function urlUpload(requestInfo, dataFactory) {
+  return new Promise(function (resolve, reject) {
+    // 本地文件上传去掉默认Content-Type
+    if (requestInfo.header['Content-Type']) {
+      delete requestInfo.header['Content-Type'];
+    }
+    // 本地文件上传去掉默认Content-Type
+    if (requestInfo.header['content-type']) {
+      delete requestInfo.header['content-type'];
+    }
+    if (Array.isArray(requestInfo.files)) {
+      var fileUpload = function fileUpload(i) {
+        var item = requestInfo.files[i];
+        var fileData = _objectSpread({
+          fileIndex: i,
+          files: requestInfo.files
+        }, item);
+        var config = {
+          url: requestInfo.url,
+          filePath: item.path,
+          header: requestInfo.header,
+          //加入请求头
+          name: requestInfo.name || "file",
+          success: function success(response) {
+            //是否用外部的数据处理方法
+            if (requestInfo.isFactory && dataFactory) {
+              //数据处理
+              dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
+                response: response
+              })).then(function (data) {
+                fileList.push(data);
+                requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                  data: data
+                }, fileData));
+                if (len <= i) {
+                  resolve(fileList);
+                } else {
+                  fileUpload(i + 1);
+                }
+              }, function (err) {
+                reject(err);
+              });
+            } else {
+              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                data: response
+              }, fileData));
+              fileList.push(response);
+              if (len <= i) {
+                resolve(fileList);
+              } else {
+                fileUpload(i + 1);
+              }
+            }
+          },
+          fail: function fail(err) {
+            reject(err);
+          }
+        };
+        if (requestInfo.data) {
+          config.formData = requestInfo.data;
+        }
+        var uploadTask = uni.uploadFile(config);
+        uploadTask.onProgressUpdate(function (res) {
+          requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
+        });
+      };
+      var len = requestInfo.files.length - 1;
+      var fileList = new Array();
+      fileUpload(0);
+    } else {
+      reject({
+        errMsg: "files 必须是数组类型",
+        statusCode: 0
+      });
+    }
+  });
+};
+exports.urlUpload = urlUpload;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 175 */
+/*!******************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/qiniuUploader.js ***!
+  \******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(wx) {// created by gpake
+(function () {
+  var config = {
+    qiniuRegion: '',
+    qiniuImageURLPrefix: '',
+    qiniuUploadToken: '',
+    qiniuUploadTokenURL: '',
+    qiniuUploadTokenFunction: null,
+    qiniuShouldUseQiniuFileName: false
+  };
+  module.exports = {
+    init: init,
+    upload: upload
+  };
+
+  // 在整个程序生命周期中，只需要 init 一次即可
+  // 如果需要变更参数，再调用 init 即可
+  function init(options) {
+    config = {
+      qiniuRegion: '',
+      qiniuImageURLPrefix: '',
+      qiniuUploadToken: '',
+      qiniuUploadTokenURL: '',
+      qiniuUploadTokenFunction: null,
+      qiniuShouldUseQiniuFileName: false
+    };
+    updateConfigWithOptions(options);
+  }
+  function updateConfigWithOptions(options) {
+    if (options.region) {
+      config.qiniuRegion = options.region;
+    } else {
+      console.error('qiniu uploader need your bucket region');
+    }
+    if (options.uptoken) {
+      config.qiniuUploadToken = options.uptoken;
+    } else if (options.uptokenURL) {
+      config.qiniuUploadTokenURL = options.uptokenURL;
+    } else if (options.uptokenFunc) {
+      config.qiniuUploadTokenFunction = options.uptokenFunc;
+    }
+    if (options.domain) {
+      config.qiniuImageURLPrefix = options.domain;
+    }
+    config.qiniuShouldUseQiniuFileName = options.shouldUseQiniuFileName;
+  }
+  function upload(filePath, success, fail, options, progress, cancelTask) {
+    if (null == filePath) {
+      console.error('qiniu uploader need filePath to upload');
+      return;
+    }
+    if (options) {
+      updateConfigWithOptions(options);
+    }
+    if (config.qiniuUploadToken) {
+      doUpload(filePath, success, fail, options, progress, cancelTask);
+    } else if (config.qiniuUploadTokenURL) {
+      getQiniuToken(function () {
+        doUpload(filePath, success, fail, options, progress, cancelTask);
+      });
+    } else if (config.qiniuUploadTokenFunction) {
+      config.qiniuUploadToken = config.qiniuUploadTokenFunction();
+      if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
+        console.error('qiniu UploadTokenFunction result is null, please check the return value');
+        return;
+      }
+      doUpload(filePath, success, fail, options, progress, cancelTask);
+    } else {
+      console.error('qiniu uploader need one of [uptoken, uptokenURL, uptokenFunc]');
+      return;
+    }
+  }
+  function doUpload(filePath, _success, _fail, options, progress, cancelTask) {
+    if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
+      console.error('qiniu UploadToken is null, please check the init config or networking');
+      return;
+    }
+    var url = uploadURLFromRegionCode(config.qiniuRegion);
+    var fileName = filePath.split('//')[1];
+    if (options && options.key) {
+      fileName = options.key;
+    }
+    var formData = {
+      'token': config.qiniuUploadToken
+    };
+    if (!config.qiniuShouldUseQiniuFileName) {
+      formData['key'] = fileName;
+    }
+    var uploadTask = wx.uploadFile({
+      url: url,
+      filePath: filePath,
+      name: 'file',
+      formData: formData,
+      success: function success(res) {
+        var dataString = res.data;
+        if (res.data.hasOwnProperty('type') && res.data.type === 'Buffer') {
+          dataString = String.fromCharCode.apply(null, res.data.data);
+        }
+        try {
+          var dataObject = JSON.parse(dataString);
+          //do something
+          var imageUrl = config.qiniuImageURLPrefix + '/' + dataObject.key;
+          dataObject.imageURL = imageUrl;
+          if (_success) {
+            _success(dataObject);
+          }
+        } catch (e) {
+          console.log('parse JSON failed, origin String is: ' + dataString);
+          if (_fail) {
+            _fail(e);
+          }
+        }
+      },
+      fail: function fail(error) {
+        console.error(error);
+        if (_fail) {
+          _fail(error);
+        }
+      }
+    });
+    uploadTask.onProgressUpdate(function (res) {
+      progress && progress(res);
+    });
+    cancelTask && cancelTask(function () {
+      uploadTask.abort();
+    });
+  }
+  function getQiniuToken(callback) {
+    wx.request({
+      url: config.qiniuUploadTokenURL,
+      success: function success(res) {
+        var token = res.data.uptoken;
+        if (token && token.length > 0) {
+          config.qiniuUploadToken = token;
+          if (callback) {
+            callback();
+          }
+        } else {
+          console.error('qiniuUploader cannot get your token, please check the uptokenURL or server');
+        }
+      },
+      fail: function fail(error) {
+        console.error('qiniu UploadToken is null, please check the init config or networking: ' + error);
+      }
+    });
+  }
+  function uploadURLFromRegionCode(code) {
+    var uploadURL = null;
+    switch (code) {
+      case 'ECN':
+        uploadURL = 'https://up.qbox.me';
+        break;
+      case 'NCN':
+        uploadURL = 'https://up-z1.qbox.me';
+        break;
+      case 'SCN':
+        uploadURL = 'https://up-z2.qbox.me';
+        break;
+      case 'NA':
+        uploadURL = 'https://up-na0.qbox.me';
+        break;
+      case 'ASG':
+        uploadURL = 'https://up-as0.qbox.me';
+        break;
+      default:
+        console.error('please make the region is with one of [ECN, SCN, NCN, NA, ASG]');
+    }
+    return uploadURL;
+  }
+})();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
+
+/***/ }),
+/* 176 */
+/*!****************************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/aliUploader.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Base64 = __webpack_require__(/*! ./Base64.js */ 177);
+__webpack_require__(/*! ./hmac.js */ 178);
+__webpack_require__(/*! ./sha1.js */ 180);
+var Crypto = __webpack_require__(/*! ./crypto.js */ 179);
+// 获取policy
+var getPolicyBase64 = function getPolicyBase64(timeout) {
+  var dateTime = new Date().getTime();
+  var date = new Date(dateTime + (timeout || 1800000));
+  var srcT = date.toISOString();
+  var policyText = {
+    "expiration": srcT,
+    //设置该Policy的失效时间
+    "conditions": [["content-length-range", 0, 100 * 1024 * 1024] // 设置上传文件的大小限制,100mb
+    ]
+  };
+
+  var policyBase64 = Base64.encode(JSON.stringify(policyText));
+  return policyBase64;
+};
+// 获取签名
+var getSignature = function getSignature(policyBase64, AccessKeySecret) {
+  var bytes = Crypto.HMAC(Crypto.SHA1, policyBase64, AccessKeySecret, {
+    asBytes: true
+  });
+  var signature = Crypto.util.bytesToBase64(bytes);
+  return signature;
+};
+// 获取阿里云token信息
+var getAliyunOssKey = function getAliyunOssKey(options) {
+  var policyBase64 = getPolicyBase64(options.timeout);
+  var signature = getSignature(policyBase64, options.accessKeySecret);
+  return {
+    policy: policyBase64,
+    accessKeyId: options.accessKeyId,
+    accessKeySecret: options.accessKeySecret,
+    signature: signature,
+    success_action_status: '200'
+  };
+};
+module.exports = getAliyunOssKey;
+
+/***/ }),
+/* 177 */
+/*!***********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/Base64.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var Base64 = {
+  // private property
+  _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+  // public method for encoding
+  encode: function encode(input) {
+    var output = "";
+    var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+    var i = 0;
+    input = Base64._utf8_encode(input);
+    while (i < input.length) {
+      chr1 = input.charCodeAt(i++);
+      chr2 = input.charCodeAt(i++);
+      chr3 = input.charCodeAt(i++);
+      enc1 = chr1 >> 2;
+      enc2 = (chr1 & 3) << 4 | chr2 >> 4;
+      enc3 = (chr2 & 15) << 2 | chr3 >> 6;
+      enc4 = chr3 & 63;
+      if (isNaN(chr2)) {
+        enc3 = enc4 = 64;
+      } else if (isNaN(chr3)) {
+        enc4 = 64;
+      }
+      output = output + this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) + this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+    }
+    return output;
+  },
+  // public method for decoding
+  decode: function decode(input) {
+    var output = "";
+    var chr1, chr2, chr3;
+    var enc1, enc2, enc3, enc4;
+    var i = 0;
+    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+    while (i < input.length) {
+      enc1 = this._keyStr.indexOf(input.charAt(i++));
+      enc2 = this._keyStr.indexOf(input.charAt(i++));
+      enc3 = this._keyStr.indexOf(input.charAt(i++));
+      enc4 = this._keyStr.indexOf(input.charAt(i++));
+      chr1 = enc1 << 2 | enc2 >> 4;
+      chr2 = (enc2 & 15) << 4 | enc3 >> 2;
+      chr3 = (enc3 & 3) << 6 | enc4;
+      output = output + String.fromCharCode(chr1);
+      if (enc3 != 64) {
+        output = output + String.fromCharCode(chr2);
+      }
+      if (enc4 != 64) {
+        output = output + String.fromCharCode(chr3);
+      }
+    }
+    output = Base64._utf8_decode(output);
+    return output;
+  },
+  // private method for UTF-8 encoding
+  _utf8_encode: function _utf8_encode(string) {
+    string = string.replace(/\r\n/g, "\n");
+    var utftext = "";
+    for (var n = 0; n < string.length; n++) {
+      var c = string.charCodeAt(n);
+      if (c < 128) {
+        utftext += String.fromCharCode(c);
+      } else if (c > 127 && c < 2048) {
+        utftext += String.fromCharCode(c >> 6 | 192);
+        utftext += String.fromCharCode(c & 63 | 128);
+      } else {
+        utftext += String.fromCharCode(c >> 12 | 224);
+        utftext += String.fromCharCode(c >> 6 & 63 | 128);
+        utftext += String.fromCharCode(c & 63 | 128);
+      }
+    }
+    return utftext;
+  },
+  // private method for UTF-8 decoding
+  _utf8_decode: function _utf8_decode(utftext) {
+    var string = "";
+    var i = 0;
+    var c = c1 = c2 = 0;
+    while (i < utftext.length) {
+      c = utftext.charCodeAt(i);
+      if (c < 128) {
+        string += String.fromCharCode(c);
+        i++;
+      } else if (c > 191 && c < 224) {
+        c2 = utftext.charCodeAt(i + 1);
+        string += String.fromCharCode((c & 31) << 6 | c2 & 63);
+        i += 2;
+      } else {
+        c2 = utftext.charCodeAt(i + 1);
+        c3 = utftext.charCodeAt(i + 2);
+        string += String.fromCharCode((c & 15) << 12 | (c2 & 63) << 6 | c3 & 63);
+        i += 3;
+      }
+    }
+    return string;
+  }
+};
+module.exports = Base64;
+
+/***/ }),
+/* 178 */
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/hmac.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*!
+ * Crypto-JS v1.1.0
+ * http://code.google.com/p/crypto-js/
+ * Copyright (c) 2009, Jeff Mott. All rights reserved.
+ * http://code.google.com/p/crypto-js/wiki/License
+ */
+
+var Crypto = __webpack_require__(/*! ./crypto.js */ 179);
+(function () {
+  // Shortcut
+  var util = Crypto.util;
+  Crypto.HMAC = function (hasher, message, key, options) {
+    // Allow arbitrary length keys
+    key = key.length > hasher._blocksize * 4 ? hasher(key, {
+      asBytes: true
+    }) : util.stringToBytes(key);
+
+    // XOR keys with pad constants
+    var okey = key,
+      ikey = key.slice(0);
+    for (var i = 0; i < hasher._blocksize * 4; i++) {
+      okey[i] ^= 0x5C;
+      ikey[i] ^= 0x36;
+    }
+    var hmacbytes = hasher(util.bytesToString(okey) + hasher(util.bytesToString(ikey) + message, {
+      asString: true
+    }), {
+      asBytes: true
+    });
+    return options && options.asBytes ? hmacbytes : options && options.asString ? util.bytesToString(hmacbytes) : util.bytesToHex(hmacbytes);
+  };
+})();
+module.exports = Crypto;
+
+/***/ }),
+/* 179 */
+/*!***********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/crypto.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*!
+ * Crypto-JS v1.1.0
+ * http://code.google.com/p/crypto-js/
+ * Copyright (c) 2009, Jeff Mott. All rights reserved.
+ * http://code.google.com/p/crypto-js/wiki/License
+ */
+
+var Crypto = {};
+(function () {
+  var base64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+
+  // Crypto utilities
+  var util = Crypto.util = {
+    // Bit-wise rotate left
+    rotl: function rotl(n, b) {
+      return n << b | n >>> 32 - b;
+    },
+    // Bit-wise rotate right
+    rotr: function rotr(n, b) {
+      return n << 32 - b | n >>> b;
+    },
+    // Swap big-endian to little-endian and vice versa
+    endian: function endian(n) {
+      // If number given, swap endian
+      if (n.constructor == Number) {
+        return util.rotl(n, 8) & 0x00FF00FF | util.rotl(n, 24) & 0xFF00FF00;
+      }
+
+      // Else, assume array and swap all items
+      for (var i = 0; i < n.length; i++) {
+        n[i] = util.endian(n[i]);
+      }
+      return n;
+    },
+    // Generate an array of any length of random bytes
+    randomBytes: function randomBytes(n) {
+      for (var bytes = []; n > 0; n--) {
+        bytes.push(Math.floor(Math.random() * 256));
+      }
+      return bytes;
+    },
+    // Convert a string to a byte array
+    stringToBytes: function stringToBytes(str) {
+      var bytes = [];
+      for (var i = 0; i < str.length; i++) {
+        bytes.push(str.charCodeAt(i));
+      }
+      return bytes;
+    },
+    // Convert a byte array to a string
+    bytesToString: function bytesToString(bytes) {
+      var str = [];
+      for (var i = 0; i < bytes.length; i++) {
+        str.push(String.fromCharCode(bytes[i]));
+      }
+      return str.join("");
+    },
+    // Convert a string to big-endian 32-bit words
+    stringToWords: function stringToWords(str) {
+      var words = [];
+      for (var c = 0, b = 0; c < str.length; c++, b += 8) {
+        words[b >>> 5] |= str.charCodeAt(c) << 24 - b % 32;
+      }
+      return words;
+    },
+    // Convert a byte array to big-endian 32-bits words
+    bytesToWords: function bytesToWords(bytes) {
+      var words = [];
+      for (var i = 0, b = 0; i < bytes.length; i++, b += 8) {
+        words[b >>> 5] |= bytes[i] << 24 - b % 32;
+      }
+      return words;
+    },
+    // Convert big-endian 32-bit words to a byte array
+    wordsToBytes: function wordsToBytes(words) {
+      var bytes = [];
+      for (var b = 0; b < words.length * 32; b += 8) {
+        bytes.push(words[b >>> 5] >>> 24 - b % 32 & 0xFF);
+      }
+      return bytes;
+    },
+    // Convert a byte array to a hex string
+    bytesToHex: function bytesToHex(bytes) {
+      var hex = [];
+      for (var i = 0; i < bytes.length; i++) {
+        hex.push((bytes[i] >>> 4).toString(16));
+        hex.push((bytes[i] & 0xF).toString(16));
+      }
+      return hex.join("");
+    },
+    // Convert a hex string to a byte array
+    hexToBytes: function hexToBytes(hex) {
+      var bytes = [];
+      for (var c = 0; c < hex.length; c += 2) {
+        bytes.push(parseInt(hex.substr(c, 2), 16));
+      }
+      return bytes;
+    },
+    // Convert a byte array to a base-64 string
+    bytesToBase64: function bytesToBase64(bytes) {
+      // Use browser-native function if it exists
+      // if (typeof btoa == "function") return btoa(util.bytesToString(bytes));
+
+      var base64 = [],
+        overflow;
+      for (var i = 0; i < bytes.length; i++) {
+        switch (i % 3) {
+          case 0:
+            base64.push(base64map.charAt(bytes[i] >>> 2));
+            overflow = (bytes[i] & 0x3) << 4;
+            break;
+          case 1:
+            base64.push(base64map.charAt(overflow | bytes[i] >>> 4));
+            overflow = (bytes[i] & 0xF) << 2;
+            break;
+          case 2:
+            base64.push(base64map.charAt(overflow | bytes[i] >>> 6));
+            base64.push(base64map.charAt(bytes[i] & 0x3F));
+            overflow = -1;
+        }
+      }
+
+      // Encode overflow bits, if there are any
+      if (overflow != undefined && overflow != -1) base64.push(base64map.charAt(overflow));
+
+      // Add padding
+      while (base64.length % 4 != 0) {
+        base64.push("=");
+      }
+      return base64.join("");
+    },
+    // Convert a base-64 string to a byte array
+    base64ToBytes: function base64ToBytes(base64) {
+      // Use browser-native function if it exists
+      if (typeof atob == "function") return util.stringToBytes(atob(base64));
+
+      // Remove non-base-64 characters
+      base64 = base64.replace(/[^A-Z0-9+\/]/ig, "");
+      var bytes = [];
+      for (var i = 0; i < base64.length; i++) {
+        switch (i % 4) {
+          case 1:
+            bytes.push(base64map.indexOf(base64.charAt(i - 1)) << 2 | base64map.indexOf(base64.charAt(i)) >>> 4);
+            break;
+          case 2:
+            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0xF) << 4 | base64map.indexOf(base64.charAt(i)) >>> 2);
+            break;
+          case 3:
+            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0x3) << 6 | base64map.indexOf(base64.charAt(i)));
+            break;
+        }
+      }
+      return bytes;
+    }
+  };
+
+  // Crypto mode namespace
+  Crypto.mode = {};
+})();
+module.exports = Crypto;
+
+/***/ }),
+/* 180 */
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/sha1.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*!
+ * Crypto-JS v1.1.0
+ * http://code.google.com/p/crypto-js/
+ * Copyright (c) 2009, Jeff Mott. All rights reserved.
+ * http://code.google.com/p/crypto-js/wiki/License
+ */
+
+var Crypto = __webpack_require__(/*! ./crypto.js */ 179);
+(function () {
+  // Shortcut
+  var util = Crypto.util;
+
+  // Public API
+  var SHA1 = Crypto.SHA1 = function (message, options) {
+    var digestbytes = util.wordsToBytes(SHA1._sha1(message));
+    return options && options.asBytes ? digestbytes : options && options.asString ? util.bytesToString(digestbytes) : util.bytesToHex(digestbytes);
+  };
+
+  // The core
+  SHA1._sha1 = function (message) {
+    var m = util.stringToWords(message),
+      l = message.length * 8,
+      w = [],
+      H0 = 1732584193,
+      H1 = -271733879,
+      H2 = -1732584194,
+      H3 = 271733878,
+      H4 = -1009589776;
+
+    // Padding
+    m[l >> 5] |= 0x80 << 24 - l % 32;
+    m[(l + 64 >>> 9 << 4) + 15] = l;
+    for (var i = 0; i < m.length; i += 16) {
+      var a = H0,
+        b = H1,
+        c = H2,
+        d = H3,
+        e = H4;
+      for (var j = 0; j < 80; j++) {
+        if (j < 16) w[j] = m[i + j];else {
+          var n = w[j - 3] ^ w[j - 8] ^ w[j - 14] ^ w[j - 16];
+          w[j] = n << 1 | n >>> 31;
+        }
+        var t = (H0 << 5 | H0 >>> 27) + H4 + (w[j] >>> 0) + (j < 20 ? (H1 & H2 | ~H1 & H3) + 1518500249 : j < 40 ? (H1 ^ H2 ^ H3) + 1859775393 : j < 60 ? (H1 & H2 | H1 & H3 | H2 & H3) - 1894007588 : (H1 ^ H2 ^ H3) - 899497514);
+        H4 = H3;
+        H3 = H2;
+        H2 = H1 << 30 | H1 >>> 2;
+        H1 = H0;
+        H0 = t;
+      }
+      H0 += a;
+      H1 += b;
+      H2 += c;
+      H3 += d;
+      H4 += e;
+    }
+    return [H0, H1, H2, H3, H4];
+  };
+
+  // Package private blocksize
+  SHA1._blocksize = 16;
+})();
+module.exports = Crypto;
+
+/***/ }),
 /* 181 */,
 /* 182 */,
 /* 183 */,
@@ -22737,10 +25001,34 @@ exports.default = _default;
 /* 249 */,
 /* 250 */,
 /* 251 */,
-/* 252 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
-  \***************************************************************************************************************************/
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */,
+/* 276 */
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22880,17 +25168,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
-  \************************************************************************************************************************/
+/* 277 */,
+/* 278 */,
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22924,17 +25212,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
-  \************************************************************************************************************************/
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22978,17 +25266,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
-  \*************************************************************************************************************************/
+/* 293 */,
+/* 294 */,
+/* 295 */,
+/* 296 */,
+/* 297 */,
+/* 298 */,
+/* 299 */,
+/* 300 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23216,10 +25504,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 277 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
-  \*************************************************************************************************************************/
+/* 301 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23323,17 +25611,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 278 */,
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-subsection/props.js ***!
-  \*******************************************************************************************************************************/
+/* 302 */,
+/* 303 */,
+/* 304 */,
+/* 305 */,
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-subsection/props.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23397,17 +25685,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 286 */,
-/* 287 */,
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-avatar/props.js ***!
-  \***************************************************************************************************************************/
+/* 310 */,
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-avatar/props.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23500,17 +25788,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
-  \*************************************************************************************************************************/
+/* 318 */,
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23558,17 +25846,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
-  \***********************************************************************************************************************************/
+/* 326 */,
+/* 327 */,
+/* 328 */,
+/* 329 */,
+/* 330 */,
+/* 331 */,
+/* 332 */,
+/* 333 */
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23662,17 +25950,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 310 */,
-/* 311 */,
-/* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
-  \*****************************************************************************************************************************/
+/* 334 */,
+/* 335 */,
+/* 336 */,
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */,
+/* 341 */
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23756,17 +26044,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
-  \*************************************************************************************************************************/
+/* 342 */,
+/* 343 */,
+/* 344 */,
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */,
+/* 349 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23891,15 +26179,15 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
-  \************************************************************************************************************************/
+/* 350 */,
+/* 351 */,
+/* 352 */,
+/* 353 */,
+/* 354 */,
+/* 355 */
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23938,17 +26226,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
-  \*******************************************************************************************************************/
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */
+/*!*****************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23975,10 +26263,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 340 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
-  \*********************************************************************************************************************/
+/* 364 */
+/*!*******************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24017,10 +26305,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 341 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
-  \***************************************************************************************************************************/
+/* 365 */
+/*!*************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24196,17 +26484,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
-  \*************************************************************************************************************************/
+/* 366 */,
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */,
+/* 373 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24311,24 +26599,24 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-empty/props.js ***!
-  \**************************************************************************************************************************/
+/* 374 */,
+/* 375 */,
+/* 376 */,
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */,
+/* 383 */,
+/* 384 */,
+/* 385 */,
+/* 386 */,
+/* 387 */,
+/* 388 */
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-empty/props.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24402,17 +26690,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-input/props.js ***!
-  \**************************************************************************************************************************/
+/* 389 */,
+/* 390 */,
+/* 391 */,
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */,
+/* 396 */
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-input/props.js ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24614,15 +26902,15 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-textarea/props.js ***!
-  \*****************************************************************************************************************************/
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */
+/*!***************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-textarea/props.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24756,35 +27044,35 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
-/* 384 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/static/noData.png ***!
-  \**************************************************************************************************************************/
+/* 403 */,
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */
+/*!************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/static/noData.png ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAFdhJREFUeF7tXXt0FFWa/75b1Z10BxgBeciAT/CFD0h3AjjsDJ51IA9AnV1md2aOoyOaF3J0dv1nz/5h/GMf58zsqsuQl+LoODM7O5kZFUg6OO6R3fVBHh0QDCrgWxFBQAlJJ11V99tzA92prnSSruqq7k6oHI8kVd/33e/xq1u37r3fdxHcnwvaA3hBW+8aDy4ALnAQuABwAXCBe+ACN9/tAVwAXOAeuMDNd3sAFwAXuAcucPPdHsAFwAXugQvcfLcHcAFwgXsgR80v3bxnmqdPpe1Pr+x1UkW3B3DSu2nILq0OL2cASkt9IJyGmHFZXQCM66LsEJRXd91NnKKtjUX/6aQGLgCc9K5F2Wsqui6RGFYIduL061BT8D2LosZlcwEwrosyT1BaFf4RAiwcapnoi9bGYINTWrgAcMqzFuWWV3dtIMLr9eyEvCNUXxSyKHJMNhcATnjVpMx1FV0XawBXEYOVCDglGTsSneJM7eRRfmjXtltOmWxiVHIXAHZ50qSctVX7vqkhX4jAFwHhN82wI9KHGvKDvPf0wZeeW9NnhtdI6wIgHe/ZxOv2ADY5cjKIcccAKURxw4Yeb9+svhmkyTOAwawUWBwjkbjyFfN4Tpw5+/Wp3c/cOmBHQ+5XQBIvnv82DiDRpYSY1aCPPqLiXwKxjzRO4V1Nwc+tgsGdB9B5LhZ4AAhYdWiW+MLpAEHMBAKg1lIf+LWT+uf0ILC0uvs7SLTKSQc4LZsQd4fqC//HbDvrarpWcuC8pa74dbO8ZuhzFgCjBh+plzh9DMhOAfDTBOppMwbbTYsgTwdg04H4DGR4KRBONbaRKghKK7quik37ltV0zJWjnLY/tfwLu3XWy8tJACQNvgg8sLBnsL/b6SVSqw5ff++rU5U8fyECDxiBMB4I1t93YI4qR4taGwI7rbZvhS/nAJAs+Ih0UBocaMvVwBsdL4Cg5eWXjJzSTf462LDh99LZixeuRNCKVaTfvVRX/ImVYFrhySkAiAkRLsFGIsyPGSOC31IfbLZiXLZ5jN/0iDTANNi2oyn4pdBt1B6D+CGQebh167JDTtuQUwAoqwqv1Y/2xwq+eGpOFMzyTGMej9NOGku+UjAnumzmQqW2FnkyuiQTO2FjN19bS6zz+L7lxPl3GUhP7WxY8lmmbMoZAJRU7b2cAb9bbzipyrbQU8s/1V8Tk0Bn56qzmarOyZSTUmmHy/IXU47Jx5ubF0f19Ppv+th1DuzZtoalHybQbXx9BvN6vx2qD76QSnt20eQMAMqruv+WgK4ZNgzfam0o/KPe0FX3fJDvyzt9JWPks8sBdsrhHCORwenv737mioQZwRE9G+C7LQ2FvzO2LRaIMvn0i/ZzAgDJnhJEz3+01N+U8IlXXhO+Dgj8dgbNdlkI/S11gbfH6wU0Tk3pzBbapXdOAKC8putW4vjtYaP4sdaGoka9kecGiHiZXYY7KYdp9FFsoBdrp6wq/H0AuC72NzL635a64CtO6pGKbNsBsLqmY4HZz5jyyq4a/fw+Ax7a2VDUYQDAtVzCglSMyjYN06hvR1PwHb0eJdXhmxjBnXEAEJ1oaQzWZVtX2wEgnmYzyBbdOnEQT0f8Zz6nf25qCiqxC2KPPFM9i7LtLDPtc1k5HNqy/EyMp6Kiy/OZhJuI4BvDvQD83vi6MNOGHbS2A6CkoqMCOW81jt5HU7a8suN7hNKNuu7/rdaGooTB37qKrku5lKMrgKMYxjQ6saMp+LH+dlllRwmgtGy4F9AOtDQW/8mOQFqVYSsASiu7r0ekDWLLUkt98NnxlLqtousbeYweIGBy3CnIn2upL3o/9veqVa/I+ddNu14CyOr3/ni2GO8jV9Wzl/T37K69VY3dK9vUfRlodE/cVuDqIMdfvNwU/NqsfLvobQFAefX+6ZwrKxGhUBfIvaqGnWONdNdWdq/gSKtjPITwdag+8LjeuIk0+DMGJelgsDr8EyC4NEbLCF/a2Vj4hl0BNSvHMgA2/PR1X1+fdyEiX8QRFyKwpN/mBHBEAumwoniO7Nq2OGE3a3lV970EtGAYANruUH1xwtLpmprwQln33jRrYDbpkStndjYuP6zXoaSyfQVDOQ56BPykpaHw6WzpaRkARoXXVu0r5qCVxoNJ2BxqLDw4mmHr7mu/QpPlH+vvewfOPPHCM7d+Fbu2rqLLzyWMfzply0nptMs0entHU7A/JuOOe165SMmfskn/2pNU9Vc7nlr2QTrtWOW1DQBCgZKqNy5n4L2bCLpDjYEdYylVUtlZxpAVDb8y4D3j7pf1D3TP0zS6xKpxucCHNHhsZ8MtCXP7ZVWdfwXAbojpx4l3tjUWtWZDX1sBIAwoq+q8S+IYMk6E6I0Tix/tx8I/1SdBSJL0hx1bl/To6dbc37FYlqX4ymA2HJRum4xpAzu2FifYFRssx3tLoLPL5gYeG21BKV0dxuK3HQAirTlUH9gzVqOlVZ1LEdj6OA2JLNjgv+h57rhn70WKj1/lpPGZk93/fkv9XyRMa5dWhR9AgJnDIODbQw1FezOn07mW0gJAeXU4AEA3AOBb/vzBg82P3RIRo/axnv6hXqK664dAODyxw6C9tS7QpjderA5KyOMOyrRj7GyPKeop4zu+vLrzNiL2rXg7SIdb64O/tbPdVGRZBsCIBRxOf2ptCh4Yr9GhLBiGm/R0soxPbv9F4dHYNTFr9gmTb2CosfHkTYT7nCQ+5aSnR79ULMY3qkr36/WXOG0d7+Gx217LAIgN+OIKadqLrU8W7xtPQePCD+fa521NxU16vtVVr832YH7883A8mRPhvqQonxo3eJZVdd8FQFfG9M/GApFlAAx15cM7eMLeAfbqC88sjX/CjRYU48IPZ1prW11xZ0L3X915jQQsaZbsRAh2Mh01kM+21d/8boKdNR1FjEtlcQBkYYEoLQCYDcbayr2LOPIfGrq9n+m/k1c//GaBp0+91qzsiUDvx/x3m+sWn43pem6eAzbr90AyYr/d2bg0YfLISdsyCgDjwg/SyMWQ0vv2zGceT05t97IrADJ6j79Yd2PCjt+yys7bAdmS4V4gswtEGQNA6ebWPKbMelg/AyYz+M32usCRuIOJsKSm/UYJsrvR066AG+VoAEpbXeEBQKTYvfU14YUqhx/FAQBc5Z4TPw9tKRt0Sg+93IwBoKyiaxkwLNEF+6vWxuATemXWbHx9huzNuyIThmerjQGmfvjfW5ed1LdfVt1VBYTDvR6nttamYHsmdMwYAEYu/IxMkhCpUUzCizJheLbaUBG+3qXv9QDAmAyTyQWijABA5LkBlyoNg7+Eb97SzYfzmHomPj+erQBlot2+yJkefS2BZHMjwLTG1rriY07rkxkAVIZLACG+E0YsEYcaAr9J6AZrOuYiSaZq5TjtHKfkqxodNe6TGDE7StDe2pg4O+qEPhkBQGlV19/rF34YqS/sbFz2pt6g0so91zPmycn9/nY7XuQPGJfK11a238xRviPWFgGdDTUE/83uto3yHAeACCyiZ8NwwzRYcDLws+Zm1GLXJuKmz3QDY9w0umEDSWdnhh/SPyhESnOocfmoeyrS1UHwOw4AY9eWbO1b7JVDThfbYdBEkaFR9GRbw4qE9DDjHgnIwAKRowBYfdebBXKB+rBh8PdL/W7Zc8jvuokhmxQLP6kCkBPnU04G9+t7QrH7WWP4E70MtU/++UvP3ZxWLcCxdHIUAKVVnd9CYLcNv9e0o6GG4if1Ck3kTZ+pBns0Oj6AH4d+WXjCMCdwn75wJAF/OdRQ9Fq6bY3G7ygARmT8JNkBW3Z/+9UoyyPKqjhlcC7JJVXtbX0ysQaAcac0OrxA5BgASje/OR8VdaPe4eRRHtNny4jFEM0jz890UJBrSQFHTHL0dI5kdkqK+ql+MWxoQByVHyLEeGzII28Lbbk5IU3eLp85B4DKjnWIUjxPgIj3hBqL/mCX4lblnCvf4rs6aTAGI4dyoQxNaWXnXyOyxfFXJ2ndocbiMTfZWvWHYwAor+r8x4SMH5b9PDjhpIkAAGO+JAJXWxqK/slqkDM+CDRmwgLRiIUfJ4xJReZEAICwo6yy60HA4XURjvB8W31gfyo2mqFxpAcorez8MSKLr+oh8tda6oteNqOYU7QTBQDGTaNE/INQY9Gv7PaL7QAQCZ9ehg/pFRXJonYrnoo8DXCv8akxCwDRm0lAS1Npz24aIrxcLzPK6XG7E0ltB0AulXdFoj5V9T2tz0k0A4A1G3tmyHLkXsLcKEwxXrFJKwCc1AAQDiGQtocalsQTLkShqQLfqfgIW++0WG5D7Fpp1b6lCNpwAosVD9vI4wLAgjMR+d6W+qLtcdbaWlZ2dO1ilNCbII74YNHcloO1tbXxen/l1Z3riVhWuv9kpk5IAHCIPmtc9LAQR1MsZVXhR2IMyWbShtLO/PySeMUxhP5BlY4a36/GmczWhsCjphRJk9iYe+ECIEWHJpy4keQ1EBMjXgcAH0Kykz6M3X+yTSwpqmOZzAWARdeV3d+xBCTp9hi7lc0Vxk0skGLmk0WVk7K5ALDoTdHFR/P5g3p2M91nsi8Z7wB7IpXMJ4squwCw03FCVnlNxy3Epe/q5SJp7zFibaMlYA4tTSMvIZQS0tKRaX92+uSOZPa7PUCaqCipCt/JAG5KFEODRHREnDgiS9LQaRyqps0ZOvEDcSEA5unpOcD+tobA82mqYondBYAltw0ziRJzBddNu5cILJWZQYTP+94+8/Tu3cOl3tJUyRS7CwBT7kpOLNbXScEVDOTlZsRxUPegh97Q718ww28HrQsAO7x4XobYoMJUZYXxGBdjE+KQCi573nBqA4YZk1wAmPFWirTl1f83XYP82YzTHAKcLdgQ6Dhn+IUEA8eNtXxSFOsImQsAR9w6cYS6AJg4sXJEUxcAjrjVmlBxVtHp6RGf3evxY2njAsBarGzhOpetHPEjcT/QgF9lHh/l53+667HEese2NDaKEBcATnrXIFsUv1ajkr+P0C+j1wcU9SNJkjj9Q5xUkiyj12n1XAA45mHC1Xft90uy5kcW8UtSni8K4Jcl3V7880kb6x5ov0JRvWQ85s0x1XSCXQDY5GVxyOTg1Hl+yTvVFwHuRyL/aEfPcY2+CjUF3l+z8Y3polyNBvzs8jnBw9mo4+sCwCIAVtWS7DvZ7keN+ZHQP7TxA1nCHL9RtCjnGphf/FFPz0H5zOy+RTKX8sWpHz6/dkiUwLWoSlpsLgAsuE+UsEVJnZVqpTFxtk/+6fc/a27+vmYsUefJY++98Pj4xS8tqJkSiwuAlNw0kuj2mgMLVIoOzfKN9iMC33uo96hY6Lnjob0XKYOJlcmTlXa1qI5lNhcAll0HsP7BA3O0aHRE4ulQ4OcFju6uRXXVPa/kT8m7aAExPk3fVLITv9JQxTKrCwDLrjvHKA6zAlCGijETwy/nK/xo7DzC0U4jERnCrVuXOH5seyqmuQBIxUvj0Ijl4CnHpg7ESrWLYpQeOX8BMYofVRcTIQZ9mnfGO6EtizJSpXM881wAjOchE/fFRE+kn80n5kno7vUijIWbTIh3hHSCAmDPciTPmphHkpWDd8Rb4wgt27Tv6tEKQwhWLuPHoS2J5Vqyoae+zRJDOXlCZVeofvmYx/GY1dn21LCyiq4bgeH3YoowgP07s7SnTu+MsQCQK4M+Y/DWVoXv5Po9jSmeymIGBLYDoLx6/5VEyl3x9yrSqZb64BYzSjlBGwOAmNOXJZwXayOXBn1Gu8uru8RZAjOGfel5rqX+pvixunb4yXYACKXKKjv+AVCK596RB+uy3b0KAGiK2itKtK6uenO2B9UFYtD3OUkHw7qTyu1wqh0ySjd3z0KFavSyyDPtX+0eoDoCgNLqzlIkVhwfB2TxYMSYDmKGUF+f9y83tc8siCjRXKgJlAwwqRysaQfQHAGA8RAEoajE6b92NAXfsUPpyS5jXUXXtRrDv0l4+nFkeX1xX3wppJN86wgAzr0GOn8AyIarcRH1tjYG/32yB88O+8oqu/4OEHWl7PixLzg+bXxViV4sX5ODLQ2BXVbbdQ4Am9qvBk3+QSootqr8ZORLlpeIwP/Y0lD01ohB4vn0t3TGWI4B4HwvkHAgkrgm8vVVgueN9fInYzDN2CTGKDLCnYQ4K4GP+L7WxqIX9dfE2cOM8cX6HAdk7M+efjhoNoHVUQCcA0FiubPhgSG+yqS8nuLZ1x/PxmYLM8FxilYcot1x/OBsrg0uZkgrR7QzSnm98urOKzViN+vzHnMWAEMDlYqOCsakpPl5hKAg8ZMM2HEN8VQqziZCBFkMLDXkXEMQf4gFH0IUvxEHJCaux35kkCRBe27LFxEgSIaWNABEGDrNizEiTZMIQI0TIZcIGZC4gkjnT/1SgTGJNCaRIB2+PrYVEtEMDnw2IZuJBJ5k1MlOVDXSxYpY5OwrQK9weXX3bUQ0fFiywRpCYozEGwJQ1Mll4m0h6uUSR0Lh26HwIDHnzzhIBYSj0SAXWgosiv/E70z8Shxg6N9zFonfMV6LyCgLEV9rqS8ct65iTg8C9UYNnQkw94gsQe+1mqIFEHARIiBxYsTEU+n4myidmDrIS4CcCJn4v+iY6LDkkcIaTH1nyrGFqv4sgdGUyKnPQPFOaz95xDNFi3oUb1TW+jVZk32ypkYSIizL0hWkKdeIz8TzvbaDTs5t0UikAvFDKHneVVXtA722kuwjSY2okl9SPVGvelbyKstmLlTsHDOl9+jV1rJ1R9fmS37JO6iRhw/yEWvs47mfSXgZkOpnXPIBJhZnGI93wt4nGuRMiwDK/Vyjj8zawRSm5hEqmleL7pi3cwB0pe3MyrIEgFW1r8i+kz5/vuLL7+eKcThlVgeXPg0P+JlHG/BEBiIHIv1WClmYBwAR3vnAOzP6lb7EQotpGOGy2uABLTq4a9uK02LsbEaaCwAz3spl2owBAADcV0DuICHzrwC97TYMAnPHlRNHk6wPAkdzVaqfgRPH1dnVNPc/A1P0T2wiSMvrl6XBiMRURfIyL+vTVElmHqapzPxYJMW2c5lMkjmpXOEFkqxFeZRz2aNpeT5NGvSrqU4EpWtfbjieCFc9uluaBbPZiQ/9bKr3JMuXfey0GpHypAgbYF7m7fcwjxRlg0zO6RNG87jKFc3Lo36F5/MoH9R8fLrs0wbUCO+NzuSzLu/nJ+A43/3IKk1McKcbwHT5cwMApq2goWWb2kcBe3qaEWADnFi8G3uPTsUAAJw+7cOzcz9CgEUQ6f0UAS6HWdM/x4E+75C9gxEPRqeewllwLn3wBBwHb+8MyvMpQwHJL4jSidOXkKgk7ps6nwAOw5Rjl9H06REKA8DUeb00q2cVATTD4sUbqPaRofn/ocVu06ZkmWGCAiDLXptEzbsAmETBtGKKCwArXptEPC4AJlEwrZjiAsCK1yYRjwuASRRMK6a4ALDitUnE4wJgEgXTiikuAKx4bRLx/D9XJCsm/DXltwAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 385 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/static/next.png ***!
-  \************************************************************************************************************************/
+/* 409 */
+/*!**********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/static/next.png ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,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"
 
 /***/ }),
-/* 386 */
-/*!****************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/city.js ***!
-  \****************************************************************************************************************/
+/* 410 */
+/*!**************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/city.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36376,19 +38664,19 @@ var _default = [{
 exports.default = _default;
 
 /***/ }),
-/* 387 */,
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */,
-/* 396 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-rate/props.js ***!
-  \*************************************************************************************************************************/
+/* 411 */,
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */,
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */,
+/* 420 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-rate/props.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36472,24 +38760,24 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */,
-/* 404 */,
-/* 405 */,
-/* 406 */,
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
-  \*********************************************************************************************************************************/
+/* 421 */,
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */,
+/* 426 */,
+/* 427 */,
+/* 428 */,
+/* 429 */,
+/* 430 */,
+/* 431 */,
+/* 432 */,
+/* 433 */,
+/* 434 */,
+/* 435 */
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36563,17 +38851,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 412 */,
-/* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */
-/*!*************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
-  \*************************************************************************************************************************************/
+/* 436 */,
+/* 437 */,
+/* 438 */,
+/* 439 */,
+/* 440 */,
+/* 441 */,
+/* 442 */,
+/* 443 */
+/*!***********************************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36617,17 +38905,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 420 */,
-/* 421 */,
-/* 422 */,
-/* 423 */,
-/* 424 */,
-/* 425 */,
-/* 426 */,
-/* 427 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
-  \*************************************************************************************************************************/
+/* 444 */,
+/* 445 */,
+/* 446 */,
+/* 447 */,
+/* 448 */,
+/* 449 */,
+/* 450 */,
+/* 451 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36681,30 +38969,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 428 */,
-/* 429 */,
-/* 430 */,
-/* 431 */,
-/* 432 */,
-/* 433 */,
-/* 434 */,
-/* 435 */,
-/* 436 */,
-/* 437 */,
-/* 438 */,
-/* 439 */,
-/* 440 */,
-/* 441 */,
-/* 442 */,
-/* 443 */,
-/* 444 */,
-/* 445 */,
-/* 446 */,
-/* 447 */,
-/* 448 */,
-/* 449 */,
-/* 450 */,
-/* 451 */,
 /* 452 */,
 /* 453 */,
 /* 454 */,
@@ -36745,2284 +39009,86 @@ exports.default = _default;
 /* 489 */,
 /* 490 */,
 /* 491 */,
-/* 492 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/requestConfig.js ***!
-  \*****************************************************************************************************************************/
+/* 492 */,
+/* 493 */,
+/* 494 */,
+/* 495 */,
+/* 496 */,
+/* 497 */,
+/* 498 */,
+/* 499 */,
+/* 500 */,
+/* 501 */,
+/* 502 */,
+/* 503 */,
+/* 504 */,
+/* 505 */,
+/* 506 */,
+/* 507 */,
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
+/* 512 */,
+/* 513 */,
+/* 514 */,
+/* 515 */,
+/* 516 */,
+/* 517 */,
+/* 518 */,
+/* 519 */,
+/* 520 */,
+/* 521 */,
+/* 522 */
+/*!***********************************************************************************************************************!*\
+  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-code/props.js ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _request = _interopRequireDefault(__webpack_require__(/*! ./request */ 493));
-function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-// 全局配置的请求域名
-var baseUrl = "http://www.xxx.com/api/";
-//可以new多个request来支持多个域名请求
-var $http = new _request.default({
-  //接口请求地址
-  baseUrl: baseUrl,
-  //服务器本地上传文件地址
-  fileUrl: baseUrl,
-  // 服务器上传图片默认url
-  defaultUploadUrl: "api/common/v1/upload_image",
-  //设置请求头（如果使用报错跨域问题，可能是content-type请求类型和后台那边设置的不一致）
-  header: {
-    'content-type': 'application/json;charset=UTF-8'
-  },
-  // 请求超时时间（默认6000）
-  timeout: 6000,
-  // 默认配置（可不写）
-  config: {
-    // 是否自动提示错误
-    isPrompt: true,
-    // 是否显示加载动画
-    load: true,
-    // 是否使用数据工厂
-    isFactory: true
-  }
-});
-
-// 添加获取七牛云token的方法
-$http.getQnToken = function (callback) {
-  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
-  $http.get("api/kemean/aid/qn_upload").then(function (data) {
-    /*
-     *接口返回参数：
-     *visitPrefix:访问文件的域名
-     *token:七牛云上传token
-     *folderPath:上传的文件夹
-     *region: 地区 默认为：SCN
-     */
-    callback({
-      visitPrefix: data.visitPrefix,
-      token: data.token,
-      folderPath: data.folderPath,
-      region: "SCN"
-    });
-  });
-};
-// 添加获取阿里云token的方法
-$http.getAliToken = function (callback) {
-  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
-  $http.get("api/open/v1/ali_oss_upload").then(function (data) {
-    /*
-     *接口返回参数：
-     *visitPrefix: 访问文件的域名
-     *folderPath: 上传的文件夹
-     *region: 地区 
-     *bucket: 阿里云的 bucket
-     *accessKeyId: 阿里云的访问ID
-     *accessKeySecret: 阿里云的访问密钥
-     *stsToken: 阿里云的访问token
-     */
-    callback({
-      accessKeyId: data.accessKeyId,
-      accessKeySecret: data.accessKeySecret,
-      bucket: data.bucket,
-      region: data.region,
-      visitPrefix: data.visitPrefix,
-      token: data.token,
-      folderPath: data.folderPath,
-      stsToken: data.securityToken
-    });
-  });
-};
-//当前接口请求数
-var requestNum = 0;
-//请求开始拦截器
-$http.requestStart = function (options) {
-  if (options.load) {
-    if (requestNum <= 0) {
-      //打开加载动画
-      uni.showLoading({
-        title: '加载中',
-        mask: true
-      });
-    }
-    requestNum += 1;
-  }
-  // 图片、视频上传大小限制
-  if (options.method == "FILE") {
-    // 文件最大字节: options.maxSize 可以在调用方法的时候加入参数
-    var maxSize = options.maxSize || '';
-    var _iterator = _createForOfIteratorHelper(options.files),
-      _step;
-    try {
-      for (_iterator.s(); !(_step = _iterator.n()).done;) {
-        var item = _step.value;
-        if (item.fileType == 'image') {
-          if (maxSize && item.size > maxSize) {
-            setTimeout(function () {
-              uni.showToast({
-                title: "图片过大，请重新上传",
-                icon: "none"
-              });
-            }, 500);
-            return false;
-          }
-        } else if (item.fileType == "video") {
-          if (item.duration < 3) {
-            setTimeout(function () {
-              uni.showToast({
-                title: "视频长度不足3秒，请重新上传",
-                icon: "none"
-              });
-            }, 500);
-            return false;
-          }
-        }
-      }
-    } catch (err) {
-      _iterator.e(err);
-    } finally {
-      _iterator.f();
-    }
-  }
-  //请求前加入token
-  options.header['token'] = "你的项目登录token";
-  return options; // return false 表示请求拦截，不会继续请求
-};
-//请求结束
-$http.requestEnd = function (options) {
-  //判断当前接口是否需要加载动画
-  if (options.load) {
-    requestNum = requestNum - 1;
-    if (requestNum <= 0) {
-      uni.hideLoading();
+var _default = {
+  props: {
+    // 倒计时总秒数
+    seconds: {
+      type: [String, Number],
+      default: uni.$u.props.code.seconds
+    },
+    // 尚未开始时提示
+    startText: {
+      type: String,
+      default: uni.$u.props.code.startText
+    },
+    // 正在倒计时中的提示
+    changeText: {
+      type: String,
+      default: uni.$u.props.code.changeText
+    },
+    // 倒计时结束时的提示
+    endText: {
+      type: String,
+      default: uni.$u.props.code.endText
+    },
+    // 是否在H5刷新或各端返回再进入时继续倒计时
+    keepRunning: {
+      type: Boolean,
+      default: uni.$u.props.code.keepRunning
+    },
+    // 为了区分多个页面，或者一个页面多个倒计时组件本地存储的继续倒计时变了
+    uniqueKey: {
+      type: String,
+      default: uni.$u.props.code.uniqueKey
     }
   }
 };
-//登录弹窗次数
-var loginPopupNum = 0;
-//所有接口数据处理（可在接口里设置不调用此方法）
-//此方法需要开发者根据各自的接口返回类型修改，以下只是模板
-$http.dataFactory = /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(res) {
-    var httpData, content;
-    return _regenerator.default.wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            console.log("接口请求数据", {
-              url: res.url,
-              resolve: res.response,
-              header: res.header,
-              data: res.data,
-              method: res.method
-            });
-            if (!(res.response.statusCode && res.response.statusCode == 200)) {
-              _context.next = 18;
-              break;
-            }
-            httpData = res.response.data;
-            if (typeof httpData == "string") {
-              httpData = JSON.parse(httpData);
-            }
-            /*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
-
-            //判断数据是否请求成功
-            if (!(httpData.success || httpData.code == 200)) {
-              _context.next = 8;
-              break;
-            }
-            return _context.abrupt("return", Promise.resolve(httpData.data));
-          case 8:
-            if (!(httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100)) {
-              _context.next = 14;
-              break;
-            }
-            content = '此时此刻需要您登录喔~';
-            if (loginPopupNum <= 0) {
-              loginPopupNum++;
-              uni.showModal({
-                title: '温馨提示',
-                content: content,
-                confirmText: "去登录",
-                cancelText: "再逛会",
-                success: function success(res) {
-                  loginPopupNum--;
-                  if (res.confirm) {
-                    uni.navigateTo({
-                      url: "/pages/user/login"
-                    });
-                  }
-                }
-              });
-            }
-            // 返回错误的结果(catch接受数据)
-            return _context.abrupt("return", Promise.reject({
-              statusCode: 0,
-              errMsg: "【request】" + (httpData.info || httpData.msg)
-            }));
-          case 14:
-            //其他错误提示
-            if (res.isPrompt) {
-              uni.showToast({
-                title: httpData.info || httpData.msg,
-                icon: "none",
-                duration: 3000
-              });
-            }
-            // 返回错误的结果(catch接受数据)
-            return _context.abrupt("return", Promise.reject({
-              statusCode: 0,
-              errMsg: "【request】" + (httpData.info || httpData.msg)
-            }));
-          case 16:
-            _context.next = 19;
-            break;
-          case 18:
-            return _context.abrupt("return", Promise.reject({
-              statusCode: res.response.statusCode,
-              errMsg: "【request】数据工厂验证不通过"
-            }));
-          case 19:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, _callee);
-  }));
-  return function (_x) {
-    return _ref.apply(this, arguments);
-  };
-}();
-// 错误回调
-$http.requestError = function (e) {
-  // e.statusCode === 0 是参数效验错误抛出的
-  if (e.statusCode === 0) {
-    throw e;
-  } else {
-    uni.showToast({
-      title: "网络错误，请检查一下网络",
-      icon: "none"
-    });
-  }
-};
-var _default = $http;
 exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 493 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/index.js ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _upload = _interopRequireDefault(__webpack_require__(/*! ./upload/upload.js */ 494));
-/***************纯粹的数据请求（如果使用这种可以删除掉fileUpload.js）******************/
-// import request from "./core/request.js";
-// export default request;
-/********数据请求同时继承了文件上传（包括七牛云上传）************/
-var _default = _upload.default;
-exports.default = _default;
-
-/***/ }),
-/* 494 */
-/*!*************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/upload.js ***!
-  \*************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
-var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inherits */ 495));
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ 496));
-var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ 498));
-var _request2 = _interopRequireDefault(__webpack_require__(/*! ./../core/request.js */ 499));
-var _utils = __webpack_require__(/*! ./../core/utils.js */ 500);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var _require = __webpack_require__(/*! ./utils */ 501),
-  chooseImage = _require.chooseImage,
-  chooseVideo = _require.chooseVideo,
-  qiniuUpload = _require.qiniuUpload,
-  aliUpload = _require.aliUpload,
-  urlUpload = _require.urlUpload;
-var fileUpload = /*#__PURE__*/function (_request) {
-  (0, _inherits2.default)(fileUpload, _request);
-  var _super = _createSuper(fileUpload);
-  function fileUpload(props) {
-    (0, _classCallCheck2.default)(this, fileUpload);
-    // 调用实现父类的构造函数
-    return _super.call(this, props);
-  }
-  //七牛云上传图片
-  (0, _createClass2.default)(fileUpload, [{
-    key: "qnImgUpload",
-    value: function () {
-      var _qnImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
-        var options,
-          files,
-          _args = arguments;
-        return _regenerator.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                options = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};
-                _context.prev = 1;
-                _context.next = 4;
-                return chooseImage(options);
-              case 4:
-                files = _context.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context.next = 12;
-                break;
-              case 8:
-                _context.prev = 8;
-                _context.t0 = _context["catch"](1);
-                this.requestError && this.requestError(_context.t0);
-                return _context.abrupt("return", Promise.reject(_context.t0));
-              case 12:
-                if (!files) {
-                  _context.next = 14;
-                  break;
-                }
-                return _context.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[1, 8]]);
-      }));
-      function qnImgUpload() {
-        return _qnImgUpload.apply(this, arguments);
-      }
-      return qnImgUpload;
-    }() //七牛云上传视频
-  }, {
-    key: "qnVideoUpload",
-    value: function () {
-      var _qnVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee2() {
-        var options,
-          files,
-          _args2 = arguments;
-        return _regenerator.default.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                options = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : {};
-                _context2.prev = 1;
-                _context2.next = 4;
-                return chooseVideo(options);
-              case 4:
-                files = _context2.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context2.next = 12;
-                break;
-              case 8:
-                _context2.prev = 8;
-                _context2.t0 = _context2["catch"](1);
-                this.requestError && this.requestError(_context2.t0);
-                return _context2.abrupt("return", Promise.reject(_context2.t0));
-              case 12:
-                if (!files) {
-                  _context2.next = 14;
-                  break;
-                }
-                return _context2.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context2.stop();
-            }
-          }
-        }, _callee2, this, [[1, 8]]);
-      }));
-      function qnVideoUpload() {
-        return _qnVideoUpload.apply(this, arguments);
-      }
-      return qnVideoUpload;
-    }() //七牛云文件上传（支持多张上传）
-  }, {
-    key: "qnFileUpload",
-    value: function () {
-      var _qnFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee3() {
-        var options,
-          requestInfo,
-          requestStart,
-          changekeys,
-          requestResult,
-          _args3 = arguments;
-        return _regenerator.default.wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                options = _args3.length > 0 && _args3[0] !== undefined ? _args3[0] : {};
-                _context3.prev = 1;
-                // 数据合并
-                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
-                  header: {},
-                  method: "FILE"
-                });
-                //请求前回调
-                if (!this.requestStart) {
-                  _context3.next = 11;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context3.next = 10;
-                  break;
-                }
-                changekeys = ["load", "files"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context3.next = 11;
-                break;
-              case 10:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 11:
-                _context3.next = 13;
-                return qiniuUpload(requestInfo, this.getQnToken);
-              case 13:
-                requestResult = _context3.sent;
-                return _context3.abrupt("return", Promise.resolve(requestResult));
-              case 17:
-                _context3.prev = 17;
-                _context3.t0 = _context3["catch"](1);
-                this.requestError && this.requestError(_context3.t0);
-                return _context3.abrupt("return", Promise.reject(_context3.t0));
-              case 21:
-                _context3.prev = 21;
-                this.requestEnd && this.requestEnd(requestInfo);
-                return _context3.finish(21);
-              case 24:
-              case "end":
-                return _context3.stop();
-            }
-          }
-        }, _callee3, this, [[1, 17, 21, 24]]);
-      }));
-      function qnFileUpload() {
-        return _qnFileUpload.apply(this, arguments);
-      }
-      return qnFileUpload;
-    }() //阿里云上传图片
-  }, {
-    key: "aliImgUpload",
-    value: function () {
-      var _aliImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee4() {
-        var options,
-          files,
-          _args4 = arguments;
-        return _regenerator.default.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                options = _args4.length > 0 && _args4[0] !== undefined ? _args4[0] : {};
-                _context4.prev = 1;
-                _context4.next = 4;
-                return chooseImage(options);
-              case 4:
-                files = _context4.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context4.next = 12;
-                break;
-              case 8:
-                _context4.prev = 8;
-                _context4.t0 = _context4["catch"](1);
-                this.requestError && this.requestError(_context4.t0);
-                return _context4.abrupt("return", Promise.reject(_context4.t0));
-              case 12:
-                if (!files) {
-                  _context4.next = 14;
-                  break;
-                }
-                return _context4.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this, [[1, 8]]);
-      }));
-      function aliImgUpload() {
-        return _aliImgUpload.apply(this, arguments);
-      }
-      return aliImgUpload;
-    }() //阿里云上传视频
-  }, {
-    key: "aliVideoUpload",
-    value: function () {
-      var _aliVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee5() {
-        var options,
-          files,
-          _args5 = arguments;
-        return _regenerator.default.wrap(function _callee5$(_context5) {
-          while (1) {
-            switch (_context5.prev = _context5.next) {
-              case 0:
-                options = _args5.length > 0 && _args5[0] !== undefined ? _args5[0] : {};
-                _context5.prev = 1;
-                _context5.next = 4;
-                return chooseVideo(options);
-              case 4:
-                files = _context5.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context5.next = 12;
-                break;
-              case 8:
-                _context5.prev = 8;
-                _context5.t0 = _context5["catch"](1);
-                this.requestError && this.requestError(_context5.t0);
-                return _context5.abrupt("return", Promise.reject(_context5.t0));
-              case 12:
-                if (!files) {
-                  _context5.next = 14;
-                  break;
-                }
-                return _context5.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context5.stop();
-            }
-          }
-        }, _callee5, this, [[1, 8]]);
-      }));
-      function aliVideoUpload() {
-        return _aliVideoUpload.apply(this, arguments);
-      }
-      return aliVideoUpload;
-    }() //阿里云文件上传（支持多张上传）
-  }, {
-    key: "aliFileUpload",
-    value: function () {
-      var _aliFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee6() {
-        var options,
-          requestInfo,
-          requestStart,
-          changekeys,
-          requestResult,
-          _args6 = arguments;
-        return _regenerator.default.wrap(function _callee6$(_context6) {
-          while (1) {
-            switch (_context6.prev = _context6.next) {
-              case 0:
-                options = _args6.length > 0 && _args6[0] !== undefined ? _args6[0] : {};
-                _context6.prev = 1;
-                // 数据合并
-                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
-                  header: {},
-                  method: "FILE"
-                });
-                //请求前回调
-                if (!this.requestStart) {
-                  _context6.next = 11;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context6.next = 10;
-                  break;
-                }
-                changekeys = ["load", "files"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context6.next = 11;
-                break;
-              case 10:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 11:
-                _context6.next = 13;
-                return aliUpload(requestInfo, this.getAliToken);
-              case 13:
-                requestResult = _context6.sent;
-                return _context6.abrupt("return", Promise.resolve(requestResult));
-              case 17:
-                _context6.prev = 17;
-                _context6.t0 = _context6["catch"](1);
-                this.requestError && this.requestError(_context6.t0);
-                return _context6.abrupt("return", Promise.reject(_context6.t0));
-              case 21:
-                _context6.prev = 21;
-                this.requestEnd && this.requestEnd(requestInfo);
-                return _context6.finish(21);
-              case 24:
-              case "end":
-                return _context6.stop();
-            }
-          }
-        }, _callee6, this, [[1, 17, 21, 24]]);
-      }));
-      function aliFileUpload() {
-        return _aliFileUpload.apply(this, arguments);
-      }
-      return aliFileUpload;
-    }() //本地服务器图片上传
-  }, {
-    key: "urlImgUpload",
-    value: function () {
-      var _urlImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee7() {
-        var options,
-          _args7 = arguments;
-        return _regenerator.default.wrap(function _callee7$(_context7) {
-          while (1) {
-            switch (_context7.prev = _context7.next) {
-              case 0:
-                options = {};
-                if (_args7[0]) {
-                  if (typeof _args7[0] == "string") {
-                    options.url = _args7[0];
-                  } else if ((0, _typeof2.default)(_args7[0]) == "object") {
-                    options = Object.assign(options, _args7[0]);
-                  }
-                }
-                if (_args7[1] && (0, _typeof2.default)(_args7[1]) == "object") {
-                  options = Object.assign(options, _args7[1]);
-                }
-                _context7.prev = 3;
-                _context7.next = 6;
-                return chooseImage(options);
-              case 6:
-                options.files = _context7.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(options.files);
-                _context7.next = 14;
-                break;
-              case 10:
-                _context7.prev = 10;
-                _context7.t0 = _context7["catch"](3);
-                this.requestError && this.requestError(_context7.t0);
-                return _context7.abrupt("return", Promise.reject(_context7.t0));
-              case 14:
-                if (!options.files) {
-                  _context7.next = 16;
-                  break;
-                }
-                return _context7.abrupt("return", this.urlFileUpload(options));
-              case 16:
-              case "end":
-                return _context7.stop();
-            }
-          }
-        }, _callee7, this, [[3, 10]]);
-      }));
-      function urlImgUpload() {
-        return _urlImgUpload.apply(this, arguments);
-      }
-      return urlImgUpload;
-    }() //本地服务器上传视频
-  }, {
-    key: "urlVideoUpload",
-    value: function () {
-      var _urlVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee8() {
-        var options,
-          _args8 = arguments;
-        return _regenerator.default.wrap(function _callee8$(_context8) {
-          while (1) {
-            switch (_context8.prev = _context8.next) {
-              case 0:
-                options = {};
-                if (_args8[0]) {
-                  if (typeof _args8[0] == "string") {
-                    options.url = _args8[0];
-                  } else if ((0, _typeof2.default)(_args8[0]) == "object") {
-                    options = Object.assign(options, _args8[0]);
-                  }
-                }
-                if (_args8[1] && (0, _typeof2.default)(_args8[1]) == "object") {
-                  options = Object.assign(options, _args8[1]);
-                }
-                _context8.prev = 3;
-                _context8.next = 6;
-                return chooseVideo(options);
-              case 6:
-                options.files = _context8.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(options.files);
-                _context8.next = 14;
-                break;
-              case 10:
-                _context8.prev = 10;
-                _context8.t0 = _context8["catch"](3);
-                this.requestError && this.requestError(_context8.t0);
-                return _context8.abrupt("return", Promise.reject(_context8.t0));
-              case 14:
-                if (!options.files) {
-                  _context8.next = 16;
-                  break;
-                }
-                return _context8.abrupt("return", this.urlFileUpload(options));
-              case 16:
-              case "end":
-                return _context8.stop();
-            }
-          }
-        }, _callee8, this, [[3, 10]]);
-      }));
-      function urlVideoUpload() {
-        return _urlVideoUpload.apply(this, arguments);
-      }
-      return urlVideoUpload;
-    }() //本地服务器文件上传方法
-  }, {
-    key: "urlFileUpload",
-    value: function () {
-      var _urlFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee9() {
-        var requestInfo,
-          runRequestStart,
-          requestStart,
-          changekeys,
-          requestResult,
-          _args9 = arguments;
-        return _regenerator.default.wrap(function _callee9$(_context9) {
-          while (1) {
-            switch (_context9.prev = _context9.next) {
-              case 0:
-                requestInfo = {
-                  method: "FILE"
-                };
-                if (_args9[0]) {
-                  if (typeof _args9[0] == "string") {
-                    requestInfo.url = _args9[0];
-                  } else if ((0, _typeof2.default)(_args9[0]) == "object") {
-                    requestInfo = Object.assign(requestInfo, _args9[0]);
-                  }
-                }
-                if (_args9[1] && (0, _typeof2.default)(_args9[1]) == "object") {
-                  requestInfo = Object.assign(requestInfo, _args9[1]);
-                }
-                if (!requestInfo.url && this.defaultUploadUrl) {
-                  requestInfo.url = this.defaultUploadUrl;
-                }
-                if (!requestInfo.name && this.defaultFileName) {
-                  requestInfo.name = this.defaultFileName;
-                }
-                // 请求数据
-                // 是否运行过请求开始钩子
-                runRequestStart = false;
-                _context9.prev = 6;
-                if (requestInfo.url) {
-                  _context9.next = 9;
-                  break;
-                }
-                throw {
-                  errMsg: "【request】文件上传缺失数据url",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 9:
-                // 数据合并
-                requestInfo = (0, _utils.mergeConfig)(this, requestInfo);
-                // 代表之前运行到这里
-                runRequestStart = true;
-                //请求前回调
-                if (!this.requestStart) {
-                  _context9.next = 19;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context9.next = 18;
-                  break;
-                }
-                changekeys = ["data", "header", "isPrompt", "load", "isFactory", "files"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context9.next = 19;
-                break;
-              case 18:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 19:
-                _context9.next = 21;
-                return urlUpload(requestInfo, this.dataFactory);
-              case 21:
-                requestResult = _context9.sent;
-                return _context9.abrupt("return", Promise.resolve(requestResult));
-              case 25:
-                _context9.prev = 25;
-                _context9.t0 = _context9["catch"](6);
-                this.requestError && this.requestError(_context9.t0);
-                return _context9.abrupt("return", Promise.reject(_context9.t0));
-              case 29:
-                _context9.prev = 29;
-                if (runRequestStart) {
-                  this.requestEnd && this.requestEnd(requestInfo);
-                }
-                return _context9.finish(29);
-              case 32:
-              case "end":
-                return _context9.stop();
-            }
-          }
-        }, _callee9, this, [[6, 25, 29, 32]]);
-      }));
-      function urlFileUpload() {
-        return _urlFileUpload.apply(this, arguments);
-      }
-      return urlFileUpload;
-    }()
-  }]);
-  return fileUpload;
-}(_request2.default);
-exports.default = fileUpload;
-
-/***/ }),
-/* 495 */
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  Object.defineProperty(subClass, "prototype", {
-    writable: false
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
-module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 496 */
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized.js */ 497);
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  } else if (call !== void 0) {
-    throw new TypeError("Derived constructors may only return object or undefined");
-  }
-  return assertThisInitialized(self);
-}
-module.exports = _possibleConstructorReturn, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 497 */
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-  return self;
-}
-module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 498 */
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _getPrototypeOf(o);
-}
-module.exports = _getPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 499 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/request.js ***!
-  \************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
-var _utils = __webpack_require__(/*! ./utils.js */ 500);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-var request = /*#__PURE__*/function () {
-  function request(options) {
-    (0, _classCallCheck2.default)(this, request);
-    //请求公共地址
-    this.baseUrl = options.baseUrl || "";
-    //公共文件上传请求地址
-    this.fileUrl = options.fileUrl || "";
-    // 超时时间
-    this.timeout = options.timeout || 6000;
-    // 服务器上传图片默认url
-    this.defaultUploadUrl = options.defaultUploadUrl || "";
-    // 服务器上传文件名称
-    this.defaultFileName = options.defaultFileName || "";
-    //默认请求头
-    this.header = options.header || {};
-    //默认配置
-    this.config = options.config || {
-      isPrompt: true,
-      load: true,
-      isFactory: true,
-      resend: 0
-    };
-  }
-  //post请求
-  (0, _createClass2.default)(request, [{
-    key: "post",
-    value: function post() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "POST",
-        data: data,
-        url: url
-      }, options));
-    }
-
-    //get请求
-  }, {
-    key: "get",
-    value: function get() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "GET",
-        data: data,
-        url: url
-      }, options));
-    }
-
-    //put请求
-  }, {
-    key: "put",
-    value: function put() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "PUT",
-        data: data,
-        url: url
-      }, options));
-    }
-
-    //delete请求
-  }, {
-    key: "delete",
-    value: function _delete() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "DELETE",
-        data: data,
-        url: url
-      }, options));
-    }
-    //jsonp请求(只限于H5使用)
-  }, {
-    key: "jsonp",
-    value: function jsonp() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "JSONP",
-        data: data,
-        url: url
-      }, options));
-    }
-    //接口请求方法
-  }, {
-    key: "request",
-    value: function () {
-      var _request = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(data) {
-        var requestInfo, runRequestStart, requestStart, changekeys, requestResult, result;
-        return _regenerator.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                // 请求数据
-                runRequestStart = false;
-                _context.prev = 1;
-                if (data.url) {
-                  _context.next = 4;
-                  break;
-                }
-                throw {
-                  errMsg: "【request】缺失数据url",
-                  statusCode: 0
-                };
-              case 4:
-                // 数据合并
-                requestInfo = (0, _utils.mergeConfig)(this, data);
-                // 代表之前运行到这里
-                runRequestStart = true;
-                //请求前回调
-                if (!this.requestStart) {
-                  _context.next = 14;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context.next = 13;
-                  break;
-                }
-                changekeys = ["data", "header", "isPrompt", "load", "isFactory"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context.next = 14;
-                break;
-              case 13:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 14:
-                requestResult = {};
-                if (!(requestInfo.method == "JSONP")) {
-                  _context.next = 21;
-                  break;
-                }
-                _context.next = 18;
-                return (0, _utils.jsonpRequest)(requestInfo);
-              case 18:
-                requestResult = _context.sent;
-                _context.next = 24;
-                break;
-              case 21:
-                _context.next = 23;
-                return (0, _utils.dispatchRequest)(requestInfo);
-              case 23:
-                requestResult = _context.sent;
-              case 24:
-                if (!(requestInfo.isFactory && this.dataFactory)) {
-                  _context.next = 31;
-                  break;
-                }
-                _context.next = 27;
-                return this.dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
-                  response: requestResult
-                }));
-              case 27:
-                result = _context.sent;
-                return _context.abrupt("return", Promise.resolve(result));
-              case 31:
-                return _context.abrupt("return", Promise.resolve(requestResult));
-              case 32:
-                _context.next = 38;
-                break;
-              case 34:
-                _context.prev = 34;
-                _context.t0 = _context["catch"](1);
-                this.requestError && this.requestError(_context.t0);
-                return _context.abrupt("return", Promise.reject(_context.t0));
-              case 38:
-                _context.prev = 38;
-                // 如果请求开始未运行到，请求结束也不运行
-                if (runRequestStart) {
-                  this.requestEnd && this.requestEnd(requestInfo);
-                }
-                return _context.finish(38);
-              case 41:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[1, 34, 38, 41]]);
-      }));
-      function request(_x) {
-        return _request.apply(this, arguments);
-      }
-      return request;
-    }()
-  }]);
-  return request;
-}();
-exports.default = request;
-
-/***/ }),
-/* 500 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/utils.js ***!
-  \**********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.mergeConfig = exports.jsonpRequest = exports.dispatchRequest = void 0;
-// 获取合并的数据
-var mergeConfig = function mergeConfig(_this, options) {
-  //判断url是不是链接
-  var urlType = /^(http|https):\/\//.test(options.url);
-  var config = Object.assign({
-    timeout: _this.timeout
-  }, _this.config, options);
-  if (options.method == "FILE") {
-    config.url = urlType ? options.url : _this.fileUrl + options.url;
-  } else {
-    config.url = urlType ? options.url : _this.baseUrl + options.url;
-  }
-  //请求头
-  if (options.header) {
-    config.header = Object.assign({}, _this.header, options.header);
-  } else {
-    config.header = Object.assign({}, _this.header);
-  }
-  return config;
-};
-// 请求
-exports.mergeConfig = mergeConfig;
-var dispatchRequest = function dispatchRequest(requestInfo) {
-  return new Promise(function (resolve, reject) {
-    var requestAbort = true;
-    var requestData = {
-      url: requestInfo.url,
-      header: requestInfo.header,
-      //加入请求头
-      success: function success(res) {
-        requestAbort = false;
-        resolve(res);
-      },
-      fail: function fail(err) {
-        requestAbort = false;
-        if (err.errMsg == "request:fail abort") {
-          reject({
-            errMsg: "请求超时，请重新尝试",
-            statusCode: 0
-          });
-        } else {
-          reject(err);
-        }
-      }
-    };
-    //请求类型
-    if (requestInfo.method) {
-      requestData.method = requestInfo.method;
-    }
-    if (requestInfo.data) {
-      requestData.data = requestInfo.data;
-    }
-    if (requestInfo.timeout) {
-      requestData.timeout = requestInfo.timeout;
-    }
-    if (requestInfo.dataType) {
-      requestData.dataType = requestInfo.dataType;
-    }
-    if (requestInfo.responseType) {
-      requestData.responseType = requestInfo.responseType;
-    }
-    var requestTask = uni.request(requestData);
-    setTimeout(function () {
-      if (requestAbort) {
-        requestTask.abort();
-      }
-    }, requestInfo.timeout);
-  });
-};
-// jsonp请求
-exports.dispatchRequest = dispatchRequest;
-var jsonpRequest = function jsonpRequest(requestInfo) {
-  return new Promise(function (resolve, reject) {
-    var dataStr = '';
-    Object.keys(requestInfo.data).forEach(function (key) {
-      dataStr += key + '=' + requestInfo.data[key] + '&';
-    });
-    //匹配最后一个&并去除
-    if (dataStr !== '') {
-      dataStr = dataStr.substr(0, dataStr.lastIndexOf('&'));
-    }
-    requestInfo.url = requestInfo.url + '?' + dataStr;
-    var callbackName = "callback" + Math.ceil(Math.random() * 1000000);
-  });
-};
-exports.jsonpRequest = jsonpRequest;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 501 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/utils.js ***!
-  \************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.urlUpload = exports.randomChar = exports.qiniuUpload = exports.chooseVideo = exports.chooseImage = exports.aliUpload = void 0;
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-var qiniuUploader = __webpack_require__(/*! ./qiniuUploader */ 502);
-var aliUploader = __webpack_require__(/*! ./aliUploader */ 503);
-//七牛云上传文件命名
-var randomChar = function randomChar(l) {
-  var url = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
-  var x = "0123456789qwertyuioplkjhgfdsazxcvbnm";
-  var tmp = "";
-  var time = new Date();
-  for (var i = 0; i < l; i++) {
-    tmp += x.charAt(Math.ceil(Math.random() * 100000000) % x.length);
-  }
-  return "file/" + url + time.getTime() + tmp;
-};
-//图片选择
-exports.randomChar = randomChar;
-var chooseImage = function chooseImage(data) {
-  return new Promise(function (resolve, reject) {
-    uni.chooseImage({
-      count: data.count || 9,
-      //默认9
-      sizeType: data.sizeType || ['original', 'compressed'],
-      //可以指定是原图还是压缩图，默认二者都有
-      sourceType: data.sourceType || ['album', 'camera'],
-      //从相册选择
-      success: function success(res) {
-        for (var i = 0; i < res.tempFiles.length; i++) {
-          res.tempFiles[i].fileType = "image";
-        }
-        resolve(res.tempFiles);
-      },
-      fail: function fail(err) {
-        reject({
-          errMsg: err.errMsg,
-          errCode: err.errCode,
-          statusCode: 0
-        });
-      }
-    });
-  });
-};
-//视频选择
-exports.chooseImage = chooseImage;
-var chooseVideo = function chooseVideo(data) {
-  return new Promise(function (resolve, reject) {
-    uni.chooseVideo({
-      sourceType: data.sourceType || ['album', 'camera'],
-      //从相册选择
-      compressed: data.compressed || false,
-      //是否压缩所选的视频源文件，默认值为 true，需要压缩。
-      maxDuration: data.maxDuration || 60,
-      //拍摄视频最长拍摄时间，单位秒。最长支持 60 秒。
-      camera: data.camera || 'back',
-      //'front'、'back'，默认'back'
-      success: function success(res) {
-        var files = [{
-          path: res.tempFilePath,
-          fileType: "video"
-        }];
-        files[0].duration = res.duration;
-        files[0].size = res.size;
-        files[0].height = res.height;
-        files[0].width = res.width;
-        resolve(files);
-      },
-      fail: function fail(err) {
-        reject({
-          errMsg: err.errMsg,
-          errCode: err.errCode,
-          statusCode: 0
-        });
-      }
-    });
-  });
-};
-// 七牛云上传
-exports.chooseVideo = chooseVideo;
-var qiniuUpload = function qiniuUpload(requestInfo, getQnToken) {
-  return new Promise(function (resolve, reject) {
-    if (Array.isArray(requestInfo.files)) {
-      var len = requestInfo.files.length;
-      var fileList = new Array();
-      if (getQnToken) {
-        getQnToken(function (qnRes) {
-          /*
-           *接口返回参数：
-           *visitPrefix:访问文件的域名
-           *token:七牛云上传token
-           *folderPath:上传的文件夹
-           *region: 地区 默认为：SCN
-           */
-          var prefixLen = qnRes.visitPrefix.length;
-          if (qnRes.visitPrefix.charAt(prefixLen - 1) == '/') {
-            qnRes.visitPrefix = qnRes.visitPrefix.substring(0, prefixLen - 1);
-          }
-          uploadFile(0);
-          function uploadFile(i) {
-            var item = requestInfo.files[i];
-            var updateUrl = randomChar(10, qnRes.folderPath);
-            var fileData = _objectSpread({
-              fileIndex: i,
-              files: requestInfo.files
-            }, item);
-            if (item.name) {
-              fileData.name = item.name;
-              var nameArr = item.name.split(".");
-              updateUrl += "." + nameArr[nameArr.length - 1];
-            }
-            // 交给七牛上传
-            qiniuUploader.upload(item.path || item, function (res) {
-              fileData.url = res.imageURL;
-              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                url: res.imageURL
-              }, fileData));
-              fileList.push(res.imageURL);
-              if (len - 1 > i) {
-                uploadFile(i + 1);
-              } else {
-                resolve(fileList);
-              }
-            }, function (error) {
-              reject(error);
-            }, {
-              region: qnRes.region || 'SCN',
-              //地区
-              domain: qnRes.visitPrefix,
-              // bucket 域名，下载资源时用到。
-              key: updateUrl,
-              uptoken: qnRes.token,
-              // 由其他程序生成七牛 uptoken
-              uptokenURL: 'UpTokenURL.com/uptoken' // 上传地址
-            }, function (res) {
-              console.log(requestInfo);
-              requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
-              // console.log('上传进度', res.progress)
-              // console.log('已经上传的数据长度', res.totalBytesSent)
-              // console.log('预期需要上传的数据总长度', res.totalBytesExpectedToSend)
-            });
-          }
-        });
-      } else {
-        reject({
-          errMsg: "请添加七牛云回调方法：getQnToken",
-          statusCode: 0
-        });
-      }
-    } else {
-      reject({
-        errMsg: "files 必须是数组类型",
-        statusCode: 0
-      });
-    }
-    ;
-  });
-};
-// 阿里云oss上传
-exports.qiniuUpload = qiniuUpload;
-var aliUpload = function aliUpload(requestInfo, getAliToken) {
-  return new Promise(function (resolve, reject) {
-    if (Array.isArray(requestInfo.files)) {
-      var len = requestInfo.files.length;
-      var fileList = new Array();
-      if (getAliToken) {
-        getAliToken(function (aliRes) {
-          /*
-           *接口返回参数：
-           *visitPrefix:访问文件的域名
-           *folderPath:上传的文件夹
-           *accessKeyId: 您的oss的访问ID
-           *accessKeySecret: 您的oss的访问密钥
-           * timeout: 签名过期时间（毫秒）
-           */
-          var aliyunOssKey = aliUploader({
-            accessKeyId: aliRes.accessKeyId,
-            accessKeySecret: aliRes.accessKeySecret,
-            timeout: aliRes.timeout
-          });
-          var prefixLen = aliRes.visitPrefix.length;
-          if (aliRes.visitPrefix.charAt(prefixLen - 1) == '/') {
-            aliRes.visitPrefix = aliRes.visitPrefix.substring(0, prefixLen - 1);
-          }
-          uploadFile(0);
-          function uploadFile(i) {
-            var item = requestInfo.files[i];
-            var updateUrl = randomChar(10, aliRes.folderPath);
-            var fileData = _objectSpread({
-              fileIndex: i,
-              files: requestInfo.files
-            }, item);
-            if (item.name) {
-              fileData.name = item.name;
-              var nameArr = item.name.split(".");
-              updateUrl += "." + nameArr[nameArr.length - 1];
-            }
-            if (item.path) {
-              var _nameArr = item.path.split(".");
-              updateUrl += "." + _nameArr[_nameArr.length - 1];
-            }
-            console.log("----------111", {
-              url: aliRes.visitPrefix,
-              // 开发者服务器的URL。
-              filePath: item.path,
-              name: 'file',
-              // 必须填file。
-              formData: {
-                key: updateUrl,
-                policy: aliyunOssKey.policy,
-                OSSAccessKeyId: aliyunOssKey.accessKeyId,
-                signature: aliyunOssKey.signature
-              }
-            });
-            uni.uploadFile({
-              url: aliRes.visitPrefix,
-              // 开发者服务器的URL。
-              filePath: item.path,
-              name: 'file',
-              // 必须填file。
-              formData: {
-                key: updateUrl,
-                policy: aliyunOssKey.policy,
-                OSSAccessKeyId: aliyunOssKey.accessKeyId,
-                signature: aliyunOssKey.signature
-              },
-              success: function success(res) {
-                if (res.statusCode === 204) {
-                  fileData.url = aliRes.visitPrefix + "/" + updateUrl;
-                  requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                    url: fileData.url
-                  }, fileData));
-                  fileList.push(fileData.url);
-                  if (len - 1 > i) {
-                    uploadFile(i + 1);
-                  } else {
-                    resolve(fileList);
-                  }
-                } else {
-                  console.log("----失败", res);
-                  reject(res);
-                }
-              },
-              fail: function fail(err) {
-                console.log("----失败", err);
-                reject(err);
-              }
-            });
-          }
-        });
-      } else {
-        reject({
-          errMsg: "请添加阿里云回调方法：getAliToken",
-          statusCode: 0
-        });
-      }
-    } else {
-      reject({
-        errMsg: "files 必须是数组类型",
-        statusCode: 0
-      });
-    }
-    ;
-  });
-};
-// 服务器URL上传
-exports.aliUpload = aliUpload;
-var urlUpload = function urlUpload(requestInfo, dataFactory) {
-  return new Promise(function (resolve, reject) {
-    // 本地文件上传去掉默认Content-Type
-    if (requestInfo.header['Content-Type']) {
-      delete requestInfo.header['Content-Type'];
-    }
-    // 本地文件上传去掉默认Content-Type
-    if (requestInfo.header['content-type']) {
-      delete requestInfo.header['content-type'];
-    }
-    if (Array.isArray(requestInfo.files)) {
-      var fileUpload = function fileUpload(i) {
-        var item = requestInfo.files[i];
-        var fileData = _objectSpread({
-          fileIndex: i,
-          files: requestInfo.files
-        }, item);
-        var config = {
-          url: requestInfo.url,
-          filePath: item.path,
-          header: requestInfo.header,
-          //加入请求头
-          name: requestInfo.name || "file",
-          success: function success(response) {
-            //是否用外部的数据处理方法
-            if (requestInfo.isFactory && dataFactory) {
-              //数据处理
-              dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
-                response: response
-              })).then(function (data) {
-                fileList.push(data);
-                requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                  data: data
-                }, fileData));
-                if (len <= i) {
-                  resolve(fileList);
-                } else {
-                  fileUpload(i + 1);
-                }
-              }, function (err) {
-                reject(err);
-              });
-            } else {
-              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                data: response
-              }, fileData));
-              fileList.push(response);
-              if (len <= i) {
-                resolve(fileList);
-              } else {
-                fileUpload(i + 1);
-              }
-            }
-          },
-          fail: function fail(err) {
-            reject(err);
-          }
-        };
-        if (requestInfo.data) {
-          config.formData = requestInfo.data;
-        }
-        var uploadTask = uni.uploadFile(config);
-        uploadTask.onProgressUpdate(function (res) {
-          requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
-        });
-      };
-      var len = requestInfo.files.length - 1;
-      var fileList = new Array();
-      fileUpload(0);
-    } else {
-      reject({
-        errMsg: "files 必须是数组类型",
-        statusCode: 0
-      });
-    }
-  });
-};
-exports.urlUpload = urlUpload;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 502 */
-/*!********************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/qiniuUploader.js ***!
-  \********************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(wx) {// created by gpake
-(function () {
-  var config = {
-    qiniuRegion: '',
-    qiniuImageURLPrefix: '',
-    qiniuUploadToken: '',
-    qiniuUploadTokenURL: '',
-    qiniuUploadTokenFunction: null,
-    qiniuShouldUseQiniuFileName: false
-  };
-  module.exports = {
-    init: init,
-    upload: upload
-  };
-
-  // 在整个程序生命周期中，只需要 init 一次即可
-  // 如果需要变更参数，再调用 init 即可
-  function init(options) {
-    config = {
-      qiniuRegion: '',
-      qiniuImageURLPrefix: '',
-      qiniuUploadToken: '',
-      qiniuUploadTokenURL: '',
-      qiniuUploadTokenFunction: null,
-      qiniuShouldUseQiniuFileName: false
-    };
-    updateConfigWithOptions(options);
-  }
-  function updateConfigWithOptions(options) {
-    if (options.region) {
-      config.qiniuRegion = options.region;
-    } else {
-      console.error('qiniu uploader need your bucket region');
-    }
-    if (options.uptoken) {
-      config.qiniuUploadToken = options.uptoken;
-    } else if (options.uptokenURL) {
-      config.qiniuUploadTokenURL = options.uptokenURL;
-    } else if (options.uptokenFunc) {
-      config.qiniuUploadTokenFunction = options.uptokenFunc;
-    }
-    if (options.domain) {
-      config.qiniuImageURLPrefix = options.domain;
-    }
-    config.qiniuShouldUseQiniuFileName = options.shouldUseQiniuFileName;
-  }
-  function upload(filePath, success, fail, options, progress, cancelTask) {
-    if (null == filePath) {
-      console.error('qiniu uploader need filePath to upload');
-      return;
-    }
-    if (options) {
-      updateConfigWithOptions(options);
-    }
-    if (config.qiniuUploadToken) {
-      doUpload(filePath, success, fail, options, progress, cancelTask);
-    } else if (config.qiniuUploadTokenURL) {
-      getQiniuToken(function () {
-        doUpload(filePath, success, fail, options, progress, cancelTask);
-      });
-    } else if (config.qiniuUploadTokenFunction) {
-      config.qiniuUploadToken = config.qiniuUploadTokenFunction();
-      if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
-        console.error('qiniu UploadTokenFunction result is null, please check the return value');
-        return;
-      }
-      doUpload(filePath, success, fail, options, progress, cancelTask);
-    } else {
-      console.error('qiniu uploader need one of [uptoken, uptokenURL, uptokenFunc]');
-      return;
-    }
-  }
-  function doUpload(filePath, _success, _fail, options, progress, cancelTask) {
-    if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
-      console.error('qiniu UploadToken is null, please check the init config or networking');
-      return;
-    }
-    var url = uploadURLFromRegionCode(config.qiniuRegion);
-    var fileName = filePath.split('//')[1];
-    if (options && options.key) {
-      fileName = options.key;
-    }
-    var formData = {
-      'token': config.qiniuUploadToken
-    };
-    if (!config.qiniuShouldUseQiniuFileName) {
-      formData['key'] = fileName;
-    }
-    var uploadTask = wx.uploadFile({
-      url: url,
-      filePath: filePath,
-      name: 'file',
-      formData: formData,
-      success: function success(res) {
-        var dataString = res.data;
-        if (res.data.hasOwnProperty('type') && res.data.type === 'Buffer') {
-          dataString = String.fromCharCode.apply(null, res.data.data);
-        }
-        try {
-          var dataObject = JSON.parse(dataString);
-          //do something
-          var imageUrl = config.qiniuImageURLPrefix + '/' + dataObject.key;
-          dataObject.imageURL = imageUrl;
-          if (_success) {
-            _success(dataObject);
-          }
-        } catch (e) {
-          console.log('parse JSON failed, origin String is: ' + dataString);
-          if (_fail) {
-            _fail(e);
-          }
-        }
-      },
-      fail: function fail(error) {
-        console.error(error);
-        if (_fail) {
-          _fail(error);
-        }
-      }
-    });
-    uploadTask.onProgressUpdate(function (res) {
-      progress && progress(res);
-    });
-    cancelTask && cancelTask(function () {
-      uploadTask.abort();
-    });
-  }
-  function getQiniuToken(callback) {
-    wx.request({
-      url: config.qiniuUploadTokenURL,
-      success: function success(res) {
-        var token = res.data.uptoken;
-        if (token && token.length > 0) {
-          config.qiniuUploadToken = token;
-          if (callback) {
-            callback();
-          }
-        } else {
-          console.error('qiniuUploader cannot get your token, please check the uptokenURL or server');
-        }
-      },
-      fail: function fail(error) {
-        console.error('qiniu UploadToken is null, please check the init config or networking: ' + error);
-      }
-    });
-  }
-  function uploadURLFromRegionCode(code) {
-    var uploadURL = null;
-    switch (code) {
-      case 'ECN':
-        uploadURL = 'https://up.qbox.me';
-        break;
-      case 'NCN':
-        uploadURL = 'https://up-z1.qbox.me';
-        break;
-      case 'SCN':
-        uploadURL = 'https://up-z2.qbox.me';
-        break;
-      case 'NA':
-        uploadURL = 'https://up-na0.qbox.me';
-        break;
-      case 'ASG':
-        uploadURL = 'https://up-as0.qbox.me';
-        break;
-      default:
-        console.error('please make the region is with one of [ECN, SCN, NCN, NA, ASG]');
-    }
-    return uploadURL;
-  }
-})();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
-
-/***/ }),
-/* 503 */
-/*!******************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/aliUploader.js ***!
-  \******************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Base64 = __webpack_require__(/*! ./Base64.js */ 504);
-__webpack_require__(/*! ./hmac.js */ 505);
-__webpack_require__(/*! ./sha1.js */ 507);
-var Crypto = __webpack_require__(/*! ./crypto.js */ 506);
-// 获取policy
-var getPolicyBase64 = function getPolicyBase64(timeout) {
-  var dateTime = new Date().getTime();
-  var date = new Date(dateTime + (timeout || 1800000));
-  var srcT = date.toISOString();
-  var policyText = {
-    "expiration": srcT,
-    //设置该Policy的失效时间
-    "conditions": [["content-length-range", 0, 100 * 1024 * 1024] // 设置上传文件的大小限制,100mb
-    ]
-  };
-
-  var policyBase64 = Base64.encode(JSON.stringify(policyText));
-  return policyBase64;
-};
-// 获取签名
-var getSignature = function getSignature(policyBase64, AccessKeySecret) {
-  var bytes = Crypto.HMAC(Crypto.SHA1, policyBase64, AccessKeySecret, {
-    asBytes: true
-  });
-  var signature = Crypto.util.bytesToBase64(bytes);
-  return signature;
-};
-// 获取阿里云token信息
-var getAliyunOssKey = function getAliyunOssKey(options) {
-  var policyBase64 = getPolicyBase64(options.timeout);
-  var signature = getSignature(policyBase64, options.accessKeySecret);
-  return {
-    policy: policyBase64,
-    accessKeyId: options.accessKeyId,
-    accessKeySecret: options.accessKeySecret,
-    signature: signature,
-    success_action_status: '200'
-  };
-};
-module.exports = getAliyunOssKey;
-
-/***/ }),
-/* 504 */
-/*!*************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/Base64.js ***!
-  \*************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var Base64 = {
-  // private property
-  _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
-  // public method for encoding
-  encode: function encode(input) {
-    var output = "";
-    var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
-    var i = 0;
-    input = Base64._utf8_encode(input);
-    while (i < input.length) {
-      chr1 = input.charCodeAt(i++);
-      chr2 = input.charCodeAt(i++);
-      chr3 = input.charCodeAt(i++);
-      enc1 = chr1 >> 2;
-      enc2 = (chr1 & 3) << 4 | chr2 >> 4;
-      enc3 = (chr2 & 15) << 2 | chr3 >> 6;
-      enc4 = chr3 & 63;
-      if (isNaN(chr2)) {
-        enc3 = enc4 = 64;
-      } else if (isNaN(chr3)) {
-        enc4 = 64;
-      }
-      output = output + this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) + this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
-    }
-    return output;
-  },
-  // public method for decoding
-  decode: function decode(input) {
-    var output = "";
-    var chr1, chr2, chr3;
-    var enc1, enc2, enc3, enc4;
-    var i = 0;
-    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
-    while (i < input.length) {
-      enc1 = this._keyStr.indexOf(input.charAt(i++));
-      enc2 = this._keyStr.indexOf(input.charAt(i++));
-      enc3 = this._keyStr.indexOf(input.charAt(i++));
-      enc4 = this._keyStr.indexOf(input.charAt(i++));
-      chr1 = enc1 << 2 | enc2 >> 4;
-      chr2 = (enc2 & 15) << 4 | enc3 >> 2;
-      chr3 = (enc3 & 3) << 6 | enc4;
-      output = output + String.fromCharCode(chr1);
-      if (enc3 != 64) {
-        output = output + String.fromCharCode(chr2);
-      }
-      if (enc4 != 64) {
-        output = output + String.fromCharCode(chr3);
-      }
-    }
-    output = Base64._utf8_decode(output);
-    return output;
-  },
-  // private method for UTF-8 encoding
-  _utf8_encode: function _utf8_encode(string) {
-    string = string.replace(/\r\n/g, "\n");
-    var utftext = "";
-    for (var n = 0; n < string.length; n++) {
-      var c = string.charCodeAt(n);
-      if (c < 128) {
-        utftext += String.fromCharCode(c);
-      } else if (c > 127 && c < 2048) {
-        utftext += String.fromCharCode(c >> 6 | 192);
-        utftext += String.fromCharCode(c & 63 | 128);
-      } else {
-        utftext += String.fromCharCode(c >> 12 | 224);
-        utftext += String.fromCharCode(c >> 6 & 63 | 128);
-        utftext += String.fromCharCode(c & 63 | 128);
-      }
-    }
-    return utftext;
-  },
-  // private method for UTF-8 decoding
-  _utf8_decode: function _utf8_decode(utftext) {
-    var string = "";
-    var i = 0;
-    var c = c1 = c2 = 0;
-    while (i < utftext.length) {
-      c = utftext.charCodeAt(i);
-      if (c < 128) {
-        string += String.fromCharCode(c);
-        i++;
-      } else if (c > 191 && c < 224) {
-        c2 = utftext.charCodeAt(i + 1);
-        string += String.fromCharCode((c & 31) << 6 | c2 & 63);
-        i += 2;
-      } else {
-        c2 = utftext.charCodeAt(i + 1);
-        c3 = utftext.charCodeAt(i + 2);
-        string += String.fromCharCode((c & 15) << 12 | (c2 & 63) << 6 | c3 & 63);
-        i += 3;
-      }
-    }
-    return string;
-  }
-};
-module.exports = Base64;
-
-/***/ }),
-/* 505 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/hmac.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*!
- * Crypto-JS v1.1.0
- * http://code.google.com/p/crypto-js/
- * Copyright (c) 2009, Jeff Mott. All rights reserved.
- * http://code.google.com/p/crypto-js/wiki/License
- */
-
-var Crypto = __webpack_require__(/*! ./crypto.js */ 506);
-(function () {
-  // Shortcut
-  var util = Crypto.util;
-  Crypto.HMAC = function (hasher, message, key, options) {
-    // Allow arbitrary length keys
-    key = key.length > hasher._blocksize * 4 ? hasher(key, {
-      asBytes: true
-    }) : util.stringToBytes(key);
-
-    // XOR keys with pad constants
-    var okey = key,
-      ikey = key.slice(0);
-    for (var i = 0; i < hasher._blocksize * 4; i++) {
-      okey[i] ^= 0x5C;
-      ikey[i] ^= 0x36;
-    }
-    var hmacbytes = hasher(util.bytesToString(okey) + hasher(util.bytesToString(ikey) + message, {
-      asString: true
-    }), {
-      asBytes: true
-    });
-    return options && options.asBytes ? hmacbytes : options && options.asString ? util.bytesToString(hmacbytes) : util.bytesToHex(hmacbytes);
-  };
-})();
-module.exports = Crypto;
-
-/***/ }),
-/* 506 */
-/*!*************************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/crypto.js ***!
-  \*************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/*!
- * Crypto-JS v1.1.0
- * http://code.google.com/p/crypto-js/
- * Copyright (c) 2009, Jeff Mott. All rights reserved.
- * http://code.google.com/p/crypto-js/wiki/License
- */
-
-var Crypto = {};
-(function () {
-  var base64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-
-  // Crypto utilities
-  var util = Crypto.util = {
-    // Bit-wise rotate left
-    rotl: function rotl(n, b) {
-      return n << b | n >>> 32 - b;
-    },
-    // Bit-wise rotate right
-    rotr: function rotr(n, b) {
-      return n << 32 - b | n >>> b;
-    },
-    // Swap big-endian to little-endian and vice versa
-    endian: function endian(n) {
-      // If number given, swap endian
-      if (n.constructor == Number) {
-        return util.rotl(n, 8) & 0x00FF00FF | util.rotl(n, 24) & 0xFF00FF00;
-      }
-
-      // Else, assume array and swap all items
-      for (var i = 0; i < n.length; i++) {
-        n[i] = util.endian(n[i]);
-      }
-      return n;
-    },
-    // Generate an array of any length of random bytes
-    randomBytes: function randomBytes(n) {
-      for (var bytes = []; n > 0; n--) {
-        bytes.push(Math.floor(Math.random() * 256));
-      }
-      return bytes;
-    },
-    // Convert a string to a byte array
-    stringToBytes: function stringToBytes(str) {
-      var bytes = [];
-      for (var i = 0; i < str.length; i++) {
-        bytes.push(str.charCodeAt(i));
-      }
-      return bytes;
-    },
-    // Convert a byte array to a string
-    bytesToString: function bytesToString(bytes) {
-      var str = [];
-      for (var i = 0; i < bytes.length; i++) {
-        str.push(String.fromCharCode(bytes[i]));
-      }
-      return str.join("");
-    },
-    // Convert a string to big-endian 32-bit words
-    stringToWords: function stringToWords(str) {
-      var words = [];
-      for (var c = 0, b = 0; c < str.length; c++, b += 8) {
-        words[b >>> 5] |= str.charCodeAt(c) << 24 - b % 32;
-      }
-      return words;
-    },
-    // Convert a byte array to big-endian 32-bits words
-    bytesToWords: function bytesToWords(bytes) {
-      var words = [];
-      for (var i = 0, b = 0; i < bytes.length; i++, b += 8) {
-        words[b >>> 5] |= bytes[i] << 24 - b % 32;
-      }
-      return words;
-    },
-    // Convert big-endian 32-bit words to a byte array
-    wordsToBytes: function wordsToBytes(words) {
-      var bytes = [];
-      for (var b = 0; b < words.length * 32; b += 8) {
-        bytes.push(words[b >>> 5] >>> 24 - b % 32 & 0xFF);
-      }
-      return bytes;
-    },
-    // Convert a byte array to a hex string
-    bytesToHex: function bytesToHex(bytes) {
-      var hex = [];
-      for (var i = 0; i < bytes.length; i++) {
-        hex.push((bytes[i] >>> 4).toString(16));
-        hex.push((bytes[i] & 0xF).toString(16));
-      }
-      return hex.join("");
-    },
-    // Convert a hex string to a byte array
-    hexToBytes: function hexToBytes(hex) {
-      var bytes = [];
-      for (var c = 0; c < hex.length; c += 2) {
-        bytes.push(parseInt(hex.substr(c, 2), 16));
-      }
-      return bytes;
-    },
-    // Convert a byte array to a base-64 string
-    bytesToBase64: function bytesToBase64(bytes) {
-      // Use browser-native function if it exists
-      // if (typeof btoa == "function") return btoa(util.bytesToString(bytes));
-
-      var base64 = [],
-        overflow;
-      for (var i = 0; i < bytes.length; i++) {
-        switch (i % 3) {
-          case 0:
-            base64.push(base64map.charAt(bytes[i] >>> 2));
-            overflow = (bytes[i] & 0x3) << 4;
-            break;
-          case 1:
-            base64.push(base64map.charAt(overflow | bytes[i] >>> 4));
-            overflow = (bytes[i] & 0xF) << 2;
-            break;
-          case 2:
-            base64.push(base64map.charAt(overflow | bytes[i] >>> 6));
-            base64.push(base64map.charAt(bytes[i] & 0x3F));
-            overflow = -1;
-        }
-      }
-
-      // Encode overflow bits, if there are any
-      if (overflow != undefined && overflow != -1) base64.push(base64map.charAt(overflow));
-
-      // Add padding
-      while (base64.length % 4 != 0) {
-        base64.push("=");
-      }
-      return base64.join("");
-    },
-    // Convert a base-64 string to a byte array
-    base64ToBytes: function base64ToBytes(base64) {
-      // Use browser-native function if it exists
-      if (typeof atob == "function") return util.stringToBytes(atob(base64));
-
-      // Remove non-base-64 characters
-      base64 = base64.replace(/[^A-Z0-9+\/]/ig, "");
-      var bytes = [];
-      for (var i = 0; i < base64.length; i++) {
-        switch (i % 4) {
-          case 1:
-            bytes.push(base64map.indexOf(base64.charAt(i - 1)) << 2 | base64map.indexOf(base64.charAt(i)) >>> 4);
-            break;
-          case 2:
-            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0xF) << 4 | base64map.indexOf(base64.charAt(i)) >>> 2);
-            break;
-          case 3:
-            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0x3) << 6 | base64map.indexOf(base64.charAt(i)));
-            break;
-        }
-      }
-      return bytes;
-    }
-  };
-
-  // Crypto mode namespace
-  Crypto.mode = {};
-})();
-module.exports = Crypto;
-
-/***/ }),
-/* 507 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/zxt3310/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/sha1.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*!
- * Crypto-JS v1.1.0
- * http://code.google.com/p/crypto-js/
- * Copyright (c) 2009, Jeff Mott. All rights reserved.
- * http://code.google.com/p/crypto-js/wiki/License
- */
-
-var Crypto = __webpack_require__(/*! ./crypto.js */ 506);
-(function () {
-  // Shortcut
-  var util = Crypto.util;
-
-  // Public API
-  var SHA1 = Crypto.SHA1 = function (message, options) {
-    var digestbytes = util.wordsToBytes(SHA1._sha1(message));
-    return options && options.asBytes ? digestbytes : options && options.asString ? util.bytesToString(digestbytes) : util.bytesToHex(digestbytes);
-  };
-
-  // The core
-  SHA1._sha1 = function (message) {
-    var m = util.stringToWords(message),
-      l = message.length * 8,
-      w = [],
-      H0 = 1732584193,
-      H1 = -271733879,
-      H2 = -1732584194,
-      H3 = 271733878,
-      H4 = -1009589776;
-
-    // Padding
-    m[l >> 5] |= 0x80 << 24 - l % 32;
-    m[(l + 64 >>> 9 << 4) + 15] = l;
-    for (var i = 0; i < m.length; i += 16) {
-      var a = H0,
-        b = H1,
-        c = H2,
-        d = H3,
-        e = H4;
-      for (var j = 0; j < 80; j++) {
-        if (j < 16) w[j] = m[i + j];else {
-          var n = w[j - 3] ^ w[j - 8] ^ w[j - 14] ^ w[j - 16];
-          w[j] = n << 1 | n >>> 31;
-        }
-        var t = (H0 << 5 | H0 >>> 27) + H4 + (w[j] >>> 0) + (j < 20 ? (H1 & H2 | ~H1 & H3) + 1518500249 : j < 40 ? (H1 ^ H2 ^ H3) + 1859775393 : j < 60 ? (H1 & H2 | H1 & H3 | H2 & H3) - 1894007588 : (H1 ^ H2 ^ H3) - 899497514);
-        H4 = H3;
-        H3 = H2;
-        H2 = H1 << 30 | H1 >>> 2;
-        H1 = H0;
-        H0 = t;
-      }
-      H0 += a;
-      H1 += b;
-      H2 += c;
-      H3 += d;
-      H4 += e;
-    }
-    return [H0, H1, H2, H3, H4];
-  };
-
-  // Package private blocksize
-  SHA1._blocksize = 16;
-})();
-module.exports = Crypto;
 
 /***/ })
 ]]);

@@ -92,7 +92,7 @@
 			"path" : "pages/Login/Login",
 			"style" : 
 			{
-				"navigationBarTitleText" : "登录",
+				"navigationBarTitleText" : "请登录",
 				"enablePullDownRefresh" : false
 			}
 		}

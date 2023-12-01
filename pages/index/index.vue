@@ -84,6 +84,11 @@
 		onLoad() {
 			
 		},
+		onShow() {
+			uni.navigateTo({
+				url:"/pages/Login/Login"
+			})
+		},
 		methods: {
 			jumpToCreateOrder(){
 				uni.navigateTo({

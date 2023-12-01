@@ -1,5 +1,10 @@
 {
-  "navigationBarTitleText": "登录",
+  "navigationBarTitleText": "请登录",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-code": "/uni_modules/uview-ui/components/u-code/u-code",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
 }
