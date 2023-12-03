@@ -53,12 +53,6 @@
 				</u-col>
 			</u-row>
 		</view>
-		
-		<!-- <view class="">
-			<u--input></u--input>
-			<u-button type="primary" @click="openAddress">adsf</u-button>
-		</view>
-		<liu-choose-address ref="scroll" @change='chooseSuccess'></liu-choose-address> -->
 	</view>
 	
 </template>
@@ -85,9 +79,9 @@
 			
 		},
 		onShow() {
-			uni.navigateTo({
-				url:"/pages/Login/Login"
-			})
+			// uni.navigateTo({
+			// 	url:"/pages/Login/Login"
+			// })
 		},
 		methods: {
 			jumpToCreateOrder(){

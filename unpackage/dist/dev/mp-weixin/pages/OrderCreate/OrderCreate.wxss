@@ -52,6 +52,14 @@
 }
 .box_list_unit .box_content {
   padding: 30rpx;
+  position: relative;
+}
+.box_list_unit .box_content .remove_btn {
+  position: absolute;
+  width: 100rpx;
+  height: 40rpx;
+  right: 10rpx;
+  bottom: 20rpx;
 }
 .submit_btn {
   display: flex;

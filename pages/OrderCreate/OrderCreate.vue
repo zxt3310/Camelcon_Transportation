@@ -39,6 +39,7 @@
 		</view>
 		<view class="content_view" style="margin-top: 0;">
 			<view class="box_list_unit" v-for="(item, index) in unit_obj" :key="index">
+				<u-badge type="primary" absolute :offset="[-5 ,-5]" shape="horn" :value="`${item.box}盒`"></u-badge>
 				<view style="position: absolute; left:0,top:0; background-color: #0081FF; border-radius: 0 0 100% 0; padding:5upx 10upx 10upx 5upx; color: white;">
 					{{index+1}}
 				</view>
@@ -46,7 +47,7 @@
 					<view class="u-flex-row">
 						<u--text size="24" :text="`类别:${item.type}`"></u--text>
 						<u--text size="24" :text="`性别:${item.sex}`"></u--text>
-						<u--text size="24" :text="`数量:${item.qty}`"></u--text>
+						<u--text size="24" :text="`只数:${item.qty}`"></u--text>
 						<u--text size="24" :text="`周龄:${item.age}`"></u--text>
 					</view>
 					<view class="u-flex-row">
@@ -54,6 +55,9 @@
 						<u--text size="24" :text="`基因型:${item.gen}`"></u--text>
 					</view>	
 					<u--text size="24" :text="`备注:${item.des}`"></u--text>
+					<view class="remove_btn">
+						<u-button size="mini" type="error" plain="true" text="移除" @click="remove_box(index)"></u-button>
+					</view>
 				</view>
 				<u-gap height="20" bg-color="#F4F7FC"></u-gap>
 			</view>
@@ -86,9 +90,9 @@
 					code:""
 				},
 				unit_obj:[
-					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明"},
-					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明"},
-					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明"}
+					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明",box:"1"},
+					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明",box:"5"},
+					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明",box:"7"}
 				],
 				
 			}
@@ -109,6 +113,9 @@
 				uni.navigateTo({
 					url:"/pages/AddressList/AddressList"
 				})
+			},
+			remove_box(index){
+				this.unit_obj.splice(index,1);
 			}
 		}
 	}
@@ -142,6 +149,14 @@
 		font-size: 20upx;
 		.box_content{
 			padding: 30upx;
+			position: relative;
+			.remove_btn{
+				position: absolute;
+				width: 100upx;
+				height: 40upx;
+				right: 10upx;
+				bottom: 20upx;
+			}
 		}
 	}
 	.submit_btn{

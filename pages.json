@@ -95,6 +95,14 @@
 				"navigationBarTitleText" : "请登录",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/User/AboutUs",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于我们",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

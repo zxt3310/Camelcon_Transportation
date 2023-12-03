@@ -11,7 +11,8 @@
     "pages/InvoiceInfoList/AddInvoiceInfo",
     "pages/OrderList/OrderDetail",
     "pages/Feedback/Feedback",
-    "pages/Login/Login"
+    "pages/Login/Login",
+    "pages/User/AboutUs"
   ],
   "subPackages": [],
   "window": {

@@ -26,7 +26,7 @@
 						<u-icon labelSize="22" size="60" labelPos="bottom" name="account" label="个人资料"></u-icon>
 					</u-col>
 					<u-col span="3">
-						<u-icon labelSize="22" size="60" labelPos="bottom" name="info-circle" label="关于我们"></u-icon>
+						<u-icon labelSize="22" size="60" labelPos="bottom" name="info-circle" label="关于我们" @click="jumpToAbout"></u-icon>
 					</u-col>
 				</u-row>  
 			</view>
@@ -61,6 +61,11 @@
 			onSelect(){
 				uni.makePhoneCall({
 					phoneNumber:"010-86683333"
+				})
+			},
+			jumpToAbout(){
+				uni.navigateTo({
+					url:"/pages/User/AboutUs"
 				})
 			}
 		}
