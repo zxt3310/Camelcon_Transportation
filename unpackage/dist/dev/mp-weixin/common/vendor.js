@@ -1557,7 +1557,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8934,7 +8934,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8955,14 +8955,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -9058,7 +9058,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -9477,9 +9477,9 @@ internalMixin(Vue);
 
 /***/ }),
 /* 26 */
-/*!**********************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/pages.json ***!
-  \**********************************************************************************/
+/*!**************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/pages.json ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9623,9 +9623,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 33 */
-/*!**************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/index.js ***!
-  \**************************************************************************************/
+/*!******************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/store/index.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10920,9 +10920,9 @@ module.exports = index_cjs;
 
 /***/ }),
 /* 35 */
-/*!*************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/modules sync nonrecursive \.js$ ***!
-  \*************************************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/store/modules sync nonrecursive \.js$ ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10952,9 +10952,9 @@ webpackContext.id = 35;
 
 /***/ }),
 /* 36 */
-/*!*********************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/store/modules/user.js ***!
-  \*********************************************************************************************/
+/*!*************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/store/modules/user.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10968,16 +10968,16 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _storage = _interopRequireDefault(__webpack_require__(/*! @/Tootls/storage.js */ 541));
-var loginApi = _interopRequireWildcard(__webpack_require__(/*! @/api/login */ 542));
+var _storage = _interopRequireDefault(__webpack_require__(/*! @/Tootls/storage.js */ 37));
+var loginApi = _interopRequireWildcard(__webpack_require__(/*! @/api/login */ 38));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var user = {
   state: {
-    username: '',
-    token: ''
+    username: _storage.default.get('PHONE') ? _storage.default.get('PHONE') : '未登录',
+    token: _storage.default.get('TOKEN') ? _storage.default.get('TOKEN') : null
   },
   mutations: {
     SET_TOKEN: function SET_TOKEN(state, value) {
@@ -11004,14 +11004,21 @@ var user = {
           resolve();
         }).catch(reject);
       });
+    },
+    logout: function logout(_ref2) {
+      var commit = _ref2.commit;
+      commit('SET_TOKEN', null);
+      commit('SET_USER', '未登录');
+      _storage.default.remove('PHONE');
+      _storage.default.remove('TOKEN');
     }
   }
 };
 var checkLogin = function checkLogin() {};
-var loginSuccess = function loginSuccess(commit, _ref2) {
-  var token = _ref2.token,
-    phone = _ref2.phone,
-    expire = _ref2.expire;
+var loginSuccess = function loginSuccess(commit, _ref3) {
+  var token = _ref3.token,
+    phone = _ref3.phone,
+    expire = _ref3.expire;
   _storage.default.set("PHONE", phone);
   _storage.default.set("TOKEN", token, expire);
   commit('SET_USER', phone);
@@ -11022,9 +11029,2783 @@ exports.default = _default;
 
 /***/ }),
 /* 37 */
-/*!***************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/router/index.js ***!
-  \***************************************************************************************/
+/*!*********************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/Tootls/storage.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(uni) {/**  
+ * 缓存数据优化  
+ * const storage = require('@/utils/storage');  
+ * import storage from '@/utils/storage'  
+ * 使用方法 【  
+ *     一、设置缓存  
+ *         string    storage.set('k', 'string你好啊');  
+ *         json      storage.set('k', { "b": "3" }, 2);  
+ *         array     storage.set('k', [1, 2, 3]);  
+ *         boolean   storage.set('k', true);  
+ *     二、读取缓存  
+ *         默认值    storage.get('k')  
+ *         string    storage.get('k', '你好')  
+ *         json      storage.get('k', { "a": "1" })  
+ *     三、移除/清理    
+ *         移除: storage.remove('k');  
+ *         清理：storage.clear();   
+ * 】  
+ * @type {String}  
+ */
+
+var postfix = '_expiry'; // 缓存有效期后缀   
+
+module.exports = {
+  /**  
+   * 设置缓存   
+   * @param  {[type]} k [键名]  
+   * @param  {[type]} v [键值]  
+   * @param  {[type]} t [时间、单位秒]  
+   */
+  set: function set(k, v, t) {
+    uni.setStorageSync(k, v);
+    var seconds = parseInt(t);
+    if (seconds > 0) {
+      var timestamp = Date.parse(new Date());
+      timestamp = timestamp / 1000 + seconds;
+      uni.setStorageSync(k + postfix, timestamp + '');
+    } else {
+      uni.removeStorageSync(k + postfix);
+    }
+  },
+  /**  
+   * 获取缓存   
+   * @param  {[type]} k   [键名]  
+   * @param  {[type]} def [获取为空时默认]  
+   */
+  get: function get(k, def) {
+    var deadtime = parseInt(uni.getStorageSync(k + postfix));
+    if (deadtime) {
+      if (parseInt(deadtime) < Date.parse(new Date()) / 1000) {
+        if (def) {
+          return def;
+        } else {
+          return false;
+        }
+      }
+    }
+    var res = uni.getStorageSync(k);
+    if (res) {
+      return res;
+    }
+    if (def == undefined || def == "") {
+      def = false;
+    }
+    return def;
+  },
+  /**
+   * 删除指定缓存
+   * @param {Object} k
+   */
+  remove: function remove(k) {
+    uni.removeStorageSync(k);
+    uni.removeStorageSync(k + postfix);
+  },
+  /**  
+   * 清理所有缓存  
+   * @return {[type]} [description]  
+   */
+  clear: function clear() {
+    uni.clearStorageSync();
+  }
+};
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 38 */
+/*!**********************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/api/login/index.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.login = void 0;
+var _requestBase = _interopRequireDefault(__webpack_require__(/*! @/api/requestBase.js */ 39));
+var api = {
+  login: "api/v1/login",
+  register: "api/v1/register"
+};
+// 使用示例
+var login = function login(data) {
+  return _requestBase.default.post(api.login, data);
+};
+exports.login = login;
+
+/***/ }),
+/* 39 */
+/*!**********************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/api/requestBase.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 40));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 42));
+var _request = _interopRequireDefault(__webpack_require__(/*! @/uni_modules/zhouWei-request/js_sdk/request */ 43));
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+// 全局配置的请求域名
+var baseUrl = "http://211.159.178.9/";
+//可以new多个request来支持多个域名请求
+var $http = new _request.default({
+  //接口请求地址
+  baseUrl: baseUrl,
+  //服务器本地上传文件地址
+  fileUrl: baseUrl,
+  // 服务器上传图片默认url
+  defaultUploadUrl: "api/common/v1/upload_image",
+  //设置请求头（如果使用报错跨域问题，可能是content-type请求类型和后台那边设置的不一致）
+  header: {
+    'content-type': 'application/json;charset=UTF-8'
+  },
+  // 请求超时时间（默认6000）
+  timeout: 6000,
+  // 默认配置（可不写）
+  config: {
+    // 是否自动提示错误
+    isPrompt: true,
+    // 是否显示加载动画
+    load: true,
+    // 是否使用数据工厂
+    isFactory: true
+  }
+});
+
+// 添加获取七牛云token的方法
+$http.getQnToken = function (callback) {
+  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
+  $http.get("api/kemean/aid/qn_upload").then(function (data) {
+    /*
+     *接口返回参数：
+     *visitPrefix:访问文件的域名
+     *token:七牛云上传token
+     *folderPath:上传的文件夹
+     *region: 地区 默认为：SCN
+     */
+    callback({
+      visitPrefix: data.visitPrefix,
+      token: data.token,
+      folderPath: data.folderPath,
+      region: "SCN"
+    });
+  });
+};
+// 添加获取阿里云token的方法
+$http.getAliToken = function (callback) {
+  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
+  $http.get("api/open/v1/ali_oss_upload").then(function (data) {
+    /*
+     *接口返回参数：
+     *visitPrefix: 访问文件的域名
+     *folderPath: 上传的文件夹
+     *region: 地区 
+     *bucket: 阿里云的 bucket
+     *accessKeyId: 阿里云的访问ID
+     *accessKeySecret: 阿里云的访问密钥
+     *stsToken: 阿里云的访问token
+     */
+    callback({
+      accessKeyId: data.accessKeyId,
+      accessKeySecret: data.accessKeySecret,
+      bucket: data.bucket,
+      region: data.region,
+      visitPrefix: data.visitPrefix,
+      token: data.token,
+      folderPath: data.folderPath,
+      stsToken: data.securityToken
+    });
+  });
+};
+//当前接口请求数
+var requestNum = 0;
+//请求开始拦截器
+$http.requestStart = function (options) {
+  if (options.load) {
+    if (requestNum <= 0) {
+      //打开加载动画
+      uni.showLoading({
+        title: '加载中',
+        mask: true
+      });
+    }
+    requestNum += 1;
+  }
+  // 图片、视频上传大小限制
+  if (options.method == "FILE") {
+    // 文件最大字节: options.maxSize 可以在调用方法的时候加入参数
+    var maxSize = options.maxSize || '';
+    var _iterator = _createForOfIteratorHelper(options.files),
+      _step;
+    try {
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        var item = _step.value;
+        if (item.fileType == 'image') {
+          if (maxSize && item.size > maxSize) {
+            setTimeout(function () {
+              uni.showToast({
+                title: "图片过大，请重新上传",
+                icon: "none"
+              });
+            }, 500);
+            return false;
+          }
+        } else if (item.fileType == "video") {
+          if (item.duration < 3) {
+            setTimeout(function () {
+              uni.showToast({
+                title: "视频长度不足3秒，请重新上传",
+                icon: "none"
+              });
+            }, 500);
+            return false;
+          }
+        }
+      }
+    } catch (err) {
+      _iterator.e(err);
+    } finally {
+      _iterator.f();
+    }
+  }
+  //请求前加入token
+  // options.header['token'] = "你的项目登录token";
+  return options; // return false 表示请求拦截，不会继续请求
+};
+//请求结束
+$http.requestEnd = function (options) {
+  //判断当前接口是否需要加载动画
+  if (options.load) {
+    requestNum = requestNum - 1;
+    if (requestNum <= 0) {
+      uni.hideLoading();
+    }
+  }
+};
+//登录弹窗次数
+var loginPopupNum = 0;
+//所有接口数据处理（可在接口里设置不调用此方法）
+//此方法需要开发者根据各自的接口返回类型修改，以下只是模板
+$http.dataFactory = /*#__PURE__*/function () {
+  var _ref = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(res) {
+    var httpData, content;
+    return _regenerator.default.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            // console.log("接口请求数据", {
+            // 	url: res.url,
+            // 	resolve: res.response,
+            // 	header: res.header,
+            // 	data: res.data,
+            // 	method: res.method,
+            // });
+            console.log(res);
+            if (!(res.response.statusCode && res.response.statusCode == 200)) {
+              _context.next = 18;
+              break;
+            }
+            httpData = res.response.data;
+            if (typeof httpData == "string") {
+              httpData = JSON.parse(httpData);
+            }
+            /*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
+
+            //判断数据是否请求成功
+            if (!(httpData.success || httpData.code == 200)) {
+              _context.next = 8;
+              break;
+            }
+            return _context.abrupt("return", Promise.resolve(httpData.data));
+          case 8:
+            if (!(httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100)) {
+              _context.next = 14;
+              break;
+            }
+            content = '此时此刻需要您登录喔~';
+            if (loginPopupNum <= 0) {
+              loginPopupNum++;
+              uni.showModal({
+                title: '温馨提示',
+                content: content,
+                confirmText: "去登录",
+                cancelText: "再逛会",
+                success: function success(res) {
+                  loginPopupNum--;
+                  if (res.confirm) {
+                    uni.navigateTo({
+                      url: "/pages/user/login"
+                    });
+                  }
+                }
+              });
+            }
+            // 返回错误的结果(catch接受数据)
+            return _context.abrupt("return", Promise.reject({
+              statusCode: 0,
+              errMsg: "【request】" + (httpData.info || httpData.msg)
+            }));
+          case 14:
+            //其他错误提示
+            if (res.isPrompt) {
+              uni.showToast({
+                title: httpData.info || httpData.msg,
+                icon: "none",
+                duration: 3000
+              });
+            }
+            // 返回错误的结果(catch接受数据)
+            return _context.abrupt("return", Promise.reject({
+              statusCode: 0,
+              errMsg: "【request】" + (httpData.info || httpData.msg)
+            }));
+          case 16:
+            _context.next = 19;
+            break;
+          case 18:
+            return _context.abrupt("return", Promise.reject({
+              statusCode: res.response.statusCode,
+              errMsg: "【request】数据工厂验证不通过"
+            }));
+          case 19:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return function (_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
+// 错误回调
+$http.requestError = function (e) {
+  // e.statusCode === 0 是参数效验错误抛出的
+  if (e.statusCode === 0) {
+    throw e;
+  } else {
+    uni.showToast({
+      title: "网络错误，请检查一下网络",
+      icon: "none"
+    });
+  }
+};
+var _default = $http;
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 40 */
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/@babel/runtime/regenerator/index.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// TODO(Babel 8): Remove this file.
+
+var runtime = __webpack_require__(/*! @babel/runtime/helpers/regeneratorRuntime */ 41)();
+module.exports = runtime;
+
+/***/ }),
+/* 41 */
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/regeneratorRuntime.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
+function _regeneratorRuntime() {
+  "use strict";
+
+  /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+  module.exports = _regeneratorRuntime = function _regeneratorRuntime() {
+    return exports;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  var exports = {},
+    Op = Object.prototype,
+    hasOwn = Op.hasOwnProperty,
+    defineProperty = Object.defineProperty || function (obj, key, desc) {
+      obj[key] = desc.value;
+    },
+    $Symbol = "function" == typeof Symbol ? Symbol : {},
+    iteratorSymbol = $Symbol.iterator || "@@iterator",
+    asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator",
+    toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+  function define(obj, key, value) {
+    return Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: !0,
+      configurable: !0,
+      writable: !0
+    }), obj[key];
+  }
+  try {
+    define({}, "");
+  } catch (err) {
+    define = function define(obj, key, value) {
+      return obj[key] = value;
+    };
+  }
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator,
+      generator = Object.create(protoGenerator.prototype),
+      context = new Context(tryLocsList || []);
+    return defineProperty(generator, "_invoke", {
+      value: makeInvokeMethod(innerFn, self, context)
+    }), generator;
+  }
+  function tryCatch(fn, obj, arg) {
+    try {
+      return {
+        type: "normal",
+        arg: fn.call(obj, arg)
+      };
+    } catch (err) {
+      return {
+        type: "throw",
+        arg: err
+      };
+    }
+  }
+  exports.wrap = wrap;
+  var ContinueSentinel = {};
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+  var IteratorPrototype = {};
+  define(IteratorPrototype, iteratorSymbol, function () {
+    return this;
+  });
+  var getProto = Object.getPrototypeOf,
+    NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype);
+  var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype);
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function (method) {
+      define(prototype, method, function (arg) {
+        return this._invoke(method, arg);
+      });
+    });
+  }
+  function AsyncIterator(generator, PromiseImpl) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if ("throw" !== record.type) {
+        var result = record.arg,
+          value = result.value;
+        return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) {
+          invoke("next", value, resolve, reject);
+        }, function (err) {
+          invoke("throw", err, resolve, reject);
+        }) : PromiseImpl.resolve(value).then(function (unwrapped) {
+          result.value = unwrapped, resolve(result);
+        }, function (error) {
+          return invoke("throw", error, resolve, reject);
+        });
+      }
+      reject(record.arg);
+    }
+    var previousPromise;
+    defineProperty(this, "_invoke", {
+      value: function value(method, arg) {
+        function callInvokeWithMethodAndArg() {
+          return new PromiseImpl(function (resolve, reject) {
+            invoke(method, arg, resolve, reject);
+          });
+        }
+        return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg();
+      }
+    });
+  }
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = "suspendedStart";
+    return function (method, arg) {
+      if ("executing" === state) throw new Error("Generator is already running");
+      if ("completed" === state) {
+        if ("throw" === method) throw arg;
+        return doneResult();
+      }
+      for (context.method = method, context.arg = arg;;) {
+        var delegate = context.delegate;
+        if (delegate) {
+          var delegateResult = maybeInvokeDelegate(delegate, context);
+          if (delegateResult) {
+            if (delegateResult === ContinueSentinel) continue;
+            return delegateResult;
+          }
+        }
+        if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) {
+          if ("suspendedStart" === state) throw state = "completed", context.arg;
+          context.dispatchException(context.arg);
+        } else "return" === context.method && context.abrupt("return", context.arg);
+        state = "executing";
+        var record = tryCatch(innerFn, self, context);
+        if ("normal" === record.type) {
+          if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue;
+          return {
+            value: record.arg,
+            done: context.done
+          };
+        }
+        "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg);
+      }
+    };
+  }
+  function maybeInvokeDelegate(delegate, context) {
+    var methodName = context.method,
+      method = delegate.iterator[methodName];
+    if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator["return"] && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel;
+    var record = tryCatch(method, delegate.iterator, context.arg);
+    if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel;
+    var info = record.arg;
+    return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel);
+  }
+  function pushTryEntry(locs) {
+    var entry = {
+      tryLoc: locs[0]
+    };
+    1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry);
+  }
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal", delete record.arg, entry.completion = record;
+  }
+  function Context(tryLocsList) {
+    this.tryEntries = [{
+      tryLoc: "root"
+    }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0);
+  }
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) return iteratorMethod.call(iterable);
+      if ("function" == typeof iterable.next) return iterable;
+      if (!isNaN(iterable.length)) {
+        var i = -1,
+          next = function next() {
+            for (; ++i < iterable.length;) {
+              if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next;
+            }
+            return next.value = undefined, next.done = !0, next;
+          };
+        return next.next = next;
+      }
+    }
+    return {
+      next: doneResult
+    };
+  }
+  function doneResult() {
+    return {
+      value: undefined,
+      done: !0
+    };
+  }
+  return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", {
+    value: GeneratorFunctionPrototype,
+    configurable: !0
+  }), defineProperty(GeneratorFunctionPrototype, "constructor", {
+    value: GeneratorFunction,
+    configurable: !0
+  }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) {
+    var ctor = "function" == typeof genFun && genFun.constructor;
+    return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name));
+  }, exports.mark = function (genFun) {
+    return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun;
+  }, exports.awrap = function (arg) {
+    return {
+      __await: arg
+    };
+  }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () {
+    return this;
+  }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) {
+    void 0 === PromiseImpl && (PromiseImpl = Promise);
+    var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl);
+    return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) {
+      return result.done ? result.value : iter.next();
+    });
+  }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () {
+    return this;
+  }), define(Gp, "toString", function () {
+    return "[object Generator]";
+  }), exports.keys = function (val) {
+    var object = Object(val),
+      keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    return keys.reverse(), function next() {
+      for (; keys.length;) {
+        var key = keys.pop();
+        if (key in object) return next.value = key, next.done = !1, next;
+      }
+      return next.done = !0, next;
+    };
+  }, exports.values = values, Context.prototype = {
+    constructor: Context,
+    reset: function reset(skipTempReset) {
+      if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) {
+        "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined);
+      }
+    },
+    stop: function stop() {
+      this.done = !0;
+      var rootRecord = this.tryEntries[0].completion;
+      if ("throw" === rootRecord.type) throw rootRecord.arg;
+      return this.rval;
+    },
+    dispatchException: function dispatchException(exception) {
+      if (this.done) throw exception;
+      var context = this;
+      function handle(loc, caught) {
+        return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught;
+      }
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i],
+          record = entry.completion;
+        if ("root" === entry.tryLoc) return handle("end");
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc"),
+            hasFinally = hasOwn.call(entry, "finallyLoc");
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0);
+            if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0);
+          } else {
+            if (!hasFinally) throw new Error("try statement without catch or finally");
+            if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
+          }
+        }
+      }
+    },
+    abrupt: function abrupt(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+      finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null);
+      var record = finallyEntry ? finallyEntry.completion : {};
+      return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record);
+    },
+    complete: function complete(record, afterLoc) {
+      if ("throw" === record.type) throw record.arg;
+      return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel;
+    },
+    finish: function finish(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel;
+      }
+    },
+    "catch": function _catch(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if ("throw" === record.type) {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+      throw new Error("illegal catch attempt");
+    },
+    delegateYield: function delegateYield(iterable, resultName, nextLoc) {
+      return this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      }, "next" === this.method && (this.arg = undefined), ContinueSentinel;
+    }
+  }, exports;
+}
+module.exports = _regeneratorRuntime, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 42 */
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/asyncToGenerator.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+  if (info.done) {
+    resolve(value);
+  } else {
+    Promise.resolve(value).then(_next, _throw);
+  }
+}
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+      args = arguments;
+    return new Promise(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+      _next(undefined);
+    });
+  };
+}
+module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 43 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/index.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _upload = _interopRequireDefault(__webpack_require__(/*! ./upload/upload.js */ 44));
+/***************纯粹的数据请求（如果使用这种可以删除掉fileUpload.js）******************/
+// import request from "./core/request.js";
+// export default request;
+/********数据请求同时继承了文件上传（包括七牛云上传）************/
+var _default = _upload.default;
+exports.default = _default;
+
+/***/ }),
+/* 44 */
+/*!***************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/upload.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 40));
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 42));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inherits */ 45));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ 46));
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ 48));
+var _request2 = _interopRequireDefault(__webpack_require__(/*! ./../core/request.js */ 49));
+var _utils = __webpack_require__(/*! ./../core/utils.js */ 50);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var _require = __webpack_require__(/*! ./utils */ 51),
+  chooseImage = _require.chooseImage,
+  chooseVideo = _require.chooseVideo,
+  qiniuUpload = _require.qiniuUpload,
+  aliUpload = _require.aliUpload,
+  urlUpload = _require.urlUpload;
+var fileUpload = /*#__PURE__*/function (_request) {
+  (0, _inherits2.default)(fileUpload, _request);
+  var _super = _createSuper(fileUpload);
+  function fileUpload(props) {
+    (0, _classCallCheck2.default)(this, fileUpload);
+    // 调用实现父类的构造函数
+    return _super.call(this, props);
+  }
+  //七牛云上传图片
+  (0, _createClass2.default)(fileUpload, [{
+    key: "qnImgUpload",
+    value: function () {
+      var _qnImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
+        var options,
+          files,
+          _args = arguments;
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                options = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};
+                _context.prev = 1;
+                _context.next = 4;
+                return chooseImage(options);
+              case 4:
+                files = _context.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context.next = 12;
+                break;
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](1);
+                this.requestError && this.requestError(_context.t0);
+                return _context.abrupt("return", Promise.reject(_context.t0));
+              case 12:
+                if (!files) {
+                  _context.next = 14;
+                  break;
+                }
+                return _context.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[1, 8]]);
+      }));
+      function qnImgUpload() {
+        return _qnImgUpload.apply(this, arguments);
+      }
+      return qnImgUpload;
+    }() //七牛云上传视频
+  }, {
+    key: "qnVideoUpload",
+    value: function () {
+      var _qnVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee2() {
+        var options,
+          files,
+          _args2 = arguments;
+        return _regenerator.default.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                options = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : {};
+                _context2.prev = 1;
+                _context2.next = 4;
+                return chooseVideo(options);
+              case 4:
+                files = _context2.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context2.next = 12;
+                break;
+              case 8:
+                _context2.prev = 8;
+                _context2.t0 = _context2["catch"](1);
+                this.requestError && this.requestError(_context2.t0);
+                return _context2.abrupt("return", Promise.reject(_context2.t0));
+              case 12:
+                if (!files) {
+                  _context2.next = 14;
+                  break;
+                }
+                return _context2.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this, [[1, 8]]);
+      }));
+      function qnVideoUpload() {
+        return _qnVideoUpload.apply(this, arguments);
+      }
+      return qnVideoUpload;
+    }() //七牛云文件上传（支持多张上传）
+  }, {
+    key: "qnFileUpload",
+    value: function () {
+      var _qnFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee3() {
+        var options,
+          requestInfo,
+          requestStart,
+          changekeys,
+          requestResult,
+          _args3 = arguments;
+        return _regenerator.default.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                options = _args3.length > 0 && _args3[0] !== undefined ? _args3[0] : {};
+                _context3.prev = 1;
+                // 数据合并
+                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
+                  header: {},
+                  method: "FILE"
+                });
+                //请求前回调
+                if (!this.requestStart) {
+                  _context3.next = 11;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context3.next = 10;
+                  break;
+                }
+                changekeys = ["load", "files"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context3.next = 11;
+                break;
+              case 10:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 11:
+                _context3.next = 13;
+                return qiniuUpload(requestInfo, this.getQnToken);
+              case 13:
+                requestResult = _context3.sent;
+                return _context3.abrupt("return", Promise.resolve(requestResult));
+              case 17:
+                _context3.prev = 17;
+                _context3.t0 = _context3["catch"](1);
+                this.requestError && this.requestError(_context3.t0);
+                return _context3.abrupt("return", Promise.reject(_context3.t0));
+              case 21:
+                _context3.prev = 21;
+                this.requestEnd && this.requestEnd(requestInfo);
+                return _context3.finish(21);
+              case 24:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, this, [[1, 17, 21, 24]]);
+      }));
+      function qnFileUpload() {
+        return _qnFileUpload.apply(this, arguments);
+      }
+      return qnFileUpload;
+    }() //阿里云上传图片
+  }, {
+    key: "aliImgUpload",
+    value: function () {
+      var _aliImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee4() {
+        var options,
+          files,
+          _args4 = arguments;
+        return _regenerator.default.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                options = _args4.length > 0 && _args4[0] !== undefined ? _args4[0] : {};
+                _context4.prev = 1;
+                _context4.next = 4;
+                return chooseImage(options);
+              case 4:
+                files = _context4.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context4.next = 12;
+                break;
+              case 8:
+                _context4.prev = 8;
+                _context4.t0 = _context4["catch"](1);
+                this.requestError && this.requestError(_context4.t0);
+                return _context4.abrupt("return", Promise.reject(_context4.t0));
+              case 12:
+                if (!files) {
+                  _context4.next = 14;
+                  break;
+                }
+                return _context4.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4, this, [[1, 8]]);
+      }));
+      function aliImgUpload() {
+        return _aliImgUpload.apply(this, arguments);
+      }
+      return aliImgUpload;
+    }() //阿里云上传视频
+  }, {
+    key: "aliVideoUpload",
+    value: function () {
+      var _aliVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee5() {
+        var options,
+          files,
+          _args5 = arguments;
+        return _regenerator.default.wrap(function _callee5$(_context5) {
+          while (1) {
+            switch (_context5.prev = _context5.next) {
+              case 0:
+                options = _args5.length > 0 && _args5[0] !== undefined ? _args5[0] : {};
+                _context5.prev = 1;
+                _context5.next = 4;
+                return chooseVideo(options);
+              case 4:
+                files = _context5.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(files);
+                _context5.next = 12;
+                break;
+              case 8:
+                _context5.prev = 8;
+                _context5.t0 = _context5["catch"](1);
+                this.requestError && this.requestError(_context5.t0);
+                return _context5.abrupt("return", Promise.reject(_context5.t0));
+              case 12:
+                if (!files) {
+                  _context5.next = 14;
+                  break;
+                }
+                return _context5.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
+                  files: files
+                })));
+              case 14:
+              case "end":
+                return _context5.stop();
+            }
+          }
+        }, _callee5, this, [[1, 8]]);
+      }));
+      function aliVideoUpload() {
+        return _aliVideoUpload.apply(this, arguments);
+      }
+      return aliVideoUpload;
+    }() //阿里云文件上传（支持多张上传）
+  }, {
+    key: "aliFileUpload",
+    value: function () {
+      var _aliFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee6() {
+        var options,
+          requestInfo,
+          requestStart,
+          changekeys,
+          requestResult,
+          _args6 = arguments;
+        return _regenerator.default.wrap(function _callee6$(_context6) {
+          while (1) {
+            switch (_context6.prev = _context6.next) {
+              case 0:
+                options = _args6.length > 0 && _args6[0] !== undefined ? _args6[0] : {};
+                _context6.prev = 1;
+                // 数据合并
+                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
+                  header: {},
+                  method: "FILE"
+                });
+                //请求前回调
+                if (!this.requestStart) {
+                  _context6.next = 11;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context6.next = 10;
+                  break;
+                }
+                changekeys = ["load", "files"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context6.next = 11;
+                break;
+              case 10:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 11:
+                _context6.next = 13;
+                return aliUpload(requestInfo, this.getAliToken);
+              case 13:
+                requestResult = _context6.sent;
+                return _context6.abrupt("return", Promise.resolve(requestResult));
+              case 17:
+                _context6.prev = 17;
+                _context6.t0 = _context6["catch"](1);
+                this.requestError && this.requestError(_context6.t0);
+                return _context6.abrupt("return", Promise.reject(_context6.t0));
+              case 21:
+                _context6.prev = 21;
+                this.requestEnd && this.requestEnd(requestInfo);
+                return _context6.finish(21);
+              case 24:
+              case "end":
+                return _context6.stop();
+            }
+          }
+        }, _callee6, this, [[1, 17, 21, 24]]);
+      }));
+      function aliFileUpload() {
+        return _aliFileUpload.apply(this, arguments);
+      }
+      return aliFileUpload;
+    }() //本地服务器图片上传
+  }, {
+    key: "urlImgUpload",
+    value: function () {
+      var _urlImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee7() {
+        var options,
+          _args7 = arguments;
+        return _regenerator.default.wrap(function _callee7$(_context7) {
+          while (1) {
+            switch (_context7.prev = _context7.next) {
+              case 0:
+                options = {};
+                if (_args7[0]) {
+                  if (typeof _args7[0] == "string") {
+                    options.url = _args7[0];
+                  } else if ((0, _typeof2.default)(_args7[0]) == "object") {
+                    options = Object.assign(options, _args7[0]);
+                  }
+                }
+                if (_args7[1] && (0, _typeof2.default)(_args7[1]) == "object") {
+                  options = Object.assign(options, _args7[1]);
+                }
+                _context7.prev = 3;
+                _context7.next = 6;
+                return chooseImage(options);
+              case 6:
+                options.files = _context7.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(options.files);
+                _context7.next = 14;
+                break;
+              case 10:
+                _context7.prev = 10;
+                _context7.t0 = _context7["catch"](3);
+                this.requestError && this.requestError(_context7.t0);
+                return _context7.abrupt("return", Promise.reject(_context7.t0));
+              case 14:
+                if (!options.files) {
+                  _context7.next = 16;
+                  break;
+                }
+                return _context7.abrupt("return", this.urlFileUpload(options));
+              case 16:
+              case "end":
+                return _context7.stop();
+            }
+          }
+        }, _callee7, this, [[3, 10]]);
+      }));
+      function urlImgUpload() {
+        return _urlImgUpload.apply(this, arguments);
+      }
+      return urlImgUpload;
+    }() //本地服务器上传视频
+  }, {
+    key: "urlVideoUpload",
+    value: function () {
+      var _urlVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee8() {
+        var options,
+          _args8 = arguments;
+        return _regenerator.default.wrap(function _callee8$(_context8) {
+          while (1) {
+            switch (_context8.prev = _context8.next) {
+              case 0:
+                options = {};
+                if (_args8[0]) {
+                  if (typeof _args8[0] == "string") {
+                    options.url = _args8[0];
+                  } else if ((0, _typeof2.default)(_args8[0]) == "object") {
+                    options = Object.assign(options, _args8[0]);
+                  }
+                }
+                if (_args8[1] && (0, _typeof2.default)(_args8[1]) == "object") {
+                  options = Object.assign(options, _args8[1]);
+                }
+                _context8.prev = 3;
+                _context8.next = 6;
+                return chooseVideo(options);
+              case 6:
+                options.files = _context8.sent;
+                // 选择完成回调
+                options.onSelectComplete && options.onSelectComplete(options.files);
+                _context8.next = 14;
+                break;
+              case 10:
+                _context8.prev = 10;
+                _context8.t0 = _context8["catch"](3);
+                this.requestError && this.requestError(_context8.t0);
+                return _context8.abrupt("return", Promise.reject(_context8.t0));
+              case 14:
+                if (!options.files) {
+                  _context8.next = 16;
+                  break;
+                }
+                return _context8.abrupt("return", this.urlFileUpload(options));
+              case 16:
+              case "end":
+                return _context8.stop();
+            }
+          }
+        }, _callee8, this, [[3, 10]]);
+      }));
+      function urlVideoUpload() {
+        return _urlVideoUpload.apply(this, arguments);
+      }
+      return urlVideoUpload;
+    }() //本地服务器文件上传方法
+  }, {
+    key: "urlFileUpload",
+    value: function () {
+      var _urlFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee9() {
+        var requestInfo,
+          runRequestStart,
+          requestStart,
+          changekeys,
+          requestResult,
+          _args9 = arguments;
+        return _regenerator.default.wrap(function _callee9$(_context9) {
+          while (1) {
+            switch (_context9.prev = _context9.next) {
+              case 0:
+                requestInfo = {
+                  method: "FILE"
+                };
+                if (_args9[0]) {
+                  if (typeof _args9[0] == "string") {
+                    requestInfo.url = _args9[0];
+                  } else if ((0, _typeof2.default)(_args9[0]) == "object") {
+                    requestInfo = Object.assign(requestInfo, _args9[0]);
+                  }
+                }
+                if (_args9[1] && (0, _typeof2.default)(_args9[1]) == "object") {
+                  requestInfo = Object.assign(requestInfo, _args9[1]);
+                }
+                if (!requestInfo.url && this.defaultUploadUrl) {
+                  requestInfo.url = this.defaultUploadUrl;
+                }
+                if (!requestInfo.name && this.defaultFileName) {
+                  requestInfo.name = this.defaultFileName;
+                }
+                // 请求数据
+                // 是否运行过请求开始钩子
+                runRequestStart = false;
+                _context9.prev = 6;
+                if (requestInfo.url) {
+                  _context9.next = 9;
+                  break;
+                }
+                throw {
+                  errMsg: "【request】文件上传缺失数据url",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 9:
+                // 数据合并
+                requestInfo = (0, _utils.mergeConfig)(this, requestInfo);
+                // 代表之前运行到这里
+                runRequestStart = true;
+                //请求前回调
+                if (!this.requestStart) {
+                  _context9.next = 19;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context9.next = 18;
+                  break;
+                }
+                changekeys = ["data", "header", "isPrompt", "load", "isFactory", "files"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context9.next = 19;
+                break;
+              case 18:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 19:
+                _context9.next = 21;
+                return urlUpload(requestInfo, this.dataFactory);
+              case 21:
+                requestResult = _context9.sent;
+                return _context9.abrupt("return", Promise.resolve(requestResult));
+              case 25:
+                _context9.prev = 25;
+                _context9.t0 = _context9["catch"](6);
+                this.requestError && this.requestError(_context9.t0);
+                return _context9.abrupt("return", Promise.reject(_context9.t0));
+              case 29:
+                _context9.prev = 29;
+                if (runRequestStart) {
+                  this.requestEnd && this.requestEnd(requestInfo);
+                }
+                return _context9.finish(29);
+              case 32:
+              case "end":
+                return _context9.stop();
+            }
+          }
+        }, _callee9, this, [[6, 25, 29, 32]]);
+      }));
+      function urlFileUpload() {
+        return _urlFileUpload.apply(this, arguments);
+      }
+      return urlFileUpload;
+    }()
+  }]);
+  return fileUpload;
+}(_request2.default);
+exports.default = fileUpload;
+
+/***/ }),
+/* 45 */
+/*!*********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  Object.defineProperty(subClass, "prototype", {
+    writable: false
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 46 */
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized.js */ 47);
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  } else if (call !== void 0) {
+    throw new TypeError("Derived constructors may only return object or undefined");
+  }
+  return assertThisInitialized(self);
+}
+module.exports = _possibleConstructorReturn, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 47 */
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+  return self;
+}
+module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 48 */
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _getPrototypeOf(o);
+}
+module.exports = _getPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+/* 49 */
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/request.js ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 40));
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 42));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
+var _utils = __webpack_require__(/*! ./utils.js */ 50);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+var request = /*#__PURE__*/function () {
+  function request(options) {
+    (0, _classCallCheck2.default)(this, request);
+    //请求公共地址
+    this.baseUrl = options.baseUrl || "";
+    //公共文件上传请求地址
+    this.fileUrl = options.fileUrl || "";
+    // 超时时间
+    this.timeout = options.timeout || 6000;
+    // 服务器上传图片默认url
+    this.defaultUploadUrl = options.defaultUploadUrl || "";
+    // 服务器上传文件名称
+    this.defaultFileName = options.defaultFileName || "";
+    //默认请求头
+    this.header = options.header || {};
+    //默认配置
+    this.config = options.config || {
+      isPrompt: true,
+      load: true,
+      isFactory: true,
+      resend: 0
+    };
+  }
+  //post请求
+  (0, _createClass2.default)(request, [{
+    key: "post",
+    value: function post() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "POST",
+        data: data,
+        url: url
+      }, options));
+    }
+
+    //get请求
+  }, {
+    key: "get",
+    value: function get() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "GET",
+        data: data,
+        url: url
+      }, options));
+    }
+
+    //put请求
+  }, {
+    key: "put",
+    value: function put() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "PUT",
+        data: data,
+        url: url
+      }, options));
+    }
+
+    //delete请求
+  }, {
+    key: "delete",
+    value: function _delete() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "DELETE",
+        data: data,
+        url: url
+      }, options));
+    }
+    //jsonp请求(只限于H5使用)
+  }, {
+    key: "jsonp",
+    value: function jsonp() {
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return this.request(_objectSpread({
+        method: "JSONP",
+        data: data,
+        url: url
+      }, options));
+    }
+    //接口请求方法
+  }, {
+    key: "request",
+    value: function () {
+      var _request = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(data) {
+        var requestInfo, runRequestStart, requestStart, changekeys, requestResult, result;
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                // 请求数据
+                runRequestStart = false;
+                _context.prev = 1;
+                if (data.url) {
+                  _context.next = 4;
+                  break;
+                }
+                throw {
+                  errMsg: "【request】缺失数据url",
+                  statusCode: 0
+                };
+              case 4:
+                // 数据合并
+                requestInfo = (0, _utils.mergeConfig)(this, data);
+                // 代表之前运行到这里
+                runRequestStart = true;
+                //请求前回调
+                if (!this.requestStart) {
+                  _context.next = 14;
+                  break;
+                }
+                requestStart = this.requestStart(requestInfo);
+                if (!((0, _typeof2.default)(requestStart) == "object")) {
+                  _context.next = 13;
+                  break;
+                }
+                changekeys = ["data", "header", "isPrompt", "load", "isFactory"];
+                changekeys.forEach(function (key) {
+                  requestInfo[key] = requestStart[key];
+                });
+                _context.next = 14;
+                break;
+              case 13:
+                throw {
+                  errMsg: "【request】请求开始拦截器未通过",
+                  statusCode: 0,
+                  data: requestInfo.data,
+                  method: requestInfo.method,
+                  header: requestInfo.header,
+                  url: requestInfo.url
+                };
+              case 14:
+                requestResult = {};
+                if (!(requestInfo.method == "JSONP")) {
+                  _context.next = 21;
+                  break;
+                }
+                _context.next = 18;
+                return (0, _utils.jsonpRequest)(requestInfo);
+              case 18:
+                requestResult = _context.sent;
+                _context.next = 24;
+                break;
+              case 21:
+                _context.next = 23;
+                return (0, _utils.dispatchRequest)(requestInfo);
+              case 23:
+                requestResult = _context.sent;
+              case 24:
+                if (!(requestInfo.isFactory && this.dataFactory)) {
+                  _context.next = 31;
+                  break;
+                }
+                _context.next = 27;
+                return this.dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
+                  response: requestResult
+                }));
+              case 27:
+                result = _context.sent;
+                return _context.abrupt("return", Promise.resolve(result));
+              case 31:
+                return _context.abrupt("return", Promise.resolve(requestResult));
+              case 32:
+                _context.next = 38;
+                break;
+              case 34:
+                _context.prev = 34;
+                _context.t0 = _context["catch"](1);
+                this.requestError && this.requestError(_context.t0);
+                return _context.abrupt("return", Promise.reject(_context.t0));
+              case 38:
+                _context.prev = 38;
+                // 如果请求开始未运行到，请求结束也不运行
+                if (runRequestStart) {
+                  this.requestEnd && this.requestEnd(requestInfo);
+                }
+                return _context.finish(38);
+              case 41:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[1, 34, 38, 41]]);
+      }));
+      function request(_x) {
+        return _request.apply(this, arguments);
+      }
+      return request;
+    }()
+  }]);
+  return request;
+}();
+exports.default = request;
+
+/***/ }),
+/* 50 */
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/utils.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.mergeConfig = exports.jsonpRequest = exports.dispatchRequest = void 0;
+// 获取合并的数据
+var mergeConfig = function mergeConfig(_this, options) {
+  //判断url是不是链接
+  var urlType = /^(http|https):\/\//.test(options.url);
+  var config = Object.assign({
+    timeout: _this.timeout
+  }, _this.config, options);
+  if (options.method == "FILE") {
+    config.url = urlType ? options.url : _this.fileUrl + options.url;
+  } else {
+    config.url = urlType ? options.url : _this.baseUrl + options.url;
+  }
+  //请求头
+  if (options.header) {
+    config.header = Object.assign({}, _this.header, options.header);
+  } else {
+    config.header = Object.assign({}, _this.header);
+  }
+  return config;
+};
+// 请求
+exports.mergeConfig = mergeConfig;
+var dispatchRequest = function dispatchRequest(requestInfo) {
+  return new Promise(function (resolve, reject) {
+    var requestAbort = true;
+    var requestData = {
+      url: requestInfo.url,
+      header: requestInfo.header,
+      //加入请求头
+      success: function success(res) {
+        requestAbort = false;
+        resolve(res);
+      },
+      fail: function fail(err) {
+        requestAbort = false;
+        if (err.errMsg == "request:fail abort") {
+          reject({
+            errMsg: "请求超时，请重新尝试",
+            statusCode: 0
+          });
+        } else {
+          reject(err);
+        }
+      }
+    };
+    //请求类型
+    if (requestInfo.method) {
+      requestData.method = requestInfo.method;
+    }
+    if (requestInfo.data) {
+      requestData.data = requestInfo.data;
+    }
+    if (requestInfo.timeout) {
+      requestData.timeout = requestInfo.timeout;
+    }
+    if (requestInfo.dataType) {
+      requestData.dataType = requestInfo.dataType;
+    }
+    if (requestInfo.responseType) {
+      requestData.responseType = requestInfo.responseType;
+    }
+    var requestTask = uni.request(requestData);
+    setTimeout(function () {
+      if (requestAbort) {
+        requestTask.abort();
+      }
+    }, requestInfo.timeout);
+  });
+};
+// jsonp请求
+exports.dispatchRequest = dispatchRequest;
+var jsonpRequest = function jsonpRequest(requestInfo) {
+  return new Promise(function (resolve, reject) {
+    var dataStr = '';
+    Object.keys(requestInfo.data).forEach(function (key) {
+      dataStr += key + '=' + requestInfo.data[key] + '&';
+    });
+    //匹配最后一个&并去除
+    if (dataStr !== '') {
+      dataStr = dataStr.substr(0, dataStr.lastIndexOf('&'));
+    }
+    requestInfo.url = requestInfo.url + '?' + dataStr;
+    var callbackName = "callback" + Math.ceil(Math.random() * 1000000);
+  });
+};
+exports.jsonpRequest = jsonpRequest;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 51 */
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/utils.js ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.urlUpload = exports.randomChar = exports.qiniuUpload = exports.chooseVideo = exports.chooseImage = exports.aliUpload = void 0;
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+var qiniuUploader = __webpack_require__(/*! ./qiniuUploader */ 52);
+var aliUploader = __webpack_require__(/*! ./aliUploader */ 53);
+//七牛云上传文件命名
+var randomChar = function randomChar(l) {
+  var url = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
+  var x = "0123456789qwertyuioplkjhgfdsazxcvbnm";
+  var tmp = "";
+  var time = new Date();
+  for (var i = 0; i < l; i++) {
+    tmp += x.charAt(Math.ceil(Math.random() * 100000000) % x.length);
+  }
+  return "file/" + url + time.getTime() + tmp;
+};
+//图片选择
+exports.randomChar = randomChar;
+var chooseImage = function chooseImage(data) {
+  return new Promise(function (resolve, reject) {
+    uni.chooseImage({
+      count: data.count || 9,
+      //默认9
+      sizeType: data.sizeType || ['original', 'compressed'],
+      //可以指定是原图还是压缩图，默认二者都有
+      sourceType: data.sourceType || ['album', 'camera'],
+      //从相册选择
+      success: function success(res) {
+        for (var i = 0; i < res.tempFiles.length; i++) {
+          res.tempFiles[i].fileType = "image";
+        }
+        resolve(res.tempFiles);
+      },
+      fail: function fail(err) {
+        reject({
+          errMsg: err.errMsg,
+          errCode: err.errCode,
+          statusCode: 0
+        });
+      }
+    });
+  });
+};
+//视频选择
+exports.chooseImage = chooseImage;
+var chooseVideo = function chooseVideo(data) {
+  return new Promise(function (resolve, reject) {
+    uni.chooseVideo({
+      sourceType: data.sourceType || ['album', 'camera'],
+      //从相册选择
+      compressed: data.compressed || false,
+      //是否压缩所选的视频源文件，默认值为 true，需要压缩。
+      maxDuration: data.maxDuration || 60,
+      //拍摄视频最长拍摄时间，单位秒。最长支持 60 秒。
+      camera: data.camera || 'back',
+      //'front'、'back'，默认'back'
+      success: function success(res) {
+        var files = [{
+          path: res.tempFilePath,
+          fileType: "video"
+        }];
+        files[0].duration = res.duration;
+        files[0].size = res.size;
+        files[0].height = res.height;
+        files[0].width = res.width;
+        resolve(files);
+      },
+      fail: function fail(err) {
+        reject({
+          errMsg: err.errMsg,
+          errCode: err.errCode,
+          statusCode: 0
+        });
+      }
+    });
+  });
+};
+// 七牛云上传
+exports.chooseVideo = chooseVideo;
+var qiniuUpload = function qiniuUpload(requestInfo, getQnToken) {
+  return new Promise(function (resolve, reject) {
+    if (Array.isArray(requestInfo.files)) {
+      var len = requestInfo.files.length;
+      var fileList = new Array();
+      if (getQnToken) {
+        getQnToken(function (qnRes) {
+          /*
+           *接口返回参数：
+           *visitPrefix:访问文件的域名
+           *token:七牛云上传token
+           *folderPath:上传的文件夹
+           *region: 地区 默认为：SCN
+           */
+          var prefixLen = qnRes.visitPrefix.length;
+          if (qnRes.visitPrefix.charAt(prefixLen - 1) == '/') {
+            qnRes.visitPrefix = qnRes.visitPrefix.substring(0, prefixLen - 1);
+          }
+          uploadFile(0);
+          function uploadFile(i) {
+            var item = requestInfo.files[i];
+            var updateUrl = randomChar(10, qnRes.folderPath);
+            var fileData = _objectSpread({
+              fileIndex: i,
+              files: requestInfo.files
+            }, item);
+            if (item.name) {
+              fileData.name = item.name;
+              var nameArr = item.name.split(".");
+              updateUrl += "." + nameArr[nameArr.length - 1];
+            }
+            // 交给七牛上传
+            qiniuUploader.upload(item.path || item, function (res) {
+              fileData.url = res.imageURL;
+              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                url: res.imageURL
+              }, fileData));
+              fileList.push(res.imageURL);
+              if (len - 1 > i) {
+                uploadFile(i + 1);
+              } else {
+                resolve(fileList);
+              }
+            }, function (error) {
+              reject(error);
+            }, {
+              region: qnRes.region || 'SCN',
+              //地区
+              domain: qnRes.visitPrefix,
+              // bucket 域名，下载资源时用到。
+              key: updateUrl,
+              uptoken: qnRes.token,
+              // 由其他程序生成七牛 uptoken
+              uptokenURL: 'UpTokenURL.com/uptoken' // 上传地址
+            }, function (res) {
+              console.log(requestInfo);
+              requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
+              // console.log('上传进度', res.progress)
+              // console.log('已经上传的数据长度', res.totalBytesSent)
+              // console.log('预期需要上传的数据总长度', res.totalBytesExpectedToSend)
+            });
+          }
+        });
+      } else {
+        reject({
+          errMsg: "请添加七牛云回调方法：getQnToken",
+          statusCode: 0
+        });
+      }
+    } else {
+      reject({
+        errMsg: "files 必须是数组类型",
+        statusCode: 0
+      });
+    }
+    ;
+  });
+};
+// 阿里云oss上传
+exports.qiniuUpload = qiniuUpload;
+var aliUpload = function aliUpload(requestInfo, getAliToken) {
+  return new Promise(function (resolve, reject) {
+    if (Array.isArray(requestInfo.files)) {
+      var len = requestInfo.files.length;
+      var fileList = new Array();
+      if (getAliToken) {
+        getAliToken(function (aliRes) {
+          /*
+           *接口返回参数：
+           *visitPrefix:访问文件的域名
+           *folderPath:上传的文件夹
+           *accessKeyId: 您的oss的访问ID
+           *accessKeySecret: 您的oss的访问密钥
+           * timeout: 签名过期时间（毫秒）
+           */
+          var aliyunOssKey = aliUploader({
+            accessKeyId: aliRes.accessKeyId,
+            accessKeySecret: aliRes.accessKeySecret,
+            timeout: aliRes.timeout
+          });
+          var prefixLen = aliRes.visitPrefix.length;
+          if (aliRes.visitPrefix.charAt(prefixLen - 1) == '/') {
+            aliRes.visitPrefix = aliRes.visitPrefix.substring(0, prefixLen - 1);
+          }
+          uploadFile(0);
+          function uploadFile(i) {
+            var item = requestInfo.files[i];
+            var updateUrl = randomChar(10, aliRes.folderPath);
+            var fileData = _objectSpread({
+              fileIndex: i,
+              files: requestInfo.files
+            }, item);
+            if (item.name) {
+              fileData.name = item.name;
+              var nameArr = item.name.split(".");
+              updateUrl += "." + nameArr[nameArr.length - 1];
+            }
+            if (item.path) {
+              var _nameArr = item.path.split(".");
+              updateUrl += "." + _nameArr[_nameArr.length - 1];
+            }
+            console.log("----------111", {
+              url: aliRes.visitPrefix,
+              // 开发者服务器的URL。
+              filePath: item.path,
+              name: 'file',
+              // 必须填file。
+              formData: {
+                key: updateUrl,
+                policy: aliyunOssKey.policy,
+                OSSAccessKeyId: aliyunOssKey.accessKeyId,
+                signature: aliyunOssKey.signature
+              }
+            });
+            uni.uploadFile({
+              url: aliRes.visitPrefix,
+              // 开发者服务器的URL。
+              filePath: item.path,
+              name: 'file',
+              // 必须填file。
+              formData: {
+                key: updateUrl,
+                policy: aliyunOssKey.policy,
+                OSSAccessKeyId: aliyunOssKey.accessKeyId,
+                signature: aliyunOssKey.signature
+              },
+              success: function success(res) {
+                if (res.statusCode === 204) {
+                  fileData.url = aliRes.visitPrefix + "/" + updateUrl;
+                  requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                    url: fileData.url
+                  }, fileData));
+                  fileList.push(fileData.url);
+                  if (len - 1 > i) {
+                    uploadFile(i + 1);
+                  } else {
+                    resolve(fileList);
+                  }
+                } else {
+                  console.log("----失败", res);
+                  reject(res);
+                }
+              },
+              fail: function fail(err) {
+                console.log("----失败", err);
+                reject(err);
+              }
+            });
+          }
+        });
+      } else {
+        reject({
+          errMsg: "请添加阿里云回调方法：getAliToken",
+          statusCode: 0
+        });
+      }
+    } else {
+      reject({
+        errMsg: "files 必须是数组类型",
+        statusCode: 0
+      });
+    }
+    ;
+  });
+};
+// 服务器URL上传
+exports.aliUpload = aliUpload;
+var urlUpload = function urlUpload(requestInfo, dataFactory) {
+  return new Promise(function (resolve, reject) {
+    // 本地文件上传去掉默认Content-Type
+    if (requestInfo.header['Content-Type']) {
+      delete requestInfo.header['Content-Type'];
+    }
+    // 本地文件上传去掉默认Content-Type
+    if (requestInfo.header['content-type']) {
+      delete requestInfo.header['content-type'];
+    }
+    if (Array.isArray(requestInfo.files)) {
+      var fileUpload = function fileUpload(i) {
+        var item = requestInfo.files[i];
+        var fileData = _objectSpread({
+          fileIndex: i,
+          files: requestInfo.files
+        }, item);
+        var config = {
+          url: requestInfo.url,
+          filePath: item.path,
+          header: requestInfo.header,
+          //加入请求头
+          name: requestInfo.name || "file",
+          success: function success(response) {
+            //是否用外部的数据处理方法
+            if (requestInfo.isFactory && dataFactory) {
+              //数据处理
+              dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
+                response: response
+              })).then(function (data) {
+                fileList.push(data);
+                requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                  data: data
+                }, fileData));
+                if (len <= i) {
+                  resolve(fileList);
+                } else {
+                  fileUpload(i + 1);
+                }
+              }, function (err) {
+                reject(err);
+              });
+            } else {
+              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
+                data: response
+              }, fileData));
+              fileList.push(response);
+              if (len <= i) {
+                resolve(fileList);
+              } else {
+                fileUpload(i + 1);
+              }
+            }
+          },
+          fail: function fail(err) {
+            reject(err);
+          }
+        };
+        if (requestInfo.data) {
+          config.formData = requestInfo.data;
+        }
+        var uploadTask = uni.uploadFile(config);
+        uploadTask.onProgressUpdate(function (res) {
+          requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
+        });
+      };
+      var len = requestInfo.files.length - 1;
+      var fileList = new Array();
+      fileUpload(0);
+    } else {
+      reject({
+        errMsg: "files 必须是数组类型",
+        statusCode: 0
+      });
+    }
+  });
+};
+exports.urlUpload = urlUpload;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 52 */
+/*!**********************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/qiniuUploader.js ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(wx) {// created by gpake
+(function () {
+  var config = {
+    qiniuRegion: '',
+    qiniuImageURLPrefix: '',
+    qiniuUploadToken: '',
+    qiniuUploadTokenURL: '',
+    qiniuUploadTokenFunction: null,
+    qiniuShouldUseQiniuFileName: false
+  };
+  module.exports = {
+    init: init,
+    upload: upload
+  };
+
+  // 在整个程序生命周期中，只需要 init 一次即可
+  // 如果需要变更参数，再调用 init 即可
+  function init(options) {
+    config = {
+      qiniuRegion: '',
+      qiniuImageURLPrefix: '',
+      qiniuUploadToken: '',
+      qiniuUploadTokenURL: '',
+      qiniuUploadTokenFunction: null,
+      qiniuShouldUseQiniuFileName: false
+    };
+    updateConfigWithOptions(options);
+  }
+  function updateConfigWithOptions(options) {
+    if (options.region) {
+      config.qiniuRegion = options.region;
+    } else {
+      console.error('qiniu uploader need your bucket region');
+    }
+    if (options.uptoken) {
+      config.qiniuUploadToken = options.uptoken;
+    } else if (options.uptokenURL) {
+      config.qiniuUploadTokenURL = options.uptokenURL;
+    } else if (options.uptokenFunc) {
+      config.qiniuUploadTokenFunction = options.uptokenFunc;
+    }
+    if (options.domain) {
+      config.qiniuImageURLPrefix = options.domain;
+    }
+    config.qiniuShouldUseQiniuFileName = options.shouldUseQiniuFileName;
+  }
+  function upload(filePath, success, fail, options, progress, cancelTask) {
+    if (null == filePath) {
+      console.error('qiniu uploader need filePath to upload');
+      return;
+    }
+    if (options) {
+      updateConfigWithOptions(options);
+    }
+    if (config.qiniuUploadToken) {
+      doUpload(filePath, success, fail, options, progress, cancelTask);
+    } else if (config.qiniuUploadTokenURL) {
+      getQiniuToken(function () {
+        doUpload(filePath, success, fail, options, progress, cancelTask);
+      });
+    } else if (config.qiniuUploadTokenFunction) {
+      config.qiniuUploadToken = config.qiniuUploadTokenFunction();
+      if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
+        console.error('qiniu UploadTokenFunction result is null, please check the return value');
+        return;
+      }
+      doUpload(filePath, success, fail, options, progress, cancelTask);
+    } else {
+      console.error('qiniu uploader need one of [uptoken, uptokenURL, uptokenFunc]');
+      return;
+    }
+  }
+  function doUpload(filePath, _success, _fail, options, progress, cancelTask) {
+    if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
+      console.error('qiniu UploadToken is null, please check the init config or networking');
+      return;
+    }
+    var url = uploadURLFromRegionCode(config.qiniuRegion);
+    var fileName = filePath.split('//')[1];
+    if (options && options.key) {
+      fileName = options.key;
+    }
+    var formData = {
+      'token': config.qiniuUploadToken
+    };
+    if (!config.qiniuShouldUseQiniuFileName) {
+      formData['key'] = fileName;
+    }
+    var uploadTask = wx.uploadFile({
+      url: url,
+      filePath: filePath,
+      name: 'file',
+      formData: formData,
+      success: function success(res) {
+        var dataString = res.data;
+        if (res.data.hasOwnProperty('type') && res.data.type === 'Buffer') {
+          dataString = String.fromCharCode.apply(null, res.data.data);
+        }
+        try {
+          var dataObject = JSON.parse(dataString);
+          //do something
+          var imageUrl = config.qiniuImageURLPrefix + '/' + dataObject.key;
+          dataObject.imageURL = imageUrl;
+          if (_success) {
+            _success(dataObject);
+          }
+        } catch (e) {
+          console.log('parse JSON failed, origin String is: ' + dataString);
+          if (_fail) {
+            _fail(e);
+          }
+        }
+      },
+      fail: function fail(error) {
+        console.error(error);
+        if (_fail) {
+          _fail(error);
+        }
+      }
+    });
+    uploadTask.onProgressUpdate(function (res) {
+      progress && progress(res);
+    });
+    cancelTask && cancelTask(function () {
+      uploadTask.abort();
+    });
+  }
+  function getQiniuToken(callback) {
+    wx.request({
+      url: config.qiniuUploadTokenURL,
+      success: function success(res) {
+        var token = res.data.uptoken;
+        if (token && token.length > 0) {
+          config.qiniuUploadToken = token;
+          if (callback) {
+            callback();
+          }
+        } else {
+          console.error('qiniuUploader cannot get your token, please check the uptokenURL or server');
+        }
+      },
+      fail: function fail(error) {
+        console.error('qiniu UploadToken is null, please check the init config or networking: ' + error);
+      }
+    });
+  }
+  function uploadURLFromRegionCode(code) {
+    var uploadURL = null;
+    switch (code) {
+      case 'ECN':
+        uploadURL = 'https://up.qbox.me';
+        break;
+      case 'NCN':
+        uploadURL = 'https://up-z1.qbox.me';
+        break;
+      case 'SCN':
+        uploadURL = 'https://up-z2.qbox.me';
+        break;
+      case 'NA':
+        uploadURL = 'https://up-na0.qbox.me';
+        break;
+      case 'ASG':
+        uploadURL = 'https://up-as0.qbox.me';
+        break;
+      default:
+        console.error('please make the region is with one of [ECN, SCN, NCN, NA, ASG]');
+    }
+    return uploadURL;
+  }
+})();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
+
+/***/ }),
+/* 53 */
+/*!********************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/aliUploader.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Base64 = __webpack_require__(/*! ./Base64.js */ 54);
+__webpack_require__(/*! ./hmac.js */ 55);
+__webpack_require__(/*! ./sha1.js */ 57);
+var Crypto = __webpack_require__(/*! ./crypto.js */ 56);
+// 获取policy
+var getPolicyBase64 = function getPolicyBase64(timeout) {
+  var dateTime = new Date().getTime();
+  var date = new Date(dateTime + (timeout || 1800000));
+  var srcT = date.toISOString();
+  var policyText = {
+    "expiration": srcT,
+    //设置该Policy的失效时间
+    "conditions": [["content-length-range", 0, 100 * 1024 * 1024] // 设置上传文件的大小限制,100mb
+    ]
+  };
+
+  var policyBase64 = Base64.encode(JSON.stringify(policyText));
+  return policyBase64;
+};
+// 获取签名
+var getSignature = function getSignature(policyBase64, AccessKeySecret) {
+  var bytes = Crypto.HMAC(Crypto.SHA1, policyBase64, AccessKeySecret, {
+    asBytes: true
+  });
+  var signature = Crypto.util.bytesToBase64(bytes);
+  return signature;
+};
+// 获取阿里云token信息
+var getAliyunOssKey = function getAliyunOssKey(options) {
+  var policyBase64 = getPolicyBase64(options.timeout);
+  var signature = getSignature(policyBase64, options.accessKeySecret);
+  return {
+    policy: policyBase64,
+    accessKeyId: options.accessKeyId,
+    accessKeySecret: options.accessKeySecret,
+    signature: signature,
+    success_action_status: '200'
+  };
+};
+module.exports = getAliyunOssKey;
+
+/***/ }),
+/* 54 */
+/*!***************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/Base64.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var Base64 = {
+  // private property
+  _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+  // public method for encoding
+  encode: function encode(input) {
+    var output = "";
+    var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+    var i = 0;
+    input = Base64._utf8_encode(input);
+    while (i < input.length) {
+      chr1 = input.charCodeAt(i++);
+      chr2 = input.charCodeAt(i++);
+      chr3 = input.charCodeAt(i++);
+      enc1 = chr1 >> 2;
+      enc2 = (chr1 & 3) << 4 | chr2 >> 4;
+      enc3 = (chr2 & 15) << 2 | chr3 >> 6;
+      enc4 = chr3 & 63;
+      if (isNaN(chr2)) {
+        enc3 = enc4 = 64;
+      } else if (isNaN(chr3)) {
+        enc4 = 64;
+      }
+      output = output + this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) + this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+    }
+    return output;
+  },
+  // public method for decoding
+  decode: function decode(input) {
+    var output = "";
+    var chr1, chr2, chr3;
+    var enc1, enc2, enc3, enc4;
+    var i = 0;
+    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+    while (i < input.length) {
+      enc1 = this._keyStr.indexOf(input.charAt(i++));
+      enc2 = this._keyStr.indexOf(input.charAt(i++));
+      enc3 = this._keyStr.indexOf(input.charAt(i++));
+      enc4 = this._keyStr.indexOf(input.charAt(i++));
+      chr1 = enc1 << 2 | enc2 >> 4;
+      chr2 = (enc2 & 15) << 4 | enc3 >> 2;
+      chr3 = (enc3 & 3) << 6 | enc4;
+      output = output + String.fromCharCode(chr1);
+      if (enc3 != 64) {
+        output = output + String.fromCharCode(chr2);
+      }
+      if (enc4 != 64) {
+        output = output + String.fromCharCode(chr3);
+      }
+    }
+    output = Base64._utf8_decode(output);
+    return output;
+  },
+  // private method for UTF-8 encoding
+  _utf8_encode: function _utf8_encode(string) {
+    string = string.replace(/\r\n/g, "\n");
+    var utftext = "";
+    for (var n = 0; n < string.length; n++) {
+      var c = string.charCodeAt(n);
+      if (c < 128) {
+        utftext += String.fromCharCode(c);
+      } else if (c > 127 && c < 2048) {
+        utftext += String.fromCharCode(c >> 6 | 192);
+        utftext += String.fromCharCode(c & 63 | 128);
+      } else {
+        utftext += String.fromCharCode(c >> 12 | 224);
+        utftext += String.fromCharCode(c >> 6 & 63 | 128);
+        utftext += String.fromCharCode(c & 63 | 128);
+      }
+    }
+    return utftext;
+  },
+  // private method for UTF-8 decoding
+  _utf8_decode: function _utf8_decode(utftext) {
+    var string = "";
+    var i = 0;
+    var c = c1 = c2 = 0;
+    while (i < utftext.length) {
+      c = utftext.charCodeAt(i);
+      if (c < 128) {
+        string += String.fromCharCode(c);
+        i++;
+      } else if (c > 191 && c < 224) {
+        c2 = utftext.charCodeAt(i + 1);
+        string += String.fromCharCode((c & 31) << 6 | c2 & 63);
+        i += 2;
+      } else {
+        c2 = utftext.charCodeAt(i + 1);
+        c3 = utftext.charCodeAt(i + 2);
+        string += String.fromCharCode((c & 15) << 12 | (c2 & 63) << 6 | c3 & 63);
+        i += 3;
+      }
+    }
+    return string;
+  }
+};
+module.exports = Base64;
+
+/***/ }),
+/* 55 */
+/*!*************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/hmac.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*!
+ * Crypto-JS v1.1.0
+ * http://code.google.com/p/crypto-js/
+ * Copyright (c) 2009, Jeff Mott. All rights reserved.
+ * http://code.google.com/p/crypto-js/wiki/License
+ */
+
+var Crypto = __webpack_require__(/*! ./crypto.js */ 56);
+(function () {
+  // Shortcut
+  var util = Crypto.util;
+  Crypto.HMAC = function (hasher, message, key, options) {
+    // Allow arbitrary length keys
+    key = key.length > hasher._blocksize * 4 ? hasher(key, {
+      asBytes: true
+    }) : util.stringToBytes(key);
+
+    // XOR keys with pad constants
+    var okey = key,
+      ikey = key.slice(0);
+    for (var i = 0; i < hasher._blocksize * 4; i++) {
+      okey[i] ^= 0x5C;
+      ikey[i] ^= 0x36;
+    }
+    var hmacbytes = hasher(util.bytesToString(okey) + hasher(util.bytesToString(ikey) + message, {
+      asString: true
+    }), {
+      asBytes: true
+    });
+    return options && options.asBytes ? hmacbytes : options && options.asString ? util.bytesToString(hmacbytes) : util.bytesToHex(hmacbytes);
+  };
+})();
+module.exports = Crypto;
+
+/***/ }),
+/* 56 */
+/*!***************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/crypto.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*!
+ * Crypto-JS v1.1.0
+ * http://code.google.com/p/crypto-js/
+ * Copyright (c) 2009, Jeff Mott. All rights reserved.
+ * http://code.google.com/p/crypto-js/wiki/License
+ */
+
+var Crypto = {};
+(function () {
+  var base64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+
+  // Crypto utilities
+  var util = Crypto.util = {
+    // Bit-wise rotate left
+    rotl: function rotl(n, b) {
+      return n << b | n >>> 32 - b;
+    },
+    // Bit-wise rotate right
+    rotr: function rotr(n, b) {
+      return n << 32 - b | n >>> b;
+    },
+    // Swap big-endian to little-endian and vice versa
+    endian: function endian(n) {
+      // If number given, swap endian
+      if (n.constructor == Number) {
+        return util.rotl(n, 8) & 0x00FF00FF | util.rotl(n, 24) & 0xFF00FF00;
+      }
+
+      // Else, assume array and swap all items
+      for (var i = 0; i < n.length; i++) {
+        n[i] = util.endian(n[i]);
+      }
+      return n;
+    },
+    // Generate an array of any length of random bytes
+    randomBytes: function randomBytes(n) {
+      for (var bytes = []; n > 0; n--) {
+        bytes.push(Math.floor(Math.random() * 256));
+      }
+      return bytes;
+    },
+    // Convert a string to a byte array
+    stringToBytes: function stringToBytes(str) {
+      var bytes = [];
+      for (var i = 0; i < str.length; i++) {
+        bytes.push(str.charCodeAt(i));
+      }
+      return bytes;
+    },
+    // Convert a byte array to a string
+    bytesToString: function bytesToString(bytes) {
+      var str = [];
+      for (var i = 0; i < bytes.length; i++) {
+        str.push(String.fromCharCode(bytes[i]));
+      }
+      return str.join("");
+    },
+    // Convert a string to big-endian 32-bit words
+    stringToWords: function stringToWords(str) {
+      var words = [];
+      for (var c = 0, b = 0; c < str.length; c++, b += 8) {
+        words[b >>> 5] |= str.charCodeAt(c) << 24 - b % 32;
+      }
+      return words;
+    },
+    // Convert a byte array to big-endian 32-bits words
+    bytesToWords: function bytesToWords(bytes) {
+      var words = [];
+      for (var i = 0, b = 0; i < bytes.length; i++, b += 8) {
+        words[b >>> 5] |= bytes[i] << 24 - b % 32;
+      }
+      return words;
+    },
+    // Convert big-endian 32-bit words to a byte array
+    wordsToBytes: function wordsToBytes(words) {
+      var bytes = [];
+      for (var b = 0; b < words.length * 32; b += 8) {
+        bytes.push(words[b >>> 5] >>> 24 - b % 32 & 0xFF);
+      }
+      return bytes;
+    },
+    // Convert a byte array to a hex string
+    bytesToHex: function bytesToHex(bytes) {
+      var hex = [];
+      for (var i = 0; i < bytes.length; i++) {
+        hex.push((bytes[i] >>> 4).toString(16));
+        hex.push((bytes[i] & 0xF).toString(16));
+      }
+      return hex.join("");
+    },
+    // Convert a hex string to a byte array
+    hexToBytes: function hexToBytes(hex) {
+      var bytes = [];
+      for (var c = 0; c < hex.length; c += 2) {
+        bytes.push(parseInt(hex.substr(c, 2), 16));
+      }
+      return bytes;
+    },
+    // Convert a byte array to a base-64 string
+    bytesToBase64: function bytesToBase64(bytes) {
+      // Use browser-native function if it exists
+      // if (typeof btoa == "function") return btoa(util.bytesToString(bytes));
+
+      var base64 = [],
+        overflow;
+      for (var i = 0; i < bytes.length; i++) {
+        switch (i % 3) {
+          case 0:
+            base64.push(base64map.charAt(bytes[i] >>> 2));
+            overflow = (bytes[i] & 0x3) << 4;
+            break;
+          case 1:
+            base64.push(base64map.charAt(overflow | bytes[i] >>> 4));
+            overflow = (bytes[i] & 0xF) << 2;
+            break;
+          case 2:
+            base64.push(base64map.charAt(overflow | bytes[i] >>> 6));
+            base64.push(base64map.charAt(bytes[i] & 0x3F));
+            overflow = -1;
+        }
+      }
+
+      // Encode overflow bits, if there are any
+      if (overflow != undefined && overflow != -1) base64.push(base64map.charAt(overflow));
+
+      // Add padding
+      while (base64.length % 4 != 0) {
+        base64.push("=");
+      }
+      return base64.join("");
+    },
+    // Convert a base-64 string to a byte array
+    base64ToBytes: function base64ToBytes(base64) {
+      // Use browser-native function if it exists
+      if (typeof atob == "function") return util.stringToBytes(atob(base64));
+
+      // Remove non-base-64 characters
+      base64 = base64.replace(/[^A-Z0-9+\/]/ig, "");
+      var bytes = [];
+      for (var i = 0; i < base64.length; i++) {
+        switch (i % 4) {
+          case 1:
+            bytes.push(base64map.indexOf(base64.charAt(i - 1)) << 2 | base64map.indexOf(base64.charAt(i)) >>> 4);
+            break;
+          case 2:
+            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0xF) << 4 | base64map.indexOf(base64.charAt(i)) >>> 2);
+            break;
+          case 3:
+            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0x3) << 6 | base64map.indexOf(base64.charAt(i)));
+            break;
+        }
+      }
+      return bytes;
+    }
+  };
+
+  // Crypto mode namespace
+  Crypto.mode = {};
+})();
+module.exports = Crypto;
+
+/***/ }),
+/* 57 */
+/*!*************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/sha1.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*!
+ * Crypto-JS v1.1.0
+ * http://code.google.com/p/crypto-js/
+ * Copyright (c) 2009, Jeff Mott. All rights reserved.
+ * http://code.google.com/p/crypto-js/wiki/License
+ */
+
+var Crypto = __webpack_require__(/*! ./crypto.js */ 56);
+(function () {
+  // Shortcut
+  var util = Crypto.util;
+
+  // Public API
+  var SHA1 = Crypto.SHA1 = function (message, options) {
+    var digestbytes = util.wordsToBytes(SHA1._sha1(message));
+    return options && options.asBytes ? digestbytes : options && options.asString ? util.bytesToString(digestbytes) : util.bytesToHex(digestbytes);
+  };
+
+  // The core
+  SHA1._sha1 = function (message) {
+    var m = util.stringToWords(message),
+      l = message.length * 8,
+      w = [],
+      H0 = 1732584193,
+      H1 = -271733879,
+      H2 = -1732584194,
+      H3 = 271733878,
+      H4 = -1009589776;
+
+    // Padding
+    m[l >> 5] |= 0x80 << 24 - l % 32;
+    m[(l + 64 >>> 9 << 4) + 15] = l;
+    for (var i = 0; i < m.length; i += 16) {
+      var a = H0,
+        b = H1,
+        c = H2,
+        d = H3,
+        e = H4;
+      for (var j = 0; j < 80; j++) {
+        if (j < 16) w[j] = m[i + j];else {
+          var n = w[j - 3] ^ w[j - 8] ^ w[j - 14] ^ w[j - 16];
+          w[j] = n << 1 | n >>> 31;
+        }
+        var t = (H0 << 5 | H0 >>> 27) + H4 + (w[j] >>> 0) + (j < 20 ? (H1 & H2 | ~H1 & H3) + 1518500249 : j < 40 ? (H1 ^ H2 ^ H3) + 1859775393 : j < 60 ? (H1 & H2 | H1 & H3 | H2 & H3) - 1894007588 : (H1 ^ H2 ^ H3) - 899497514);
+        H4 = H3;
+        H3 = H2;
+        H2 = H1 << 30 | H1 >>> 2;
+        H1 = H0;
+        H0 = t;
+      }
+      H0 += a;
+      H1 += b;
+      H2 += c;
+      H3 += d;
+      H4 += e;
+    }
+    return [H0, H1, H2, H3, H4];
+  };
+
+  // Package private blocksize
+  SHA1._blocksize = 16;
+})();
+module.exports = Crypto;
+
+/***/ }),
+/* 58 */
+/*!*******************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/router/index.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11043,7 +13824,7 @@ Object.defineProperty(exports, "RouterMount", {
 });
 exports.router = void 0;
 var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
-var _uniSimpleRouter = __webpack_require__(/*! uni-simple-router */ 38);
+var _uniSimpleRouter = __webpack_require__(/*! uni-simple-router */ 59);
 // router.js
 
 var router = (0, _uniSimpleRouter.createRouter)({
@@ -11061,10 +13842,10 @@ router.afterEach(function (to, from) {
 });
 
 /***/ }),
-/* 38 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/node_modules/uni-simple-router/dist/uni-simple-router.js ***!
-  \********************************************************************************************************************************/
+/* 59 */
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/node_modules/uni-simple-router/dist/uni-simple-router.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13063,10 +15844,10 @@ router.afterEach(function (to, from) {
   }(607);
   var e, t;
 });
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"], __webpack_require__(/*! ./../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/module.js */ 39)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"], __webpack_require__(/*! ./../../../../../HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/module.js */ 60)(module)))
 
 /***/ }),
-/* 39 */
+/* 60 */
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
@@ -13098,10 +15879,10 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 40 */
-/*!*****************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/index.js ***!
-  \*****************************************************************************************************/
+/* 61 */
+/*!*********************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/index.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13114,20 +15895,20 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 41));
-var _mpMixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpMixin.js */ 42));
-var _luchRequest = _interopRequireDefault(__webpack_require__(/*! ./libs/luch-request */ 43));
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/util/route.js */ 61));
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 65));
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 66));
-var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 67));
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 68));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./libs/function/index.js */ 69));
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 72));
-var _props = _interopRequireDefault(__webpack_require__(/*! ./libs/config/props.js */ 73));
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 163));
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/config/color.js */ 121));
-var _platform = _interopRequireDefault(__webpack_require__(/*! ./libs/function/platform */ 164));
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 62));
+var _mpMixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpMixin.js */ 63));
+var _luchRequest = _interopRequireDefault(__webpack_require__(/*! ./libs/luch-request */ 64));
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/util/route.js */ 82));
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 83));
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 84));
+var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 85));
+var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 86));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./libs/function/index.js */ 87));
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 90));
+var _props = _interopRequireDefault(__webpack_require__(/*! ./libs/config/props.js */ 91));
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 181));
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/config/color.js */ 139));
+var _platform = _interopRequireDefault(__webpack_require__(/*! ./libs/function/platform */ 182));
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 // 看到此报错，是因为没有配置vue.config.js的【transpileDependencies】，详见：https://www.uviewui.com/components/npmSetting.html#_5-cli模式额外配置
@@ -13187,10 +15968,10 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 41 */
-/*!****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mixin.js ***!
-  \****************************************************************************************************************/
+/* 62 */
+/*!********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13355,10 +16136,10 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 42 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
-  \******************************************************************************************************************/
+/* 63 */
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13378,10 +16159,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 43 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/index.js ***!
-  \***********************************************************************************************************************/
+/* 64 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13393,15 +16174,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _Request = _interopRequireDefault(__webpack_require__(/*! ./core/Request */ 44));
+var _Request = _interopRequireDefault(__webpack_require__(/*! ./core/Request */ 65));
 var _default = _Request.default;
 exports.default = _default;
 
 /***/ }),
-/* 44 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
-  \******************************************************************************************************************************/
+/* 65 */
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13416,12 +16197,12 @@ exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
 var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
-var _dispatchRequest = _interopRequireDefault(__webpack_require__(/*! ./dispatchRequest */ 45));
-var _InterceptorManager = _interopRequireDefault(__webpack_require__(/*! ./InterceptorManager */ 53));
-var _mergeConfig = _interopRequireDefault(__webpack_require__(/*! ./mergeConfig */ 54));
-var _defaults = _interopRequireDefault(__webpack_require__(/*! ./defaults */ 55));
-var _utils = __webpack_require__(/*! ../utils */ 48);
-var _clone = _interopRequireDefault(__webpack_require__(/*! ../utils/clone */ 56));
+var _dispatchRequest = _interopRequireDefault(__webpack_require__(/*! ./dispatchRequest */ 66));
+var _InterceptorManager = _interopRequireDefault(__webpack_require__(/*! ./InterceptorManager */ 74));
+var _mergeConfig = _interopRequireDefault(__webpack_require__(/*! ./mergeConfig */ 75));
+var _defaults = _interopRequireDefault(__webpack_require__(/*! ./defaults */ 76));
+var _utils = __webpack_require__(/*! ../utils */ 69);
+var _clone = _interopRequireDefault(__webpack_require__(/*! ../utils/clone */ 77));
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var Request = /*#__PURE__*/function () {
@@ -13604,10 +16385,10 @@ var Request = /*#__PURE__*/function () {
 exports.default = Request;
 
 /***/ }),
-/* 45 */
-/*!**************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
-  \**************************************************************************************************************************************/
+/* 66 */
+/*!******************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13619,17 +16400,17 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _index = _interopRequireDefault(__webpack_require__(/*! ../adapters/index */ 46));
+var _index = _interopRequireDefault(__webpack_require__(/*! ../adapters/index */ 67));
 var _default = function _default(config) {
   return (0, _index.default)(config);
 };
 exports.default = _default;
 
 /***/ }),
-/* 46 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
-  \********************************************************************************************************************************/
+/* 67 */
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13642,10 +16423,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _buildURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/buildURL */ 47));
-var _buildFullPath = _interopRequireDefault(__webpack_require__(/*! ../core/buildFullPath */ 49));
-var _settle = _interopRequireDefault(__webpack_require__(/*! ../core/settle */ 52));
-var _utils = __webpack_require__(/*! ../utils */ 48);
+var _buildURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/buildURL */ 68));
+var _buildFullPath = _interopRequireDefault(__webpack_require__(/*! ../core/buildFullPath */ 70));
+var _settle = _interopRequireDefault(__webpack_require__(/*! ../core/settle */ 73));
+var _utils = __webpack_require__(/*! ../utils */ 69);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 /**
@@ -13707,10 +16488,10 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 47 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
-  \**********************************************************************************************************************************/
+/* 68 */
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13722,7 +16503,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = buildURL;
-var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 48));
+var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 69));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function encode(val) {
@@ -13777,10 +16558,10 @@ function buildURL(url, params) {
 }
 
 /***/ }),
-/* 48 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils.js ***!
-  \***********************************************************************************************************************/
+/* 69 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13930,10 +16711,10 @@ function isUndefined(val) {
 }
 
 /***/ }),
-/* 49 */
-/*!************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
-  \************************************************************************************************************************************/
+/* 70 */
+/*!****************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13945,8 +16726,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = buildFullPath;
-var _isAbsoluteURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/isAbsoluteURL */ 50));
-var _combineURLs = _interopRequireDefault(__webpack_require__(/*! ../helpers/combineURLs */ 51));
+var _isAbsoluteURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/isAbsoluteURL */ 71));
+var _combineURLs = _interopRequireDefault(__webpack_require__(/*! ../helpers/combineURLs */ 72));
 /**
  * Creates a new URL by combining the baseURL with the requestedURL,
  * only when the requestedURL is not already an absolute URL.
@@ -13964,10 +16745,10 @@ function buildFullPath(baseURL, requestedURL) {
 }
 
 /***/ }),
-/* 50 */
-/*!***************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
-  \***************************************************************************************************************************************/
+/* 71 */
+/*!*******************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13992,10 +16773,10 @@ function isAbsoluteURL(url) {
 }
 
 /***/ }),
-/* 51 */
-/*!*************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
-  \*************************************************************************************************************************************/
+/* 72 */
+/*!*****************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14018,10 +16799,10 @@ function combineURLs(baseURL, relativeURL) {
 }
 
 /***/ }),
-/* 52 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
-  \*****************************************************************************************************************************/
+/* 73 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14050,10 +16831,10 @@ function settle(resolve, reject, response) {
 }
 
 /***/ }),
-/* 53 */
-/*!*****************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
-  \*****************************************************************************************************************************************/
+/* 74 */
+/*!*********************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14114,10 +16895,10 @@ var _default = InterceptorManager;
 exports.default = _default;
 
 /***/ }),
-/* 54 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
-  \**********************************************************************************************************************************/
+/* 75 */
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14130,7 +16911,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _utils = __webpack_require__(/*! ../utils */ 48);
+var _utils = __webpack_require__(/*! ../utils */ 69);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 /**
@@ -14190,10 +16971,10 @@ var _default = function _default(globalsConfig) {
 exports.default = _default;
 
 /***/ }),
-/* 55 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
-  \*******************************************************************************************************************************/
+/* 76 */
+/*!***********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14222,10 +17003,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 56 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
-  \*****************************************************************************************************************************/
+/* 77 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14471,10 +17252,10 @@ var clone = function () {
 }();
 var _default = clone;
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 57).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 78).Buffer))
 
 /***/ }),
-/* 57 */
+/* 78 */
 /*!**************************************!*\
   !*** ./node_modules/buffer/index.js ***!
   \**************************************/
@@ -14492,9 +17273,9 @@ exports.default = _default;
 
 
 
-var base64 = __webpack_require__(/*! base64-js */ 58)
-var ieee754 = __webpack_require__(/*! ieee754 */ 59)
-var isArray = __webpack_require__(/*! isarray */ 60)
+var base64 = __webpack_require__(/*! base64-js */ 79)
+var ieee754 = __webpack_require__(/*! ieee754 */ 80)
+var isArray = __webpack_require__(/*! isarray */ 81)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -16275,7 +19056,7 @@ function isnan (val) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 58 */
+/* 79 */
 /*!*****************************************!*\
   !*** ./node_modules/base64-js/index.js ***!
   \*****************************************/
@@ -16436,7 +19217,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 59 */
+/* 80 */
 /*!***************************************!*\
   !*** ./node_modules/ieee754/index.js ***!
   \***************************************/
@@ -16531,7 +19312,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 60 */
+/* 81 */
 /*!***************************************!*\
   !*** ./node_modules/isarray/index.js ***!
   \***************************************/
@@ -16546,10 +19327,10 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 61 */
-/*!***************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/util/route.js ***!
-  \***************************************************************************************************************/
+/* 82 */
+/*!*******************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/util/route.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16561,8 +19342,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 40));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 42));
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
 var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
 /**
@@ -16734,384 +19515,10 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 62 */
-/*!************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/@babel/runtime/regenerator/index.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// TODO(Babel 8): Remove this file.
-
-var runtime = __webpack_require__(/*! @babel/runtime/helpers/regeneratorRuntime */ 63)();
-module.exports = runtime;
-
-/***/ }),
-/* 63 */
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/regeneratorRuntime.js ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
-function _regeneratorRuntime() {
-  "use strict";
-
-  /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
-  module.exports = _regeneratorRuntime = function _regeneratorRuntime() {
-    return exports;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  var exports = {},
-    Op = Object.prototype,
-    hasOwn = Op.hasOwnProperty,
-    defineProperty = Object.defineProperty || function (obj, key, desc) {
-      obj[key] = desc.value;
-    },
-    $Symbol = "function" == typeof Symbol ? Symbol : {},
-    iteratorSymbol = $Symbol.iterator || "@@iterator",
-    asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator",
-    toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
-  function define(obj, key, value) {
-    return Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: !0,
-      configurable: !0,
-      writable: !0
-    }), obj[key];
-  }
-  try {
-    define({}, "");
-  } catch (err) {
-    define = function define(obj, key, value) {
-      return obj[key] = value;
-    };
-  }
-  function wrap(innerFn, outerFn, self, tryLocsList) {
-    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator,
-      generator = Object.create(protoGenerator.prototype),
-      context = new Context(tryLocsList || []);
-    return defineProperty(generator, "_invoke", {
-      value: makeInvokeMethod(innerFn, self, context)
-    }), generator;
-  }
-  function tryCatch(fn, obj, arg) {
-    try {
-      return {
-        type: "normal",
-        arg: fn.call(obj, arg)
-      };
-    } catch (err) {
-      return {
-        type: "throw",
-        arg: err
-      };
-    }
-  }
-  exports.wrap = wrap;
-  var ContinueSentinel = {};
-  function Generator() {}
-  function GeneratorFunction() {}
-  function GeneratorFunctionPrototype() {}
-  var IteratorPrototype = {};
-  define(IteratorPrototype, iteratorSymbol, function () {
-    return this;
-  });
-  var getProto = Object.getPrototypeOf,
-    NativeIteratorPrototype = getProto && getProto(getProto(values([])));
-  NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype);
-  var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype);
-  function defineIteratorMethods(prototype) {
-    ["next", "throw", "return"].forEach(function (method) {
-      define(prototype, method, function (arg) {
-        return this._invoke(method, arg);
-      });
-    });
-  }
-  function AsyncIterator(generator, PromiseImpl) {
-    function invoke(method, arg, resolve, reject) {
-      var record = tryCatch(generator[method], generator, arg);
-      if ("throw" !== record.type) {
-        var result = record.arg,
-          value = result.value;
-        return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) {
-          invoke("next", value, resolve, reject);
-        }, function (err) {
-          invoke("throw", err, resolve, reject);
-        }) : PromiseImpl.resolve(value).then(function (unwrapped) {
-          result.value = unwrapped, resolve(result);
-        }, function (error) {
-          return invoke("throw", error, resolve, reject);
-        });
-      }
-      reject(record.arg);
-    }
-    var previousPromise;
-    defineProperty(this, "_invoke", {
-      value: function value(method, arg) {
-        function callInvokeWithMethodAndArg() {
-          return new PromiseImpl(function (resolve, reject) {
-            invoke(method, arg, resolve, reject);
-          });
-        }
-        return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg();
-      }
-    });
-  }
-  function makeInvokeMethod(innerFn, self, context) {
-    var state = "suspendedStart";
-    return function (method, arg) {
-      if ("executing" === state) throw new Error("Generator is already running");
-      if ("completed" === state) {
-        if ("throw" === method) throw arg;
-        return doneResult();
-      }
-      for (context.method = method, context.arg = arg;;) {
-        var delegate = context.delegate;
-        if (delegate) {
-          var delegateResult = maybeInvokeDelegate(delegate, context);
-          if (delegateResult) {
-            if (delegateResult === ContinueSentinel) continue;
-            return delegateResult;
-          }
-        }
-        if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) {
-          if ("suspendedStart" === state) throw state = "completed", context.arg;
-          context.dispatchException(context.arg);
-        } else "return" === context.method && context.abrupt("return", context.arg);
-        state = "executing";
-        var record = tryCatch(innerFn, self, context);
-        if ("normal" === record.type) {
-          if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue;
-          return {
-            value: record.arg,
-            done: context.done
-          };
-        }
-        "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg);
-      }
-    };
-  }
-  function maybeInvokeDelegate(delegate, context) {
-    var methodName = context.method,
-      method = delegate.iterator[methodName];
-    if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator["return"] && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel;
-    var record = tryCatch(method, delegate.iterator, context.arg);
-    if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel;
-    var info = record.arg;
-    return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel);
-  }
-  function pushTryEntry(locs) {
-    var entry = {
-      tryLoc: locs[0]
-    };
-    1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry);
-  }
-  function resetTryEntry(entry) {
-    var record = entry.completion || {};
-    record.type = "normal", delete record.arg, entry.completion = record;
-  }
-  function Context(tryLocsList) {
-    this.tryEntries = [{
-      tryLoc: "root"
-    }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0);
-  }
-  function values(iterable) {
-    if (iterable) {
-      var iteratorMethod = iterable[iteratorSymbol];
-      if (iteratorMethod) return iteratorMethod.call(iterable);
-      if ("function" == typeof iterable.next) return iterable;
-      if (!isNaN(iterable.length)) {
-        var i = -1,
-          next = function next() {
-            for (; ++i < iterable.length;) {
-              if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next;
-            }
-            return next.value = undefined, next.done = !0, next;
-          };
-        return next.next = next;
-      }
-    }
-    return {
-      next: doneResult
-    };
-  }
-  function doneResult() {
-    return {
-      value: undefined,
-      done: !0
-    };
-  }
-  return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", {
-    value: GeneratorFunctionPrototype,
-    configurable: !0
-  }), defineProperty(GeneratorFunctionPrototype, "constructor", {
-    value: GeneratorFunction,
-    configurable: !0
-  }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) {
-    var ctor = "function" == typeof genFun && genFun.constructor;
-    return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name));
-  }, exports.mark = function (genFun) {
-    return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun;
-  }, exports.awrap = function (arg) {
-    return {
-      __await: arg
-    };
-  }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () {
-    return this;
-  }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) {
-    void 0 === PromiseImpl && (PromiseImpl = Promise);
-    var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl);
-    return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) {
-      return result.done ? result.value : iter.next();
-    });
-  }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () {
-    return this;
-  }), define(Gp, "toString", function () {
-    return "[object Generator]";
-  }), exports.keys = function (val) {
-    var object = Object(val),
-      keys = [];
-    for (var key in object) {
-      keys.push(key);
-    }
-    return keys.reverse(), function next() {
-      for (; keys.length;) {
-        var key = keys.pop();
-        if (key in object) return next.value = key, next.done = !1, next;
-      }
-      return next.done = !0, next;
-    };
-  }, exports.values = values, Context.prototype = {
-    constructor: Context,
-    reset: function reset(skipTempReset) {
-      if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) {
-        "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined);
-      }
-    },
-    stop: function stop() {
-      this.done = !0;
-      var rootRecord = this.tryEntries[0].completion;
-      if ("throw" === rootRecord.type) throw rootRecord.arg;
-      return this.rval;
-    },
-    dispatchException: function dispatchException(exception) {
-      if (this.done) throw exception;
-      var context = this;
-      function handle(loc, caught) {
-        return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught;
-      }
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i],
-          record = entry.completion;
-        if ("root" === entry.tryLoc) return handle("end");
-        if (entry.tryLoc <= this.prev) {
-          var hasCatch = hasOwn.call(entry, "catchLoc"),
-            hasFinally = hasOwn.call(entry, "finallyLoc");
-          if (hasCatch && hasFinally) {
-            if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0);
-            if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
-          } else if (hasCatch) {
-            if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0);
-          } else {
-            if (!hasFinally) throw new Error("try statement without catch or finally");
-            if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc);
-          }
-        }
-      }
-    },
-    abrupt: function abrupt(type, arg) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) {
-          var finallyEntry = entry;
-          break;
-        }
-      }
-      finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null);
-      var record = finallyEntry ? finallyEntry.completion : {};
-      return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record);
-    },
-    complete: function complete(record, afterLoc) {
-      if ("throw" === record.type) throw record.arg;
-      return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel;
-    },
-    finish: function finish(finallyLoc) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel;
-      }
-    },
-    "catch": function _catch(tryLoc) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.tryLoc === tryLoc) {
-          var record = entry.completion;
-          if ("throw" === record.type) {
-            var thrown = record.arg;
-            resetTryEntry(entry);
-          }
-          return thrown;
-        }
-      }
-      throw new Error("illegal catch attempt");
-    },
-    delegateYield: function delegateYield(iterable, resultName, nextLoc) {
-      return this.delegate = {
-        iterator: values(iterable),
-        resultName: resultName,
-        nextLoc: nextLoc
-      }, "next" === this.method && (this.arg = undefined), ContinueSentinel;
-    }
-  }, exports;
-}
-module.exports = _regeneratorRuntime, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 64 */
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/asyncToGenerator.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
-  try {
-    var info = gen[key](arg);
-    var value = info.value;
-  } catch (error) {
-    reject(error);
-    return;
-  }
-  if (info.done) {
-    resolve(value);
-  } else {
-    Promise.resolve(value).then(_next, _throw);
-  }
-}
-function _asyncToGenerator(fn) {
-  return function () {
-    var self = this,
-      args = arguments;
-    return new Promise(function (resolve, reject) {
-      var gen = fn.apply(self, args);
-      function _next(value) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
-      }
-      function _throw(err) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
-      }
-      _next(undefined);
-    });
-  };
-}
-module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 65 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/colorGradient.js ***!
-  \***************************************************************************************************************************/
+/* 83 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17263,10 +19670,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 66 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/test.js ***!
-  \******************************************************************************************************************/
+/* 84 */
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/test.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17568,10 +19975,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 67 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/debounce.js ***!
-  \**********************************************************************************************************************/
+/* 85 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17615,10 +20022,10 @@ var _default = debounce;
 exports.default = _default;
 
 /***/ }),
-/* 68 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/throttle.js ***!
-  \**********************************************************************************************************************/
+/* 86 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17664,10 +20071,10 @@ var _default = throttle;
 exports.default = _default;
 
 /***/ }),
-/* 69 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/index.js ***!
-  \*******************************************************************************************************************/
+/* 87 */
+/*!***********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/index.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17681,8 +20088,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ 5));
 var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 66));
-var _digit = __webpack_require__(/*! ./digit.js */ 70);
+var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 84));
+var _digit = __webpack_require__(/*! ./digit.js */ 88);
 /**
  * @description 如果value小于min，取min；如果value大于max，取max
  * @param {number} min
@@ -18465,10 +20872,10 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 70 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/digit.js ***!
-  \*******************************************************************************************************************/
+/* 88 */
+/*!***********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/digit.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18486,7 +20893,7 @@ exports.minus = minus;
 exports.plus = plus;
 exports.round = round;
 exports.times = times;
-var _toArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toArray */ 71));
+var _toArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toArray */ 89));
 var _boundaryCheckingState = true; // 是否进行越界检查的全局开关
 
 /**
@@ -18667,7 +21074,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 71 */
+/* 89 */
 /*!********************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/toArray.js ***!
   \********************************************************/
@@ -18684,10 +21091,10 @@ function _toArray(arr) {
 module.exports = _toArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
-/* 72 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/config.js ***!
-  \******************************************************************************************************************/
+/* 90 */
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/config.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18728,10 +21135,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 73 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props.js ***!
-  \*****************************************************************************************************************/
+/* 91 */
+/*!*********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18744,95 +21151,95 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _config = _interopRequireDefault(__webpack_require__(/*! ./config */ 72));
-var _actionSheet = _interopRequireDefault(__webpack_require__(/*! ./props/actionSheet.js */ 74));
-var _album = _interopRequireDefault(__webpack_require__(/*! ./props/album.js */ 75));
-var _alert = _interopRequireDefault(__webpack_require__(/*! ./props/alert.js */ 76));
-var _avatar = _interopRequireDefault(__webpack_require__(/*! ./props/avatar */ 77));
-var _avatarGroup = _interopRequireDefault(__webpack_require__(/*! ./props/avatarGroup */ 78));
-var _backtop = _interopRequireDefault(__webpack_require__(/*! ./props/backtop */ 79));
-var _badge = _interopRequireDefault(__webpack_require__(/*! ./props/badge */ 80));
-var _button = _interopRequireDefault(__webpack_require__(/*! ./props/button */ 81));
-var _calendar = _interopRequireDefault(__webpack_require__(/*! ./props/calendar */ 82));
-var _carKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/carKeyboard */ 83));
-var _cell = _interopRequireDefault(__webpack_require__(/*! ./props/cell */ 84));
-var _cellGroup = _interopRequireDefault(__webpack_require__(/*! ./props/cellGroup */ 85));
-var _checkbox = _interopRequireDefault(__webpack_require__(/*! ./props/checkbox */ 86));
-var _checkboxGroup = _interopRequireDefault(__webpack_require__(/*! ./props/checkboxGroup */ 87));
-var _circleProgress = _interopRequireDefault(__webpack_require__(/*! ./props/circleProgress */ 88));
-var _code = _interopRequireDefault(__webpack_require__(/*! ./props/code */ 89));
-var _codeInput = _interopRequireDefault(__webpack_require__(/*! ./props/codeInput */ 90));
-var _col = _interopRequireDefault(__webpack_require__(/*! ./props/col */ 91));
-var _collapse = _interopRequireDefault(__webpack_require__(/*! ./props/collapse */ 92));
-var _collapseItem = _interopRequireDefault(__webpack_require__(/*! ./props/collapseItem */ 93));
-var _columnNotice = _interopRequireDefault(__webpack_require__(/*! ./props/columnNotice */ 94));
-var _countDown = _interopRequireDefault(__webpack_require__(/*! ./props/countDown */ 95));
-var _countTo = _interopRequireDefault(__webpack_require__(/*! ./props/countTo */ 96));
-var _datetimePicker = _interopRequireDefault(__webpack_require__(/*! ./props/datetimePicker */ 97));
-var _divider = _interopRequireDefault(__webpack_require__(/*! ./props/divider */ 98));
-var _empty = _interopRequireDefault(__webpack_require__(/*! ./props/empty */ 99));
-var _form = _interopRequireDefault(__webpack_require__(/*! ./props/form */ 100));
-var _formItem = _interopRequireDefault(__webpack_require__(/*! ./props/formItem */ 101));
-var _gap = _interopRequireDefault(__webpack_require__(/*! ./props/gap */ 102));
-var _grid = _interopRequireDefault(__webpack_require__(/*! ./props/grid */ 103));
-var _gridItem = _interopRequireDefault(__webpack_require__(/*! ./props/gridItem */ 104));
-var _icon = _interopRequireDefault(__webpack_require__(/*! ./props/icon */ 105));
-var _image = _interopRequireDefault(__webpack_require__(/*! ./props/image */ 106));
-var _indexAnchor = _interopRequireDefault(__webpack_require__(/*! ./props/indexAnchor */ 107));
-var _indexList = _interopRequireDefault(__webpack_require__(/*! ./props/indexList */ 108));
-var _input = _interopRequireDefault(__webpack_require__(/*! ./props/input */ 109));
-var _keyboard = _interopRequireDefault(__webpack_require__(/*! ./props/keyboard */ 110));
-var _line = _interopRequireDefault(__webpack_require__(/*! ./props/line */ 111));
-var _lineProgress = _interopRequireDefault(__webpack_require__(/*! ./props/lineProgress */ 112));
-var _link = _interopRequireDefault(__webpack_require__(/*! ./props/link */ 113));
-var _list = _interopRequireDefault(__webpack_require__(/*! ./props/list */ 114));
-var _listItem = _interopRequireDefault(__webpack_require__(/*! ./props/listItem */ 115));
-var _loadingIcon = _interopRequireDefault(__webpack_require__(/*! ./props/loadingIcon */ 116));
-var _loadingPage = _interopRequireDefault(__webpack_require__(/*! ./props/loadingPage */ 117));
-var _loadmore = _interopRequireDefault(__webpack_require__(/*! ./props/loadmore */ 118));
-var _modal = _interopRequireDefault(__webpack_require__(/*! ./props/modal */ 119));
-var _navbar = _interopRequireDefault(__webpack_require__(/*! ./props/navbar */ 120));
-var _noNetwork = _interopRequireDefault(__webpack_require__(/*! ./props/noNetwork */ 122));
-var _noticeBar = _interopRequireDefault(__webpack_require__(/*! ./props/noticeBar */ 123));
-var _notify = _interopRequireDefault(__webpack_require__(/*! ./props/notify */ 124));
-var _numberBox = _interopRequireDefault(__webpack_require__(/*! ./props/numberBox */ 125));
-var _numberKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/numberKeyboard */ 126));
-var _overlay = _interopRequireDefault(__webpack_require__(/*! ./props/overlay */ 127));
-var _parse = _interopRequireDefault(__webpack_require__(/*! ./props/parse */ 128));
-var _picker = _interopRequireDefault(__webpack_require__(/*! ./props/picker */ 129));
-var _popup = _interopRequireDefault(__webpack_require__(/*! ./props/popup */ 130));
-var _radio = _interopRequireDefault(__webpack_require__(/*! ./props/radio */ 131));
-var _radioGroup = _interopRequireDefault(__webpack_require__(/*! ./props/radioGroup */ 132));
-var _rate = _interopRequireDefault(__webpack_require__(/*! ./props/rate */ 133));
-var _readMore = _interopRequireDefault(__webpack_require__(/*! ./props/readMore */ 134));
-var _row = _interopRequireDefault(__webpack_require__(/*! ./props/row */ 135));
-var _rowNotice = _interopRequireDefault(__webpack_require__(/*! ./props/rowNotice */ 136));
-var _scrollList = _interopRequireDefault(__webpack_require__(/*! ./props/scrollList */ 137));
-var _search = _interopRequireDefault(__webpack_require__(/*! ./props/search */ 138));
-var _section = _interopRequireDefault(__webpack_require__(/*! ./props/section */ 139));
-var _skeleton = _interopRequireDefault(__webpack_require__(/*! ./props/skeleton */ 140));
-var _slider = _interopRequireDefault(__webpack_require__(/*! ./props/slider */ 141));
-var _statusBar = _interopRequireDefault(__webpack_require__(/*! ./props/statusBar */ 142));
-var _steps = _interopRequireDefault(__webpack_require__(/*! ./props/steps */ 143));
-var _stepsItem = _interopRequireDefault(__webpack_require__(/*! ./props/stepsItem */ 144));
-var _sticky = _interopRequireDefault(__webpack_require__(/*! ./props/sticky */ 145));
-var _subsection = _interopRequireDefault(__webpack_require__(/*! ./props/subsection */ 146));
-var _swipeAction = _interopRequireDefault(__webpack_require__(/*! ./props/swipeAction */ 147));
-var _swipeActionItem = _interopRequireDefault(__webpack_require__(/*! ./props/swipeActionItem */ 148));
-var _swiper = _interopRequireDefault(__webpack_require__(/*! ./props/swiper */ 149));
-var _swipterIndicator = _interopRequireDefault(__webpack_require__(/*! ./props/swipterIndicator */ 150));
-var _switch2 = _interopRequireDefault(__webpack_require__(/*! ./props/switch */ 151));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./props/tabbar */ 152));
-var _tabbarItem = _interopRequireDefault(__webpack_require__(/*! ./props/tabbarItem */ 153));
-var _tabs = _interopRequireDefault(__webpack_require__(/*! ./props/tabs */ 154));
-var _tag = _interopRequireDefault(__webpack_require__(/*! ./props/tag */ 155));
-var _text = _interopRequireDefault(__webpack_require__(/*! ./props/text */ 156));
-var _textarea = _interopRequireDefault(__webpack_require__(/*! ./props/textarea */ 157));
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./props/toast */ 158));
-var _toolbar = _interopRequireDefault(__webpack_require__(/*! ./props/toolbar */ 159));
-var _tooltip = _interopRequireDefault(__webpack_require__(/*! ./props/tooltip */ 160));
-var _transition = _interopRequireDefault(__webpack_require__(/*! ./props/transition */ 161));
-var _upload = _interopRequireDefault(__webpack_require__(/*! ./props/upload */ 162));
+var _config = _interopRequireDefault(__webpack_require__(/*! ./config */ 90));
+var _actionSheet = _interopRequireDefault(__webpack_require__(/*! ./props/actionSheet.js */ 92));
+var _album = _interopRequireDefault(__webpack_require__(/*! ./props/album.js */ 93));
+var _alert = _interopRequireDefault(__webpack_require__(/*! ./props/alert.js */ 94));
+var _avatar = _interopRequireDefault(__webpack_require__(/*! ./props/avatar */ 95));
+var _avatarGroup = _interopRequireDefault(__webpack_require__(/*! ./props/avatarGroup */ 96));
+var _backtop = _interopRequireDefault(__webpack_require__(/*! ./props/backtop */ 97));
+var _badge = _interopRequireDefault(__webpack_require__(/*! ./props/badge */ 98));
+var _button = _interopRequireDefault(__webpack_require__(/*! ./props/button */ 99));
+var _calendar = _interopRequireDefault(__webpack_require__(/*! ./props/calendar */ 100));
+var _carKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/carKeyboard */ 101));
+var _cell = _interopRequireDefault(__webpack_require__(/*! ./props/cell */ 102));
+var _cellGroup = _interopRequireDefault(__webpack_require__(/*! ./props/cellGroup */ 103));
+var _checkbox = _interopRequireDefault(__webpack_require__(/*! ./props/checkbox */ 104));
+var _checkboxGroup = _interopRequireDefault(__webpack_require__(/*! ./props/checkboxGroup */ 105));
+var _circleProgress = _interopRequireDefault(__webpack_require__(/*! ./props/circleProgress */ 106));
+var _code = _interopRequireDefault(__webpack_require__(/*! ./props/code */ 107));
+var _codeInput = _interopRequireDefault(__webpack_require__(/*! ./props/codeInput */ 108));
+var _col = _interopRequireDefault(__webpack_require__(/*! ./props/col */ 109));
+var _collapse = _interopRequireDefault(__webpack_require__(/*! ./props/collapse */ 110));
+var _collapseItem = _interopRequireDefault(__webpack_require__(/*! ./props/collapseItem */ 111));
+var _columnNotice = _interopRequireDefault(__webpack_require__(/*! ./props/columnNotice */ 112));
+var _countDown = _interopRequireDefault(__webpack_require__(/*! ./props/countDown */ 113));
+var _countTo = _interopRequireDefault(__webpack_require__(/*! ./props/countTo */ 114));
+var _datetimePicker = _interopRequireDefault(__webpack_require__(/*! ./props/datetimePicker */ 115));
+var _divider = _interopRequireDefault(__webpack_require__(/*! ./props/divider */ 116));
+var _empty = _interopRequireDefault(__webpack_require__(/*! ./props/empty */ 117));
+var _form = _interopRequireDefault(__webpack_require__(/*! ./props/form */ 118));
+var _formItem = _interopRequireDefault(__webpack_require__(/*! ./props/formItem */ 119));
+var _gap = _interopRequireDefault(__webpack_require__(/*! ./props/gap */ 120));
+var _grid = _interopRequireDefault(__webpack_require__(/*! ./props/grid */ 121));
+var _gridItem = _interopRequireDefault(__webpack_require__(/*! ./props/gridItem */ 122));
+var _icon = _interopRequireDefault(__webpack_require__(/*! ./props/icon */ 123));
+var _image = _interopRequireDefault(__webpack_require__(/*! ./props/image */ 124));
+var _indexAnchor = _interopRequireDefault(__webpack_require__(/*! ./props/indexAnchor */ 125));
+var _indexList = _interopRequireDefault(__webpack_require__(/*! ./props/indexList */ 126));
+var _input = _interopRequireDefault(__webpack_require__(/*! ./props/input */ 127));
+var _keyboard = _interopRequireDefault(__webpack_require__(/*! ./props/keyboard */ 128));
+var _line = _interopRequireDefault(__webpack_require__(/*! ./props/line */ 129));
+var _lineProgress = _interopRequireDefault(__webpack_require__(/*! ./props/lineProgress */ 130));
+var _link = _interopRequireDefault(__webpack_require__(/*! ./props/link */ 131));
+var _list = _interopRequireDefault(__webpack_require__(/*! ./props/list */ 132));
+var _listItem = _interopRequireDefault(__webpack_require__(/*! ./props/listItem */ 133));
+var _loadingIcon = _interopRequireDefault(__webpack_require__(/*! ./props/loadingIcon */ 134));
+var _loadingPage = _interopRequireDefault(__webpack_require__(/*! ./props/loadingPage */ 135));
+var _loadmore = _interopRequireDefault(__webpack_require__(/*! ./props/loadmore */ 136));
+var _modal = _interopRequireDefault(__webpack_require__(/*! ./props/modal */ 137));
+var _navbar = _interopRequireDefault(__webpack_require__(/*! ./props/navbar */ 138));
+var _noNetwork = _interopRequireDefault(__webpack_require__(/*! ./props/noNetwork */ 140));
+var _noticeBar = _interopRequireDefault(__webpack_require__(/*! ./props/noticeBar */ 141));
+var _notify = _interopRequireDefault(__webpack_require__(/*! ./props/notify */ 142));
+var _numberBox = _interopRequireDefault(__webpack_require__(/*! ./props/numberBox */ 143));
+var _numberKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/numberKeyboard */ 144));
+var _overlay = _interopRequireDefault(__webpack_require__(/*! ./props/overlay */ 145));
+var _parse = _interopRequireDefault(__webpack_require__(/*! ./props/parse */ 146));
+var _picker = _interopRequireDefault(__webpack_require__(/*! ./props/picker */ 147));
+var _popup = _interopRequireDefault(__webpack_require__(/*! ./props/popup */ 148));
+var _radio = _interopRequireDefault(__webpack_require__(/*! ./props/radio */ 149));
+var _radioGroup = _interopRequireDefault(__webpack_require__(/*! ./props/radioGroup */ 150));
+var _rate = _interopRequireDefault(__webpack_require__(/*! ./props/rate */ 151));
+var _readMore = _interopRequireDefault(__webpack_require__(/*! ./props/readMore */ 152));
+var _row = _interopRequireDefault(__webpack_require__(/*! ./props/row */ 153));
+var _rowNotice = _interopRequireDefault(__webpack_require__(/*! ./props/rowNotice */ 154));
+var _scrollList = _interopRequireDefault(__webpack_require__(/*! ./props/scrollList */ 155));
+var _search = _interopRequireDefault(__webpack_require__(/*! ./props/search */ 156));
+var _section = _interopRequireDefault(__webpack_require__(/*! ./props/section */ 157));
+var _skeleton = _interopRequireDefault(__webpack_require__(/*! ./props/skeleton */ 158));
+var _slider = _interopRequireDefault(__webpack_require__(/*! ./props/slider */ 159));
+var _statusBar = _interopRequireDefault(__webpack_require__(/*! ./props/statusBar */ 160));
+var _steps = _interopRequireDefault(__webpack_require__(/*! ./props/steps */ 161));
+var _stepsItem = _interopRequireDefault(__webpack_require__(/*! ./props/stepsItem */ 162));
+var _sticky = _interopRequireDefault(__webpack_require__(/*! ./props/sticky */ 163));
+var _subsection = _interopRequireDefault(__webpack_require__(/*! ./props/subsection */ 164));
+var _swipeAction = _interopRequireDefault(__webpack_require__(/*! ./props/swipeAction */ 165));
+var _swipeActionItem = _interopRequireDefault(__webpack_require__(/*! ./props/swipeActionItem */ 166));
+var _swiper = _interopRequireDefault(__webpack_require__(/*! ./props/swiper */ 167));
+var _swipterIndicator = _interopRequireDefault(__webpack_require__(/*! ./props/swipterIndicator */ 168));
+var _switch2 = _interopRequireDefault(__webpack_require__(/*! ./props/switch */ 169));
+var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./props/tabbar */ 170));
+var _tabbarItem = _interopRequireDefault(__webpack_require__(/*! ./props/tabbarItem */ 171));
+var _tabs = _interopRequireDefault(__webpack_require__(/*! ./props/tabs */ 172));
+var _tag = _interopRequireDefault(__webpack_require__(/*! ./props/tag */ 173));
+var _text = _interopRequireDefault(__webpack_require__(/*! ./props/text */ 174));
+var _textarea = _interopRequireDefault(__webpack_require__(/*! ./props/textarea */ 175));
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./props/toast */ 176));
+var _toolbar = _interopRequireDefault(__webpack_require__(/*! ./props/toolbar */ 177));
+var _tooltip = _interopRequireDefault(__webpack_require__(/*! ./props/tooltip */ 178));
+var _transition = _interopRequireDefault(__webpack_require__(/*! ./props/transition */ 179));
+var _upload = _interopRequireDefault(__webpack_require__(/*! ./props/upload */ 180));
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var color = _config.default.color;
@@ -18840,10 +21247,10 @@ var _default = _objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSp
 exports.default = _default;
 
 /***/ }),
-/* 74 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
-  \*****************************************************************************************************************************/
+/* 92 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18884,10 +21291,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 75 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/album.js ***!
-  \***********************************************************************************************************************/
+/* 93 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18928,10 +21335,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 76 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/alert.js ***!
-  \***********************************************************************************************************************/
+/* 94 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18967,10 +21374,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 77 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatar.js ***!
-  \************************************************************************************************************************/
+/* 95 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19012,10 +21419,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 78 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
-  \*****************************************************************************************************************************/
+/* 96 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19054,10 +21461,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 79 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/backtop.js ***!
-  \*************************************************************************************************************************/
+/* 97 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19100,10 +21507,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 80 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/badge.js ***!
-  \***********************************************************************************************************************/
+/* 98 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19146,10 +21553,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 81 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/button.js ***!
-  \************************************************************************************************************************/
+/* 99 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19205,10 +21612,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 82 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/calendar.js ***!
-  \**************************************************************************************************************************/
+/* 100 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19268,10 +21675,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 83 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
-  \*****************************************************************************************************************************/
+/* 101 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19300,10 +21707,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 84 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cell.js ***!
-  \**********************************************************************************************************************/
+/* 102 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19352,10 +21759,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 85 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
-  \***************************************************************************************************************************/
+/* 103 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19386,10 +21793,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 86 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
-  \**************************************************************************************************************************/
+/* 104 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19430,10 +21837,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 87 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
-  \*******************************************************************************************************************************/
+/* 105 */
+/*!***********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19478,10 +21885,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 88 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
-  \********************************************************************************************************************************/
+/* 106 */
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19510,10 +21917,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 89 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/code.js ***!
-  \**********************************************************************************************************************/
+/* 107 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19547,10 +21954,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 90 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
-  \***************************************************************************************************************************/
+/* 108 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19593,10 +22000,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 91 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/col.js ***!
-  \*********************************************************************************************************************/
+/* 109 */
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19629,10 +22036,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 92 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapse.js ***!
-  \**************************************************************************************************************************/
+/* 110 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19663,10 +22070,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 93 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
-  \******************************************************************************************************************************/
+/* 111 */
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19705,10 +22112,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 94 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
-  \******************************************************************************************************************************/
+/* 112 */
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19746,10 +22153,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 95 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countDown.js ***!
-  \***************************************************************************************************************************/
+/* 113 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19781,10 +22188,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 96 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countTo.js ***!
-  \*************************************************************************************************************************/
+/* 114 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19823,10 +22230,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 97 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
-  \********************************************************************************************************************************/
+/* 115 */
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19878,10 +22285,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 98 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/divider.js ***!
-  \*************************************************************************************************************************/
+/* 116 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19917,10 +22324,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 99 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/empty.js ***!
-  \***********************************************************************************************************************/
+/* 117 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19959,10 +22366,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 100 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/form.js ***!
-  \**********************************************************************************************************************/
+/* 118 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20004,10 +22411,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 101 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/formItem.js ***!
-  \**************************************************************************************************************************/
+/* 119 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20044,10 +22451,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 102 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gap.js ***!
-  \*********************************************************************************************************************/
+/* 120 */
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20080,10 +22487,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 103 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/grid.js ***!
-  \**********************************************************************************************************************/
+/* 121 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20114,10 +22521,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 104 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
-  \**************************************************************************************************************************/
+/* 122 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20147,10 +22554,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 105 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/icon.js ***!
-  \**********************************************************************************************************************/
+/* 123 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20162,7 +22569,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 72));
+var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 90));
 /*
  * @Author       : LQ
  * @Description  :
@@ -20199,10 +22606,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 106 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/image.js ***!
-  \***********************************************************************************************************************/
+/* 124 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20246,10 +22653,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 107 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
-  \*****************************************************************************************************************************/
+/* 125 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20282,10 +22689,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 108 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexList.js ***!
-  \***************************************************************************************************************************/
+/* 126 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20320,10 +22727,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 109 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/input.js ***!
-  \***********************************************************************************************************************/
+/* 127 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20385,10 +22792,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 110 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
-  \**************************************************************************************************************************/
+/* 128 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20432,10 +22839,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 111 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/line.js ***!
-  \**********************************************************************************************************************/
+/* 129 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20469,10 +22876,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 112 */
-/*!******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
-  \******************************************************************************************************************************/
+/* 130 */
+/*!**********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20505,10 +22912,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 113 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/link.js ***!
-  \**********************************************************************************************************************/
+/* 131 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20520,7 +22927,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 72));
+var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 90));
 /*
  * @Author       : LQ
  * @Description  :
@@ -20547,10 +22954,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 114 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/list.js ***!
-  \**********************************************************************************************************************/
+/* 132 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20592,10 +22999,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 115 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/listItem.js ***!
-  \**************************************************************************************************************************/
+/* 133 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20624,10 +23031,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 116 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
-  \*****************************************************************************************************************************/
+/* 134 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20639,7 +23046,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 72));
+var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 90));
 /*
  * @Author       : LQ
  * @Description  :
@@ -20670,10 +23077,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 117 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
-  \*****************************************************************************************************************************/
+/* 135 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20710,10 +23117,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 118 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
-  \**************************************************************************************************************************/
+/* 136 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20759,10 +23166,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 119 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/modal.js ***!
-  \***********************************************************************************************************************/
+/* 137 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20806,10 +23213,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 120 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/navbar.js ***!
-  \************************************************************************************************************************/
+/* 138 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20821,7 +23228,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 121));
+var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 139));
 /*
  * @Author       : LQ
  * @Description  :
@@ -20855,10 +23262,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 121 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/color.js ***!
-  \*****************************************************************************************************************/
+/* 139 */
+/*!*********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/color.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20888,10 +23295,10 @@ var _default = color;
 exports.default = _default;
 
 /***/ }),
-/* 122 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
-  \***************************************************************************************************************************/
+/* 140 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20922,10 +23329,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 123 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
-  \***************************************************************************************************************************/
+/* 141 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20968,10 +23375,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 124 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/notify.js ***!
-  \************************************************************************************************************************/
+/* 142 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21007,10 +23414,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 125 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
-  \***************************************************************************************************************************/
+/* 143 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21059,10 +23466,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 126 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
-  \********************************************************************************************************************************/
+/* 144 */
+/*!************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21093,10 +23500,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 127 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/overlay.js ***!
-  \*************************************************************************************************************************/
+/* 145 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21128,10 +23535,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 128 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/parse.js ***!
-  \***********************************************************************************************************************/
+/* 146 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21167,10 +23574,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 129 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/picker.js ***!
-  \************************************************************************************************************************/
+/* 147 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21217,10 +23624,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 130 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/popup.js ***!
-  \***********************************************************************************************************************/
+/* 148 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21263,10 +23670,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 131 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radio.js ***!
-  \***********************************************************************************************************************/
+/* 149 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21307,10 +23714,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 132 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
-  \****************************************************************************************************************************/
+/* 150 */
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21354,10 +23761,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 133 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rate.js ***!
-  \**********************************************************************************************************************/
+/* 151 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21397,10 +23804,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 134 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/readMore.js ***!
-  \**************************************************************************************************************************/
+/* 152 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21436,10 +23843,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 135 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/row.js ***!
-  \*********************************************************************************************************************/
+/* 153 */
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21470,10 +23877,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 136 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
-  \***************************************************************************************************************************/
+/* 154 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21508,10 +23915,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 137 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
-  \****************************************************************************************************************************/
+/* 155 */
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21545,10 +23952,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 138 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/search.js ***!
-  \************************************************************************************************************************/
+/* 156 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21603,10 +24010,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 139 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/section.js ***!
-  \*************************************************************************************************************************/
+/* 157 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21644,10 +24051,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 140 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
-  \**************************************************************************************************************************/
+/* 158 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21686,10 +24093,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 141 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/slider.js ***!
-  \************************************************************************************************************************/
+/* 159 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21728,10 +24135,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 142 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
-  \***************************************************************************************************************************/
+/* 160 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21760,10 +24167,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 143 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/steps.js ***!
-  \***********************************************************************************************************************/
+/* 161 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21798,10 +24205,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 144 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
-  \***************************************************************************************************************************/
+/* 162 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21833,10 +24240,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 145 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/sticky.js ***!
-  \************************************************************************************************************************/
+/* 163 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21870,10 +24277,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 146 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/subsection.js ***!
-  \****************************************************************************************************************************/
+/* 164 */
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21910,10 +24317,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 147 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
-  \*****************************************************************************************************************************/
+/* 165 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21942,10 +24349,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 148 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
-  \*********************************************************************************************************************************/
+/* 166 */
+/*!*************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21980,10 +24387,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 149 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swiper.js ***!
-  \************************************************************************************************************************/
+/* 167 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22037,10 +24444,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 150 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
-  \**********************************************************************************************************************************/
+/* 168 */
+/*!**************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22073,10 +24480,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 151 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/switch.js ***!
-  \************************************************************************************************************************/
+/* 169 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22114,10 +24521,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 152 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
-  \************************************************************************************************************************/
+/* 170 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22153,10 +24560,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 153 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
-  \****************************************************************************************************************************/
+/* 171 */
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22190,10 +24597,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 154 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabs.js ***!
-  \**********************************************************************************************************************/
+/* 172 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22247,10 +24654,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 155 */
-/*!*********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tag.js ***!
-  \*********************************************************************************************************************/
+/* 173 */
+/*!*************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22293,10 +24700,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 156 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/text.js ***!
-  \**********************************************************************************************************************/
+/* 174 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22349,10 +24756,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 157 */
-/*!**************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/textarea.js ***!
-  \**************************************************************************************************************************/
+/* 175 */
+/*!******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22402,10 +24809,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 158 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toast.js ***!
-  \***********************************************************************************************************************/
+/* 176 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22448,10 +24855,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 159 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
-  \*************************************************************************************************************************/
+/* 177 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22485,10 +24892,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 160 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
-  \*************************************************************************************************************************/
+/* 178 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22529,10 +24936,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 161 */
-/*!****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/transition.js ***!
-  \****************************************************************************************************************************/
+/* 179 */
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22564,10 +24971,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 162 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/upload.js ***!
-  \************************************************************************************************************************/
+/* 180 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22623,10 +25030,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 163 */
-/*!******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/config/zIndex.js ***!
-  \******************************************************************************************************************/
+/* 181 */
+/*!**********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22659,10 +25066,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 164 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/function/platform.js ***!
-  \**********************************************************************************************************************/
+/* 182 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/function/platform.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22689,10 +25096,10 @@ var _default = platform;
 exports.default = _default;
 
 /***/ }),
-/* 165 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/requestConfig.js ***!
-  \***************************************************************************************************************************/
+/* 183 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/requestConfig.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22704,9 +25111,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _request = _interopRequireDefault(__webpack_require__(/*! ./request */ 166));
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 40));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 42));
+var _request = _interopRequireDefault(__webpack_require__(/*! ./request */ 43));
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
@@ -22959,2019 +25366,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 166 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/index.js ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _upload = _interopRequireDefault(__webpack_require__(/*! ./upload/upload.js */ 167));
-/***************纯粹的数据请求（如果使用这种可以删除掉fileUpload.js）******************/
-// import request from "./core/request.js";
-// export default request;
-/********数据请求同时继承了文件上传（包括七牛云上传）************/
-var _default = _upload.default;
-exports.default = _default;
-
-/***/ }),
-/* 167 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/upload.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
-var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inherits */ 168));
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ 169));
-var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ 171));
-var _request2 = _interopRequireDefault(__webpack_require__(/*! ./../core/request.js */ 172));
-var _utils = __webpack_require__(/*! ./../core/utils.js */ 173);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var _require = __webpack_require__(/*! ./utils */ 174),
-  chooseImage = _require.chooseImage,
-  chooseVideo = _require.chooseVideo,
-  qiniuUpload = _require.qiniuUpload,
-  aliUpload = _require.aliUpload,
-  urlUpload = _require.urlUpload;
-var fileUpload = /*#__PURE__*/function (_request) {
-  (0, _inherits2.default)(fileUpload, _request);
-  var _super = _createSuper(fileUpload);
-  function fileUpload(props) {
-    (0, _classCallCheck2.default)(this, fileUpload);
-    // 调用实现父类的构造函数
-    return _super.call(this, props);
-  }
-  //七牛云上传图片
-  (0, _createClass2.default)(fileUpload, [{
-    key: "qnImgUpload",
-    value: function () {
-      var _qnImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee() {
-        var options,
-          files,
-          _args = arguments;
-        return _regenerator.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                options = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};
-                _context.prev = 1;
-                _context.next = 4;
-                return chooseImage(options);
-              case 4:
-                files = _context.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context.next = 12;
-                break;
-              case 8:
-                _context.prev = 8;
-                _context.t0 = _context["catch"](1);
-                this.requestError && this.requestError(_context.t0);
-                return _context.abrupt("return", Promise.reject(_context.t0));
-              case 12:
-                if (!files) {
-                  _context.next = 14;
-                  break;
-                }
-                return _context.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[1, 8]]);
-      }));
-      function qnImgUpload() {
-        return _qnImgUpload.apply(this, arguments);
-      }
-      return qnImgUpload;
-    }() //七牛云上传视频
-  }, {
-    key: "qnVideoUpload",
-    value: function () {
-      var _qnVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee2() {
-        var options,
-          files,
-          _args2 = arguments;
-        return _regenerator.default.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                options = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : {};
-                _context2.prev = 1;
-                _context2.next = 4;
-                return chooseVideo(options);
-              case 4:
-                files = _context2.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context2.next = 12;
-                break;
-              case 8:
-                _context2.prev = 8;
-                _context2.t0 = _context2["catch"](1);
-                this.requestError && this.requestError(_context2.t0);
-                return _context2.abrupt("return", Promise.reject(_context2.t0));
-              case 12:
-                if (!files) {
-                  _context2.next = 14;
-                  break;
-                }
-                return _context2.abrupt("return", this.qnFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context2.stop();
-            }
-          }
-        }, _callee2, this, [[1, 8]]);
-      }));
-      function qnVideoUpload() {
-        return _qnVideoUpload.apply(this, arguments);
-      }
-      return qnVideoUpload;
-    }() //七牛云文件上传（支持多张上传）
-  }, {
-    key: "qnFileUpload",
-    value: function () {
-      var _qnFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee3() {
-        var options,
-          requestInfo,
-          requestStart,
-          changekeys,
-          requestResult,
-          _args3 = arguments;
-        return _regenerator.default.wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                options = _args3.length > 0 && _args3[0] !== undefined ? _args3[0] : {};
-                _context3.prev = 1;
-                // 数据合并
-                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
-                  header: {},
-                  method: "FILE"
-                });
-                //请求前回调
-                if (!this.requestStart) {
-                  _context3.next = 11;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context3.next = 10;
-                  break;
-                }
-                changekeys = ["load", "files"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context3.next = 11;
-                break;
-              case 10:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 11:
-                _context3.next = 13;
-                return qiniuUpload(requestInfo, this.getQnToken);
-              case 13:
-                requestResult = _context3.sent;
-                return _context3.abrupt("return", Promise.resolve(requestResult));
-              case 17:
-                _context3.prev = 17;
-                _context3.t0 = _context3["catch"](1);
-                this.requestError && this.requestError(_context3.t0);
-                return _context3.abrupt("return", Promise.reject(_context3.t0));
-              case 21:
-                _context3.prev = 21;
-                this.requestEnd && this.requestEnd(requestInfo);
-                return _context3.finish(21);
-              case 24:
-              case "end":
-                return _context3.stop();
-            }
-          }
-        }, _callee3, this, [[1, 17, 21, 24]]);
-      }));
-      function qnFileUpload() {
-        return _qnFileUpload.apply(this, arguments);
-      }
-      return qnFileUpload;
-    }() //阿里云上传图片
-  }, {
-    key: "aliImgUpload",
-    value: function () {
-      var _aliImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee4() {
-        var options,
-          files,
-          _args4 = arguments;
-        return _regenerator.default.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                options = _args4.length > 0 && _args4[0] !== undefined ? _args4[0] : {};
-                _context4.prev = 1;
-                _context4.next = 4;
-                return chooseImage(options);
-              case 4:
-                files = _context4.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context4.next = 12;
-                break;
-              case 8:
-                _context4.prev = 8;
-                _context4.t0 = _context4["catch"](1);
-                this.requestError && this.requestError(_context4.t0);
-                return _context4.abrupt("return", Promise.reject(_context4.t0));
-              case 12:
-                if (!files) {
-                  _context4.next = 14;
-                  break;
-                }
-                return _context4.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this, [[1, 8]]);
-      }));
-      function aliImgUpload() {
-        return _aliImgUpload.apply(this, arguments);
-      }
-      return aliImgUpload;
-    }() //阿里云上传视频
-  }, {
-    key: "aliVideoUpload",
-    value: function () {
-      var _aliVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee5() {
-        var options,
-          files,
-          _args5 = arguments;
-        return _regenerator.default.wrap(function _callee5$(_context5) {
-          while (1) {
-            switch (_context5.prev = _context5.next) {
-              case 0:
-                options = _args5.length > 0 && _args5[0] !== undefined ? _args5[0] : {};
-                _context5.prev = 1;
-                _context5.next = 4;
-                return chooseVideo(options);
-              case 4:
-                files = _context5.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(files);
-                _context5.next = 12;
-                break;
-              case 8:
-                _context5.prev = 8;
-                _context5.t0 = _context5["catch"](1);
-                this.requestError && this.requestError(_context5.t0);
-                return _context5.abrupt("return", Promise.reject(_context5.t0));
-              case 12:
-                if (!files) {
-                  _context5.next = 14;
-                  break;
-                }
-                return _context5.abrupt("return", this.aliFileUpload(_objectSpread(_objectSpread({}, options), {}, {
-                  files: files
-                })));
-              case 14:
-              case "end":
-                return _context5.stop();
-            }
-          }
-        }, _callee5, this, [[1, 8]]);
-      }));
-      function aliVideoUpload() {
-        return _aliVideoUpload.apply(this, arguments);
-      }
-      return aliVideoUpload;
-    }() //阿里云文件上传（支持多张上传）
-  }, {
-    key: "aliFileUpload",
-    value: function () {
-      var _aliFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee6() {
-        var options,
-          requestInfo,
-          requestStart,
-          changekeys,
-          requestResult,
-          _args6 = arguments;
-        return _regenerator.default.wrap(function _callee6$(_context6) {
-          while (1) {
-            switch (_context6.prev = _context6.next) {
-              case 0:
-                options = _args6.length > 0 && _args6[0] !== undefined ? _args6[0] : {};
-                _context6.prev = 1;
-                // 数据合并
-                requestInfo = _objectSpread(_objectSpread(_objectSpread({}, this.config), options), {}, {
-                  header: {},
-                  method: "FILE"
-                });
-                //请求前回调
-                if (!this.requestStart) {
-                  _context6.next = 11;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context6.next = 10;
-                  break;
-                }
-                changekeys = ["load", "files"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context6.next = 11;
-                break;
-              case 10:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 11:
-                _context6.next = 13;
-                return aliUpload(requestInfo, this.getAliToken);
-              case 13:
-                requestResult = _context6.sent;
-                return _context6.abrupt("return", Promise.resolve(requestResult));
-              case 17:
-                _context6.prev = 17;
-                _context6.t0 = _context6["catch"](1);
-                this.requestError && this.requestError(_context6.t0);
-                return _context6.abrupt("return", Promise.reject(_context6.t0));
-              case 21:
-                _context6.prev = 21;
-                this.requestEnd && this.requestEnd(requestInfo);
-                return _context6.finish(21);
-              case 24:
-              case "end":
-                return _context6.stop();
-            }
-          }
-        }, _callee6, this, [[1, 17, 21, 24]]);
-      }));
-      function aliFileUpload() {
-        return _aliFileUpload.apply(this, arguments);
-      }
-      return aliFileUpload;
-    }() //本地服务器图片上传
-  }, {
-    key: "urlImgUpload",
-    value: function () {
-      var _urlImgUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee7() {
-        var options,
-          _args7 = arguments;
-        return _regenerator.default.wrap(function _callee7$(_context7) {
-          while (1) {
-            switch (_context7.prev = _context7.next) {
-              case 0:
-                options = {};
-                if (_args7[0]) {
-                  if (typeof _args7[0] == "string") {
-                    options.url = _args7[0];
-                  } else if ((0, _typeof2.default)(_args7[0]) == "object") {
-                    options = Object.assign(options, _args7[0]);
-                  }
-                }
-                if (_args7[1] && (0, _typeof2.default)(_args7[1]) == "object") {
-                  options = Object.assign(options, _args7[1]);
-                }
-                _context7.prev = 3;
-                _context7.next = 6;
-                return chooseImage(options);
-              case 6:
-                options.files = _context7.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(options.files);
-                _context7.next = 14;
-                break;
-              case 10:
-                _context7.prev = 10;
-                _context7.t0 = _context7["catch"](3);
-                this.requestError && this.requestError(_context7.t0);
-                return _context7.abrupt("return", Promise.reject(_context7.t0));
-              case 14:
-                if (!options.files) {
-                  _context7.next = 16;
-                  break;
-                }
-                return _context7.abrupt("return", this.urlFileUpload(options));
-              case 16:
-              case "end":
-                return _context7.stop();
-            }
-          }
-        }, _callee7, this, [[3, 10]]);
-      }));
-      function urlImgUpload() {
-        return _urlImgUpload.apply(this, arguments);
-      }
-      return urlImgUpload;
-    }() //本地服务器上传视频
-  }, {
-    key: "urlVideoUpload",
-    value: function () {
-      var _urlVideoUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee8() {
-        var options,
-          _args8 = arguments;
-        return _regenerator.default.wrap(function _callee8$(_context8) {
-          while (1) {
-            switch (_context8.prev = _context8.next) {
-              case 0:
-                options = {};
-                if (_args8[0]) {
-                  if (typeof _args8[0] == "string") {
-                    options.url = _args8[0];
-                  } else if ((0, _typeof2.default)(_args8[0]) == "object") {
-                    options = Object.assign(options, _args8[0]);
-                  }
-                }
-                if (_args8[1] && (0, _typeof2.default)(_args8[1]) == "object") {
-                  options = Object.assign(options, _args8[1]);
-                }
-                _context8.prev = 3;
-                _context8.next = 6;
-                return chooseVideo(options);
-              case 6:
-                options.files = _context8.sent;
-                // 选择完成回调
-                options.onSelectComplete && options.onSelectComplete(options.files);
-                _context8.next = 14;
-                break;
-              case 10:
-                _context8.prev = 10;
-                _context8.t0 = _context8["catch"](3);
-                this.requestError && this.requestError(_context8.t0);
-                return _context8.abrupt("return", Promise.reject(_context8.t0));
-              case 14:
-                if (!options.files) {
-                  _context8.next = 16;
-                  break;
-                }
-                return _context8.abrupt("return", this.urlFileUpload(options));
-              case 16:
-              case "end":
-                return _context8.stop();
-            }
-          }
-        }, _callee8, this, [[3, 10]]);
-      }));
-      function urlVideoUpload() {
-        return _urlVideoUpload.apply(this, arguments);
-      }
-      return urlVideoUpload;
-    }() //本地服务器文件上传方法
-  }, {
-    key: "urlFileUpload",
-    value: function () {
-      var _urlFileUpload = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee9() {
-        var requestInfo,
-          runRequestStart,
-          requestStart,
-          changekeys,
-          requestResult,
-          _args9 = arguments;
-        return _regenerator.default.wrap(function _callee9$(_context9) {
-          while (1) {
-            switch (_context9.prev = _context9.next) {
-              case 0:
-                requestInfo = {
-                  method: "FILE"
-                };
-                if (_args9[0]) {
-                  if (typeof _args9[0] == "string") {
-                    requestInfo.url = _args9[0];
-                  } else if ((0, _typeof2.default)(_args9[0]) == "object") {
-                    requestInfo = Object.assign(requestInfo, _args9[0]);
-                  }
-                }
-                if (_args9[1] && (0, _typeof2.default)(_args9[1]) == "object") {
-                  requestInfo = Object.assign(requestInfo, _args9[1]);
-                }
-                if (!requestInfo.url && this.defaultUploadUrl) {
-                  requestInfo.url = this.defaultUploadUrl;
-                }
-                if (!requestInfo.name && this.defaultFileName) {
-                  requestInfo.name = this.defaultFileName;
-                }
-                // 请求数据
-                // 是否运行过请求开始钩子
-                runRequestStart = false;
-                _context9.prev = 6;
-                if (requestInfo.url) {
-                  _context9.next = 9;
-                  break;
-                }
-                throw {
-                  errMsg: "【request】文件上传缺失数据url",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 9:
-                // 数据合并
-                requestInfo = (0, _utils.mergeConfig)(this, requestInfo);
-                // 代表之前运行到这里
-                runRequestStart = true;
-                //请求前回调
-                if (!this.requestStart) {
-                  _context9.next = 19;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context9.next = 18;
-                  break;
-                }
-                changekeys = ["data", "header", "isPrompt", "load", "isFactory", "files"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context9.next = 19;
-                break;
-              case 18:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 19:
-                _context9.next = 21;
-                return urlUpload(requestInfo, this.dataFactory);
-              case 21:
-                requestResult = _context9.sent;
-                return _context9.abrupt("return", Promise.resolve(requestResult));
-              case 25:
-                _context9.prev = 25;
-                _context9.t0 = _context9["catch"](6);
-                this.requestError && this.requestError(_context9.t0);
-                return _context9.abrupt("return", Promise.reject(_context9.t0));
-              case 29:
-                _context9.prev = 29;
-                if (runRequestStart) {
-                  this.requestEnd && this.requestEnd(requestInfo);
-                }
-                return _context9.finish(29);
-              case 32:
-              case "end":
-                return _context9.stop();
-            }
-          }
-        }, _callee9, this, [[6, 25, 29, 32]]);
-      }));
-      function urlFileUpload() {
-        return _urlFileUpload.apply(this, arguments);
-      }
-      return urlFileUpload;
-    }()
-  }]);
-  return fileUpload;
-}(_request2.default);
-exports.default = fileUpload;
-
-/***/ }),
-/* 168 */
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  Object.defineProperty(subClass, "prototype", {
-    writable: false
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
-module.exports = _inherits, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 169 */
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized.js */ 170);
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  } else if (call !== void 0) {
-    throw new TypeError("Derived constructors may only return object or undefined");
-  }
-  return assertThisInitialized(self);
-}
-module.exports = _possibleConstructorReturn, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 170 */
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-  return self;
-}
-module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 171 */
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _getPrototypeOf(o);
-}
-module.exports = _getPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-/* 172 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/request.js ***!
-  \**********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
-var _utils = __webpack_require__(/*! ./utils.js */ 173);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-var request = /*#__PURE__*/function () {
-  function request(options) {
-    (0, _classCallCheck2.default)(this, request);
-    //请求公共地址
-    this.baseUrl = options.baseUrl || "";
-    //公共文件上传请求地址
-    this.fileUrl = options.fileUrl || "";
-    // 超时时间
-    this.timeout = options.timeout || 6000;
-    // 服务器上传图片默认url
-    this.defaultUploadUrl = options.defaultUploadUrl || "";
-    // 服务器上传文件名称
-    this.defaultFileName = options.defaultFileName || "";
-    //默认请求头
-    this.header = options.header || {};
-    //默认配置
-    this.config = options.config || {
-      isPrompt: true,
-      load: true,
-      isFactory: true,
-      resend: 0
-    };
-  }
-  //post请求
-  (0, _createClass2.default)(request, [{
-    key: "post",
-    value: function post() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "POST",
-        data: data,
-        url: url
-      }, options));
-    }
-
-    //get请求
-  }, {
-    key: "get",
-    value: function get() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "GET",
-        data: data,
-        url: url
-      }, options));
-    }
-
-    //put请求
-  }, {
-    key: "put",
-    value: function put() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "PUT",
-        data: data,
-        url: url
-      }, options));
-    }
-
-    //delete请求
-  }, {
-    key: "delete",
-    value: function _delete() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "DELETE",
-        data: data,
-        url: url
-      }, options));
-    }
-    //jsonp请求(只限于H5使用)
-  }, {
-    key: "jsonp",
-    value: function jsonp() {
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return this.request(_objectSpread({
-        method: "JSONP",
-        data: data,
-        url: url
-      }, options));
-    }
-    //接口请求方法
-  }, {
-    key: "request",
-    value: function () {
-      var _request = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(data) {
-        var requestInfo, runRequestStart, requestStart, changekeys, requestResult, result;
-        return _regenerator.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                // 请求数据
-                runRequestStart = false;
-                _context.prev = 1;
-                if (data.url) {
-                  _context.next = 4;
-                  break;
-                }
-                throw {
-                  errMsg: "【request】缺失数据url",
-                  statusCode: 0
-                };
-              case 4:
-                // 数据合并
-                requestInfo = (0, _utils.mergeConfig)(this, data);
-                // 代表之前运行到这里
-                runRequestStart = true;
-                //请求前回调
-                if (!this.requestStart) {
-                  _context.next = 14;
-                  break;
-                }
-                requestStart = this.requestStart(requestInfo);
-                if (!((0, _typeof2.default)(requestStart) == "object")) {
-                  _context.next = 13;
-                  break;
-                }
-                changekeys = ["data", "header", "isPrompt", "load", "isFactory"];
-                changekeys.forEach(function (key) {
-                  requestInfo[key] = requestStart[key];
-                });
-                _context.next = 14;
-                break;
-              case 13:
-                throw {
-                  errMsg: "【request】请求开始拦截器未通过",
-                  statusCode: 0,
-                  data: requestInfo.data,
-                  method: requestInfo.method,
-                  header: requestInfo.header,
-                  url: requestInfo.url
-                };
-              case 14:
-                requestResult = {};
-                if (!(requestInfo.method == "JSONP")) {
-                  _context.next = 21;
-                  break;
-                }
-                _context.next = 18;
-                return (0, _utils.jsonpRequest)(requestInfo);
-              case 18:
-                requestResult = _context.sent;
-                _context.next = 24;
-                break;
-              case 21:
-                _context.next = 23;
-                return (0, _utils.dispatchRequest)(requestInfo);
-              case 23:
-                requestResult = _context.sent;
-              case 24:
-                if (!(requestInfo.isFactory && this.dataFactory)) {
-                  _context.next = 31;
-                  break;
-                }
-                _context.next = 27;
-                return this.dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
-                  response: requestResult
-                }));
-              case 27:
-                result = _context.sent;
-                return _context.abrupt("return", Promise.resolve(result));
-              case 31:
-                return _context.abrupt("return", Promise.resolve(requestResult));
-              case 32:
-                _context.next = 38;
-                break;
-              case 34:
-                _context.prev = 34;
-                _context.t0 = _context["catch"](1);
-                this.requestError && this.requestError(_context.t0);
-                return _context.abrupt("return", Promise.reject(_context.t0));
-              case 38:
-                _context.prev = 38;
-                // 如果请求开始未运行到，请求结束也不运行
-                if (runRequestStart) {
-                  this.requestEnd && this.requestEnd(requestInfo);
-                }
-                return _context.finish(38);
-              case 41:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[1, 34, 38, 41]]);
-      }));
-      function request(_x) {
-        return _request.apply(this, arguments);
-      }
-      return request;
-    }()
-  }]);
-  return request;
-}();
-exports.default = request;
-
-/***/ }),
-/* 173 */
-/*!********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/core/utils.js ***!
-  \********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.mergeConfig = exports.jsonpRequest = exports.dispatchRequest = void 0;
-// 获取合并的数据
-var mergeConfig = function mergeConfig(_this, options) {
-  //判断url是不是链接
-  var urlType = /^(http|https):\/\//.test(options.url);
-  var config = Object.assign({
-    timeout: _this.timeout
-  }, _this.config, options);
-  if (options.method == "FILE") {
-    config.url = urlType ? options.url : _this.fileUrl + options.url;
-  } else {
-    config.url = urlType ? options.url : _this.baseUrl + options.url;
-  }
-  //请求头
-  if (options.header) {
-    config.header = Object.assign({}, _this.header, options.header);
-  } else {
-    config.header = Object.assign({}, _this.header);
-  }
-  return config;
-};
-// 请求
-exports.mergeConfig = mergeConfig;
-var dispatchRequest = function dispatchRequest(requestInfo) {
-  return new Promise(function (resolve, reject) {
-    var requestAbort = true;
-    var requestData = {
-      url: requestInfo.url,
-      header: requestInfo.header,
-      //加入请求头
-      success: function success(res) {
-        requestAbort = false;
-        resolve(res);
-      },
-      fail: function fail(err) {
-        requestAbort = false;
-        if (err.errMsg == "request:fail abort") {
-          reject({
-            errMsg: "请求超时，请重新尝试",
-            statusCode: 0
-          });
-        } else {
-          reject(err);
-        }
-      }
-    };
-    //请求类型
-    if (requestInfo.method) {
-      requestData.method = requestInfo.method;
-    }
-    if (requestInfo.data) {
-      requestData.data = requestInfo.data;
-    }
-    if (requestInfo.timeout) {
-      requestData.timeout = requestInfo.timeout;
-    }
-    if (requestInfo.dataType) {
-      requestData.dataType = requestInfo.dataType;
-    }
-    if (requestInfo.responseType) {
-      requestData.responseType = requestInfo.responseType;
-    }
-    var requestTask = uni.request(requestData);
-    setTimeout(function () {
-      if (requestAbort) {
-        requestTask.abort();
-      }
-    }, requestInfo.timeout);
-  });
-};
-// jsonp请求
-exports.dispatchRequest = dispatchRequest;
-var jsonpRequest = function jsonpRequest(requestInfo) {
-  return new Promise(function (resolve, reject) {
-    var dataStr = '';
-    Object.keys(requestInfo.data).forEach(function (key) {
-      dataStr += key + '=' + requestInfo.data[key] + '&';
-    });
-    //匹配最后一个&并去除
-    if (dataStr !== '') {
-      dataStr = dataStr.substr(0, dataStr.lastIndexOf('&'));
-    }
-    requestInfo.url = requestInfo.url + '?' + dataStr;
-    var callbackName = "callback" + Math.ceil(Math.random() * 1000000);
-  });
-};
-exports.jsonpRequest = jsonpRequest;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 174 */
-/*!**********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/utils.js ***!
-  \**********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.urlUpload = exports.randomChar = exports.qiniuUpload = exports.chooseVideo = exports.chooseImage = exports.aliUpload = void 0;
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-var qiniuUploader = __webpack_require__(/*! ./qiniuUploader */ 175);
-var aliUploader = __webpack_require__(/*! ./aliUploader */ 176);
-//七牛云上传文件命名
-var randomChar = function randomChar(l) {
-  var url = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
-  var x = "0123456789qwertyuioplkjhgfdsazxcvbnm";
-  var tmp = "";
-  var time = new Date();
-  for (var i = 0; i < l; i++) {
-    tmp += x.charAt(Math.ceil(Math.random() * 100000000) % x.length);
-  }
-  return "file/" + url + time.getTime() + tmp;
-};
-//图片选择
-exports.randomChar = randomChar;
-var chooseImage = function chooseImage(data) {
-  return new Promise(function (resolve, reject) {
-    uni.chooseImage({
-      count: data.count || 9,
-      //默认9
-      sizeType: data.sizeType || ['original', 'compressed'],
-      //可以指定是原图还是压缩图，默认二者都有
-      sourceType: data.sourceType || ['album', 'camera'],
-      //从相册选择
-      success: function success(res) {
-        for (var i = 0; i < res.tempFiles.length; i++) {
-          res.tempFiles[i].fileType = "image";
-        }
-        resolve(res.tempFiles);
-      },
-      fail: function fail(err) {
-        reject({
-          errMsg: err.errMsg,
-          errCode: err.errCode,
-          statusCode: 0
-        });
-      }
-    });
-  });
-};
-//视频选择
-exports.chooseImage = chooseImage;
-var chooseVideo = function chooseVideo(data) {
-  return new Promise(function (resolve, reject) {
-    uni.chooseVideo({
-      sourceType: data.sourceType || ['album', 'camera'],
-      //从相册选择
-      compressed: data.compressed || false,
-      //是否压缩所选的视频源文件，默认值为 true，需要压缩。
-      maxDuration: data.maxDuration || 60,
-      //拍摄视频最长拍摄时间，单位秒。最长支持 60 秒。
-      camera: data.camera || 'back',
-      //'front'、'back'，默认'back'
-      success: function success(res) {
-        var files = [{
-          path: res.tempFilePath,
-          fileType: "video"
-        }];
-        files[0].duration = res.duration;
-        files[0].size = res.size;
-        files[0].height = res.height;
-        files[0].width = res.width;
-        resolve(files);
-      },
-      fail: function fail(err) {
-        reject({
-          errMsg: err.errMsg,
-          errCode: err.errCode,
-          statusCode: 0
-        });
-      }
-    });
-  });
-};
-// 七牛云上传
-exports.chooseVideo = chooseVideo;
-var qiniuUpload = function qiniuUpload(requestInfo, getQnToken) {
-  return new Promise(function (resolve, reject) {
-    if (Array.isArray(requestInfo.files)) {
-      var len = requestInfo.files.length;
-      var fileList = new Array();
-      if (getQnToken) {
-        getQnToken(function (qnRes) {
-          /*
-           *接口返回参数：
-           *visitPrefix:访问文件的域名
-           *token:七牛云上传token
-           *folderPath:上传的文件夹
-           *region: 地区 默认为：SCN
-           */
-          var prefixLen = qnRes.visitPrefix.length;
-          if (qnRes.visitPrefix.charAt(prefixLen - 1) == '/') {
-            qnRes.visitPrefix = qnRes.visitPrefix.substring(0, prefixLen - 1);
-          }
-          uploadFile(0);
-          function uploadFile(i) {
-            var item = requestInfo.files[i];
-            var updateUrl = randomChar(10, qnRes.folderPath);
-            var fileData = _objectSpread({
-              fileIndex: i,
-              files: requestInfo.files
-            }, item);
-            if (item.name) {
-              fileData.name = item.name;
-              var nameArr = item.name.split(".");
-              updateUrl += "." + nameArr[nameArr.length - 1];
-            }
-            // 交给七牛上传
-            qiniuUploader.upload(item.path || item, function (res) {
-              fileData.url = res.imageURL;
-              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                url: res.imageURL
-              }, fileData));
-              fileList.push(res.imageURL);
-              if (len - 1 > i) {
-                uploadFile(i + 1);
-              } else {
-                resolve(fileList);
-              }
-            }, function (error) {
-              reject(error);
-            }, {
-              region: qnRes.region || 'SCN',
-              //地区
-              domain: qnRes.visitPrefix,
-              // bucket 域名，下载资源时用到。
-              key: updateUrl,
-              uptoken: qnRes.token,
-              // 由其他程序生成七牛 uptoken
-              uptokenURL: 'UpTokenURL.com/uptoken' // 上传地址
-            }, function (res) {
-              console.log(requestInfo);
-              requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
-              // console.log('上传进度', res.progress)
-              // console.log('已经上传的数据长度', res.totalBytesSent)
-              // console.log('预期需要上传的数据总长度', res.totalBytesExpectedToSend)
-            });
-          }
-        });
-      } else {
-        reject({
-          errMsg: "请添加七牛云回调方法：getQnToken",
-          statusCode: 0
-        });
-      }
-    } else {
-      reject({
-        errMsg: "files 必须是数组类型",
-        statusCode: 0
-      });
-    }
-    ;
-  });
-};
-// 阿里云oss上传
-exports.qiniuUpload = qiniuUpload;
-var aliUpload = function aliUpload(requestInfo, getAliToken) {
-  return new Promise(function (resolve, reject) {
-    if (Array.isArray(requestInfo.files)) {
-      var len = requestInfo.files.length;
-      var fileList = new Array();
-      if (getAliToken) {
-        getAliToken(function (aliRes) {
-          /*
-           *接口返回参数：
-           *visitPrefix:访问文件的域名
-           *folderPath:上传的文件夹
-           *accessKeyId: 您的oss的访问ID
-           *accessKeySecret: 您的oss的访问密钥
-           * timeout: 签名过期时间（毫秒）
-           */
-          var aliyunOssKey = aliUploader({
-            accessKeyId: aliRes.accessKeyId,
-            accessKeySecret: aliRes.accessKeySecret,
-            timeout: aliRes.timeout
-          });
-          var prefixLen = aliRes.visitPrefix.length;
-          if (aliRes.visitPrefix.charAt(prefixLen - 1) == '/') {
-            aliRes.visitPrefix = aliRes.visitPrefix.substring(0, prefixLen - 1);
-          }
-          uploadFile(0);
-          function uploadFile(i) {
-            var item = requestInfo.files[i];
-            var updateUrl = randomChar(10, aliRes.folderPath);
-            var fileData = _objectSpread({
-              fileIndex: i,
-              files: requestInfo.files
-            }, item);
-            if (item.name) {
-              fileData.name = item.name;
-              var nameArr = item.name.split(".");
-              updateUrl += "." + nameArr[nameArr.length - 1];
-            }
-            if (item.path) {
-              var _nameArr = item.path.split(".");
-              updateUrl += "." + _nameArr[_nameArr.length - 1];
-            }
-            console.log("----------111", {
-              url: aliRes.visitPrefix,
-              // 开发者服务器的URL。
-              filePath: item.path,
-              name: 'file',
-              // 必须填file。
-              formData: {
-                key: updateUrl,
-                policy: aliyunOssKey.policy,
-                OSSAccessKeyId: aliyunOssKey.accessKeyId,
-                signature: aliyunOssKey.signature
-              }
-            });
-            uni.uploadFile({
-              url: aliRes.visitPrefix,
-              // 开发者服务器的URL。
-              filePath: item.path,
-              name: 'file',
-              // 必须填file。
-              formData: {
-                key: updateUrl,
-                policy: aliyunOssKey.policy,
-                OSSAccessKeyId: aliyunOssKey.accessKeyId,
-                signature: aliyunOssKey.signature
-              },
-              success: function success(res) {
-                if (res.statusCode === 204) {
-                  fileData.url = aliRes.visitPrefix + "/" + updateUrl;
-                  requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                    url: fileData.url
-                  }, fileData));
-                  fileList.push(fileData.url);
-                  if (len - 1 > i) {
-                    uploadFile(i + 1);
-                  } else {
-                    resolve(fileList);
-                  }
-                } else {
-                  console.log("----失败", res);
-                  reject(res);
-                }
-              },
-              fail: function fail(err) {
-                console.log("----失败", err);
-                reject(err);
-              }
-            });
-          }
-        });
-      } else {
-        reject({
-          errMsg: "请添加阿里云回调方法：getAliToken",
-          statusCode: 0
-        });
-      }
-    } else {
-      reject({
-        errMsg: "files 必须是数组类型",
-        statusCode: 0
-      });
-    }
-    ;
-  });
-};
-// 服务器URL上传
-exports.aliUpload = aliUpload;
-var urlUpload = function urlUpload(requestInfo, dataFactory) {
-  return new Promise(function (resolve, reject) {
-    // 本地文件上传去掉默认Content-Type
-    if (requestInfo.header['Content-Type']) {
-      delete requestInfo.header['Content-Type'];
-    }
-    // 本地文件上传去掉默认Content-Type
-    if (requestInfo.header['content-type']) {
-      delete requestInfo.header['content-type'];
-    }
-    if (Array.isArray(requestInfo.files)) {
-      var fileUpload = function fileUpload(i) {
-        var item = requestInfo.files[i];
-        var fileData = _objectSpread({
-          fileIndex: i,
-          files: requestInfo.files
-        }, item);
-        var config = {
-          url: requestInfo.url,
-          filePath: item.path,
-          header: requestInfo.header,
-          //加入请求头
-          name: requestInfo.name || "file",
-          success: function success(response) {
-            //是否用外部的数据处理方法
-            if (requestInfo.isFactory && dataFactory) {
-              //数据处理
-              dataFactory(_objectSpread(_objectSpread({}, requestInfo), {}, {
-                response: response
-              })).then(function (data) {
-                fileList.push(data);
-                requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                  data: data
-                }, fileData));
-                if (len <= i) {
-                  resolve(fileList);
-                } else {
-                  fileUpload(i + 1);
-                }
-              }, function (err) {
-                reject(err);
-              });
-            } else {
-              requestInfo.onEachUpdate && requestInfo.onEachUpdate(_objectSpread({
-                data: response
-              }, fileData));
-              fileList.push(response);
-              if (len <= i) {
-                resolve(fileList);
-              } else {
-                fileUpload(i + 1);
-              }
-            }
-          },
-          fail: function fail(err) {
-            reject(err);
-          }
-        };
-        if (requestInfo.data) {
-          config.formData = requestInfo.data;
-        }
-        var uploadTask = uni.uploadFile(config);
-        uploadTask.onProgressUpdate(function (res) {
-          requestInfo.onProgressUpdate && requestInfo.onProgressUpdate(Object.assign({}, fileData, res));
-        });
-      };
-      var len = requestInfo.files.length - 1;
-      var fileList = new Array();
-      fileUpload(0);
-    } else {
-      reject({
-        errMsg: "files 必须是数组类型",
-        statusCode: 0
-      });
-    }
-  });
-};
-exports.urlUpload = urlUpload;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 175 */
-/*!******************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/qiniuUploader.js ***!
-  \******************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(wx) {// created by gpake
-(function () {
-  var config = {
-    qiniuRegion: '',
-    qiniuImageURLPrefix: '',
-    qiniuUploadToken: '',
-    qiniuUploadTokenURL: '',
-    qiniuUploadTokenFunction: null,
-    qiniuShouldUseQiniuFileName: false
-  };
-  module.exports = {
-    init: init,
-    upload: upload
-  };
-
-  // 在整个程序生命周期中，只需要 init 一次即可
-  // 如果需要变更参数，再调用 init 即可
-  function init(options) {
-    config = {
-      qiniuRegion: '',
-      qiniuImageURLPrefix: '',
-      qiniuUploadToken: '',
-      qiniuUploadTokenURL: '',
-      qiniuUploadTokenFunction: null,
-      qiniuShouldUseQiniuFileName: false
-    };
-    updateConfigWithOptions(options);
-  }
-  function updateConfigWithOptions(options) {
-    if (options.region) {
-      config.qiniuRegion = options.region;
-    } else {
-      console.error('qiniu uploader need your bucket region');
-    }
-    if (options.uptoken) {
-      config.qiniuUploadToken = options.uptoken;
-    } else if (options.uptokenURL) {
-      config.qiniuUploadTokenURL = options.uptokenURL;
-    } else if (options.uptokenFunc) {
-      config.qiniuUploadTokenFunction = options.uptokenFunc;
-    }
-    if (options.domain) {
-      config.qiniuImageURLPrefix = options.domain;
-    }
-    config.qiniuShouldUseQiniuFileName = options.shouldUseQiniuFileName;
-  }
-  function upload(filePath, success, fail, options, progress, cancelTask) {
-    if (null == filePath) {
-      console.error('qiniu uploader need filePath to upload');
-      return;
-    }
-    if (options) {
-      updateConfigWithOptions(options);
-    }
-    if (config.qiniuUploadToken) {
-      doUpload(filePath, success, fail, options, progress, cancelTask);
-    } else if (config.qiniuUploadTokenURL) {
-      getQiniuToken(function () {
-        doUpload(filePath, success, fail, options, progress, cancelTask);
-      });
-    } else if (config.qiniuUploadTokenFunction) {
-      config.qiniuUploadToken = config.qiniuUploadTokenFunction();
-      if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
-        console.error('qiniu UploadTokenFunction result is null, please check the return value');
-        return;
-      }
-      doUpload(filePath, success, fail, options, progress, cancelTask);
-    } else {
-      console.error('qiniu uploader need one of [uptoken, uptokenURL, uptokenFunc]');
-      return;
-    }
-  }
-  function doUpload(filePath, _success, _fail, options, progress, cancelTask) {
-    if (null == config.qiniuUploadToken && config.qiniuUploadToken.length > 0) {
-      console.error('qiniu UploadToken is null, please check the init config or networking');
-      return;
-    }
-    var url = uploadURLFromRegionCode(config.qiniuRegion);
-    var fileName = filePath.split('//')[1];
-    if (options && options.key) {
-      fileName = options.key;
-    }
-    var formData = {
-      'token': config.qiniuUploadToken
-    };
-    if (!config.qiniuShouldUseQiniuFileName) {
-      formData['key'] = fileName;
-    }
-    var uploadTask = wx.uploadFile({
-      url: url,
-      filePath: filePath,
-      name: 'file',
-      formData: formData,
-      success: function success(res) {
-        var dataString = res.data;
-        if (res.data.hasOwnProperty('type') && res.data.type === 'Buffer') {
-          dataString = String.fromCharCode.apply(null, res.data.data);
-        }
-        try {
-          var dataObject = JSON.parse(dataString);
-          //do something
-          var imageUrl = config.qiniuImageURLPrefix + '/' + dataObject.key;
-          dataObject.imageURL = imageUrl;
-          if (_success) {
-            _success(dataObject);
-          }
-        } catch (e) {
-          console.log('parse JSON failed, origin String is: ' + dataString);
-          if (_fail) {
-            _fail(e);
-          }
-        }
-      },
-      fail: function fail(error) {
-        console.error(error);
-        if (_fail) {
-          _fail(error);
-        }
-      }
-    });
-    uploadTask.onProgressUpdate(function (res) {
-      progress && progress(res);
-    });
-    cancelTask && cancelTask(function () {
-      uploadTask.abort();
-    });
-  }
-  function getQiniuToken(callback) {
-    wx.request({
-      url: config.qiniuUploadTokenURL,
-      success: function success(res) {
-        var token = res.data.uptoken;
-        if (token && token.length > 0) {
-          config.qiniuUploadToken = token;
-          if (callback) {
-            callback();
-          }
-        } else {
-          console.error('qiniuUploader cannot get your token, please check the uptokenURL or server');
-        }
-      },
-      fail: function fail(error) {
-        console.error('qiniu UploadToken is null, please check the init config or networking: ' + error);
-      }
-    });
-  }
-  function uploadURLFromRegionCode(code) {
-    var uploadURL = null;
-    switch (code) {
-      case 'ECN':
-        uploadURL = 'https://up.qbox.me';
-        break;
-      case 'NCN':
-        uploadURL = 'https://up-z1.qbox.me';
-        break;
-      case 'SCN':
-        uploadURL = 'https://up-z2.qbox.me';
-        break;
-      case 'NA':
-        uploadURL = 'https://up-na0.qbox.me';
-        break;
-      case 'ASG':
-        uploadURL = 'https://up-as0.qbox.me';
-        break;
-      default:
-        console.error('please make the region is with one of [ECN, SCN, NCN, NA, ASG]');
-    }
-    return uploadURL;
-  }
-})();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
-
-/***/ }),
-/* 176 */
-/*!****************************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/aliUploader.js ***!
-  \****************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Base64 = __webpack_require__(/*! ./Base64.js */ 177);
-__webpack_require__(/*! ./hmac.js */ 178);
-__webpack_require__(/*! ./sha1.js */ 180);
-var Crypto = __webpack_require__(/*! ./crypto.js */ 179);
-// 获取policy
-var getPolicyBase64 = function getPolicyBase64(timeout) {
-  var dateTime = new Date().getTime();
-  var date = new Date(dateTime + (timeout || 1800000));
-  var srcT = date.toISOString();
-  var policyText = {
-    "expiration": srcT,
-    //设置该Policy的失效时间
-    "conditions": [["content-length-range", 0, 100 * 1024 * 1024] // 设置上传文件的大小限制,100mb
-    ]
-  };
-
-  var policyBase64 = Base64.encode(JSON.stringify(policyText));
-  return policyBase64;
-};
-// 获取签名
-var getSignature = function getSignature(policyBase64, AccessKeySecret) {
-  var bytes = Crypto.HMAC(Crypto.SHA1, policyBase64, AccessKeySecret, {
-    asBytes: true
-  });
-  var signature = Crypto.util.bytesToBase64(bytes);
-  return signature;
-};
-// 获取阿里云token信息
-var getAliyunOssKey = function getAliyunOssKey(options) {
-  var policyBase64 = getPolicyBase64(options.timeout);
-  var signature = getSignature(policyBase64, options.accessKeySecret);
-  return {
-    policy: policyBase64,
-    accessKeyId: options.accessKeyId,
-    accessKeySecret: options.accessKeySecret,
-    signature: signature,
-    success_action_status: '200'
-  };
-};
-module.exports = getAliyunOssKey;
-
-/***/ }),
-/* 177 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/Base64.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var Base64 = {
-  // private property
-  _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
-  // public method for encoding
-  encode: function encode(input) {
-    var output = "";
-    var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
-    var i = 0;
-    input = Base64._utf8_encode(input);
-    while (i < input.length) {
-      chr1 = input.charCodeAt(i++);
-      chr2 = input.charCodeAt(i++);
-      chr3 = input.charCodeAt(i++);
-      enc1 = chr1 >> 2;
-      enc2 = (chr1 & 3) << 4 | chr2 >> 4;
-      enc3 = (chr2 & 15) << 2 | chr3 >> 6;
-      enc4 = chr3 & 63;
-      if (isNaN(chr2)) {
-        enc3 = enc4 = 64;
-      } else if (isNaN(chr3)) {
-        enc4 = 64;
-      }
-      output = output + this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) + this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
-    }
-    return output;
-  },
-  // public method for decoding
-  decode: function decode(input) {
-    var output = "";
-    var chr1, chr2, chr3;
-    var enc1, enc2, enc3, enc4;
-    var i = 0;
-    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
-    while (i < input.length) {
-      enc1 = this._keyStr.indexOf(input.charAt(i++));
-      enc2 = this._keyStr.indexOf(input.charAt(i++));
-      enc3 = this._keyStr.indexOf(input.charAt(i++));
-      enc4 = this._keyStr.indexOf(input.charAt(i++));
-      chr1 = enc1 << 2 | enc2 >> 4;
-      chr2 = (enc2 & 15) << 4 | enc3 >> 2;
-      chr3 = (enc3 & 3) << 6 | enc4;
-      output = output + String.fromCharCode(chr1);
-      if (enc3 != 64) {
-        output = output + String.fromCharCode(chr2);
-      }
-      if (enc4 != 64) {
-        output = output + String.fromCharCode(chr3);
-      }
-    }
-    output = Base64._utf8_decode(output);
-    return output;
-  },
-  // private method for UTF-8 encoding
-  _utf8_encode: function _utf8_encode(string) {
-    string = string.replace(/\r\n/g, "\n");
-    var utftext = "";
-    for (var n = 0; n < string.length; n++) {
-      var c = string.charCodeAt(n);
-      if (c < 128) {
-        utftext += String.fromCharCode(c);
-      } else if (c > 127 && c < 2048) {
-        utftext += String.fromCharCode(c >> 6 | 192);
-        utftext += String.fromCharCode(c & 63 | 128);
-      } else {
-        utftext += String.fromCharCode(c >> 12 | 224);
-        utftext += String.fromCharCode(c >> 6 & 63 | 128);
-        utftext += String.fromCharCode(c & 63 | 128);
-      }
-    }
-    return utftext;
-  },
-  // private method for UTF-8 decoding
-  _utf8_decode: function _utf8_decode(utftext) {
-    var string = "";
-    var i = 0;
-    var c = c1 = c2 = 0;
-    while (i < utftext.length) {
-      c = utftext.charCodeAt(i);
-      if (c < 128) {
-        string += String.fromCharCode(c);
-        i++;
-      } else if (c > 191 && c < 224) {
-        c2 = utftext.charCodeAt(i + 1);
-        string += String.fromCharCode((c & 31) << 6 | c2 & 63);
-        i += 2;
-      } else {
-        c2 = utftext.charCodeAt(i + 1);
-        c3 = utftext.charCodeAt(i + 2);
-        string += String.fromCharCode((c & 15) << 12 | (c2 & 63) << 6 | c3 & 63);
-        i += 3;
-      }
-    }
-    return string;
-  }
-};
-module.exports = Base64;
-
-/***/ }),
-/* 178 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/hmac.js ***!
-  \*********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*!
- * Crypto-JS v1.1.0
- * http://code.google.com/p/crypto-js/
- * Copyright (c) 2009, Jeff Mott. All rights reserved.
- * http://code.google.com/p/crypto-js/wiki/License
- */
-
-var Crypto = __webpack_require__(/*! ./crypto.js */ 179);
-(function () {
-  // Shortcut
-  var util = Crypto.util;
-  Crypto.HMAC = function (hasher, message, key, options) {
-    // Allow arbitrary length keys
-    key = key.length > hasher._blocksize * 4 ? hasher(key, {
-      asBytes: true
-    }) : util.stringToBytes(key);
-
-    // XOR keys with pad constants
-    var okey = key,
-      ikey = key.slice(0);
-    for (var i = 0; i < hasher._blocksize * 4; i++) {
-      okey[i] ^= 0x5C;
-      ikey[i] ^= 0x36;
-    }
-    var hmacbytes = hasher(util.bytesToString(okey) + hasher(util.bytesToString(ikey) + message, {
-      asString: true
-    }), {
-      asBytes: true
-    });
-    return options && options.asBytes ? hmacbytes : options && options.asString ? util.bytesToString(hmacbytes) : util.bytesToHex(hmacbytes);
-  };
-})();
-module.exports = Crypto;
-
-/***/ }),
-/* 179 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/crypto.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/*!
- * Crypto-JS v1.1.0
- * http://code.google.com/p/crypto-js/
- * Copyright (c) 2009, Jeff Mott. All rights reserved.
- * http://code.google.com/p/crypto-js/wiki/License
- */
-
-var Crypto = {};
-(function () {
-  var base64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-
-  // Crypto utilities
-  var util = Crypto.util = {
-    // Bit-wise rotate left
-    rotl: function rotl(n, b) {
-      return n << b | n >>> 32 - b;
-    },
-    // Bit-wise rotate right
-    rotr: function rotr(n, b) {
-      return n << 32 - b | n >>> b;
-    },
-    // Swap big-endian to little-endian and vice versa
-    endian: function endian(n) {
-      // If number given, swap endian
-      if (n.constructor == Number) {
-        return util.rotl(n, 8) & 0x00FF00FF | util.rotl(n, 24) & 0xFF00FF00;
-      }
-
-      // Else, assume array and swap all items
-      for (var i = 0; i < n.length; i++) {
-        n[i] = util.endian(n[i]);
-      }
-      return n;
-    },
-    // Generate an array of any length of random bytes
-    randomBytes: function randomBytes(n) {
-      for (var bytes = []; n > 0; n--) {
-        bytes.push(Math.floor(Math.random() * 256));
-      }
-      return bytes;
-    },
-    // Convert a string to a byte array
-    stringToBytes: function stringToBytes(str) {
-      var bytes = [];
-      for (var i = 0; i < str.length; i++) {
-        bytes.push(str.charCodeAt(i));
-      }
-      return bytes;
-    },
-    // Convert a byte array to a string
-    bytesToString: function bytesToString(bytes) {
-      var str = [];
-      for (var i = 0; i < bytes.length; i++) {
-        str.push(String.fromCharCode(bytes[i]));
-      }
-      return str.join("");
-    },
-    // Convert a string to big-endian 32-bit words
-    stringToWords: function stringToWords(str) {
-      var words = [];
-      for (var c = 0, b = 0; c < str.length; c++, b += 8) {
-        words[b >>> 5] |= str.charCodeAt(c) << 24 - b % 32;
-      }
-      return words;
-    },
-    // Convert a byte array to big-endian 32-bits words
-    bytesToWords: function bytesToWords(bytes) {
-      var words = [];
-      for (var i = 0, b = 0; i < bytes.length; i++, b += 8) {
-        words[b >>> 5] |= bytes[i] << 24 - b % 32;
-      }
-      return words;
-    },
-    // Convert big-endian 32-bit words to a byte array
-    wordsToBytes: function wordsToBytes(words) {
-      var bytes = [];
-      for (var b = 0; b < words.length * 32; b += 8) {
-        bytes.push(words[b >>> 5] >>> 24 - b % 32 & 0xFF);
-      }
-      return bytes;
-    },
-    // Convert a byte array to a hex string
-    bytesToHex: function bytesToHex(bytes) {
-      var hex = [];
-      for (var i = 0; i < bytes.length; i++) {
-        hex.push((bytes[i] >>> 4).toString(16));
-        hex.push((bytes[i] & 0xF).toString(16));
-      }
-      return hex.join("");
-    },
-    // Convert a hex string to a byte array
-    hexToBytes: function hexToBytes(hex) {
-      var bytes = [];
-      for (var c = 0; c < hex.length; c += 2) {
-        bytes.push(parseInt(hex.substr(c, 2), 16));
-      }
-      return bytes;
-    },
-    // Convert a byte array to a base-64 string
-    bytesToBase64: function bytesToBase64(bytes) {
-      // Use browser-native function if it exists
-      // if (typeof btoa == "function") return btoa(util.bytesToString(bytes));
-
-      var base64 = [],
-        overflow;
-      for (var i = 0; i < bytes.length; i++) {
-        switch (i % 3) {
-          case 0:
-            base64.push(base64map.charAt(bytes[i] >>> 2));
-            overflow = (bytes[i] & 0x3) << 4;
-            break;
-          case 1:
-            base64.push(base64map.charAt(overflow | bytes[i] >>> 4));
-            overflow = (bytes[i] & 0xF) << 2;
-            break;
-          case 2:
-            base64.push(base64map.charAt(overflow | bytes[i] >>> 6));
-            base64.push(base64map.charAt(bytes[i] & 0x3F));
-            overflow = -1;
-        }
-      }
-
-      // Encode overflow bits, if there are any
-      if (overflow != undefined && overflow != -1) base64.push(base64map.charAt(overflow));
-
-      // Add padding
-      while (base64.length % 4 != 0) {
-        base64.push("=");
-      }
-      return base64.join("");
-    },
-    // Convert a base-64 string to a byte array
-    base64ToBytes: function base64ToBytes(base64) {
-      // Use browser-native function if it exists
-      if (typeof atob == "function") return util.stringToBytes(atob(base64));
-
-      // Remove non-base-64 characters
-      base64 = base64.replace(/[^A-Z0-9+\/]/ig, "");
-      var bytes = [];
-      for (var i = 0; i < base64.length; i++) {
-        switch (i % 4) {
-          case 1:
-            bytes.push(base64map.indexOf(base64.charAt(i - 1)) << 2 | base64map.indexOf(base64.charAt(i)) >>> 4);
-            break;
-          case 2:
-            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0xF) << 4 | base64map.indexOf(base64.charAt(i)) >>> 2);
-            break;
-          case 3:
-            bytes.push((base64map.indexOf(base64.charAt(i - 1)) & 0x3) << 6 | base64map.indexOf(base64.charAt(i)));
-            break;
-        }
-      }
-      return bytes;
-    }
-  };
-
-  // Crypto mode namespace
-  Crypto.mode = {};
-})();
-module.exports = Crypto;
-
-/***/ }),
-/* 180 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/zhouWei-request/js_sdk/request/upload/sha1.js ***!
-  \*********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*!
- * Crypto-JS v1.1.0
- * http://code.google.com/p/crypto-js/
- * Copyright (c) 2009, Jeff Mott. All rights reserved.
- * http://code.google.com/p/crypto-js/wiki/License
- */
-
-var Crypto = __webpack_require__(/*! ./crypto.js */ 179);
-(function () {
-  // Shortcut
-  var util = Crypto.util;
-
-  // Public API
-  var SHA1 = Crypto.SHA1 = function (message, options) {
-    var digestbytes = util.wordsToBytes(SHA1._sha1(message));
-    return options && options.asBytes ? digestbytes : options && options.asString ? util.bytesToString(digestbytes) : util.bytesToHex(digestbytes);
-  };
-
-  // The core
-  SHA1._sha1 = function (message) {
-    var m = util.stringToWords(message),
-      l = message.length * 8,
-      w = [],
-      H0 = 1732584193,
-      H1 = -271733879,
-      H2 = -1732584194,
-      H3 = 271733878,
-      H4 = -1009589776;
-
-    // Padding
-    m[l >> 5] |= 0x80 << 24 - l % 32;
-    m[(l + 64 >>> 9 << 4) + 15] = l;
-    for (var i = 0; i < m.length; i += 16) {
-      var a = H0,
-        b = H1,
-        c = H2,
-        d = H3,
-        e = H4;
-      for (var j = 0; j < 80; j++) {
-        if (j < 16) w[j] = m[i + j];else {
-          var n = w[j - 3] ^ w[j - 8] ^ w[j - 14] ^ w[j - 16];
-          w[j] = n << 1 | n >>> 31;
-        }
-        var t = (H0 << 5 | H0 >>> 27) + H4 + (w[j] >>> 0) + (j < 20 ? (H1 & H2 | ~H1 & H3) + 1518500249 : j < 40 ? (H1 ^ H2 ^ H3) + 1859775393 : j < 60 ? (H1 & H2 | H1 & H3 | H2 & H3) - 1894007588 : (H1 ^ H2 ^ H3) - 899497514);
-        H4 = H3;
-        H3 = H2;
-        H2 = H1 << 30 | H1 >>> 2;
-        H1 = H0;
-        H0 = t;
-      }
-      H0 += a;
-      H1 += b;
-      H2 += c;
-      H3 += d;
-      H4 += e;
-    }
-    return [H0, H1, H2, H3, H4];
-  };
-
-  // Package private blocksize
-  SHA1._blocksize = 16;
-})();
-module.exports = Crypto;
-
-/***/ }),
-/* 181 */,
-/* 182 */,
-/* 183 */,
 /* 184 */,
 /* 185 */,
 /* 186 */,
@@ -25070,10 +25464,13 @@ module.exports = Crypto;
 /* 279 */,
 /* 280 */,
 /* 281 */,
-/* 282 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
-  \*************************************************************************************************************************/
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25213,17 +25610,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 283 */,
-/* 284 */,
-/* 285 */,
 /* 286 */,
 /* 287 */,
 /* 288 */,
 /* 289 */,
-/* 290 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
-  \**********************************************************************************************************************/
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25257,17 +25654,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 291 */,
-/* 292 */,
-/* 293 */,
 /* 294 */,
 /* 295 */,
 /* 296 */,
 /* 297 */,
-/* 298 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
-  \**********************************************************************************************************************/
+/* 298 */,
+/* 299 */,
+/* 300 */,
+/* 301 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25311,17 +25708,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 299 */,
-/* 300 */,
-/* 301 */,
 /* 302 */,
 /* 303 */,
 /* 304 */,
 /* 305 */,
-/* 306 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
-  \***********************************************************************************************************************/
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25549,10 +25946,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 307 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
-  \***********************************************************************************************************************/
+/* 310 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25656,17 +26053,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 308 */,
-/* 309 */,
-/* 310 */,
 /* 311 */,
 /* 312 */,
 /* 313 */,
 /* 314 */,
-/* 315 */
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-subsection/props.js ***!
-  \*****************************************************************************************************************************/
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */
+/*!*********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-subsection/props.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25730,17 +26127,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 316 */,
-/* 317 */,
-/* 318 */,
 /* 319 */,
 /* 320 */,
 /* 321 */,
 /* 322 */,
-/* 323 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-avatar/props.js ***!
-  \*************************************************************************************************************************/
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-avatar/props.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25833,503 +26230,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 324 */,
-/* 325 */,
-/* 326 */,
 /* 327 */,
 /* 328 */,
 /* 329 */,
 /* 330 */,
-/* 331 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    color: {
-      type: String,
-      default: uni.$u.props.line.color
-    },
-    // 长度，竖向时表现为高度，横向时表现为长度，可以为百分比，带px单位的值等
-    length: {
-      type: [String, Number],
-      default: uni.$u.props.line.length
-    },
-    // 线条方向，col-竖向，row-横向
-    direction: {
-      type: String,
-      default: uni.$u.props.line.direction
-    },
-    // 是否显示细边框
-    hairline: {
-      type: Boolean,
-      default: uni.$u.props.line.hairline
-    },
-    // 线条与上下左右元素的间距，字符串形式，如"30px"、"20px 30px"
-    margin: {
-      type: [String, Number],
-      default: uni.$u.props.line.margin
-    },
-    // 是否虚线，true-虚线，false-实线
-    dashed: {
-      type: Boolean,
-      default: uni.$u.props.line.dashed
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
+/* 331 */,
 /* 332 */,
 /* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
-  \*********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 标识符
-    name: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.name
-    },
-    // 绑定的值
-    value: {
-      type: Array,
-      default: uni.$u.props.checkboxGroup.value
-    },
-    // 形状，circle-圆形，square-方形
-    shape: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.shape
-    },
-    // 是否禁用全部checkbox
-    disabled: {
-      type: Boolean,
-      default: uni.$u.props.checkboxGroup.disabled
-    },
-    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
-    activeColor: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.activeColor
-    },
-    // 未选中的颜色
-    inactiveColor: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.inactiveColor
-    },
-    // 整个组件的尺寸，默认px
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.checkboxGroup.size
-    },
-    // 布局方式，row-横向，column-纵向
-    placement: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.placement
-    },
-    // label的字体大小，px单位
-    labelSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkboxGroup.labelSize
-    },
-    // label的字体颜色
-    labelColor: {
-      type: [String],
-      default: uni.$u.props.checkboxGroup.labelColor
-    },
-    // 是否禁止点击文本操作
-    labelDisabled: {
-      type: Boolean,
-      default: uni.$u.props.checkboxGroup.labelDisabled
-    },
-    // 图标颜色
-    iconColor: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.iconColor
-    },
-    // 图标的大小，单位px
-    iconSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkboxGroup.iconSize
-    },
-    // 勾选图标的对齐方式，left-左边，right-右边
-    iconPlacement: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.iconPlacement
-    },
-    // 竖向配列时，是否显示下划线
-    borderBottom: {
-      type: Boolean,
-      default: uni.$u.props.checkboxGroup.borderBottom
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // checkbox的名称
-    name: {
-      type: [String, Number, Boolean],
-      default: uni.$u.props.checkbox.name
-    },
-    // 形状，square为方形，circle为圆型
-    shape: {
-      type: String,
-      default: uni.$u.props.checkbox.shape
-    },
-    // 整体的大小
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.size
-    },
-    // 是否默认选中
-    checked: {
-      type: Boolean,
-      default: uni.$u.props.checkbox.checked
-    },
-    // 是否禁用
-    disabled: {
-      type: [String, Boolean],
-      default: uni.$u.props.checkbox.disabled
-    },
-    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
-    activeColor: {
-      type: String,
-      default: uni.$u.props.checkbox.activeColor
-    },
-    // 未选中的颜色
-    inactiveColor: {
-      type: String,
-      default: uni.$u.props.checkbox.inactiveColor
-    },
-    // 图标的大小，单位px
-    iconSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.iconSize
-    },
-    // 图标颜色
-    iconColor: {
-      type: String,
-      default: uni.$u.props.checkbox.iconColor
-    },
-    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
-    label: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.label
-    },
-    // label的字体大小，px单位
-    labelSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.labelSize
-    },
-    // label的颜色
-    labelColor: {
-      type: String,
-      default: uni.$u.props.checkbox.labelColor
-    },
-    // 是否禁止点击提示语选中复选框
-    labelDisabled: {
-      type: [String, Boolean],
-      default: uni.$u.props.checkbox.labelDisabled
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-badge/props.js ***!
-  \************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 是否显示圆点
-    isDot: {
-      type: Boolean,
-      default: uni.$u.props.badge.isDot
-    },
-    // 显示的内容
-    value: {
-      type: [Number, String],
-      default: uni.$u.props.badge.value
-    },
-    // 是否显示
-    show: {
-      type: Boolean,
-      default: uni.$u.props.badge.show
-    },
-    // 最大值，超过最大值会显示 '{max}+'
-    max: {
-      type: [Number, String],
-      default: uni.$u.props.badge.max
-    },
-    // 主题类型，error|warning|success|primary
-    type: {
-      type: String,
-      default: uni.$u.props.badge.type
-    },
-    // 当数值为 0 时，是否展示 Badge
-    showZero: {
-      type: Boolean,
-      default: uni.$u.props.badge.showZero
-    },
-    // 背景颜色，优先级比type高，如设置，type参数会失效
-    bgColor: {
-      type: [String, null],
-      default: uni.$u.props.badge.bgColor
-    },
-    // 字体颜色
-    color: {
-      type: [String, null],
-      default: uni.$u.props.badge.color
-    },
-    // 徽标形状，circle-四角均为圆角，horn-左下角为直角
-    shape: {
-      type: String,
-      default: uni.$u.props.badge.shape
-    },
-    // 设置数字的显示方式，overflow|ellipsis|limit
-    // overflow会根据max字段判断，超出显示`${max}+`
-    // ellipsis会根据max判断，超出显示`${max}...`
-    // limit会依据1000作为判断条件，超出1000，显示`${value/1000}K`，比如2.2k、3.34w，最多保留2位小数
-    numberType: {
-      type: String,
-      default: uni.$u.props.badge.numberType
-    },
-    // 设置badge的位置偏移，格式为 [x, y]，也即设置的为top和right的值，absolute为true时有效
-    offset: {
-      type: Array,
-      default: uni.$u.props.badge.offset
-    },
-    // 是否反转背景和字体颜色
-    inverted: {
-      type: Boolean,
-      default: uni.$u.props.badge.inverted
-    },
-    // 是否绝对定位
-    absolute: {
-      type: Boolean,
-      default: uni.$u.props.badge.absolute
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 主题颜色
-    type: {
-      type: String,
-      default: uni.$u.props.text.type
-    },
-    // 是否显示
-    show: {
-      type: Boolean,
-      default: uni.$u.props.text.show
-    },
-    // 显示的值
-    text: {
-      type: [String, Number],
-      default: uni.$u.props.text.text
-    },
-    // 前置图标
-    prefixIcon: {
-      type: String,
-      default: uni.$u.props.text.prefixIcon
-    },
-    // 后置图标
-    suffixIcon: {
-      type: String,
-      default: uni.$u.props.text.suffixIcon
-    },
-    // 文本处理的匹配模式
-    // text-普通文本，price-价格，phone-手机号，name-姓名，date-日期，link-超链接
-    mode: {
-      type: String,
-      default: uni.$u.props.text.mode
-    },
-    // mode=link下，配置的链接
-    href: {
-      type: String,
-      default: uni.$u.props.text.href
-    },
-    // 格式化规则
-    format: {
-      type: [String, Function],
-      default: uni.$u.props.text.format
-    },
-    // mode=phone时，点击文本是否拨打电话
-    call: {
-      type: Boolean,
-      default: uni.$u.props.text.call
-    },
-    // 小程序的打开方式
-    openType: {
-      type: String,
-      default: uni.$u.props.text.openType
-    },
-    // 是否粗体，默认normal
-    bold: {
-      type: Boolean,
-      default: uni.$u.props.text.bold
-    },
-    // 是否块状
-    block: {
-      type: Boolean,
-      default: uni.$u.props.text.block
-    },
-    // 文本显示的行数，如果设置，超出此行数，将会显示省略号
-    lines: {
-      type: [String, Number],
-      default: uni.$u.props.text.lines
-    },
-    // 文本颜色
-    color: {
-      type: String,
-      default: uni.$u.props.text.color
-    },
-    // 字体大小
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.text.size
-    },
-    // 图标的样式
-    iconStyle: {
-      type: [Object, String],
-      default: uni.$u.props.text.iconStyle
-    },
-    // 文字装饰，下划线，中划线等，可选值 none|underline|line-through
-    decoration: {
-      type: String,
-      default: uni.$u.props.text.decoration
-    },
-    // 外边距，对象、字符串，数值形式均可
-    margin: {
-      type: [Object, String, Number],
-      default: uni.$u.props.text.margin
-    },
-    // 文本行高
-    lineHeight: {
-      type: [String, Number],
-      default: uni.$u.props.text.lineHeight
-    },
-    // 文本对齐方式，可选值left|center|right
-    align: {
-      type: String,
-      default: uni.$u.props.text.align
-    },
-    // 文字换行，可选值break-word|normal|anywhere
-    wordWrap: {
-      type: String,
-      default: uni.$u.props.text.wordWrap
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */
-/*!*****************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
-  \*****************************************************************************************************************/
+/* 334 */
+/*!*********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26356,10 +26267,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 370 */
-/*!*******************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
-  \*******************************************************************************************************************/
+/* 335 */
+/*!***********************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26398,10 +26309,10 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 371 */
-/*!*************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
-  \*************************************************************************************************************************/
+/* 336 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26577,17 +26488,503 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */,
+/* 341 */,
+/* 342 */,
+/* 343 */,
+/* 344 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    color: {
+      type: String,
+      default: uni.$u.props.line.color
+    },
+    // 长度，竖向时表现为高度，横向时表现为长度，可以为百分比，带px单位的值等
+    length: {
+      type: [String, Number],
+      default: uni.$u.props.line.length
+    },
+    // 线条方向，col-竖向，row-横向
+    direction: {
+      type: String,
+      default: uni.$u.props.line.direction
+    },
+    // 是否显示细边框
+    hairline: {
+      type: Boolean,
+      default: uni.$u.props.line.hairline
+    },
+    // 线条与上下左右元素的间距，字符串形式，如"30px"、"20px 30px"
+    margin: {
+      type: [String, Number],
+      default: uni.$u.props.line.margin
+    },
+    // 是否虚线，true-虚线，false-实线
+    dashed: {
+      type: Boolean,
+      default: uni.$u.props.line.dashed
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
+/* 352 */
+/*!*************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 标识符
+    name: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.name
+    },
+    // 绑定的值
+    value: {
+      type: Array,
+      default: uni.$u.props.checkboxGroup.value
+    },
+    // 形状，circle-圆形，square-方形
+    shape: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.shape
+    },
+    // 是否禁用全部checkbox
+    disabled: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.disabled
+    },
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.activeColor
+    },
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.inactiveColor
+    },
+    // 整个组件的尺寸，默认px
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.size
+    },
+    // 布局方式，row-横向，column-纵向
+    placement: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.placement
+    },
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.labelSize
+    },
+    // label的字体颜色
+    labelColor: {
+      type: [String],
+      default: uni.$u.props.checkboxGroup.labelColor
+    },
+    // 是否禁止点击文本操作
+    labelDisabled: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.labelDisabled
+    },
+    // 图标颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.iconColor
+    },
+    // 图标的大小，单位px
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.iconSize
+    },
+    // 勾选图标的对齐方式，left-左边，right-右边
+    iconPlacement: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.iconPlacement
+    },
+    // 竖向配列时，是否显示下划线
+    borderBottom: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.borderBottom
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 353 */,
+/* 354 */,
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // checkbox的名称
+    name: {
+      type: [String, Number, Boolean],
+      default: uni.$u.props.checkbox.name
+    },
+    // 形状，square为方形，circle为圆型
+    shape: {
+      type: String,
+      default: uni.$u.props.checkbox.shape
+    },
+    // 整体的大小
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.size
+    },
+    // 是否默认选中
+    checked: {
+      type: Boolean,
+      default: uni.$u.props.checkbox.checked
+    },
+    // 是否禁用
+    disabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.disabled
+    },
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkbox.activeColor
+    },
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkbox.inactiveColor
+    },
+    // 图标的大小，单位px
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.iconSize
+    },
+    // 图标颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.checkbox.iconColor
+    },
+    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
+    label: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.label
+    },
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.labelSize
+    },
+    // label的颜色
+    labelColor: {
+      type: String,
+      default: uni.$u.props.checkbox.labelColor
+    },
+    // 是否禁止点击提示语选中复选框
+    labelDisabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.labelDisabled
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */,
+/* 368 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-badge/props.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 是否显示圆点
+    isDot: {
+      type: Boolean,
+      default: uni.$u.props.badge.isDot
+    },
+    // 显示的内容
+    value: {
+      type: [Number, String],
+      default: uni.$u.props.badge.value
+    },
+    // 是否显示
+    show: {
+      type: Boolean,
+      default: uni.$u.props.badge.show
+    },
+    // 最大值，超过最大值会显示 '{max}+'
+    max: {
+      type: [Number, String],
+      default: uni.$u.props.badge.max
+    },
+    // 主题类型，error|warning|success|primary
+    type: {
+      type: String,
+      default: uni.$u.props.badge.type
+    },
+    // 当数值为 0 时，是否展示 Badge
+    showZero: {
+      type: Boolean,
+      default: uni.$u.props.badge.showZero
+    },
+    // 背景颜色，优先级比type高，如设置，type参数会失效
+    bgColor: {
+      type: [String, null],
+      default: uni.$u.props.badge.bgColor
+    },
+    // 字体颜色
+    color: {
+      type: [String, null],
+      default: uni.$u.props.badge.color
+    },
+    // 徽标形状，circle-四角均为圆角，horn-左下角为直角
+    shape: {
+      type: String,
+      default: uni.$u.props.badge.shape
+    },
+    // 设置数字的显示方式，overflow|ellipsis|limit
+    // overflow会根据max字段判断，超出显示`${max}+`
+    // ellipsis会根据max判断，超出显示`${max}...`
+    // limit会依据1000作为判断条件，超出1000，显示`${value/1000}K`，比如2.2k、3.34w，最多保留2位小数
+    numberType: {
+      type: String,
+      default: uni.$u.props.badge.numberType
+    },
+    // 设置badge的位置偏移，格式为 [x, y]，也即设置的为top和right的值，absolute为true时有效
+    offset: {
+      type: Array,
+      default: uni.$u.props.badge.offset
+    },
+    // 是否反转背景和字体颜色
+    inverted: {
+      type: Boolean,
+      default: uni.$u.props.badge.inverted
+    },
+    // 是否绝对定位
+    absolute: {
+      type: Boolean,
+      default: uni.$u.props.badge.absolute
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 369 */,
+/* 370 */,
+/* 371 */,
 /* 372 */,
 /* 373 */,
 /* 374 */,
 /* 375 */,
-/* 376 */,
+/* 376 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 主题颜色
+    type: {
+      type: String,
+      default: uni.$u.props.text.type
+    },
+    // 是否显示
+    show: {
+      type: Boolean,
+      default: uni.$u.props.text.show
+    },
+    // 显示的值
+    text: {
+      type: [String, Number],
+      default: uni.$u.props.text.text
+    },
+    // 前置图标
+    prefixIcon: {
+      type: String,
+      default: uni.$u.props.text.prefixIcon
+    },
+    // 后置图标
+    suffixIcon: {
+      type: String,
+      default: uni.$u.props.text.suffixIcon
+    },
+    // 文本处理的匹配模式
+    // text-普通文本，price-价格，phone-手机号，name-姓名，date-日期，link-超链接
+    mode: {
+      type: String,
+      default: uni.$u.props.text.mode
+    },
+    // mode=link下，配置的链接
+    href: {
+      type: String,
+      default: uni.$u.props.text.href
+    },
+    // 格式化规则
+    format: {
+      type: [String, Function],
+      default: uni.$u.props.text.format
+    },
+    // mode=phone时，点击文本是否拨打电话
+    call: {
+      type: Boolean,
+      default: uni.$u.props.text.call
+    },
+    // 小程序的打开方式
+    openType: {
+      type: String,
+      default: uni.$u.props.text.openType
+    },
+    // 是否粗体，默认normal
+    bold: {
+      type: Boolean,
+      default: uni.$u.props.text.bold
+    },
+    // 是否块状
+    block: {
+      type: Boolean,
+      default: uni.$u.props.text.block
+    },
+    // 文本显示的行数，如果设置，超出此行数，将会显示省略号
+    lines: {
+      type: [String, Number],
+      default: uni.$u.props.text.lines
+    },
+    // 文本颜色
+    color: {
+      type: String,
+      default: uni.$u.props.text.color
+    },
+    // 字体大小
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.text.size
+    },
+    // 图标的样式
+    iconStyle: {
+      type: [Object, String],
+      default: uni.$u.props.text.iconStyle
+    },
+    // 文字装饰，下划线，中划线等，可选值 none|underline|line-through
+    decoration: {
+      type: String,
+      default: uni.$u.props.text.decoration
+    },
+    // 外边距，对象、字符串，数值形式均可
+    margin: {
+      type: [Object, String, Number],
+      default: uni.$u.props.text.margin
+    },
+    // 文本行高
+    lineHeight: {
+      type: [String, Number],
+      default: uni.$u.props.text.lineHeight
+    },
+    // 文本对齐方式，可选值left|center|right
+    align: {
+      type: String,
+      default: uni.$u.props.text.align
+    },
+    // 文字换行，可选值break-word|normal|anywhere
+    wordWrap: {
+      type: String,
+      default: uni.$u.props.text.wordWrap
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
 /* 377 */,
 /* 378 */,
-/* 379 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
-  \**********************************************************************************************************************/
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26626,17 +27023,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 380 */,
-/* 381 */,
-/* 382 */,
 /* 383 */,
 /* 384 */,
 /* 385 */,
 /* 386 */,
-/* 387 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
-  \***********************************************************************************************************************/
+/* 387 */,
+/* 388 */,
+/* 389 */,
+/* 390 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26741,9 +27138,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 388 */,
-/* 389 */,
-/* 390 */,
 /* 391 */,
 /* 392 */,
 /* 393 */,
@@ -26755,10 +27149,13 @@ exports.default = _default;
 /* 399 */,
 /* 400 */,
 /* 401 */,
-/* 402 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-empty/props.js ***!
-  \************************************************************************************************************************/
+/* 402 */,
+/* 403 */,
+/* 404 */,
+/* 405 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-empty/props.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26832,17 +27229,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 403 */,
-/* 404 */,
-/* 405 */,
 /* 406 */,
 /* 407 */,
 /* 408 */,
 /* 409 */,
-/* 410 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-input/props.js ***!
-  \************************************************************************************************************************/
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-input/props.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27044,15 +27441,15 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 411 */,
-/* 412 */,
-/* 413 */,
 /* 414 */,
 /* 415 */,
-/* 416 */
-/*!***************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-textarea/props.js ***!
-  \***************************************************************************************************************************/
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */
+/*!*******************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-textarea/props.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27186,35 +27583,35 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 417 */,
-/* 418 */,
-/* 419 */,
 /* 420 */,
 /* 421 */,
-/* 422 */
-/*!************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/static/noData.png ***!
-  \************************************************************************************************************************/
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */
+/*!****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/liu-choose-address/static/noData.png ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAFdhJREFUeF7tXXt0FFWa/75b1Z10BxgBeciAT/CFD0h3AjjsDJ51IA9AnV1md2aOoyOaF3J0dv1nz/5h/GMf58zsqsuQl+LoODM7O5kZFUg6OO6R3fVBHh0QDCrgWxFBQAlJJ11V99tzA92prnSSruqq7k6oHI8kVd/33e/xq1u37r3fdxHcnwvaA3hBW+8aDy4ALnAQuABwAXCBe+ACN9/tAVwAXOAeuMDNd3sAFwAXuAcucPPdHsAFwAXugQvcfLcHcAFwgXsgR80v3bxnmqdPpe1Pr+x1UkW3B3DSu2nILq0OL2cASkt9IJyGmHFZXQCM66LsEJRXd91NnKKtjUX/6aQGLgCc9K5F2Wsqui6RGFYIduL061BT8D2LosZlcwEwrosyT1BaFf4RAiwcapnoi9bGYINTWrgAcMqzFuWWV3dtIMLr9eyEvCNUXxSyKHJMNhcATnjVpMx1FV0XawBXEYOVCDglGTsSneJM7eRRfmjXtltOmWxiVHIXAHZ50qSctVX7vqkhX4jAFwHhN82wI9KHGvKDvPf0wZeeW9NnhtdI6wIgHe/ZxOv2ADY5cjKIcccAKURxw4Yeb9+svhmkyTOAwawUWBwjkbjyFfN4Tpw5+/Wp3c/cOmBHQ+5XQBIvnv82DiDRpYSY1aCPPqLiXwKxjzRO4V1Nwc+tgsGdB9B5LhZ4AAhYdWiW+MLpAEHMBAKg1lIf+LWT+uf0ILC0uvs7SLTKSQc4LZsQd4fqC//HbDvrarpWcuC8pa74dbO8ZuhzFgCjBh+plzh9DMhOAfDTBOppMwbbTYsgTwdg04H4DGR4KRBONbaRKghKK7quik37ltV0zJWjnLY/tfwLu3XWy8tJACQNvgg8sLBnsL/b6SVSqw5ff++rU5U8fyECDxiBMB4I1t93YI4qR4taGwI7rbZvhS/nAJAs+Ih0UBocaMvVwBsdL4Cg5eWXjJzSTf462LDh99LZixeuRNCKVaTfvVRX/ImVYFrhySkAiAkRLsFGIsyPGSOC31IfbLZiXLZ5jN/0iDTANNi2oyn4pdBt1B6D+CGQebh167JDTtuQUwAoqwqv1Y/2xwq+eGpOFMzyTGMej9NOGku+UjAnumzmQqW2FnkyuiQTO2FjN19bS6zz+L7lxPl3GUhP7WxY8lmmbMoZAJRU7b2cAb9bbzipyrbQU8s/1V8Tk0Bn56qzmarOyZSTUmmHy/IXU47Jx5ubF0f19Ppv+th1DuzZtoalHybQbXx9BvN6vx2qD76QSnt20eQMAMqruv+WgK4ZNgzfam0o/KPe0FX3fJDvyzt9JWPks8sBdsrhHCORwenv737mioQZwRE9G+C7LQ2FvzO2LRaIMvn0i/ZzAgDJnhJEz3+01N+U8IlXXhO+Dgj8dgbNdlkI/S11gbfH6wU0Tk3pzBbapXdOAKC8putW4vjtYaP4sdaGoka9kecGiHiZXYY7KYdp9FFsoBdrp6wq/H0AuC72NzL635a64CtO6pGKbNsBsLqmY4HZz5jyyq4a/fw+Ax7a2VDUYQDAtVzCglSMyjYN06hvR1PwHb0eJdXhmxjBnXEAEJ1oaQzWZVtX2wEgnmYzyBbdOnEQT0f8Zz6nf25qCiqxC2KPPFM9i7LtLDPtc1k5HNqy/EyMp6Kiy/OZhJuI4BvDvQD83vi6MNOGHbS2A6CkoqMCOW81jt5HU7a8suN7hNKNuu7/rdaGooTB37qKrku5lKMrgKMYxjQ6saMp+LH+dlllRwmgtGy4F9AOtDQW/8mOQFqVYSsASiu7r0ekDWLLUkt98NnxlLqtousbeYweIGBy3CnIn2upL3o/9veqVa/I+ddNu14CyOr3/ni2GO8jV9Wzl/T37K69VY3dK9vUfRlodE/cVuDqIMdfvNwU/NqsfLvobQFAefX+6ZwrKxGhUBfIvaqGnWONdNdWdq/gSKtjPITwdag+8LjeuIk0+DMGJelgsDr8EyC4NEbLCF/a2Vj4hl0BNSvHMgA2/PR1X1+fdyEiX8QRFyKwpN/mBHBEAumwoniO7Nq2OGE3a3lV970EtGAYANruUH1xwtLpmprwQln33jRrYDbpkStndjYuP6zXoaSyfQVDOQ56BPykpaHw6WzpaRkARoXXVu0r5qCVxoNJ2BxqLDw4mmHr7mu/QpPlH+vvewfOPPHCM7d+Fbu2rqLLzyWMfzply0nptMs0entHU7A/JuOOe165SMmfskn/2pNU9Vc7nlr2QTrtWOW1DQBCgZKqNy5n4L2bCLpDjYEdYylVUtlZxpAVDb8y4D3j7pf1D3TP0zS6xKpxucCHNHhsZ8MtCXP7ZVWdfwXAbojpx4l3tjUWtWZDX1sBIAwoq+q8S+IYMk6E6I0Tix/tx8I/1SdBSJL0hx1bl/To6dbc37FYlqX4ymA2HJRum4xpAzu2FifYFRssx3tLoLPL5gYeG21BKV0dxuK3HQAirTlUH9gzVqOlVZ1LEdj6OA2JLNjgv+h57rhn70WKj1/lpPGZk93/fkv9XyRMa5dWhR9AgJnDIODbQw1FezOn07mW0gJAeXU4AEA3AOBb/vzBg82P3RIRo/axnv6hXqK664dAODyxw6C9tS7QpjderA5KyOMOyrRj7GyPKeop4zu+vLrzNiL2rXg7SIdb64O/tbPdVGRZBsCIBRxOf2ptCh4Yr9GhLBiGm/R0soxPbv9F4dHYNTFr9gmTb2CosfHkTYT7nCQ+5aSnR79ULMY3qkr36/WXOG0d7+Gx217LAIgN+OIKadqLrU8W7xtPQePCD+fa521NxU16vtVVr832YH7883A8mRPhvqQonxo3eJZVdd8FQFfG9M/GApFlAAx15cM7eMLeAfbqC88sjX/CjRYU48IPZ1prW11xZ0L3X915jQQsaZbsRAh2Mh01kM+21d/8boKdNR1FjEtlcQBkYYEoLQCYDcbayr2LOPIfGrq9n+m/k1c//GaBp0+91qzsiUDvx/x3m+sWn43pem6eAzbr90AyYr/d2bg0YfLISdsyCgDjwg/SyMWQ0vv2zGceT05t97IrADJ6j79Yd2PCjt+yys7bAdmS4V4gswtEGQNA6ebWPKbMelg/AyYz+M32usCRuIOJsKSm/UYJsrvR066AG+VoAEpbXeEBQKTYvfU14YUqhx/FAQBc5Z4TPw9tKRt0Sg+93IwBoKyiaxkwLNEF+6vWxuATemXWbHx9huzNuyIThmerjQGmfvjfW5ed1LdfVt1VBYTDvR6nttamYHsmdMwYAEYu/IxMkhCpUUzCizJheLbaUBG+3qXv9QDAmAyTyQWijABA5LkBlyoNg7+Eb97SzYfzmHomPj+erQBlot2+yJkefS2BZHMjwLTG1rriY07rkxkAVIZLACG+E0YsEYcaAr9J6AZrOuYiSaZq5TjtHKfkqxodNe6TGDE7StDe2pg4O+qEPhkBQGlV19/rF34YqS/sbFz2pt6g0so91zPmycn9/nY7XuQPGJfK11a238xRviPWFgGdDTUE/83uto3yHAeACCyiZ8NwwzRYcDLws+Zm1GLXJuKmz3QDY9w0umEDSWdnhh/SPyhESnOocfmoeyrS1UHwOw4AY9eWbO1b7JVDThfbYdBEkaFR9GRbw4qE9DDjHgnIwAKRowBYfdebBXKB+rBh8PdL/W7Zc8jvuokhmxQLP6kCkBPnU04G9+t7QrH7WWP4E70MtU/++UvP3ZxWLcCxdHIUAKVVnd9CYLcNv9e0o6GG4if1Ck3kTZ+pBns0Oj6AH4d+WXjCMCdwn75wJAF/OdRQ9Fq6bY3G7ygARmT8JNkBW3Z/+9UoyyPKqjhlcC7JJVXtbX0ysQaAcac0OrxA5BgASje/OR8VdaPe4eRRHtNny4jFEM0jz890UJBrSQFHTHL0dI5kdkqK+ql+MWxoQByVHyLEeGzII28Lbbk5IU3eLp85B4DKjnWIUjxPgIj3hBqL/mCX4lblnCvf4rs6aTAGI4dyoQxNaWXnXyOyxfFXJ2ndocbiMTfZWvWHYwAor+r8x4SMH5b9PDjhpIkAAGO+JAJXWxqK/slqkDM+CDRmwgLRiIUfJ4xJReZEAICwo6yy60HA4XURjvB8W31gfyo2mqFxpAcorez8MSKLr+oh8tda6oteNqOYU7QTBQDGTaNE/INQY9Gv7PaL7QAQCZ9ehg/pFRXJonYrnoo8DXCv8akxCwDRm0lAS1Npz24aIrxcLzPK6XG7E0ltB0AulXdFoj5V9T2tz0k0A4A1G3tmyHLkXsLcKEwxXrFJKwCc1AAQDiGQtocalsQTLkShqQLfqfgIW++0WG5D7Fpp1b6lCNpwAosVD9vI4wLAgjMR+d6W+qLtcdbaWlZ2dO1ilNCbII74YNHcloO1tbXxen/l1Z3riVhWuv9kpk5IAHCIPmtc9LAQR1MsZVXhR2IMyWbShtLO/PySeMUxhP5BlY4a36/GmczWhsCjphRJk9iYe+ECIEWHJpy4keQ1EBMjXgcAH0Kykz6M3X+yTSwpqmOZzAWARdeV3d+xBCTp9hi7lc0Vxk0skGLmk0WVk7K5ALDoTdHFR/P5g3p2M91nsi8Z7wB7IpXMJ4squwCw03FCVnlNxy3Epe/q5SJp7zFibaMlYA4tTSMvIZQS0tKRaX92+uSOZPa7PUCaqCipCt/JAG5KFEODRHREnDgiS9LQaRyqps0ZOvEDcSEA5unpOcD+tobA82mqYondBYAltw0ziRJzBddNu5cILJWZQYTP+94+8/Tu3cOl3tJUyRS7CwBT7kpOLNbXScEVDOTlZsRxUPegh97Q718ww28HrQsAO7x4XobYoMJUZYXxGBdjE+KQCi573nBqA4YZk1wAmPFWirTl1f83XYP82YzTHAKcLdgQ6Dhn+IUEA8eNtXxSFOsImQsAR9w6cYS6AJg4sXJEUxcAjrjVmlBxVtHp6RGf3evxY2njAsBarGzhOpetHPEjcT/QgF9lHh/l53+667HEese2NDaKEBcATnrXIFsUv1ajkr+P0C+j1wcU9SNJkjj9Q5xUkiyj12n1XAA45mHC1Xft90uy5kcW8UtSni8K4Jcl3V7880kb6x5ov0JRvWQ85s0x1XSCXQDY5GVxyOTg1Hl+yTvVFwHuRyL/aEfPcY2+CjUF3l+z8Y3polyNBvzs8jnBw9mo4+sCwCIAVtWS7DvZ7keN+ZHQP7TxA1nCHL9RtCjnGphf/FFPz0H5zOy+RTKX8sWpHz6/dkiUwLWoSlpsLgAsuE+UsEVJnZVqpTFxtk/+6fc/a27+vmYsUefJY++98Pj4xS8tqJkSiwuAlNw0kuj2mgMLVIoOzfKN9iMC33uo96hY6Lnjob0XKYOJlcmTlXa1qI5lNhcAll0HsP7BA3O0aHRE4ulQ4OcFju6uRXXVPa/kT8m7aAExPk3fVLITv9JQxTKrCwDLrjvHKA6zAlCGijETwy/nK/xo7DzC0U4jERnCrVuXOH5seyqmuQBIxUvj0Ijl4CnHpg7ESrWLYpQeOX8BMYofVRcTIQZ9mnfGO6EtizJSpXM881wAjOchE/fFRE+kn80n5kno7vUijIWbTIh3hHSCAmDPciTPmphHkpWDd8Rb4wgt27Tv6tEKQwhWLuPHoS2J5Vqyoae+zRJDOXlCZVeofvmYx/GY1dn21LCyiq4bgeH3YoowgP07s7SnTu+MsQCQK4M+Y/DWVoXv5Po9jSmeymIGBLYDoLx6/5VEyl3x9yrSqZb64BYzSjlBGwOAmNOXJZwXayOXBn1Gu8uru8RZAjOGfel5rqX+pvixunb4yXYACKXKKjv+AVCK596RB+uy3b0KAGiK2itKtK6uenO2B9UFYtD3OUkHw7qTyu1wqh0ySjd3z0KFavSyyDPtX+0eoDoCgNLqzlIkVhwfB2TxYMSYDmKGUF+f9y83tc8siCjRXKgJlAwwqRysaQfQHAGA8RAEoajE6b92NAXfsUPpyS5jXUXXtRrDv0l4+nFkeX1xX3wppJN86wgAzr0GOn8AyIarcRH1tjYG/32yB88O+8oqu/4OEHWl7PixLzg+bXxViV4sX5ODLQ2BXVbbdQ4Am9qvBk3+QSootqr8ZORLlpeIwP/Y0lD01ohB4vn0t3TGWI4B4HwvkHAgkrgm8vVVgueN9fInYzDN2CTGKDLCnYQ4K4GP+L7WxqIX9dfE2cOM8cX6HAdk7M+efjhoNoHVUQCcA0FiubPhgSG+yqS8nuLZ1x/PxmYLM8FxilYcot1x/OBsrg0uZkgrR7QzSnm98urOKzViN+vzHnMWAEMDlYqOCsakpPl5hKAg8ZMM2HEN8VQqziZCBFkMLDXkXEMQf4gFH0IUvxEHJCaux35kkCRBe27LFxEgSIaWNABEGDrNizEiTZMIQI0TIZcIGZC4gkjnT/1SgTGJNCaRIB2+PrYVEtEMDnw2IZuJBJ5k1MlOVDXSxYpY5OwrQK9weXX3bUQ0fFiywRpCYozEGwJQ1Mll4m0h6uUSR0Lh26HwIDHnzzhIBYSj0SAXWgosiv/E70z8Shxg6N9zFonfMV6LyCgLEV9rqS8ct65iTg8C9UYNnQkw94gsQe+1mqIFEHARIiBxYsTEU+n4myidmDrIS4CcCJn4v+iY6LDkkcIaTH1nyrGFqv4sgdGUyKnPQPFOaz95xDNFi3oUb1TW+jVZk32ypkYSIizL0hWkKdeIz8TzvbaDTs5t0UikAvFDKHneVVXtA722kuwjSY2okl9SPVGvelbyKstmLlTsHDOl9+jV1rJ1R9fmS37JO6iRhw/yEWvs47mfSXgZkOpnXPIBJhZnGI93wt4nGuRMiwDK/Vyjj8zawRSm5hEqmleL7pi3cwB0pe3MyrIEgFW1r8i+kz5/vuLL7+eKcThlVgeXPg0P+JlHG/BEBiIHIv1WClmYBwAR3vnAOzP6lb7EQotpGOGy2uABLTq4a9uK02LsbEaaCwAz3spl2owBAADcV0DuICHzrwC97TYMAnPHlRNHk6wPAkdzVaqfgRPH1dnVNPc/A1P0T2wiSMvrl6XBiMRURfIyL+vTVElmHqapzPxYJMW2c5lMkjmpXOEFkqxFeZRz2aNpeT5NGvSrqU4EpWtfbjieCFc9uluaBbPZiQ/9bKr3JMuXfey0GpHypAgbYF7m7fcwjxRlg0zO6RNG87jKFc3Lo36F5/MoH9R8fLrs0wbUCO+NzuSzLu/nJ+A43/3IKk1McKcbwHT5cwMApq2goWWb2kcBe3qaEWADnFi8G3uPTsUAAJw+7cOzcz9CgEUQ6f0UAS6HWdM/x4E+75C9gxEPRqeewllwLn3wBBwHb+8MyvMpQwHJL4jSidOXkKgk7ps6nwAOw5Rjl9H06REKA8DUeb00q2cVATTD4sUbqPaRofn/ocVu06ZkmWGCAiDLXptEzbsAmETBtGKKCwArXptEPC4AJlEwrZjiAsCK1yYRjwuASRRMK6a4ALDitUnE4wJgEgXTiikuAKx4bRLx/D9XJCsm/DXltwAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 423 */
-/*!**********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/static/next.png ***!
-  \**********************************************************************************************************************/
+/* 426 */
+/*!**************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/liu-choose-address/static/next.png ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAFKFJREFUeF7tXXuUXVV5/75zJ0NjtDARxKA8qi22ItiiUFgWy1qCqxE0lsyltBAgzD3fGdIoBLREoWCKiKIF6sDce74zE0YiUpgGeaM8yisWRCLyBok8jBDlNRSchIyZ+3Vt1mF1VtYkuY/z2N+5+/wzf2Tv3/fbv9/+ZZ977zl7I3TIRUS71ev1QxHxGETcEQDeDQDm73oAeEVEXgaA+z3Pu27jxo13jIyMvNkh0rhhbkUBLLo6vu/vBwCnI+K8RscqIi8h4uWe551Tq9VebLSfa1c8BQodECI63YQDAGa2aN0TiHhOGIbfb7G/66ZcgUIGpFKpfMzzvPMB4JMJ+cOlUmlptVodSwjPwShRoHABISICgDAF/VeLyNIoim5NAdtBWqpAoQISBEGfiAylqbWI9EZRtDLNGg7bHgUKExAiKgPAlRlIOyki5SiKfphBLVciZwUKEZD+/v7D6/X6dRlq+Yd4Jbk2w5quVA4KFCIgRGQm6mcz1s/8TtLLzDdkXNeVy1AB9QHJYfWYas/6eCW5KUPPXKkMFVAfkJxWj6kWvRGvJDdn6JsrlZECqgNCRO8AgJcAwPzN83ot/uDuvgLO04UUaqsOSKVSOdTzPFv+5341XkluT8EnB5mTAqoDQkRfA4CzctJuurIvxSvJnRZxclTaUEB7QAYAYHEb40+j6+/ilWRVGuAOM1sFtAfkcgA4KlvJGqr2AiL2hmF4T0OtXSNrFVAdkCAIbhaRQ21UFxHXmtstZv6pjfwcp8YUUB0QIjKPe3y+saHm0uq5eCW5P5fqrmjbCqgOSBAELCJ+2yqkCICIT8cryc9TLOOgU1JAdUCI6BwA+GpK2iQGKyJrPM8zn0keTAzUAWWigPaAmNsrLU/VPmlCUqvVHsnEWVckEQVUB2TRokW7btq06deJKJENyGOIWA7D8LFsyrkq7SqgOiBm8ET0EADs3a4QGfZ/pFQq9Var1SczrOlKtahAEQJi26/pjVjxYLySPNVIY9cmPwWKEJA5Zj8rANglPxlbqvxAvJI83VJv1ykTBdQHJL7N0riKGOpmo7pyrVZ7NhO3XZGmFShEQMrlcndPT89dAPDXTSuQcwcRuW/GjBm9g4ODa3Om4spPo0AhAhKvIrsBwK8AoEuh0/d0d3f3XnTRRS8o5F5oyoUJSBwSs4Lcq9SxVV1dXeXBwcHfKuVfSNqFCohxKAiCT4mI1jf77tpuu+16BwYGzFuS7rJAgcIFxGjq+/5cRLzRAn1boXD7m2++Wb700ktfaaWz65OsAoUMSLySzBORq5OVKzO02yYmJnpHRkZey6yiKzStAoUNSPyZJKvdFtOYXjePj4+XL7vsstfTAHeYjSlQ6IDEt1tHI6LW4wtu2rBhQ3nFihXjjdnpWiWtQOEDEt9uLRSR5UmLlxHeDfHtljvxKiPBp5bpiIDEt1sBANRy0DiJkteOjY2VR0dHJ5IAcxiNK9AxAYlDYnZAMTuhaLyuHhsb6x0dHZ3USF4r544KSHy7dYqI/LtSw1Yys/niQZTyV0e74wISryRLAeBcdW4BACJeGYbhP2jkrpFzRwYk/nbrTERcptE0APhPZv5HpdxV0e7YgMQrydfjU3BVmWbIIuJlYRgeo464MsIdHZA4JOcBwJeV+fY23RXMfKxS7ipod3xA4tutCxHxJBWObUYSEUfCMFyokbsGzi4gsUtBEFwsIos0mLY5R0QcDsOwopG77ZxdQKY4REQRAKicaIgYhWFozoh3V4IKuIBsJqbv+99DRJX39SJSi6LoxATnR8dDuYBMMwWIyNZjFbY5YUVkMIqif95mQ9egIQVcQLYgExGtBIAjGlLRskYiMhBF0Rcto6WSjgvIVmwLguA6ETlcpbMAFzLzEqXcraHtArINK4joxwDwaWsca4KIiJwfRdGpTXRxTTdTwAWkgSnh+/7tiHhwA01tbPJtZv4XG4lp4OQC0qBLQRCsEpFPNNjcqmYi8q0oiswDmu5qUgEXkCYEI6L7AGC/JrrY1PQbzHy6TYQ0cHEBadIlIvoFAHy0yW5WNBeRr0dR9K9WkFFCwgWkBaOIyByA8xctdLWhyzJmNpt9u6sBBVxAGhBpuiZEtAYAPthi97y7ncnMZ+dNQkN9F5A2XCIic/zbrm1A5Nn1DGY2h6C6aysKuIC0OT2IyGw2vXObMHl1/wozfzOv4hrquoAk4BIRmX10ZycAlQfEacxsXhpz1zQKuIAkNC2I6A0AeGdCcFnDfImZte70kqpWLiAJyktEGwGgO0HILKFOYeYLsiyooZYLSMIuEZHmPatOYubvJiyJajgXkITtK5fLpZ6enk0Jw2YJt5iZL86yoM21XEBScGfJkiUzx8fH16cAnRXkImauZlXM5jouICm5Q0TbA4DmA3ACZuaU5FED6wKSolULFy7cacaMGS+mWCJtaJ+Zh9IuYjO+C0jK7ixevHiXiYmJ51Mukxo8Ip4QhuElqRWwHNgFJAOD+vv796jX689kUCqtEscz8/fSArcZ1wUkI3d8398TEZ/MqFziZRBxQRiGWo+ya1kPF5CWpWu+Y39//0fq9frDzfe0psfRzPwDa9hkQMQFJAORp5Ygon0BYHXGZRMrh4hHhWF4RWKAlgO5gORgUKVSOcDzvHtyKJ1ISUQsh2H4X4mAWQ7iApKTQUEQfFJE7sypfLtl63FIrmoXyPb+LiA5OhQEwadE5NYcKbRT+g9xSK5pB8T2vi4gOTvk+/5cRLwxZxqtlt8Yh+S6VgFs7+cCYoFDQRDME5GrLaDSCoX1cUi0hnyrY3YBaWVKpNCHiMzxzlemAJ0F5O/jkPwoi2JZ1nAByVLtbdTyff9oRNT6Y9z/xiG5xSJJ26biAtK2hMkCBEGwUESWJ4uaGdqrnueVa7Xaf2dWMeVCLiApC9wKPBEFAFBrpa8FfV6OQ3KHBVzapuAC0raE6QAQ0WIAGEgHPXXU35VKpXK1Wr079UopF3ABSVngduCDIDhFRLTuNrJucnKyPDw8/JN2NMi7rwtI3g5soz4RmWMLzrWc5pbo/aZer5eHhobuVcofXEAUOOf7/pmIuEwB1ekoPjc5OXnk8PCwOTpC3eUCosQyzWe4A8Az8Uqi7ilmFxAlATE0lR8Ft0ZEylEUmfNV1FwuIGqsAujr69u9VCqZD73vU0R7KtVfxivJQ1r4u4BocSrm6fv+3yOi5sfMH49Xkkc1SO8CosGlzTgSkfkR0fyYqPVaNTExcejIyMibtg/ABcR2h6bhR0S7AYD5Ec78VXkh4n+EYXiy7eRdQGx3aAv8lD+O8taoROTYKIpW2GyBC4jN7myDGxFdDwCHKR7Camb+uM38XUBsdmcb3HzfX4CIlyoegqFu9R7ALiCKZ1e5XO7u6el5BAD+TPEwrF5FXEAUzyxD3ff9sxHxDM3DEJHPRFF0k41jcAGx0ZUmOPX19X2kVCpp3q3RfFgfiKLoi00MO7OmLiCZSZ1eISL6FQB8IL0K6SKLyJooiqy8TXQBSdf7TNCJyLwHfkgmxdIrMouZrTuVywUkPcMzQyaiEAAos4IpFOrq6tptcHBwbQrQbUG6gLQlnx2dlb95+JaInuftW6vVHrBD0f9n4QJimyMt8AmC4DMickMLXa3p4nne39RqNetez3UBsWaKtE4kCIJjRMTqRza2NbpSqfTn1WrVugOGXEC25ZyCfy/CbyEAsBMzv2yb3C4gtjnSAp8gCK4QkSNb6GpNF2a2ci5aScoa15QQISLz4fYvldCdjuYKZj7WRv4uIDa60gSnSqWys+d5TwPAO5roZlvTI5l51DZSho8LiI2uNMHJ9/0vIeK3m+hiW9PnS6XS3tVqdcw2Yi4gNjrSJCff9x9ExH2a7GZT89OY+TybCE3l4lYQW51pgFcB3gd5aNasWQdccMEFGxoYbi5NXEBykT2ZokT0YwD4dDJo2aMg4nFhGFr9wpcLSPbzIpGKyg/bMY+416IoOjERMVIEcQFJUdy0oPv6+maXSqW7AGCvtGqkjHsbM6t4+tgFJOWZkAY8EX0HAE5NAzsDzFXMfFAGdRIp4QKSiIzZgWg+W11E7o2i6MDs1Gq/kgtI+xpmhnDyySfvsGHDhptE5IDMiiZX6GfMvH9ycNkguYBko3MiVYhoBACOSwQsW5AHmHnfbEsmU80FJBkdU0fxff8riPiN1AslX+BhZlb7Q6YLSPITInFEIioDwJWJA6cP+Dgzfzj9MulVcAFJT9tEkIMg6BUREw5tXj3FzHsmIkKOINpEz1Gq7Ev7vj8fAEYRUZtPzzCz2m2IpjqtTfjsZ2lOFU04ENGsHF5OFFotu5aZ1R7LsPmgXUBanQYp9guC4Ij4tqqUYpk0oF9gZq3Hw02rhwtIGtOkDcz4iDWzcnS1AZNH1xeZeec8CqdZ0wUkTXWbxCaiz8ffVs1osmvezV9l5nfnTSKN+i4gaajaAmYQBPNExLx2qi0cr8+ZM6dn2bJl9RaGbX0XFxALLKpUKvM8zzO3Vd0W0GmGwvqxsbGe0dHRiWY6aWrrApKzW77vfy7+tmq7nKk0W35i1qxZO9j8NmCzA5quvQtIEiq2iBEEwWfjb6v+qEWIvLrVN23atMPy5cvfyItAVnVdQLJSerM6vu8fbm6rRGRmThRaLlsqlWbbugtJy4PaQkcXkKQVbQCPiMzJtOYDubpw2LpFaAOyt9TEBaQl2VrvFIfDfCBXt9HbxMTEnJGRkd+2Pnp9PV1AMvQsPqbAhGNWhmUTKeV53vtrtdrziYApAnEBycgs3/fnxt9WvTOjkomVmZyc3GN4ePi5xAAVAbmAZGAWEZm9q1YCgLpwAMCfMrM5JLQjLxeQlG2PN1n4IQC8K+VSicOLyIeiKPpl4sCKAF1AUjTL9/2/RcRrAeCPUyyTCjQi7hWG4WOpgCsCdQFJyaz+/v5P1Ot1c27g9imVSBN2H2Z+OM0CWrBdQFJwqlKpHOB53k0AsEMK8KlC2nrabKqD3gq4C0jCygdB8PF6vX4LIqoLh4jsH0XRzxKWRDWcC0iC9vX19f1VqVS6DQB6EoTNBKpUKh1YrVbvzaSYoiIuIAmZRUR7A8AdADA7IcgsYQ5i5lVZFtRSywUkAaeCIPiwiJjd1tW9VSciB0dRdGcCMhQSwgWkTVt9398TEX8CADu2CZV5d0Q8JAxDc0vori0o4ALSxtQ48cQTPzA5OflTjeEQkb+LosicUOUu9y1W8nOgr69v91KpZL7x2Sl59HQREfGwMAxvTLdKMdDdCtKCj/39/e+r1+s/B4D3tNA91y4iMi+KIvPrvrsaUMAFpAGRpjY5/vjj39vd3f0LAFC3BxQizg/D8Komh9zRzV1AmrCfiHZExIdF5L1NdLOl6ZHMbN5idFcTCriANCiWOd1p/fr1jwOAunAg4j+FYXh5g0N1zaYo4ALSwHQ44YQT3tXV1fUkAMxpoLlVTRBxQRiG37eKlCIyLiDbMGvJkiUzx8fH1wDALop8fYuqiCyMosgc2+auFhVwAdmKcOVyubunp+dpANC4Y7nPzEMtzgvXLVbABWQLU+Gss87y1q1bZ97Dfr/C2dLPzKFC3tZRdgHZgiVEtFZpOBYz88XWzTSlhFxApjGOiH4NALsq9PQkZv6uQt7WUnYB2cwaIjK3VeqOEEPEU8MwPN/amaaUmAvIFOOI6FkA2F2hl6cx83kKeVtP2QUktsj3/WcRUV04EPGrYRiea/1MU0rQBQQAiOgZANhDoYdnMvPZCnmrodzxASEi8zvHn6hxLCYqIv8WRdFZ2nhr49vRASEis6WmxgPvz2HmM7RNNo18OzYgRGQeH/mgNtNE5FtRFC3Vxlsr344MiNZwIOJ3wjD8stbJppF3xwWEiJ4yO5YrNOtCZl6ikLdqyh0VECJ6AgA+pNCxi5j5Cwp5q6fcMQEhokcAYC+FjlWZeZFC3oWg3BEB8X3/QUTcR5tjiBiFYUjaeBeJb+EDQkSrAWBfhaYtZ+Y+hbwLRbnQASGi+wBgP22OicilURQdp413EfkWNiBE9D8AcKBC037AzEcr5F1IyoUMSBAEd4nIQQodu4KZj1LIu7CUCxcQIroeAA5T6NhKZu5VyLvQlAsVEN/3FyGixtdNrx4bG+sdHR2dLPRsUzi4wgTE9/2jEFHd5miIeH13d3fvwMDARoXzp/CUCxMQIrofAD6mzLEfAcB8Zl6vjHfH0C1EQIjI/JimapsbRLwlXjle75jZpnCgRQmIttXj9snJyd7h4eFXFc6ZjqKsPiC+738OEa/R4pqI3L1p06b5l1xyyUtaOHcyT/UBIaJhADhBiYnmx8teZl6nhG/H0yxCQMz/xNYfoCki94nI/KGhod90/KxTJIDqgBDR9gDwmgK9V3ue11ur1cy+W+5SpIDqgMSnzJqNF2y+How/kJt34N2lTAHVAenv79+/Xq+bY5htvR4tlUrzq9WqOXzHXQoVUB0Q3/f3Q0TzSLuN1xMi0htF0aM2knOcGlNAdUD6+/v3qNfrZldE26418crxkG3EHJ/mFFAdkAULFsyaOXPm75sbcuqtTWDNV7nmHHV3KVdAdUCM9pZtxrA2/kBu622f8umaPf0iBORrAGDDHrXrEHF+GIb3ZG+jq5iWAuoDUqlUDvY87/a0BGoQ98V6vd47NDR0d4PtXTMlCqgPSHyblefDiuaBQ/OZI++QKplyumgWJSB5Pe7+unl8JIqiW3XZ7tg2qkAhApLTKjKOiL1hGJqXntxVUAUKE5AgCBaKyPKMfDKvx5o3AW/IqJ4rk5MChQlIvIqYd9JT3TYHETeZzxxhGKp5ByWnuVWIsoUKSBySVwBgdlruxI+PrEwL3+HapUDhAhKH5BYAOCRhqVeLyFL3gTxhVS2HK2RAjOZBEHxTRE5LSH8ulUpLq9XqWEJ4DkaJAoUNSBySI+r1+hcQ8eBW/BCROzzPGwjD8KpW+rs++hUodEDetoeIKgBwBADMbcQysyWPiFzJzEONtHdtiqtARwTkbfv6+vpme543FxE/iog71ev193ieByJiPti/DABPd3V1XTM4OLi2uJa7kTWjwP8BdCG6FKCpZiQAAAAASUVORK5CYII="
 
 /***/ }),
-/* 424 */
-/*!**************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/liu-choose-address/city.js ***!
-  \**************************************************************************************************************/
+/* 427 */
+/*!******************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/liu-choose-address/city.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38806,19 +39203,19 @@ var _default = [{
 exports.default = _default;
 
 /***/ }),
-/* 425 */,
-/* 426 */,
-/* 427 */,
 /* 428 */,
 /* 429 */,
 /* 430 */,
 /* 431 */,
 /* 432 */,
 /* 433 */,
-/* 434 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-rate/props.js ***!
-  \***********************************************************************************************************************/
+/* 434 */,
+/* 435 */,
+/* 436 */,
+/* 437 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-rate/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38902,9 +39299,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 435 */,
-/* 436 */,
-/* 437 */,
 /* 438 */,
 /* 439 */,
 /* 440 */,
@@ -38919,14 +39313,1699 @@ exports.default = _default;
 /* 449 */,
 /* 450 */,
 /* 451 */,
-/* 452 */,
-/* 453 */,
-/* 454 */,
-/* 455 */,
-/* 456 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-code/props.js ***!
-  \***********************************************************************************************************************/
+/* 452 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-form/props.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 当前form的需要验证字段的集合
+    model: {
+      type: Object,
+      default: uni.$u.props.form.model
+    },
+    // 验证规则
+    rules: {
+      type: [Object, Function, Array],
+      default: uni.$u.props.form.rules
+    },
+    // 有错误时的提示方式，message-提示信息，toast-进行toast提示
+    // border-bottom-下边框呈现红色，none-无提示
+    errorType: {
+      type: String,
+      default: uni.$u.props.form.errorType
+    },
+    // 是否显示表单域的下划线边框
+    borderBottom: {
+      type: Boolean,
+      default: uni.$u.props.form.borderBottom
+    },
+    // label的位置，left-左边，top-上边
+    labelPosition: {
+      type: String,
+      default: uni.$u.props.form.labelPosition
+    },
+    // label的宽度，单位px
+    labelWidth: {
+      type: [String, Number],
+      default: uni.$u.props.form.labelWidth
+    },
+    // lable字体的对齐方式
+    labelAlign: {
+      type: String,
+      default: uni.$u.props.form.labelAlign
+    },
+    // lable的样式，对象形式
+    labelStyle: {
+      type: Object,
+      default: uni.$u.props.form.labelStyle
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 453 */
+/*!*****************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/util/async-validator.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  };
+  return _extends.apply(this, arguments);
+}
+
+/* eslint no-console:0 */
+var formatRegExp = /%[sdj%]/g;
+var warning = function warning() {}; // don't print warning message when in production env or node runtime
+
+if (typeof process !== 'undefined' && Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}) && "development" !== 'production' && typeof window !== 'undefined' && typeof document !== 'undefined') {
+  warning = function warning(type, errors) {
+    if (typeof console !== 'undefined' && console.warn) {
+      if (errors.every(function (e) {
+        return typeof e === 'string';
+      })) {
+        console.warn(type, errors);
+      }
+    }
+  };
+}
+function convertFieldsError(errors) {
+  if (!errors || !errors.length) return null;
+  var fields = {};
+  errors.forEach(function (error) {
+    var field = error.field;
+    fields[field] = fields[field] || [];
+    fields[field].push(error);
+  });
+  return fields;
+}
+function format() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+  var i = 1;
+  var f = args[0];
+  var len = args.length;
+  if (typeof f === 'function') {
+    return f.apply(null, args.slice(1));
+  }
+  if (typeof f === 'string') {
+    var str = String(f).replace(formatRegExp, function (x) {
+      if (x === '%%') {
+        return '%';
+      }
+      if (i >= len) {
+        return x;
+      }
+      switch (x) {
+        case '%s':
+          return String(args[i++]);
+        case '%d':
+          return Number(args[i++]);
+        case '%j':
+          try {
+            return JSON.stringify(args[i++]);
+          } catch (_) {
+            return '[Circular]';
+          }
+          break;
+        default:
+          return x;
+      }
+    });
+    for (var arg = args[i]; i < len; arg = args[++i]) {
+      str += " ".concat(arg);
+    }
+    return str;
+  }
+  return f;
+}
+function isNativeStringType(type) {
+  return type === 'string' || type === 'url' || type === 'hex' || type === 'email' || type === 'pattern';
+}
+function isEmptyValue(value, type) {
+  if (value === undefined || value === null) {
+    return true;
+  }
+  if (type === 'array' && Array.isArray(value) && !value.length) {
+    return true;
+  }
+  if (isNativeStringType(type) && typeof value === 'string' && !value) {
+    return true;
+  }
+  return false;
+}
+function asyncParallelArray(arr, func, callback) {
+  var results = [];
+  var total = 0;
+  var arrLength = arr.length;
+  function count(errors) {
+    results.push.apply(results, errors);
+    total++;
+    if (total === arrLength) {
+      callback(results);
+    }
+  }
+  arr.forEach(function (a) {
+    func(a, count);
+  });
+}
+function asyncSerialArray(arr, func, callback) {
+  var index = 0;
+  var arrLength = arr.length;
+  function next(errors) {
+    if (errors && errors.length) {
+      callback(errors);
+      return;
+    }
+    var original = index;
+    index += 1;
+    if (original < arrLength) {
+      func(arr[original], next);
+    } else {
+      callback([]);
+    }
+  }
+  next([]);
+}
+function flattenObjArr(objArr) {
+  var ret = [];
+  Object.keys(objArr).forEach(function (k) {
+    ret.push.apply(ret, objArr[k]);
+  });
+  return ret;
+}
+function asyncMap(objArr, option, func, callback) {
+  if (option.first) {
+    var _pending = new Promise(function (resolve, reject) {
+      var next = function next(errors) {
+        callback(errors);
+        return errors.length ? reject({
+          errors: errors,
+          fields: convertFieldsError(errors)
+        }) : resolve();
+      };
+      var flattenArr = flattenObjArr(objArr);
+      asyncSerialArray(flattenArr, func, next);
+    });
+    _pending.catch(function (e) {
+      return e;
+    });
+    return _pending;
+  }
+  var firstFields = option.firstFields || [];
+  if (firstFields === true) {
+    firstFields = Object.keys(objArr);
+  }
+  var objArrKeys = Object.keys(objArr);
+  var objArrLength = objArrKeys.length;
+  var total = 0;
+  var results = [];
+  var pending = new Promise(function (resolve, reject) {
+    var next = function next(errors) {
+      results.push.apply(results, errors);
+      total++;
+      if (total === objArrLength) {
+        callback(results);
+        return results.length ? reject({
+          errors: results,
+          fields: convertFieldsError(results)
+        }) : resolve();
+      }
+    };
+    if (!objArrKeys.length) {
+      callback(results);
+      resolve();
+    }
+    objArrKeys.forEach(function (key) {
+      var arr = objArr[key];
+      if (firstFields.indexOf(key) !== -1) {
+        asyncSerialArray(arr, func, next);
+      } else {
+        asyncParallelArray(arr, func, next);
+      }
+    });
+  });
+  pending.catch(function (e) {
+    return e;
+  });
+  return pending;
+}
+function complementError(rule) {
+  return function (oe) {
+    if (oe && oe.message) {
+      oe.field = oe.field || rule.fullField;
+      return oe;
+    }
+    return {
+      message: typeof oe === 'function' ? oe() : oe,
+      field: oe.field || rule.fullField
+    };
+  };
+}
+function deepMerge(target, source) {
+  if (source) {
+    for (var s in source) {
+      if (source.hasOwnProperty(s)) {
+        var value = source[s];
+        if ((0, _typeof2.default)(value) === 'object' && (0, _typeof2.default)(target[s]) === 'object') {
+          target[s] = _objectSpread(_objectSpread({}, target[s]), value);
+        } else {
+          target[s] = value;
+        }
+      }
+    }
+  }
+  return target;
+}
+
+/**
+ *  Rule for validating required fields.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param source The source object being validated.
+ *  @param errors An array of errors that this rule may add
+ *  validation errors to.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function required(rule, value, source, errors, options, type) {
+  if (rule.required && (!source.hasOwnProperty(rule.field) || isEmptyValue(value, type || rule.type))) {
+    errors.push(format(options.messages.required, rule.fullField));
+  }
+}
+
+/**
+ *  Rule for validating whitespace.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param source The source object being validated.
+ *  @param errors An array of errors that this rule may add
+ *  validation errors to.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function whitespace(rule, value, source, errors, options) {
+  if (/^\s+$/.test(value) || value === '') {
+    errors.push(format(options.messages.whitespace, rule.fullField));
+  }
+}
+
+/* eslint max-len:0 */
+
+var pattern = {
+  // http://emailregex.com/
+  email: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+  url: new RegExp("^(?!mailto:)(?:(?:http|https|ftp)://|//)(?:\\S+(?::\\S*)?@)?(?:(?:(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}(?:\\.(?:[0-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))|(?:(?:[a-z\\u00a1-\\uffff0-9]+-*)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]+-*)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.(?:[a-z\\u00a1-\\uffff]{2,})))|localhost)(?::\\d{2,5})?(?:(/|\\?|#)[^\\s]*)?$", 'i'),
+  hex: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/i
+};
+var types = {
+  integer: function integer(value) {
+    return /^(-)?\d+$/.test(value);
+  },
+  float: function float(value) {
+    return /^(-)?\d+(\.\d+)?$/.test(value);
+  },
+  array: function array(value) {
+    return Array.isArray(value);
+  },
+  regexp: function regexp(value) {
+    if (value instanceof RegExp) {
+      return true;
+    }
+    try {
+      return !!new RegExp(value);
+    } catch (e) {
+      return false;
+    }
+  },
+  date: function date(value) {
+    return typeof value.getTime === 'function' && typeof value.getMonth === 'function' && typeof value.getYear === 'function';
+  },
+  number: function number(value) {
+    if (isNaN(value)) {
+      return false;
+    }
+
+    // 修改源码，将字符串数值先转为数值
+    return typeof +value === 'number';
+  },
+  object: function object(value) {
+    return (0, _typeof2.default)(value) === 'object' && !types.array(value);
+  },
+  method: function method(value) {
+    return typeof value === 'function';
+  },
+  email: function email(value) {
+    return typeof value === 'string' && !!value.match(pattern.email) && value.length < 255;
+  },
+  url: function url(value) {
+    return typeof value === 'string' && !!value.match(pattern.url);
+  },
+  hex: function hex(value) {
+    return typeof value === 'string' && !!value.match(pattern.hex);
+  }
+};
+/**
+ *  Rule for validating the type of a value.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param source The source object being validated.
+ *  @param errors An array of errors that this rule may add
+ *  validation errors to.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function type(rule, value, source, errors, options) {
+  if (rule.required && value === undefined) {
+    required(rule, value, source, errors, options);
+    return;
+  }
+  var custom = ['integer', 'float', 'array', 'regexp', 'object', 'method', 'email', 'number', 'date', 'url', 'hex'];
+  var ruleType = rule.type;
+  if (custom.indexOf(ruleType) > -1) {
+    if (!types[ruleType](value)) {
+      errors.push(format(options.messages.types[ruleType], rule.fullField, rule.type));
+    } // straight typeof check
+  } else if (ruleType && (0, _typeof2.default)(value) !== rule.type) {
+    errors.push(format(options.messages.types[ruleType], rule.fullField, rule.type));
+  }
+}
+
+/**
+ *  Rule for validating minimum and maximum allowed values.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param source The source object being validated.
+ *  @param errors An array of errors that this rule may add
+ *  validation errors to.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function range(rule, value, source, errors, options) {
+  var len = typeof rule.len === 'number';
+  var min = typeof rule.min === 'number';
+  var max = typeof rule.max === 'number'; // 正则匹配码点范围从U+010000一直到U+10FFFF的文字（补充平面Supplementary Plane）
+
+  var spRegexp = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g;
+  var val = value;
+  var key = null;
+  var num = typeof value === 'number';
+  var str = typeof value === 'string';
+  var arr = Array.isArray(value);
+  if (num) {
+    key = 'number';
+  } else if (str) {
+    key = 'string';
+  } else if (arr) {
+    key = 'array';
+  } // if the value is not of a supported type for range validation
+  // the validation rule rule should use the
+  // type property to also test for a particular type
+
+  if (!key) {
+    return false;
+  }
+  if (arr) {
+    val = value.length;
+  }
+  if (str) {
+    // 处理码点大于U+010000的文字length属性不准确的bug，如"𠮷𠮷𠮷".lenght !== 3
+    val = value.replace(spRegexp, '_').length;
+  }
+  if (len) {
+    if (val !== rule.len) {
+      errors.push(format(options.messages[key].len, rule.fullField, rule.len));
+    }
+  } else if (min && !max && val < rule.min) {
+    errors.push(format(options.messages[key].min, rule.fullField, rule.min));
+  } else if (max && !min && val > rule.max) {
+    errors.push(format(options.messages[key].max, rule.fullField, rule.max));
+  } else if (min && max && (val < rule.min || val > rule.max)) {
+    errors.push(format(options.messages[key].range, rule.fullField, rule.min, rule.max));
+  }
+}
+var ENUM = 'enum';
+/**
+ *  Rule for validating a value exists in an enumerable list.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param source The source object being validated.
+ *  @param errors An array of errors that this rule may add
+ *  validation errors to.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function enumerable(rule, value, source, errors, options) {
+  rule[ENUM] = Array.isArray(rule[ENUM]) ? rule[ENUM] : [];
+  if (rule[ENUM].indexOf(value) === -1) {
+    errors.push(format(options.messages[ENUM], rule.fullField, rule[ENUM].join(', ')));
+  }
+}
+
+/**
+ *  Rule for validating a regular expression pattern.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param source The source object being validated.
+ *  @param errors An array of errors that this rule may add
+ *  validation errors to.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function pattern$1(rule, value, source, errors, options) {
+  if (rule.pattern) {
+    if (rule.pattern instanceof RegExp) {
+      // if a RegExp instance is passed, reset `lastIndex` in case its `global`
+      // flag is accidentally set to `true`, which in a validation scenario
+      // is not necessary and the result might be misleading
+      rule.pattern.lastIndex = 0;
+      if (!rule.pattern.test(value)) {
+        errors.push(format(options.messages.pattern.mismatch, rule.fullField, value, rule.pattern));
+      }
+    } else if (typeof rule.pattern === 'string') {
+      var _pattern = new RegExp(rule.pattern);
+      if (!_pattern.test(value)) {
+        errors.push(format(options.messages.pattern.mismatch, rule.fullField, value, rule.pattern));
+      }
+    }
+  }
+}
+var rules = {
+  required: required,
+  whitespace: whitespace,
+  type: type,
+  range: range,
+  enum: enumerable,
+  pattern: pattern$1
+};
+
+/**
+ *  Performs validation for string types.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function string(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value, 'string') && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options, 'string');
+    if (!isEmptyValue(value, 'string')) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+      rules.pattern(rule, value, source, errors, options);
+      if (rule.whitespace === true) {
+        rules.whitespace(rule, value, source, errors, options);
+      }
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates a function.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function method(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates a number.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function number(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (value === '') {
+      value = undefined;
+    }
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates a boolean.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function _boolean(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates the regular expression type.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function regexp(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (!isEmptyValue(value)) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates a number is an integer.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function integer(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates a number is a floating point number.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function floatFn(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates an array.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function array(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value, 'array') && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options, 'array');
+    if (!isEmptyValue(value, 'array')) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates an object.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function object(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+var ENUM$1 = 'enum';
+/**
+ *  Validates an enumerable list.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function enumerable$1(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (value !== undefined) {
+      rules[ENUM$1](rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Validates a regular expression pattern.
+ *
+ *  Performs validation when a rule only contains
+ *  a pattern property but is not declared as a string type.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function pattern$2(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value, 'string') && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (!isEmptyValue(value, 'string')) {
+      rules.pattern(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+function date(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+    if (!isEmptyValue(value)) {
+      var dateObject;
+      if (typeof value === 'number') {
+        dateObject = new Date(value);
+      } else {
+        dateObject = value;
+      }
+      rules.type(rule, dateObject, source, errors, options);
+      if (dateObject) {
+        rules.range(rule, dateObject.getTime(), source, errors, options);
+      }
+    }
+  }
+  callback(errors);
+}
+function required$1(rule, value, callback, source, options) {
+  var errors = [];
+  var type = Array.isArray(value) ? 'array' : (0, _typeof2.default)(value);
+  rules.required(rule, value, source, errors, options, type);
+  callback(errors);
+}
+function type$1(rule, value, callback, source, options) {
+  var ruleType = rule.type;
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value, ruleType) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options, ruleType);
+    if (!isEmptyValue(value, ruleType)) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+  callback(errors);
+}
+
+/**
+ *  Performs validation for any type.
+ *
+ *  @param rule The validation rule.
+ *  @param value The value of the field on the source object.
+ *  @param callback The callback function.
+ *  @param source The source object being validated.
+ *  @param options The validation options.
+ *  @param options.messages The validation messages.
+ */
+
+function any(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+    rules.required(rule, value, source, errors, options);
+  }
+  callback(errors);
+}
+var validators = {
+  string: string,
+  method: method,
+  number: number,
+  boolean: _boolean,
+  regexp: regexp,
+  integer: integer,
+  float: floatFn,
+  array: array,
+  object: object,
+  enum: enumerable$1,
+  pattern: pattern$2,
+  date: date,
+  url: type$1,
+  hex: type$1,
+  email: type$1,
+  required: required$1,
+  any: any
+};
+function newMessages() {
+  return {
+    default: 'Validation error on field %s',
+    required: '%s is required',
+    enum: '%s must be one of %s',
+    whitespace: '%s cannot be empty',
+    date: {
+      format: '%s date %s is invalid for format %s',
+      parse: '%s date could not be parsed, %s is invalid ',
+      invalid: '%s date %s is invalid'
+    },
+    types: {
+      string: '%s is not a %s',
+      method: '%s is not a %s (function)',
+      array: '%s is not an %s',
+      object: '%s is not an %s',
+      number: '%s is not a %s',
+      date: '%s is not a %s',
+      boolean: '%s is not a %s',
+      integer: '%s is not an %s',
+      float: '%s is not a %s',
+      regexp: '%s is not a valid %s',
+      email: '%s is not a valid %s',
+      url: '%s is not a valid %s',
+      hex: '%s is not a valid %s'
+    },
+    string: {
+      len: '%s must be exactly %s characters',
+      min: '%s must be at least %s characters',
+      max: '%s cannot be longer than %s characters',
+      range: '%s must be between %s and %s characters'
+    },
+    number: {
+      len: '%s must equal %s',
+      min: '%s cannot be less than %s',
+      max: '%s cannot be greater than %s',
+      range: '%s must be between %s and %s'
+    },
+    array: {
+      len: '%s must be exactly %s in length',
+      min: '%s cannot be less than %s in length',
+      max: '%s cannot be greater than %s in length',
+      range: '%s must be between %s and %s in length'
+    },
+    pattern: {
+      mismatch: '%s value %s does not match pattern %s'
+    },
+    clone: function clone() {
+      var cloned = JSON.parse(JSON.stringify(this));
+      cloned.clone = this.clone;
+      return cloned;
+    }
+  };
+}
+var messages = newMessages();
+
+/**
+ *  Encapsulates a validation schema.
+ *
+ *  @param descriptor An object declaring validation rules
+ *  for this schema.
+ */
+
+function Schema(descriptor) {
+  this.rules = null;
+  this._messages = messages;
+  this.define(descriptor);
+}
+Schema.prototype = {
+  messages: function messages(_messages) {
+    if (_messages) {
+      this._messages = deepMerge(newMessages(), _messages);
+    }
+    return this._messages;
+  },
+  define: function define(rules) {
+    if (!rules) {
+      throw new Error('Cannot configure a schema with no rules');
+    }
+    if ((0, _typeof2.default)(rules) !== 'object' || Array.isArray(rules)) {
+      throw new Error('Rules must be an object');
+    }
+    this.rules = {};
+    var z;
+    var item;
+    for (z in rules) {
+      if (rules.hasOwnProperty(z)) {
+        item = rules[z];
+        this.rules[z] = Array.isArray(item) ? item : [item];
+      }
+    }
+  },
+  validate: function validate(source_, o, oc) {
+    var _this = this;
+    if (o === void 0) {
+      o = {};
+    }
+    if (oc === void 0) {
+      oc = function oc() {};
+    }
+    var source = source_;
+    var options = o;
+    var callback = oc;
+    if (typeof options === 'function') {
+      callback = options;
+      options = {};
+    }
+    if (!this.rules || Object.keys(this.rules).length === 0) {
+      if (callback) {
+        callback();
+      }
+      return Promise.resolve();
+    }
+    function complete(results) {
+      var i;
+      var errors = [];
+      var fields = {};
+      function add(e) {
+        if (Array.isArray(e)) {
+          var _errors;
+          errors = (_errors = errors).concat.apply(_errors, e);
+        } else {
+          errors.push(e);
+        }
+      }
+      for (i = 0; i < results.length; i++) {
+        add(results[i]);
+      }
+      if (!errors.length) {
+        errors = null;
+        fields = null;
+      } else {
+        fields = convertFieldsError(errors);
+      }
+      callback(errors, fields);
+    }
+    if (options.messages) {
+      var messages$1 = this.messages();
+      if (messages$1 === messages) {
+        messages$1 = newMessages();
+      }
+      deepMerge(messages$1, options.messages);
+      options.messages = messages$1;
+    } else {
+      options.messages = this.messages();
+    }
+    var arr;
+    var value;
+    var series = {};
+    var keys = options.keys || Object.keys(this.rules);
+    keys.forEach(function (z) {
+      arr = _this.rules[z];
+      value = source[z];
+      arr.forEach(function (r) {
+        var rule = r;
+        if (typeof rule.transform === 'function') {
+          if (source === source_) {
+            source = _objectSpread({}, source);
+          }
+          value = source[z] = rule.transform(value);
+        }
+        if (typeof rule === 'function') {
+          rule = {
+            validator: rule
+          };
+        } else {
+          rule = _objectSpread({}, rule);
+        }
+        rule.validator = _this.getValidationMethod(rule);
+        rule.field = z;
+        rule.fullField = rule.fullField || z;
+        rule.type = _this.getType(rule);
+        if (!rule.validator) {
+          return;
+        }
+        series[z] = series[z] || [];
+        series[z].push({
+          rule: rule,
+          value: value,
+          source: source,
+          field: z
+        });
+      });
+    });
+    var errorFields = {};
+    return asyncMap(series, options, function (data, doIt) {
+      var rule = data.rule;
+      var deep = (rule.type === 'object' || rule.type === 'array') && ((0, _typeof2.default)(rule.fields) === 'object' || (0, _typeof2.default)(rule.defaultField) === 'object');
+      deep = deep && (rule.required || !rule.required && data.value);
+      rule.field = data.field;
+      function addFullfield(key, schema) {
+        return _objectSpread(_objectSpread({}, schema), {}, {
+          fullField: "".concat(rule.fullField, ".").concat(key)
+        });
+      }
+      function cb(e) {
+        if (e === void 0) {
+          e = [];
+        }
+        var errors = e;
+        if (!Array.isArray(errors)) {
+          errors = [errors];
+        }
+        if (!options.suppressWarning && errors.length) {
+          Schema.warning('async-validator:', errors);
+        }
+        if (errors.length && rule.message) {
+          errors = [].concat(rule.message);
+        }
+        errors = errors.map(complementError(rule));
+        if (options.first && errors.length) {
+          errorFields[rule.field] = 1;
+          return doIt(errors);
+        }
+        if (!deep) {
+          doIt(errors);
+        } else {
+          // if rule is required but the target object
+          // does not exist fail at the rule level and don't
+          // go deeper
+          if (rule.required && !data.value) {
+            if (rule.message) {
+              errors = [].concat(rule.message).map(complementError(rule));
+            } else if (options.error) {
+              errors = [options.error(rule, format(options.messages.required, rule.field))];
+            } else {
+              errors = [];
+            }
+            return doIt(errors);
+          }
+          var fieldsSchema = {};
+          if (rule.defaultField) {
+            for (var k in data.value) {
+              if (data.value.hasOwnProperty(k)) {
+                fieldsSchema[k] = rule.defaultField;
+              }
+            }
+          }
+          fieldsSchema = _objectSpread(_objectSpread({}, fieldsSchema), data.rule.fields);
+          for (var f in fieldsSchema) {
+            if (fieldsSchema.hasOwnProperty(f)) {
+              var fieldSchema = Array.isArray(fieldsSchema[f]) ? fieldsSchema[f] : [fieldsSchema[f]];
+              fieldsSchema[f] = fieldSchema.map(addFullfield.bind(null, f));
+            }
+          }
+          var schema = new Schema(fieldsSchema);
+          schema.messages(options.messages);
+          if (data.rule.options) {
+            data.rule.options.messages = options.messages;
+            data.rule.options.error = options.error;
+          }
+          schema.validate(data.value, data.rule.options || options, function (errs) {
+            var finalErrors = [];
+            if (errors && errors.length) {
+              finalErrors.push.apply(finalErrors, errors);
+            }
+            if (errs && errs.length) {
+              finalErrors.push.apply(finalErrors, errs);
+            }
+            doIt(finalErrors.length ? finalErrors : null);
+          });
+        }
+      }
+      var res;
+      if (rule.asyncValidator) {
+        res = rule.asyncValidator(rule, data.value, cb, data.source, options);
+      } else if (rule.validator) {
+        res = rule.validator(rule, data.value, cb, data.source, options);
+        if (res === true) {
+          cb();
+        } else if (res === false) {
+          cb(rule.message || "".concat(rule.field, " fails"));
+        } else if (res instanceof Array) {
+          cb(res);
+        } else if (res instanceof Error) {
+          cb(res.message);
+        }
+      }
+      if (res && res.then) {
+        res.then(function () {
+          return cb();
+        }, function (e) {
+          return cb(e);
+        });
+      }
+    }, function (results) {
+      complete(results);
+    });
+  },
+  getType: function getType(rule) {
+    if (rule.type === undefined && rule.pattern instanceof RegExp) {
+      rule.type = 'pattern';
+    }
+    if (typeof rule.validator !== 'function' && rule.type && !validators.hasOwnProperty(rule.type)) {
+      throw new Error(format('Unknown rule type %s', rule.type));
+    }
+    return rule.type || 'string';
+  },
+  getValidationMethod: function getValidationMethod(rule) {
+    if (typeof rule.validator === 'function') {
+      return rule.validator;
+    }
+    var keys = Object.keys(rule);
+    var messageIndex = keys.indexOf('message');
+    if (messageIndex !== -1) {
+      keys.splice(messageIndex, 1);
+    }
+    if (keys.length === 1 && keys[0] === 'required') {
+      return validators.required;
+    }
+    return validators[this.getType(rule)] || false;
+  }
+};
+Schema.register = function register(type, validator) {
+  if (typeof validator !== 'function') {
+    throw new Error('Cannot register a validator by type, validator is not a function');
+  }
+  validators[type] = validator;
+};
+Schema.warning = warning;
+Schema.messages = messages;
+var _default = Schema; // # sourceMappingURL=index.js.map
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 454)))
+
+/***/ }),
+/* 454 */
+/*!********************************************************!*\
+  !*** ./node_modules/node-libs-browser/mock/process.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.nextTick = function nextTick(fn) {
+    var args = Array.prototype.slice.call(arguments);
+    args.shift();
+    setTimeout(function () {
+        fn.apply(null, args);
+    }, 0);
+};
+
+exports.platform = exports.arch = 
+exports.execPath = exports.title = 'browser';
+exports.pid = 1;
+exports.browser = true;
+exports.env = {};
+exports.argv = [];
+
+exports.binding = function (name) {
+	throw new Error('No such module. (Possibly not yet loaded)')
+};
+
+(function () {
+    var cwd = '/';
+    var path;
+    exports.cwd = function () { return cwd };
+    exports.chdir = function (dir) {
+        if (!path) path = __webpack_require__(/*! path */ 455);
+        cwd = path.resolve(dir, cwd);
+    };
+})();
+
+exports.exit = exports.kill = 
+exports.umask = exports.dlopen = 
+exports.uptime = exports.memoryUsage = 
+exports.uvCounters = function() {};
+exports.features = {};
+
+
+/***/ }),
+/* 455 */
+/*!***********************************************!*\
+  !*** ./node_modules/path-browserify/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process) {// .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
+// backported and transplited with Babel, with backwards-compat fixes
+
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// resolves . and .. elements in a path array with directory names there
+// must be no slashes, empty elements, or device names (c:\) in the array
+// (so also no leading and trailing slashes - it does not distinguish
+// relative and absolute paths)
+function normalizeArray(parts, allowAboveRoot) {
+  // if the path tries to go above the root, `up` ends up > 0
+  var up = 0;
+  for (var i = parts.length - 1; i >= 0; i--) {
+    var last = parts[i];
+    if (last === '.') {
+      parts.splice(i, 1);
+    } else if (last === '..') {
+      parts.splice(i, 1);
+      up++;
+    } else if (up) {
+      parts.splice(i, 1);
+      up--;
+    }
+  }
+
+  // if the path is allowed to go above the root, restore leading ..s
+  if (allowAboveRoot) {
+    for (; up--; up) {
+      parts.unshift('..');
+    }
+  }
+
+  return parts;
+}
+
+// path.resolve([from ...], to)
+// posix version
+exports.resolve = function() {
+  var resolvedPath = '',
+      resolvedAbsolute = false;
+
+  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
+    var path = (i >= 0) ? arguments[i] : process.cwd();
+
+    // Skip empty and invalid entries
+    if (typeof path !== 'string') {
+      throw new TypeError('Arguments to path.resolve must be strings');
+    } else if (!path) {
+      continue;
+    }
+
+    resolvedPath = path + '/' + resolvedPath;
+    resolvedAbsolute = path.charAt(0) === '/';
+  }
+
+  // At this point the path should be resolved to a full absolute path, but
+  // handle relative paths to be safe (might happen when process.cwd() fails)
+
+  // Normalize the path
+  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {
+    return !!p;
+  }), !resolvedAbsolute).join('/');
+
+  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
+};
+
+// path.normalize(path)
+// posix version
+exports.normalize = function(path) {
+  var isAbsolute = exports.isAbsolute(path),
+      trailingSlash = substr(path, -1) === '/';
+
+  // Normalize the path
+  path = normalizeArray(filter(path.split('/'), function(p) {
+    return !!p;
+  }), !isAbsolute).join('/');
+
+  if (!path && !isAbsolute) {
+    path = '.';
+  }
+  if (path && trailingSlash) {
+    path += '/';
+  }
+
+  return (isAbsolute ? '/' : '') + path;
+};
+
+// posix version
+exports.isAbsolute = function(path) {
+  return path.charAt(0) === '/';
+};
+
+// posix version
+exports.join = function() {
+  var paths = Array.prototype.slice.call(arguments, 0);
+  return exports.normalize(filter(paths, function(p, index) {
+    if (typeof p !== 'string') {
+      throw new TypeError('Arguments to path.join must be strings');
+    }
+    return p;
+  }).join('/'));
+};
+
+
+// path.relative(from, to)
+// posix version
+exports.relative = function(from, to) {
+  from = exports.resolve(from).substr(1);
+  to = exports.resolve(to).substr(1);
+
+  function trim(arr) {
+    var start = 0;
+    for (; start < arr.length; start++) {
+      if (arr[start] !== '') break;
+    }
+
+    var end = arr.length - 1;
+    for (; end >= 0; end--) {
+      if (arr[end] !== '') break;
+    }
+
+    if (start > end) return [];
+    return arr.slice(start, end - start + 1);
+  }
+
+  var fromParts = trim(from.split('/'));
+  var toParts = trim(to.split('/'));
+
+  var length = Math.min(fromParts.length, toParts.length);
+  var samePartsLength = length;
+  for (var i = 0; i < length; i++) {
+    if (fromParts[i] !== toParts[i]) {
+      samePartsLength = i;
+      break;
+    }
+  }
+
+  var outputParts = [];
+  for (var i = samePartsLength; i < fromParts.length; i++) {
+    outputParts.push('..');
+  }
+
+  outputParts = outputParts.concat(toParts.slice(samePartsLength));
+
+  return outputParts.join('/');
+};
+
+exports.sep = '/';
+exports.delimiter = ':';
+
+exports.dirname = function (path) {
+  if (typeof path !== 'string') path = path + '';
+  if (path.length === 0) return '.';
+  var code = path.charCodeAt(0);
+  var hasRoot = code === 47 /*/*/;
+  var end = -1;
+  var matchedSlash = true;
+  for (var i = path.length - 1; i >= 1; --i) {
+    code = path.charCodeAt(i);
+    if (code === 47 /*/*/) {
+        if (!matchedSlash) {
+          end = i;
+          break;
+        }
+      } else {
+      // We saw the first non-path separator
+      matchedSlash = false;
+    }
+  }
+
+  if (end === -1) return hasRoot ? '/' : '.';
+  if (hasRoot && end === 1) {
+    // return '//';
+    // Backwards-compat fix:
+    return '/';
+  }
+  return path.slice(0, end);
+};
+
+function basename(path) {
+  if (typeof path !== 'string') path = path + '';
+
+  var start = 0;
+  var end = -1;
+  var matchedSlash = true;
+  var i;
+
+  for (i = path.length - 1; i >= 0; --i) {
+    if (path.charCodeAt(i) === 47 /*/*/) {
+        // If we reached a path separator that was not part of a set of path
+        // separators at the end of the string, stop now
+        if (!matchedSlash) {
+          start = i + 1;
+          break;
+        }
+      } else if (end === -1) {
+      // We saw the first non-path separator, mark this as the end of our
+      // path component
+      matchedSlash = false;
+      end = i + 1;
+    }
+  }
+
+  if (end === -1) return '';
+  return path.slice(start, end);
+}
+
+// Uses a mixed approach for backwards-compatibility, as ext behavior changed
+// in new Node.js versions, so only basename() above is backported here
+exports.basename = function (path, ext) {
+  var f = basename(path);
+  if (ext && f.substr(-1 * ext.length) === ext) {
+    f = f.substr(0, f.length - ext.length);
+  }
+  return f;
+};
+
+exports.extname = function (path) {
+  if (typeof path !== 'string') path = path + '';
+  var startDot = -1;
+  var startPart = 0;
+  var end = -1;
+  var matchedSlash = true;
+  // Track the state of characters (if any) we see before our first dot and
+  // after any path separator we find
+  var preDotState = 0;
+  for (var i = path.length - 1; i >= 0; --i) {
+    var code = path.charCodeAt(i);
+    if (code === 47 /*/*/) {
+        // If we reached a path separator that was not part of a set of path
+        // separators at the end of the string, stop now
+        if (!matchedSlash) {
+          startPart = i + 1;
+          break;
+        }
+        continue;
+      }
+    if (end === -1) {
+      // We saw the first non-path separator, mark this as the end of our
+      // extension
+      matchedSlash = false;
+      end = i + 1;
+    }
+    if (code === 46 /*.*/) {
+        // If this is our first dot, mark it as the start of our extension
+        if (startDot === -1)
+          startDot = i;
+        else if (preDotState !== 1)
+          preDotState = 1;
+    } else if (startDot !== -1) {
+      // We saw a non-dot and non-path separator before our dot, so we should
+      // have a good chance at having a non-empty extension
+      preDotState = -1;
+    }
+  }
+
+  if (startDot === -1 || end === -1 ||
+      // We saw a non-dot character immediately before the dot
+      preDotState === 0 ||
+      // The (right-most) trimmed path component is exactly '..'
+      preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
+    return '';
+  }
+  return path.slice(startDot, end);
+};
+
+function filter (xs, f) {
+    if (xs.filter) return xs.filter(f);
+    var res = [];
+    for (var i = 0; i < xs.length; i++) {
+        if (f(xs[i], i, xs)) res.push(xs[i]);
+    }
+    return res;
+}
+
+// String.prototype.substr - negative index don't work in IE8
+var substr = 'ab'.substr(-1) === 'b'
+    ? function (str, start, len) { return str.substr(start, len) }
+    : function (str, start, len) {
+        if (start < 0) start = str.length + start;
+        return str.substr(start, len);
+    }
+;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 454)))
+
+/***/ }),
+/* 456 */,
+/* 457 */,
+/* 458 */,
+/* 459 */,
+/* 460 */,
+/* 461 */
+/*!********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-form-item/props.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // input的label提示语
+    label: {
+      type: String,
+      default: uni.$u.props.formItem.label
+    },
+    // 绑定的值
+    prop: {
+      type: String,
+      default: uni.$u.props.formItem.prop
+    },
+    // 是否显示表单域的下划线边框
+    borderBottom: {
+      type: [String, Boolean],
+      default: uni.$u.props.formItem.borderBottom
+    },
+    // label的位置，left-左边，top-上边
+    labelPosition: {
+      type: String,
+      default: uni.$u.props.formItem.labelPosition
+    },
+    // label的宽度，单位px
+    labelWidth: {
+      type: [String, Number],
+      default: uni.$u.props.formItem.labelWidth
+    },
+    // 右侧图标
+    rightIcon: {
+      type: String,
+      default: uni.$u.props.formItem.rightIcon
+    },
+    // 左侧图标
+    leftIcon: {
+      type: String,
+      default: uni.$u.props.formItem.leftIcon
+    },
+    // 是否显示左边的必填星号，只作显示用，具体校验必填的逻辑，请在rules中配置
+    required: {
+      type: Boolean,
+      default: uni.$u.props.formItem.required
+    },
+    leftIconStyle: {
+      type: [String, Object],
+      default: uni.$u.props.formItem.leftIconStyle
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 462 */,
+/* 463 */,
+/* 464 */,
+/* 465 */,
+/* 466 */,
+/* 467 */,
+/* 468 */,
+/* 469 */,
+/* 470 */,
+/* 471 */,
+/* 472 */,
+/* 473 */,
+/* 474 */,
+/* 475 */,
+/* 476 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-code/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38975,17 +41054,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 457 */,
-/* 458 */,
-/* 459 */,
-/* 460 */,
-/* 461 */,
-/* 462 */,
-/* 463 */,
-/* 464 */
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
-  \*******************************************************************************************************************************/
+/* 477 */,
+/* 478 */,
+/* 479 */,
+/* 480 */,
+/* 481 */,
+/* 482 */,
+/* 483 */,
+/* 484 */
+/*!***********************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39059,17 +41138,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 465 */,
-/* 466 */,
-/* 467 */,
-/* 468 */,
-/* 469 */,
-/* 470 */,
-/* 471 */,
-/* 472 */
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
-  \***********************************************************************************************************************************/
+/* 485 */,
+/* 486 */,
+/* 487 */,
+/* 488 */,
+/* 489 */,
+/* 490 */,
+/* 491 */,
+/* 492 */
+/*!***************************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39113,17 +41192,17 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 473 */,
-/* 474 */,
-/* 475 */,
-/* 476 */,
-/* 477 */,
-/* 478 */,
-/* 479 */,
-/* 480 */
-/*!***********************************************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
-  \***********************************************************************************************************************/
+/* 493 */,
+/* 494 */,
+/* 495 */,
+/* 496 */,
+/* 497 */,
+/* 498 */,
+/* 499 */,
+/* 500 */
+/*!***************************************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39173,456 +41252,6 @@ var _default = {
     }
   }
 };
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 481 */,
-/* 482 */,
-/* 483 */,
-/* 484 */,
-/* 485 */,
-/* 486 */,
-/* 487 */,
-/* 488 */,
-/* 489 */,
-/* 490 */,
-/* 491 */,
-/* 492 */,
-/* 493 */,
-/* 494 */,
-/* 495 */,
-/* 496 */,
-/* 497 */,
-/* 498 */,
-/* 499 */,
-/* 500 */,
-/* 501 */,
-/* 502 */,
-/* 503 */,
-/* 504 */,
-/* 505 */,
-/* 506 */,
-/* 507 */,
-/* 508 */,
-/* 509 */,
-/* 510 */,
-/* 511 */,
-/* 512 */,
-/* 513 */,
-/* 514 */,
-/* 515 */,
-/* 516 */,
-/* 517 */,
-/* 518 */,
-/* 519 */,
-/* 520 */,
-/* 521 */,
-/* 522 */,
-/* 523 */,
-/* 524 */,
-/* 525 */,
-/* 526 */,
-/* 527 */,
-/* 528 */,
-/* 529 */,
-/* 530 */,
-/* 531 */,
-/* 532 */,
-/* 533 */,
-/* 534 */,
-/* 535 */,
-/* 536 */,
-/* 537 */,
-/* 538 */,
-/* 539 */,
-/* 540 */,
-/* 541 */
-/*!*****************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/Tootls/storage.js ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(uni) {/**  
- * 缓存数据优化  
- * const storage = require('@/utils/storage');  
- * import storage from '@/utils/storage'  
- * 使用方法 【  
- *     一、设置缓存  
- *         string    storage.set('k', 'string你好啊');  
- *         json      storage.set('k', { "b": "3" }, 2);  
- *         array     storage.set('k', [1, 2, 3]);  
- *         boolean   storage.set('k', true);  
- *     二、读取缓存  
- *         默认值    storage.get('k')  
- *         string    storage.get('k', '你好')  
- *         json      storage.get('k', { "a": "1" })  
- *     三、移除/清理    
- *         移除: storage.remove('k');  
- *         清理：storage.clear();   
- * 】  
- * @type {String}  
- */
-
-var postfix = '_expiry'; // 缓存有效期后缀   
-
-module.exports = {
-  /**  
-   * 设置缓存   
-   * @param  {[type]} k [键名]  
-   * @param  {[type]} v [键值]  
-   * @param  {[type]} t [时间、单位秒]  
-   */
-  set: function set(k, v, t) {
-    uni.setStorageSync(k, v);
-    var seconds = parseInt(t);
-    if (seconds > 0) {
-      var timestamp = Date.parse(new Date());
-      timestamp = timestamp / 1000 + seconds;
-      uni.setStorageSync(k + postfix, timestamp + '');
-    } else {
-      uni.removeStorageSync(k + postfix);
-    }
-  },
-  /**  
-   * 获取缓存   
-   * @param  {[type]} k   [键名]  
-   * @param  {[type]} def [获取为空时默认]  
-   */
-  get: function get(k, def) {
-    var deadtime = parseInt(uni.getStorageSync(k + postfix));
-    if (deadtime) {
-      if (parseInt(deadtime) < Date.parse(new Date()) / 1000) {
-        if (def) {
-          return def;
-        } else {
-          return false;
-        }
-      }
-    }
-    var res = uni.getStorageSync(k);
-    if (res) {
-      return res;
-    }
-    if (def == undefined || def == "") {
-      def = false;
-    }
-    return def;
-  },
-  /**
-   * 删除指定缓存
-   * @param {Object} k
-   */
-  remove: function remove(k) {
-    uni.removeStorageSync(k);
-    uni.removeStorageSync(k + postfix);
-  },
-  /**  
-   * 清理所有缓存  
-   * @return {[type]} [description]  
-   */
-  clear: function clear() {
-    uni.clearStorageSync();
-  }
-};
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 542 */
-/*!******************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/api/login/index.js ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.login = void 0;
-var _requestBase = _interopRequireDefault(__webpack_require__(/*! @/api/requestBase.js */ 543));
-var api = {
-  login: "api/v1/login",
-  register: "api/v1/register"
-};
-// 使用示例
-var login = function login(data) {
-  return _requestBase.default.post(api.login, data);
-};
-exports.login = login;
-
-/***/ }),
-/* 543 */
-/*!******************************************************************************************!*\
-  !*** /Users/panda/Documents/HBuilderProjects/Camelcon_Transportation/api/requestBase.js ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 62));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 64));
-var _request = _interopRequireDefault(__webpack_require__(/*! @/uni_modules/zhouWei-request/js_sdk/request */ 166));
-function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-// 全局配置的请求域名
-var baseUrl = "http://211.159.178.9/";
-//可以new多个request来支持多个域名请求
-var $http = new _request.default({
-  //接口请求地址
-  baseUrl: baseUrl,
-  //服务器本地上传文件地址
-  fileUrl: baseUrl,
-  // 服务器上传图片默认url
-  defaultUploadUrl: "api/common/v1/upload_image",
-  //设置请求头（如果使用报错跨域问题，可能是content-type请求类型和后台那边设置的不一致）
-  header: {
-    'content-type': 'application/json;charset=UTF-8'
-  },
-  // 请求超时时间（默认6000）
-  timeout: 6000,
-  // 默认配置（可不写）
-  config: {
-    // 是否自动提示错误
-    isPrompt: true,
-    // 是否显示加载动画
-    load: true,
-    // 是否使用数据工厂
-    isFactory: true
-  }
-});
-
-// 添加获取七牛云token的方法
-$http.getQnToken = function (callback) {
-  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
-  $http.get("api/kemean/aid/qn_upload").then(function (data) {
-    /*
-     *接口返回参数：
-     *visitPrefix:访问文件的域名
-     *token:七牛云上传token
-     *folderPath:上传的文件夹
-     *region: 地区 默认为：SCN
-     */
-    callback({
-      visitPrefix: data.visitPrefix,
-      token: data.token,
-      folderPath: data.folderPath,
-      region: "SCN"
-    });
-  });
-};
-// 添加获取阿里云token的方法
-$http.getAliToken = function (callback) {
-  //该地址需要开发者自行配置（每个后台的接口风格都不一样）
-  $http.get("api/open/v1/ali_oss_upload").then(function (data) {
-    /*
-     *接口返回参数：
-     *visitPrefix: 访问文件的域名
-     *folderPath: 上传的文件夹
-     *region: 地区 
-     *bucket: 阿里云的 bucket
-     *accessKeyId: 阿里云的访问ID
-     *accessKeySecret: 阿里云的访问密钥
-     *stsToken: 阿里云的访问token
-     */
-    callback({
-      accessKeyId: data.accessKeyId,
-      accessKeySecret: data.accessKeySecret,
-      bucket: data.bucket,
-      region: data.region,
-      visitPrefix: data.visitPrefix,
-      token: data.token,
-      folderPath: data.folderPath,
-      stsToken: data.securityToken
-    });
-  });
-};
-//当前接口请求数
-var requestNum = 0;
-//请求开始拦截器
-$http.requestStart = function (options) {
-  if (options.load) {
-    if (requestNum <= 0) {
-      //打开加载动画
-      uni.showLoading({
-        title: '加载中',
-        mask: true
-      });
-    }
-    requestNum += 1;
-  }
-  // 图片、视频上传大小限制
-  if (options.method == "FILE") {
-    // 文件最大字节: options.maxSize 可以在调用方法的时候加入参数
-    var maxSize = options.maxSize || '';
-    var _iterator = _createForOfIteratorHelper(options.files),
-      _step;
-    try {
-      for (_iterator.s(); !(_step = _iterator.n()).done;) {
-        var item = _step.value;
-        if (item.fileType == 'image') {
-          if (maxSize && item.size > maxSize) {
-            setTimeout(function () {
-              uni.showToast({
-                title: "图片过大，请重新上传",
-                icon: "none"
-              });
-            }, 500);
-            return false;
-          }
-        } else if (item.fileType == "video") {
-          if (item.duration < 3) {
-            setTimeout(function () {
-              uni.showToast({
-                title: "视频长度不足3秒，请重新上传",
-                icon: "none"
-              });
-            }, 500);
-            return false;
-          }
-        }
-      }
-    } catch (err) {
-      _iterator.e(err);
-    } finally {
-      _iterator.f();
-    }
-  }
-  //请求前加入token
-  // options.header['token'] = "你的项目登录token";
-  return options; // return false 表示请求拦截，不会继续请求
-};
-//请求结束
-$http.requestEnd = function (options) {
-  //判断当前接口是否需要加载动画
-  if (options.load) {
-    requestNum = requestNum - 1;
-    if (requestNum <= 0) {
-      uni.hideLoading();
-    }
-  }
-};
-//登录弹窗次数
-var loginPopupNum = 0;
-//所有接口数据处理（可在接口里设置不调用此方法）
-//此方法需要开发者根据各自的接口返回类型修改，以下只是模板
-$http.dataFactory = /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(res) {
-    var httpData, content;
-    return _regenerator.default.wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            // console.log("接口请求数据", {
-            // 	url: res.url,
-            // 	resolve: res.response,
-            // 	header: res.header,
-            // 	data: res.data,
-            // 	method: res.method,
-            // });
-            console.log(res);
-            if (!(res.response.statusCode && res.response.statusCode == 200)) {
-              _context.next = 18;
-              break;
-            }
-            httpData = res.response.data;
-            if (typeof httpData == "string") {
-              httpData = JSON.parse(httpData);
-            }
-            /*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
-
-            //判断数据是否请求成功
-            if (!(httpData.success || httpData.code == 200)) {
-              _context.next = 8;
-              break;
-            }
-            return _context.abrupt("return", Promise.resolve(httpData.data));
-          case 8:
-            if (!(httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100)) {
-              _context.next = 14;
-              break;
-            }
-            content = '此时此刻需要您登录喔~';
-            if (loginPopupNum <= 0) {
-              loginPopupNum++;
-              uni.showModal({
-                title: '温馨提示',
-                content: content,
-                confirmText: "去登录",
-                cancelText: "再逛会",
-                success: function success(res) {
-                  loginPopupNum--;
-                  if (res.confirm) {
-                    uni.navigateTo({
-                      url: "/pages/user/login"
-                    });
-                  }
-                }
-              });
-            }
-            // 返回错误的结果(catch接受数据)
-            return _context.abrupt("return", Promise.reject({
-              statusCode: 0,
-              errMsg: "【request】" + (httpData.info || httpData.msg)
-            }));
-          case 14:
-            //其他错误提示
-            if (res.isPrompt) {
-              uni.showToast({
-                title: httpData.info || httpData.msg,
-                icon: "none",
-                duration: 3000
-              });
-            }
-            // 返回错误的结果(catch接受数据)
-            return _context.abrupt("return", Promise.reject({
-              statusCode: 0,
-              errMsg: "【request】" + (httpData.info || httpData.msg)
-            }));
-          case 16:
-            _context.next = 19;
-            break;
-          case 18:
-            return _context.abrupt("return", Promise.reject({
-              statusCode: res.response.statusCode,
-              errMsg: "【request】数据工厂验证不通过"
-            }));
-          case 19:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, _callee);
-  }));
-  return function (_x) {
-    return _ref.apply(this, arguments);
-  };
-}();
-// 错误回调
-$http.requestError = function (e) {
-  // e.statusCode === 0 是参数效验错误抛出的
-  if (e.statusCode === 0) {
-    throw e;
-  } else {
-    uni.showToast({
-      title: "网络错误，请检查一下网络",
-      icon: "none"
-    });
-  }
-};
-var _default = $http;
 exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 

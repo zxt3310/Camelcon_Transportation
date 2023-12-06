@@ -3,7 +3,7 @@
 		<view class="header">
 			<view class="user-info u-flex-row">
 				<u-avatar size="100"></u-avatar>
-				<text style="margin-left: 40upx; color: white;">{{maskPhone(user.phone)}}</text>
+				<text style="margin-left: 40upx; color: white;">{{maskPhone(this.$store.state.user.username)}}</text>
 			</view>
 			<view class="service_box">
 				<view style="font-size: 24upx; font-weight: 900; padding: 20upx;">基础服务</view>
@@ -31,6 +31,10 @@
 				</u-row>  
 			</view>
 		</view>
+		<view style="margin-top: 100px;">
+			<u-button type="primary" text="退出登录" @click="logout"></u-button>
+		</view>
+		
 	</view>
 </template>
 
@@ -41,7 +45,7 @@
 				// show:false,
 				user:{
 					avatar:"",
-					phone:this.$store.getters.username
+					phone:this.$store.state.user.username
 				}
 				// list:[
 				// 	{name:"010-86683333"}
@@ -69,6 +73,9 @@
 				uni.navigateTo({
 					url:"/pages/User/AboutUs"
 				})
+			},
+			logout(){
+				this.$store.dispatch('logout')
 			}
 		}
 	}
