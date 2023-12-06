@@ -59,6 +59,7 @@
 
 <script>
 	import { mapState } from "vuex"
+	import storage from '@/Tootls/storage.js'
 	export default {
 		data() {
 			return {
@@ -79,9 +80,14 @@
 			
 		},
 		onShow() {
-			// uni.navigateTo({
-			// 	url:"/pages/Login/Login"
-			// })
+			console.log('App Show')
+			let token = storage.get('TOKEN')
+			console.log(token)
+			if(!token){
+				uni.redirectTo({
+					url:'/pages/Login/Login'
+				})
+			}
 		},
 		methods: {
 			jumpToCreateOrder(){

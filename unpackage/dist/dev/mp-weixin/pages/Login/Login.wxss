@@ -24,6 +24,17 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.navigate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 88px;
+  background-color: #0081FF;
+  color: white;
+  line-height: 40px;
+  font-size: 14px;
+}
 .header {
   display: flex;
   justify-content: center;

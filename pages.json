@@ -94,6 +94,7 @@
 			{
 				"navigationBarTitleText" : "请登录",
 				"enablePullDownRefresh" : false
+				// "navigationStyle": "custom"
 			}
 		},
 		{

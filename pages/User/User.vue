@@ -31,7 +31,6 @@
 				</u-row>  
 			</view>
 		</view>
-		<!-- <u-action-sheet :actions="list" title="客服电话" :show="show" closeOnClickOverlay @close="show=false" @select="onSelect"></u-action-sheet> -->
 	</view>
 </template>
 
@@ -42,12 +41,15 @@
 				// show:false,
 				user:{
 					avatar:"",
-					phone:"13800138000"
+					phone:this.$store.getters.username
 				}
 				// list:[
 				// 	{name:"010-86683333"}
 				// ]
 			}
+		},
+		onLoad() {
+			
 		},
 		methods: {
 			maskPhone(phone){

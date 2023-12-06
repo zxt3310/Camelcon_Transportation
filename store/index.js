@@ -15,6 +15,9 @@ const modules = modulesFiles.keys()
 
 const store = new Vuex.Store({
 	modules: { ...modules },
+	getters:{
+		username: state=>state.user.username
+	}
 })
 
 export default store
