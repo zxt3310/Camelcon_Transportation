@@ -6,6 +6,7 @@
     "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
     "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
     "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
     "liu-choose-address": "/uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address"
   }
 }

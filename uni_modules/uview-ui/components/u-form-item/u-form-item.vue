@@ -169,7 +169,7 @@
 
 			&__left {
 				@include flex;
-				align-items: center;
+				align-items: flex-start;
 
 				&__content {
 					position: relative;

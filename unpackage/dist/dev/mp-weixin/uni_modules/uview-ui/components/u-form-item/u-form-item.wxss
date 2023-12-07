@@ -47,7 +47,7 @@ view.data-v-067e4733, scroll-view.data-v-067e4733, swiper-item.data-v-067e4733 {
 .u-form-item__body__left.data-v-067e4733 {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 .u-form-item__body__left__content.data-v-067e4733 {
   position: relative;

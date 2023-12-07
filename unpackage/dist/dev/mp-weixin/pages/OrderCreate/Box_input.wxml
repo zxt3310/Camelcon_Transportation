@@ -1,1 +1,1 @@
-<view><lonjin-form vue-id="76eb46fe-1" formData="{{formData}}" config="{{config}}" data-event-opts="{{[['^submit',[['submit']]],['^updateValue',[['updateValue']]]]}}" bind:submit="__e" bind:updateValue="__e" bind:__l="__l"></lonjin-form></view>
+<view><lonjin-form vue-id="76eb46fe-1" rules="{{rules}}" formData="{{formData}}" config="{{config}}" data-event-opts="{{[['^submit',[['submit']]],['^updateValue',[['updateValue']]]]}}" bind:submit="__e" bind:updateValue="__e" bind:__l="__l"></lonjin-form></view>
