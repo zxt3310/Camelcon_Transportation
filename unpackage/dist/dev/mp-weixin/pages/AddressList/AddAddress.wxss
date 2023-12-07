@@ -28,10 +28,4 @@
   background-color: white;
   padding: 40rpx;
 }
-.content text {
-  width: 160rpx;
-}
-.content .unit_input {
-  padding: 30rpx;
-}
 

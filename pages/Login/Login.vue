@@ -1,51 +1,30 @@
 <template>
 	<view style="width: 100%; height: 100%; background-color: white;">
-		<!-- <view class="navigate">
-			<text>请登录</text>
-		</view> -->
 		<view class="header">
 			凯迈康动物运输-客户端
 		</view>
 
 		<view class="input_box">
-			<u-form :model="log_data" :rules="rules" ref="uForm">
-				<u-form-item prop="log_data.username" borderBottom ref="item1">
+			<u--form :model="model" :rules="rules" ref="uForm">
+				<u-form-item prop="data.username" borderBottom ref="item1">
 					<u--input prefixIcon="phone-fill" placeholder="请输入手机号码" border="none"
-						prefixIconStyle="font-size:22px" v-model="log_data.username"></u--input>
+						prefixIconStyle="font-size:22px" v-model="model.data.username"></u--input>
 				</u-form-item>
-				<u-form-item prop="log_data.catpcha" borderBottom ref="item1">
+				<u-form-item prop="data.captcha" borderBottom ref="item2">
 					<u-input prefixIcon="lock-fill" placeholder="请输入验证码" border="none" prefixIconStyle="font-size:22px"
-						v-model="log_data.captcha">
+						v-model="model.data.captcha">
 						<view slot="suffix">
 							<u-code ref="uCode" @change="codeChange" seconds="20" changeText="X秒重新获取"></u-code>
 							<u-button @tap="getCode" :text="tips" type="primary" size="mini"></u-button>
 						</view>
 					</u-input>
 				</u-form-item>
-			</u-form>
+			</u--form>
 
 		</view>
 		<view style="padding: 0 80upx 0 80upx;">
 			<u-button text="立即登录" color="#0081FF" type="primary" shape="circle" @click="submit"></u-button>
 		</view>
-
-
-		<!-- <view class="input_box">
-			<u--input prefixIcon="phone-fill" placeholder="请输入手机号码" border="bottom"
-				prefixIconStyle="font-size:22px" v-model="username"></u--input>
-		</view>
-		<view class="input_box">
-			<u-input prefixIcon="lock-fill" placeholder="请输入验证码" border="bottom" prefixIconStyle="font-size:22px">
-				<view slot="suffix">
-					<u-code ref="uCode" @change="codeChange" seconds="20" changeText="X秒重新获取"></u-code>
-					<u-button @tap="getCode" :text="tips" type="primary" size="mini"></u-button>
-				</view>
-			</u-input>
-		</view>
-		<view style="padding: 0 80upx 0 80upx;">
-			<u-button text="立即登录" color="#0081FF" type="primary" shape="circle" @click="startLogin"></u-button>
-		</view> -->
-
 	</view>
 </template>
 
@@ -54,20 +33,29 @@
 		data() {
 			return {
 				tips: "获取验证码",
-				// username: "17757574472",
-				// password: "12345678",
-				// captcha: "1111",
-
-				log_data: {
-					username: "17757574472",
-					password: "12345678",
-					captcha: "1111",
+				model: {
+					data: {
+						username: "17757574472",
+						password: "12345678",
+						captcha: "1111",
+					}
 				},
 				rules: {
-					
-					"log_data.captcha":{
-						required:true,
-						message:"请填写验证码",
+					'data.username': [{
+							type: 'number',
+							required: true,
+							message: '请填写手机号',
+							trigger: ['blur', 'change'],
+						},
+						{
+							message:"请正确填写手机号",
+							pattern: /^(13[0-9]|14[579]|15[012356789]|16[6]|17[0135678]|18[0-9]|19[89])\d{8}$/
+						}
+					],
+					'data.captcha': {
+						type: 'number',
+						required: true,
+						message: "请填写验证码",
 						trigger: ['blur', 'change']
 					}
 				}
@@ -76,7 +64,7 @@
 		onLoad() {
 			uni.hideHomeButton()
 		},
-		onReady() {
+		onReady(){
 			this.$refs.uForm.setRules(this.rules)
 		},
 		methods: {
@@ -105,7 +93,7 @@
 			},
 			submit() {
 				this.$refs.uForm.validate().then(res => {
-					this.$store.dispatch('login', this.log_data).then(() => {
+					this.$store.dispatch('login', this.model.data).then(() => {
 						uni.reLaunch({
 							url: '/pages/index/index'
 						})
@@ -113,17 +101,11 @@
 				}).catch((error) => {
 					console.log(error)
 				})
-				// let username = this.username;
-				// let password = this.password;
-				// let captcha = this.captcha;
-				// let data = {
-				// 	username,password,captcha
-				// }
-				// this.$store.dispatch('login',data).then(()=>{
-				// 	uni.reLaunch({
-				// 		url:'/pages/index/index'
-				// 	})
-				// })
+			},
+			test() {
+				uni.navigateTo({
+					url: "/pages/Login/test"
+				})
 			}
 		}
 	}

@@ -104,6 +104,14 @@
 				"navigationBarTitleText" : "关于我们",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/Login/test",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

@@ -2,11 +2,10 @@
   "navigationBarTitleText": "新建地址",
   "enablePullDownRefresh": false,
   "usingComponents": {
+    "u-form": "/uni_modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
     "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
-    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
     "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea",
-    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
-    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
     "liu-choose-address": "/uni_modules/liu-choose-address/components/liu-choose-address/liu-choose-address"
   }
 }

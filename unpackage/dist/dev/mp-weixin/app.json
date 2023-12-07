@@ -12,7 +12,8 @@
     "pages/OrderList/OrderDetail",
     "pages/Feedback/Feedback",
     "pages/Login/Login",
-    "pages/User/AboutUs"
+    "pages/User/AboutUs",
+    "pages/Login/test"
   ],
   "subPackages": [],
   "window": {
