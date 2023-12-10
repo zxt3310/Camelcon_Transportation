@@ -80,7 +80,6 @@
 			
 		},
 		onShow() {
-			console.log('App Show')
 			let token = storage.get('TOKEN')
 			console.log(token)
 			if(!token){

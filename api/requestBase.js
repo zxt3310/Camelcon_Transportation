@@ -1,4 +1,5 @@
 import request from "@/uni_modules/zhouWei-request/js_sdk/request";
+import storage from "@/Tootls/storage.js"
 // 全局配置的请求域名
 let baseUrl = "http://211.159.178.9/";
 //可以new多个request来支持多个域名请求
@@ -114,7 +115,7 @@ $http.requestStart = function(options) {
 		}
 	}
 	//请求前加入token
-	// options.header['token'] = "你的项目登录token";
+	options.header['Authorization'] = storage.get("TOKEN")
 	return options; // return false 表示请求拦截，不会继续请求
 }
 //请求结束

@@ -1,7 +1,9 @@
 <script>
+	import * as NodeApi from "@/api/Node"
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+			this.$store.getters.getnode
 		},
 		onShow: function() {
 			
@@ -17,7 +19,7 @@
 	@import "@/uni_modules/uview-ui/index.scss";
 	page {
 		background-color: #F4F7FC;
-		width: 100%;
+		width: 100%; 
 		height: 100%;
 	}
 	.padding-hor {

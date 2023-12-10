@@ -39,6 +39,7 @@
 </template>
 
 <script>
+	import * as tools from "@/Tootls/SelectNode.js"
 	export default {
 		data() {
 			return {
@@ -75,7 +76,8 @@
 				})
 			},
 			logout(){
-				this.$store.dispatch('logout')
+				let node = this.$store.getters.getnode;
+				console.log(tools.queryNode(node,"淄博"));
 			}
 		}
 	}
