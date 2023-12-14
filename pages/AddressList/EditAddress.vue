@@ -29,7 +29,7 @@
 
 <script>
 	import {queryNode} from "@/Tootls/SelectNode.js"
-	import {addr_add,addr_update} from "@/api/Address"
+	import {addr_update} from "@/api/Address"
 	export default {
 		data() {
 			return {
@@ -88,6 +88,32 @@
 		onReady() {
 			this.$refs.uForm.setRules(this.rules)
 		},
+		onLoad(option) {
+			let addr = JSON.parse(option.query.addr)
+			console.log(addr)
+			let province = addr.province
+			let city = addr.city
+			let address = addr.address
+			let district = ""
+			if(province != ('北京市' || '天津市' || '重庆市' || '上海市')){
+				let unit = ['市','区','县','旗','乡']
+				for(let str of unit){
+					let index = address.indexOf(str)
+					if(index != -1){
+						district = address.substr(0,index+1)
+						address = address.replace(district,'')
+						addr.address = address
+					}
+				}
+			}
+			this.addr_containor = {
+				province:province,
+				city:city,
+				district:district
+			}
+			addr.addr_1 = `${province} ${city} ${district}`
+			this.model.addrobj = addr;
+		},
 		methods: {
 			onFocus(e) {
 				e.preventDefault();
@@ -117,7 +143,6 @@
 				this.$refs.uForm.validate().then(res =>{
 					let addrObj = this.model.addrobj;
 					let addrContainor = this.addr_containor
-					// console.log(this.$store.state)
 					//查询节点信息
 					let nodeObj = queryNode(this.$store.state.Node.nodes,addrContainor.city)
 					//拼请求参数
@@ -126,9 +151,10 @@
 					addrObj.address = `${addrContainor.district} ${addrObj.address}`
 					addrObj.main_node_id = nodeObj.main_node_id
 					addrObj.sub_node_id = nodeObj.id
+					//去掉辅助字段
+					delete addrObj.addr_1
 					//请求
-					addr_add(addrObj).then((res)=>{
-						console.log(res)
+					addr_update(addrObj).then((res)=>{
 						uni.navigateBack()
 					})
 					

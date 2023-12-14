@@ -15,7 +15,7 @@ const node = {
 		}) {
 			return new Promise((resolve, reject) => {
 				NodeApi.allnode().then((res) => {
-					let result = res.data;
+					let result = res;
 					commit("SET_NODE", result)
 					resolve(result)
 				}).catch((error) => {

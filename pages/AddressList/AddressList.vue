@@ -10,15 +10,15 @@
 					<text style="margin-left: 20upx;">{{addr.mobile}}</text>
 				</view>
 				<view>
-					<text>{{addr.company}}</text>
+					<text style="font-weight: bold;">{{addr.company}}</text>
 				</view>
 				<view style="margin-bottom: 20upx;">
 					<text>{{`${addr.province} ${addr.city} ${addr.address}`}}</text>
 				</view>
 				<u-line color="gray"></u-line>
 				<view class="u-flex-row u-flex-end" style="padding-top: 15upx;">
-					<u-icon size="24px" name="edit-pen" label="编辑"></u-icon>
-					<u-icon customStyle="margin-left:20rpx" size="24px" name="trash" label="删除"></u-icon>
+					<u-icon color="#0081FF" labelColor="#0081FF" size="24px" name="edit-pen" label="编辑" :space="0" @click="addr_update(addr)"></u-icon>
+					<u-icon color="red" labelColor="red" customStyle="margin-left:20rpx" size="24px" name="trash" label="删除" :space="0" @click="del_addr(index)"></u-icon>
 				</view> 
 			</view>
 		</view>
@@ -28,7 +28,8 @@
 
 <script>
 	import {
-		addr_get
+		addr_get,
+		addr_delete
 	} from "@/api/Address"
 	export default {
 		data() {
@@ -65,6 +66,28 @@
 				uni.navigateTo({
 					url: "/pages/AddressList/AddAddress"
 				})
+			},
+			del_addr(index){
+				uni.showModal({
+					title:"提示",
+					content:"是否删除该地址",
+					confirmColor:"red",
+					confirmText:"确认",
+					cancelText:"取消",
+					success: (res) => {
+						if(res.confirm){
+							let addr = this.addr_list[index]
+							addr_delete([addr.id]).then((res)=>{
+								this.addr_list.splice(index,1)
+							})
+						}
+					}
+				})
+			},
+			addr_update(addr){
+				uni.navigateTo({
+					url:"/pages/AddressList/EditAddress?addr="+JSON.stringify(addr)
+				})
 			}
 		}
 	}
@@ -72,7 +95,7 @@
 
 <style lang="scss">
 	.addr_unit {
-		padding: 30upx;
+		padding: 28upx;
 		background-color: white;
 		border-radius: 20upx;
 		font-size: 26upx;

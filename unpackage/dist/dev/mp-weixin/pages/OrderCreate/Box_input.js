@@ -99,7 +99,7 @@ var components
 try {
   components = {
     lonjinForm: function () {
-      return __webpack_require__.e(/*! import() | uni_modules/lonjin-form/components/lonjin-form/lonjin-form */ "uni_modules/lonjin-form/components/lonjin-form/lonjin-form").then(__webpack_require__.bind(null, /*! @/uni_modules/lonjin-form/components/lonjin-form/lonjin-form.vue */ 396))
+      return __webpack_require__.e(/*! import() | uni_modules/lonjin-form/components/lonjin-form/lonjin-form */ "uni_modules/lonjin-form/components/lonjin-form/lonjin-form").then(__webpack_require__.bind(null, /*! @/uni_modules/lonjin-form/components/lonjin-form/lonjin-form.vue */ 397))
     },
   }
 } catch (e) {

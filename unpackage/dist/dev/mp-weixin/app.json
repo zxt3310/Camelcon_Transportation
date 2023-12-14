@@ -7,6 +7,7 @@
     "pages/OrderCreate/Box_input",
     "pages/AddressList/AddressList",
     "pages/AddressList/AddAddress",
+    "pages/AddressList/EditAddress",
     "pages/InvoiceInfoList/InvoiceInfoList",
     "pages/InvoiceInfoList/AddInvoiceInfo",
     "pages/OrderList/OrderDetail",

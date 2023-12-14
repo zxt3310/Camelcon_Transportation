@@ -20,5 +20,5 @@ export const addr_update = (data) =>{
 }
 
 export const addr_delete = (data) =>{
-	return $http.post(address.delete, data)
+	return $http.delete(address.delete, data)
 }

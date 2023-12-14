@@ -1557,7 +1557,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8934,7 +8934,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8955,14 +8955,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -9058,7 +9058,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -9707,7 +9707,7 @@ $http.dataFactory = /*#__PURE__*/function () {
             /*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
 
             //判断数据是否请求成功
-            if (!(httpData.success || httpData.code == 200)) {
+            if (!(httpData.status = "success" || false)) {
               _context.next = 8;
               break;
             }
@@ -13761,7 +13761,7 @@ var node = {
       var commit = _ref.commit;
       return new Promise(function (resolve, reject) {
         NodeApi.allnode().then(function (res) {
-          var result = res.data;
+          var result = res;
           commit("SET_NODE", result);
           resolve(result);
         }).catch(function (error) {
@@ -13932,7 +13932,7 @@ var _uniSimpleRouter = __webpack_require__(/*! uni-simple-router */ 61);
 
 var router = (0, _uniSimpleRouter.createRouter)({
   platform: "mp-weixin",
-  routes: (0, _toConsumableArray2.default)([{"path":"/pages/index/index","aliasPath":"/"},{"path":"/pages/OrderList/OrderList"},{"path":"/pages/User/User"},{"path":"/pages/OrderCreate/OrderCreate"},{"path":"/pages/OrderCreate/Box_input"},{"path":"/pages/AddressList/AddressList"},{"path":"/pages/AddressList/AddAddress"},{"path":"/pages/InvoiceInfoList/InvoiceInfoList"},{"path":"/pages/InvoiceInfoList/AddInvoiceInfo"},{"path":"/pages/OrderList/OrderDetail"},{"path":"/pages/Feedback/Feedback"},{"path":"/pages/Login/Login"},{"path":"/pages/User/AboutUs"}])
+  routes: (0, _toConsumableArray2.default)([{"path":"/pages/index/index","aliasPath":"/"},{"path":"/pages/OrderList/OrderList"},{"path":"/pages/User/User"},{"path":"/pages/OrderCreate/OrderCreate"},{"path":"/pages/OrderCreate/Box_input"},{"path":"/pages/AddressList/AddressList"},{"path":"/pages/AddressList/AddAddress"},{"path":"/pages/AddressList/EditAddress"},{"path":"/pages/InvoiceInfoList/InvoiceInfoList"},{"path":"/pages/InvoiceInfoList/AddInvoiceInfo"},{"path":"/pages/OrderList/OrderDetail"},{"path":"/pages/Feedback/Feedback"},{"path":"/pages/Login/Login"},{"path":"/pages/User/AboutUs"}])
 });
 //全局路由前置守卫
 exports.router = router;
@@ -25581,7 +25581,46 @@ function queryNode(data, keyword) {
 /* 228 */,
 /* 229 */,
 /* 230 */,
-/* 231 */,
+/* 231 */
+/*!************************************************************!*\
+  !*** D:/Work/Camelcon_Transportation/api/Address/index.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.addr_update = exports.addr_get = exports.addr_delete = exports.addr_add = void 0;
+var _requestBase = _interopRequireDefault(__webpack_require__(/*! @/api/requestBase.js */ 31));
+var address = {
+  add: "api/v1/add-user-address",
+  update: "api/v1/update-user-address",
+  delete: "api/v1/delete-user-address",
+  get: "api/v1/query-user-address-by-id"
+};
+var addr_add = function addr_add(data) {
+  return _requestBase.default.post(address.add, data);
+};
+exports.addr_add = addr_add;
+var addr_get = function addr_get() {
+  return _requestBase.default.get(address.get);
+};
+exports.addr_get = addr_get;
+var addr_update = function addr_update(data) {
+  return _requestBase.default.post(address.update, data);
+};
+exports.addr_update = addr_update;
+var addr_delete = function addr_delete(data) {
+  return _requestBase.default.delete(address.delete, data);
+};
+exports.addr_delete = addr_delete;
+
+/***/ }),
 /* 232 */,
 /* 233 */,
 /* 234 */,
@@ -25638,7 +25677,8 @@ function queryNode(data, keyword) {
 /* 285 */,
 /* 286 */,
 /* 287 */,
-/* 288 */
+/* 288 */,
+/* 289 */
 /*!*****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper/props.js ***!
   \*****************************************************************************************/
@@ -25781,14 +25821,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 289 */,
 /* 290 */,
 /* 291 */,
 /* 292 */,
 /* 293 */,
 /* 294 */,
 /* 295 */,
-/* 296 */
+/* 296 */,
+/* 297 */
 /*!**************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-row/props.js ***!
   \**************************************************************************************/
@@ -25825,14 +25865,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 297 */,
 /* 298 */,
 /* 299 */,
 /* 300 */,
 /* 301 */,
 /* 302 */,
 /* 303 */,
-/* 304 */
+/* 304 */,
+/* 305 */
 /*!**************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-col/props.js ***!
   \**************************************************************************************/
@@ -25879,14 +25919,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 305 */,
 /* 306 */,
 /* 307 */,
 /* 308 */,
 /* 309 */,
 /* 310 */,
 /* 311 */,
-/* 312 */
+/* 312 */,
+/* 313 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \***************************************************************************************/
@@ -26117,7 +26157,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 313 */
+/* 314 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-icon/props.js ***!
   \***************************************************************************************/
@@ -26224,14 +26264,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 314 */,
 /* 315 */,
 /* 316 */,
 /* 317 */,
 /* 318 */,
 /* 319 */,
 /* 320 */,
-/* 321 */
+/* 321 */,
+/* 322 */
 /*!*********************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-subsection/props.js ***!
   \*********************************************************************************************/
@@ -26298,14 +26338,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 322 */,
 /* 323 */,
 /* 324 */,
 /* 325 */,
 /* 326 */,
 /* 327 */,
 /* 328 */,
-/* 329 */
+/* 329 */,
+/* 330 */
 /*!*****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-avatar/props.js ***!
   \*****************************************************************************************/
@@ -26401,14 +26441,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 330 */,
 /* 331 */,
 /* 332 */,
 /* 333 */,
 /* 334 */,
 /* 335 */,
 /* 336 */,
-/* 337 */
+/* 337 */,
+/* 338 */
 /*!*********************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/button.js ***!
   \*********************************************************************************/
@@ -26438,7 +26478,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 338 */
+/* 339 */
 /*!***********************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/mixin/openType.js ***!
   \***********************************************************************************/
@@ -26480,7 +26520,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 339 */
+/* 340 */
 /*!*****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-button/props.js ***!
   \*****************************************************************************************/
@@ -26659,14 +26699,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 340 */,
 /* 341 */,
 /* 342 */,
 /* 343 */,
 /* 344 */,
 /* 345 */,
 /* 346 */,
-/* 347 */
+/* 347 */,
+/* 348 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-line/props.js ***!
   \***************************************************************************************/
@@ -26717,14 +26757,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 348 */,
 /* 349 */,
 /* 350 */,
 /* 351 */,
 /* 352 */,
 /* 353 */,
 /* 354 */,
-/* 355 */
+/* 355 */,
+/* 356 */
 /*!*************************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
   \*************************************************************************************************/
@@ -26821,14 +26861,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 356 */,
 /* 357 */,
 /* 358 */,
 /* 359 */,
 /* 360 */,
 /* 361 */,
 /* 362 */,
-/* 363 */
+/* 363 */,
+/* 364 */
 /*!*******************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-checkbox/props.js ***!
   \*******************************************************************************************/
@@ -26915,14 +26955,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 364 */,
 /* 365 */,
 /* 366 */,
 /* 367 */,
 /* 368 */,
 /* 369 */,
 /* 370 */,
-/* 371 */
+/* 371 */,
+/* 372 */
 /*!****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-badge/props.js ***!
   \****************************************************************************************/
@@ -27012,14 +27052,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 372 */,
 /* 373 */,
 /* 374 */,
 /* 375 */,
 /* 376 */,
 /* 377 */,
 /* 378 */,
-/* 379 */
+/* 379 */,
+/* 380 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/props.js ***!
   \***************************************************************************************/
@@ -27147,12 +27187,12 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 380 */,
 /* 381 */,
 /* 382 */,
 /* 383 */,
 /* 384 */,
-/* 385 */
+/* 385 */,
+/* 386 */
 /*!**************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-gap/props.js ***!
   \**************************************************************************************/
@@ -27194,14 +27234,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 386 */,
 /* 387 */,
 /* 388 */,
 /* 389 */,
 /* 390 */,
 /* 391 */,
 /* 392 */,
-/* 393 */
+/* 393 */,
+/* 394 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-text/value.js ***!
   \***************************************************************************************/
@@ -27309,7 +27349,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 394 */,
 /* 395 */,
 /* 396 */,
 /* 397 */,
@@ -27323,7 +27362,8 @@ exports.default = _default;
 /* 405 */,
 /* 406 */,
 /* 407 */,
-/* 408 */
+/* 408 */,
+/* 409 */
 /*!****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-empty/props.js ***!
   \****************************************************************************************/
@@ -27400,14 +27440,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 409 */,
 /* 410 */,
 /* 411 */,
 /* 412 */,
 /* 413 */,
 /* 414 */,
 /* 415 */,
-/* 416 */
+/* 416 */,
+/* 417 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-form/props.js ***!
   \***************************************************************************************/
@@ -27470,7 +27510,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 417 */
+/* 418 */
 /*!*****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/libs/util/async-validator.js ***!
   \*****************************************************************************************/
@@ -27508,7 +27548,7 @@ function _extends() {
 var formatRegExp = /%[sdj%]/g;
 var warning = function warning() {}; // don't print warning message when in production env or node runtime
 
-if (typeof process !== 'undefined' && Object({"NODE_ENV":"development","VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}) && "development" !== 'production' && typeof window !== 'undefined' && typeof document !== 'undefined') {
+if (typeof process !== 'undefined' && Object({"VUE_APP_DARK_MODE":"false","VUE_APP_NAME":"Camelcon_Transportation","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}) && "development" !== 'production' && typeof window !== 'undefined' && typeof document !== 'undefined') {
   warning = function warning(type, errors) {
     if (typeof console !== 'undefined' && console.warn) {
       if (errors.every(function (e) {
@@ -28651,10 +28691,10 @@ Schema.warning = warning;
 Schema.messages = messages;
 var _default = Schema; // # sourceMappingURL=index.js.map
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 418)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 419)))
 
 /***/ }),
-/* 418 */
+/* 419 */
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -28685,7 +28725,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 419);
+        if (!path) path = __webpack_require__(/*! path */ 420);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -28698,7 +28738,7 @@ exports.features = {};
 
 
 /***/ }),
-/* 419 */
+/* 420 */
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -29008,15 +29048,15 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 418)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 419)))
 
 /***/ }),
-/* 420 */,
 /* 421 */,
 /* 422 */,
 /* 423 */,
 /* 424 */,
-/* 425 */
+/* 425 */,
+/* 426 */
 /*!********************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-form-item/props.js ***!
   \********************************************************************************************/
@@ -29082,14 +29122,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 426 */,
 /* 427 */,
 /* 428 */,
 /* 429 */,
 /* 430 */,
 /* 431 */,
 /* 432 */,
-/* 433 */
+/* 433 */,
+/* 434 */
 /*!****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-input/props.js ***!
   \****************************************************************************************/
@@ -29294,12 +29334,12 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 434 */,
 /* 435 */,
 /* 436 */,
 /* 437 */,
 /* 438 */,
-/* 439 */
+/* 439 */,
+/* 440 */
 /*!*******************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-textarea/props.js ***!
   \*******************************************************************************************/
@@ -29436,12 +29476,12 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 440 */,
 /* 441 */,
 /* 442 */,
 /* 443 */,
 /* 444 */,
-/* 445 */
+/* 445 */,
+/* 446 */
 /*!****************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/liu-choose-address/static/noData.png ***!
   \****************************************************************************************/
@@ -29451,7 +29491,7 @@ exports.default = _default;
 module.exports = "data:image/png;base64,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"
 
 /***/ }),
-/* 446 */
+/* 447 */
 /*!**************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/liu-choose-address/static/next.png ***!
   \**************************************************************************************/
@@ -29461,7 +29501,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADD
 module.exports = "data:image/png;base64,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"
 
 /***/ }),
-/* 447 */
+/* 448 */
 /*!******************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/liu-choose-address/city.js ***!
   \******************************************************************************/
@@ -41056,7 +41096,6 @@ var _default = [{
 exports.default = _default;
 
 /***/ }),
-/* 448 */,
 /* 449 */,
 /* 450 */,
 /* 451 */,
@@ -41065,7 +41104,8 @@ exports.default = _default;
 /* 454 */,
 /* 455 */,
 /* 456 */,
-/* 457 */
+/* 457 */,
+/* 458 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-rate/props.js ***!
   \***************************************************************************************/
@@ -41152,7 +41192,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 458 */,
 /* 459 */,
 /* 460 */,
 /* 461 */,
@@ -41178,7 +41217,8 @@ exports.default = _default;
 /* 481 */,
 /* 482 */,
 /* 483 */,
-/* 484 */
+/* 484 */,
+/* 485 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-code/props.js ***!
   \***************************************************************************************/
@@ -41230,14 +41270,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 485 */,
 /* 486 */,
 /* 487 */,
 /* 488 */,
 /* 489 */,
 /* 490 */,
 /* 491 */,
-/* 492 */
+/* 492 */,
+/* 493 */
 /*!***********************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \***********************************************************************************************/
@@ -41314,14 +41354,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 493 */,
 /* 494 */,
 /* 495 */,
 /* 496 */,
 /* 497 */,
 /* 498 */,
 /* 499 */,
-/* 500 */
+/* 500 */,
+/* 501 */
 /*!***************************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
   \***************************************************************************************************/
@@ -41368,14 +41408,14 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 501 */,
 /* 502 */,
 /* 503 */,
 /* 504 */,
 /* 505 */,
 /* 506 */,
 /* 507 */,
-/* 508 */
+/* 508 */,
+/* 509 */
 /*!***************************************************************************************!*\
   !*** D:/Work/Camelcon_Transportation/uni_modules/uview-ui/components/u-link/props.js ***!
   \***************************************************************************************/
@@ -41430,107 +41470,6 @@ var _default = {
 };
 exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
-/* 509 */,
-/* 510 */,
-/* 511 */,
-/* 512 */,
-/* 513 */,
-/* 514 */,
-/* 515 */,
-/* 516 */,
-/* 517 */,
-/* 518 */,
-/* 519 */,
-/* 520 */,
-/* 521 */,
-/* 522 */,
-/* 523 */,
-/* 524 */,
-/* 525 */,
-/* 526 */,
-/* 527 */,
-/* 528 */,
-/* 529 */,
-/* 530 */,
-/* 531 */,
-/* 532 */,
-/* 533 */,
-/* 534 */,
-/* 535 */,
-/* 536 */,
-/* 537 */,
-/* 538 */,
-/* 539 */,
-/* 540 */,
-/* 541 */,
-/* 542 */,
-/* 543 */,
-/* 544 */,
-/* 545 */,
-/* 546 */,
-/* 547 */,
-/* 548 */,
-/* 549 */,
-/* 550 */,
-/* 551 */,
-/* 552 */,
-/* 553 */,
-/* 554 */,
-/* 555 */,
-/* 556 */,
-/* 557 */,
-/* 558 */,
-/* 559 */,
-/* 560 */,
-/* 561 */,
-/* 562 */,
-/* 563 */,
-/* 564 */,
-/* 565 */,
-/* 566 */,
-/* 567 */,
-/* 568 */,
-/* 569 */,
-/* 570 */
-/*!************************************************************!*\
-  !*** D:/Work/Camelcon_Transportation/api/Address/index.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.addr_update = exports.addr_get = exports.addr_delete = exports.addr_add = void 0;
-var _requestBase = _interopRequireDefault(__webpack_require__(/*! @/api/requestBase.js */ 31));
-var address = {
-  add: "api/v1/add-user-address",
-  update: "api/v1/update-user-address",
-  delete: "api/v1/delete-user-address",
-  get: "api/v1/query-user-address-by-id"
-};
-var addr_add = function addr_add(data) {
-  return _requestBase.default.post(address.add, data);
-};
-exports.addr_add = addr_add;
-var addr_get = function addr_get() {
-  return _requestBase.default.get(address.get);
-};
-exports.addr_get = addr_get;
-var addr_update = function addr_update(data) {
-  return _requestBase.default.post(address.update, data);
-};
-exports.addr_update = addr_update;
-var addr_delete = function addr_delete(data) {
-  return _requestBase.default.post(address.delete, data);
-};
-exports.addr_delete = addr_delete;
 
 /***/ })
 ]]);

@@ -149,7 +149,7 @@ $http.dataFactory = async function(res) {
 		/*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
 
 		//判断数据是否请求成功
-		if (httpData.success || httpData.code == 200) {
+		if (httpData.status = "success" || httpData.code == 200) {
 			// 返回正确的结果(then接受数据)
 			return Promise.resolve(httpData.data);
 		} else if (httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100) {

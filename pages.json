@@ -57,6 +57,14 @@
 			}
 		},
 		{
+			"path" : "pages/AddressList/EditAddress",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改地址",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
 			"path" : "pages/InvoiceInfoList/InvoiceInfoList",
 			"style" : 
 			{
