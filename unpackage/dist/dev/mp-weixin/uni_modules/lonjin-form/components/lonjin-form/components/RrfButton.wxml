@@ -1,1 +1,0 @@
-<view class="{{['button-wrapper','data-v-2616637a',type,block,size,plain?'plain':'',disabled?'disabled':'',gray?'gray':'',danger?'danger':'']}}"><slot></slot></view>

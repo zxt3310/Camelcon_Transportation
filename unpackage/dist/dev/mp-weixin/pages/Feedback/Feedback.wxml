@@ -1,1 +1,0 @@
-<view class="content"><view style="border-radius:20rpx;overflow:hidden;"><lonjin-form vue-id="e7e894c0-1" formData="{{formData}}" config="{{config}}" data-event-opts="{{[['^submit',[['']]],['^uploadPicture',[['uploadPicture']]],['^updateValue',[['updateValue']]]]}}" bind:submit="__e" bind:uploadPicture="__e" bind:updateValue="__e" bind:__l="__l"></lonjin-form></view></view>
