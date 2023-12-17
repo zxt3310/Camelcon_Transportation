@@ -22,8 +22,14 @@
 			<view class="ship_style u-flex-between u-flex-items-center">
 				<view class="Icon" style="background-color: #F9AE3D;">票</view>
 				<view class="u-flex-grow" style="margin-left: 40upx;">
-					<view>{{`发票抬头：${invoice.title}`}}</view>
-					<view>{{`税号代码：${invoice.code}`}}</view>
+					<view class="u-flex-row">
+						<text>发票抬头：</text>
+						<u--input border="none" placeholder="请输入发票抬头" v-model="invoice.title"></u--input>
+					</view>
+					<view class="u-flex-row">
+						<text>税号代码：</text>
+						<u--input border="none" placeholder="请输入税号代码" v-model="invoice.code"></u--input>
+					</view>
 					<view>发票内容：运输服务费</view>
 					<view class="" style="margin-top: 20upx;">
 						<u-checkbox-group>
@@ -33,9 +39,7 @@
 						</u-checkbox-group>
 					</view>
 				</view>
-				<u-icon name="arrow-right"></u-icon>
 			</view>
-			
 		</view>
 		<view class="content_view" style="margin-top: 0;">
 			<view class="box_list_unit" v-for="(item, index) in unit_obj" :key="index">
@@ -86,15 +90,20 @@
 				ship_from:"请选择取货地址",
 				ship_to:"请选择收货地址",
 				invoice:{
-					title:"请选择常用开票信息",
-					code:""
+					title:"",
+					code:"",
+					needDetail:0,
+					vatInvoice:0
 				},
 				unit_obj:[
 					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明",box:"1"},
 					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明",box:"5"},
 					{type:"小鼠",name:"基因小鼠",sex:"公",qty:"6",age:"9周",gen:"B6;129-Tg",des:"测试说明",box:"7"}
 				],
-				
+				//
+				orderObj:{
+					
+				}
 			}
 		},
 		onShow(option) {

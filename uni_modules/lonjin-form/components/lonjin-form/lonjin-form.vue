@@ -158,7 +158,9 @@
 						const value = this.form[this.config[index].key]
 						const rules = this.rules[this.config[index].key]
 						const result = this.mapRules(rules, value)
-						return result
+						if(!result){
+							return result
+						}
 					}
 				}
 				return true; // 所有属性的值都不为空，返回 true
