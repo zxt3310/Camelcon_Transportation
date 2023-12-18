@@ -4,7 +4,7 @@
 			<u-empty iconSize="180" textSize="30" mode="list" text="地址列表为空"></u-empty>
 		</view>
 		<view v-else>
-			<view class="addr_unit" v-for="(addr, index) in addr_list" :key="index">
+			<view class="addr_unit" v-for="(addr, index) in addr_list" :key="index" @click="selectAddr(index)">
 				<view class="">
 					<text style="font-size: 30upx; font-weight: 800;">{{addr.contact}}</text>
 					<text style="margin-left: 20upx;">{{addr.mobile}}</text>
@@ -34,6 +34,7 @@
 	export default {
 		data() {
 			return {
+				option:null,
 				addr_list: [
 					// "user_id": 2,
 					// "company": "湖北天霸制药有限公司",
@@ -53,6 +54,9 @@
 		onShow() {
 			this.pull_addr_list()
 		},
+		onLoad(e) {
+			this.option = e.option;
+		},
 		methods: {
 			pull_addr_list() {
 				addr_get().then((res => {
@@ -61,7 +65,6 @@
 					console.log(error)
 				})
 			},
-
 			add_addr() {
 				uni.navigateTo({
 					url: "/pages/AddressList/AddAddress"
@@ -88,6 +91,12 @@
 				uni.navigateTo({
 					url:"/pages/AddressList/EditAddress?addr="+JSON.stringify(addr)
 				})
+			},
+			selectAddr(index){
+				let pages = getCurrentPages()
+				let prevPage = pages[pages.length - 2];
+				prevPage.$vm.orderObj.address[this.option] = this.addr_list[index]
+				uni.navigateBack()
 			}
 		}
 	}

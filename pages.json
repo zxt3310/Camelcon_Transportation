@@ -65,22 +65,6 @@
 			}
 		},
 		{
-			"path" : "pages/InvoiceInfoList/InvoiceInfoList",
-			"style" : 
-			{
-				"navigationBarTitleText" : "常用开票信息管理",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/InvoiceInfoList/AddInvoiceInfo",
-			"style" : 
-			{
-				"navigationBarTitleText" : "新建开票信息",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
 			"path" : "pages/OrderList/OrderDetail",
 			"style" : 
 			{
