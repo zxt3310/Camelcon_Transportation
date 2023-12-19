@@ -93,6 +93,10 @@
 				})
 			},
 			selectAddr(index){
+				//如果没有页面参数 不做处理
+				if(!this.option){
+					return
+				}
 				let pages = getCurrentPages()
 				let prevPage = pages[pages.length - 2];
 				prevPage.$vm.orderObj.address[this.option] = this.addr_list[index]

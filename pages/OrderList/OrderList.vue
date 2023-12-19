@@ -35,6 +35,7 @@
 </template>
 
 <script>
+	import {getOrder} from "@/api/Order"
 	export default {
 		data() {
 			return {
@@ -107,9 +108,52 @@
 					}
 				]
 			}
+			// created_at: "2023-11-18 20:29:50"
+			// deleted_at: null
+			// id: 2
+			// invoice_code: "1000000000000000000"
+			// invoice_content: null
+			// invoice_header: "湖北xxx水果批发有限公司"
+			// invoice_type: "e-invoice"
+			// need_detail_list: 0
+			// order_item: []
+			// package_options: "保鲜"
+			// payer_address: "武昌区xxx路xxx街道xxx号"
+			// payer_city: "武汉市"
+			// payer_company: "湖北xxx水果批发有限公司"
+			// payer_contact: "李四"
+			// payer_mobile: "18374734843"
+			// payer_province: "湖北省"
+			// picked_schedule_route_id: 0
+			// receiver_address: "武昌区xxx路xxx街道xxx号"
+			// receiver_address_id: null
+			// receiver_company: "湖北xxx水果批发有限公司"
+			// receiver_contact: "李四"
+			// receiver_mobile: "18072575604"
+			// receiver_province: "湖北省"
+			// receiver_user_id: 4
+			// route_end_main_node_id: null
+			// route_end_sub_node_id: null
+			// route_start_main_node_id: 0
+			// route_start_sub_node_id: 0
+			// sender_address: "天山区xxx路xxx街道xx号"
+			// sender_address_id: null
+			// sender_city: "乌鲁木齐市"
+			// sender_company: "新疆xxx果业有限公司"
+			// sender_contact: "张三"
+			// sender_mobile: "17705055577"
+			// sender_province: "新疆省"
+			// sender_user_id: 16845211
+			// transport_fee: "200000.00"
+			// updated_at: "2023-12-07 13:40:07"
 		},
 		onLoad() {
 			this.currentList = this.shipping_list;
+		},
+		onShow() {
+			getOrder().then((res)=>{
+				console.log(res)
+			})
 		},
 		methods: {
 			onChange(index) {

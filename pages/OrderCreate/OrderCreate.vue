@@ -165,7 +165,9 @@
 						//此处写请求获取运输线路
 						let data = {
 							start_main_node_id: newObj.from.main_node_id,
-							end_main_node_id: newObj.to.main_node_id
+							start_sub_node_id: newObj.from.sub_node_id,
+							end_main_node_id: newObj.to.main_node_id,
+							end_sub_node_id: newObj.to.sub_node_id
 						}
 						checkSchedule(data).then((res) => {
 							console.log(res)
