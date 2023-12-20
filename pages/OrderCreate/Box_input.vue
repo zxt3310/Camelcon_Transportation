@@ -12,11 +12,11 @@
 				formData: {
 					type: "",
 					name: "",
-					sex: "",
-					qty: "",
+					gender: "",
+					quantity: "",
 					age: "",
-					gen: "",
-					des: "",
+					gene_type: "",
+					memo: "",
 					box: ""
 				},
 				config: [{
@@ -38,7 +38,7 @@
 					{
 						label: "性别",
 						placeholder: "请输选择性别",
-						key: "sex",
+						key: "gender",
 						type: "picker",
 						options: [{
 							label: "公",
@@ -52,7 +52,7 @@
 					{
 						label: "只数",
 						placeholder: "请输入小鼠数量",
-						key: "qty",
+						key: "quantity",
 						type: "input",
 						inputType: "number",
 						verify: true
@@ -68,7 +68,7 @@
 					{
 						label: "基因型",
 						placeholder: "请输入基因型",
-						key: "gen",
+						key: "gene_type",
 						type: "input",
 						inputType: "text",
 						verify: true
@@ -76,7 +76,7 @@
 					{
 						label: "备注",
 						placeholder: "请输入",
-						key: "des",
+						key: "memo",
 						type: "input",
 						inputType: "text"
 					},
@@ -97,10 +97,26 @@
 					name: [{
 						required: true,
 						message: "请输入品系名称"
-					}, {
-						min: 3,
-						max: 5,
-						message: '长度在 3 到 5 个字符'
+					}],
+					gender: [{
+						required: true,
+						message: "请选择性别"
+					}],
+					quantity: [{
+						required: true,
+						message: "请输入数量"
+					}],
+					age: [{
+						required: true,
+						message: "请输入周龄"
+					}],
+					gene_type: [{
+						required: true,
+						message: "请输入基因型"
+					}],
+					box: [{
+						required: true,
+						message: "请输入盒数"
 					}]
 				}
 			};
@@ -110,14 +126,13 @@
 				this.formData = val;
 			},
 			submit(val) {
-				console.log(val)
-				// let pages = getCurrentPages();
-				// let prevPage = pages[pages.length - 2];
-				// uni.navigateBack({
-				// 	success: () => {
-				// 		prevPage.$vm.pushin_List(val)
-				// 	}
-				// });
+				let pages = getCurrentPages();
+				let prevPage = pages[pages.length - 2];
+				uni.navigateBack({
+					success: () => {
+						prevPage.$vm.pushin_List(val)
+					}
+				});
 			}
 		}
 	}
