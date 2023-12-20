@@ -70,6 +70,9 @@
 				<u-gap height="20" bg-color="#F4F7FC"></u-gap>
 			</view>
 			<u-button icon="plus-circle" :plain="true" type="primary" text="添加盒子" @click="add_Order_Box"></u-button>
+			<view v-if="scheduleObj" style="margin-top: 20upx;">
+
+			</view>
 			<view class="" style="margin-top: 20upx;">
 				<u-text size="24" type="warning" :text="`备注1: 自行完成打包，请放入充足垫料、饲料、果冻。`"></u-text>
 				<u-text size="24" type="warning"
@@ -82,7 +85,7 @@
 				<text style="color: #0081FF;">￥500</text>
 			</view>
 			<view style="margin-right: 40px;">
-				<u-button text="支付并提交" type="primary" shape="circle"></u-button>
+				<u-button text="支付并提交" type="primary" shape="circle" @click="schedule_filter(123)"></u-button>
 			</view>
 		</view>
 	</view>
@@ -134,6 +137,7 @@
 						box: "7"
 					}
 				],
+				scheduleObj: null,
 				//
 				orderObj: {
 					address: {
@@ -170,7 +174,14 @@
 							end_sub_node_id: newObj.to.sub_node_id
 						}
 						checkSchedule(data).then((res) => {
-							console.log(res)
+							let schedule_tar = {
+								start_week_day: 7
+							};
+							for (let schedule of res) {
+								let temp = schedule.start_week_day
+								schedule_tar = temp <= schedule_tar.start_week_day ? schedule : schedule_tar
+							}
+							this.orderObj.picked_schedule_route_id = schedule_tar.id;
 						})
 					}
 				}
@@ -194,7 +205,46 @@
 				this.unit_obj.splice(index, 1);
 			},
 			invoiceValueChange(e) {
-				console.log(e)
+				let invoice = this.invoice
+				invoice.needDetail = e.indexOf("needDetail") == -1?0:1
+				invoice.vatInvoice = e.indexOf("vatInvoice") == -1?0:1
+				this.invoice = invoice;
+			},
+			//筛选线路
+			schedule_filter(schedules) {
+				let date = new Date();
+				let weekday_now = date.getDay()
+
+			},
+			submit() {
+				let data = {};
+				let obj = this.orderObj;
+				let invoice = this.invoice
+				data.sender_company = obj.address.from.company
+				data.sender_contact = obj.address.from.contact
+				data.sender_mobile = obj.address.from.mobile
+				data.sender_province = obj.address.from.province
+				data.sender_city = obj.address.from.city
+				data.sender_address = obj.address.from.address
+
+				data.receiver_company = obj.address.to.company
+				data.receiver_contact = obj.address.to.contact
+				data.receiver_mobile = obj.address.to.mobile
+				data.receiver_province = obj.address.to.province
+				data.receiver_city = obj.address.to.city
+				data.receiver_address = obj.address.to.address
+				
+				data.package_options = ""
+				data.invoice_header = invoice.title
+				data.invoice_code = invoice.code
+				data.invoice_content = "运输服务费"
+				//此处是checkbox
+				data.need_detail_list = 0
+				
+				data.route_start_main_node_id = obj.address.from.main_node_id
+				data.route_start_sub_node_id = obj.address.from.sub_node_id
+				data.route_end_main_node_id = obj.address.to.main_node_id
+				data.route_end_sub_node_id = obj.address.to.sub_node_id
 			}
 		}
 	}
