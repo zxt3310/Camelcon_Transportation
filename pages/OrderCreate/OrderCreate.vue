@@ -25,11 +25,13 @@
 				<view class="u-flex-grow" style="margin-left: 40upx;">
 					<view class="u-flex-row">
 						<text>发票抬头：</text>
-						<u--input border="none" fontSize="13px" placeholder="请输入发票抬头" v-model="orderObj.invoice.title"></u--input>
+						<u--input border="none" fontSize="13px" placeholder="请输入发票抬头"
+							v-model="orderObj.invoice.title"></u--input>
 					</view>
 					<view class="u-flex-row">
 						<text>税号代码：</text>
-						<u--input border="none" fontSize="13px" placeholder="请输入税号代码" v-model="orderObj.invoice.code"></u--input>
+						<u--input border="none" fontSize="13px" placeholder="请输入税号代码"
+							v-model="orderObj.invoice.code"></u--input>
 					</view>
 					<view>发票内容：运输服务费</view>
 					<view class="" style="margin-top: 20upx;">
@@ -44,27 +46,30 @@
 				</view>
 			</view>
 		</view>
-		
+
 		<view class="content_view" style="margin-top: 0;">
 			<view class="ship_style u-flex-between u-flex-items-center">
 				<view class="Icon" style="background-color:orchid;">付</view>
 				<view class="u-flex-grow" style="margin-left: 40upx;">
 					<view class="u-flex-row">
 						<text>付款人：</text>
-						<u--input border="none" fontSize="13px" placeholder="请输入姓名" v-model="orderObj.payer.contact"></u--input>
+						<u--input border="none" fontSize="13px" placeholder="请输入姓名"
+							v-model="orderObj.payer.contact"></u--input>
 					</view>
 					<view class="u-flex-row">
 						<text>联系电话：</text>
-						<u--input border="none" fontSize="13px" placeholder="请输入电话" v-model="orderObj.payer.mobile"></u--input>
+						<u--input border="none" fontSize="13px" placeholder="请输入电话"
+							v-model="orderObj.payer.mobile"></u--input>
 					</view>
 					<view class="u-flex-row">
 						<text>地址：</text>
-						<u--input border="none" fontSize="13px" placeholder="请输入地址" v-model="orderObj.payer.address"></u--input>
+						<u--input border="none" fontSize="13px" placeholder="请输入地址"
+							v-model="orderObj.payer.address"></u--input>
 					</view>
 				</view>
 			</view>
 		</view>
-		
+
 		<view class="content_view" style="margin-top: 0;">
 			<view class="box_list_unit" v-for="(item, index) in orderObj.boxs" :key="index">
 				<u-badge type="primary" absolute :offset="[-5 ,-5]" shape="horn" :value="`${item.box}盒`"></u-badge>
@@ -127,10 +132,10 @@
 					},
 					invoice: {},
 					boxs: [],
-					payer:{
-						contact:"",
-						mobile:"",
-						address:""
+					payer: {
+						contact: "",
+						mobile: "",
+						address: ""
 					}
 				}
 			}
@@ -160,14 +165,8 @@
 							end_sub_node_id: newObj.to.sub_node_id
 						}
 						checkSchedule(data).then((res) => {
-							let schedule_tar = {
-								start_week_day: 7
-							};
-							for (let schedule of res) {
-								let temp = schedule.start_week_day
-								schedule_tar = temp <= schedule_tar.start_week_day ? schedule : schedule_tar
-							}
-							this.orderObj.picked_schedule_route_id = schedule_tar.id;
+							let a =this.schedule_filter(res)
+							console.log(a)
 						})
 					}
 				}
@@ -199,8 +198,24 @@
 			//筛选线路
 			schedule_filter(schedules) {
 				let date = new Date();
-				let weekday_now = date.getDay()
+				//当前星期
+				let weekday_now = 3//date.getDay()
+				//当前小时
+				let hour = 10//date.getHours()
 
+				let ary = schedules.filter((sch) => {
+					let nodes = sch.middle_nodes
+					let node_from = nodes.filter(node => node.main_node_id == this.orderObj.address.from
+						.main_node_id)[0]
+					//如果本周还有班次
+					return (sch.start_week_day + node_from.trip_day == weekday_now && node_from.trip_time > hour +
+						5) || sch.start_week_day + node_from.trip_day > weekday_now
+				})
+				//本周没有班次则下周所有线路都符合
+				if (ary.length == 0) {
+					ary = schedules
+				}
+				return ary.sort((a, b) => a.start_week_day - b.start_week_day)[0]
 			},
 			submit() {
 				let data = {};
@@ -226,7 +241,7 @@
 				data.invoice_content = "运输服务费"
 				//此处是checkbox
 				data.need_detail_list = invoice.needDetail
-				
+
 				data.payer_contact = obj.payer.contact
 				data.payer_mobile = obj.payer.mobile
 				data.payer_address = obj.payer.address
@@ -236,7 +251,7 @@
 				data.route_end_main_node_id = obj.address.to.main_node_id
 				data.route_end_sub_node_id = obj.address.to.sub_node_id
 				data.order_item = obj.boxs
-				
+
 				console.log(data)
 			}
 		}
@@ -257,9 +272,11 @@
 		align-items: center;
 		padding: 30upx;
 		font-size: 13px;
-		text{
+
+		text {
 			line-height: 24px;
 		}
+
 		.Icon {
 			width: 40upx;
 			height: 40upx;
