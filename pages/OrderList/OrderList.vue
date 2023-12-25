@@ -15,16 +15,16 @@
 
 				<u-row customStyle="padding:10px" gutter="5" justify="around">
 					<u-col span="3" customStyle="text-align: center">
-						<view class="">{{order.from}}</view>
-						<view style="font-size: 24upx; color: gray;">{{order.sender}}</view>
+						<view class="">{{order.sender_city}}</view>
+						<view style="font-size: 24upx; color: gray;">{{order.sender_contact}}</view>
 					</u-col>
 					<u-col span="3" customStyle="text-align: center;">
 						<u-icon width="100%" height="40" name="/static/icon/order_right.png"></u-icon>
 						<view style="font-size: 24upx; color: gray;">{{order.status}}</view>
 					</u-col>
 					<u-col span="3" customStyle="text-align: center">
-						<view class="">{{order.to}}</view>
-						<view style="font-size: 24upx; color: gray;">{{order.receiver}}</view>
+						<view class="">{{order.receiver_city}}</view>
+						<view style="font-size: 24upx; color: gray;">{{order.receiver_contact}}</view>
 					</u-col>
 				</u-row>
 
@@ -152,7 +152,7 @@
 		},
 		onShow() {
 			getOrder().then((res)=>{
-				console.log(res)
+				this.currentList = res.data
 			})
 		},
 		methods: {
