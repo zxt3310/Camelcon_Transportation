@@ -17,7 +17,7 @@
 					age: "",
 					gene_type: "",
 					memo: "",
-					box: ""
+					box_num: ""
 				},
 				config: [{
 						label: "类别",
@@ -83,7 +83,7 @@
 					{
 						label: "盒数",
 						placeholder: "请输入多少盒",
-						key: "box",
+						key: "box_num",
 						type: "input",
 						inputType: "number",
 						verify: true
@@ -114,7 +114,7 @@
 						required: true,
 						message: "请输入基因型"
 					}],
-					box: [{
+					box_num: [{
 						required: true,
 						message: "请输入盒数"
 					}]

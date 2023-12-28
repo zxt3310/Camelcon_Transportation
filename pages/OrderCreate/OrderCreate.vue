@@ -72,7 +72,7 @@
 
 		<view class="content_view" style="margin-top: 0;">
 			<view class="box_list_unit" v-for="(item, index) in orderObj.boxs" :key="index">
-				<u-badge type="primary" absolute :offset="[-5 ,-5]" shape="horn" :value="`${item.box}盒`"></u-badge>
+				<u-badge type="primary" absolute :offset="[-5 ,-5]" shape="horn" :value="`${item.box_num}盒`"></u-badge>
 				<view
 					style="position: absolute; left:0,top:0; background-color: #0081FF; border-radius: 0 0 100% 0; padding:5upx 10upx 10upx 5upx; color: white;">
 					{{index+1}}
@@ -159,10 +159,10 @@
 					if (newObj.from && newObj.to) {
 						//此处写请求获取运输线路
 						let data = {
-							start_main_node_id: newObj.from.main_node_id,
-							start_sub_node_id: newObj.from.sub_node_id,
-							end_main_node_id: newObj.to.main_node_id,
-							end_sub_node_id: newObj.to.sub_node_id
+							start_node_province_id: newObj.from.main_node_id,
+							start_node_city_id: newObj.from.sub_node_id,
+							end_node_province_id: newObj.to.main_node_id,
+							end_node_city_id: newObj.to.sub_node_id
 						}
 						checkSchedule(data).then((res) => {
 							let a =this.schedule_filter(res)
