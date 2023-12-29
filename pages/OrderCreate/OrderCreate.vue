@@ -118,6 +118,8 @@
 	import {
 		checkSchedule
 	} from "@/api/Node"
+	
+	import {createOrder as CreateOrderRequest} from "@/api/Order"
 	export default {
 		data() {
 			return {
@@ -165,8 +167,8 @@
 							end_node_city_id: newObj.to.sub_node_id
 						}
 						checkSchedule(data).then((res) => {
-							let a =this.schedule_filter(res)
-							console.log(a)
+							let schedule_id =this.schedule_filter(res)
+							this.orderObj.schedule_id = schedule_id
 						})
 					}
 				}
@@ -197,25 +199,31 @@
 			},
 			//筛选线路
 			schedule_filter(schedules) {
+				//测试数据
+				// const mock = require("@/mock.json")
+				// schedules = mock.data
+				// console.log(schedules)
+				
 				let date = new Date();
 				//当前星期
-				let weekday_now = 3//date.getDay()
+				let weekday_now = date.getDay()
 				//当前小时
-				let hour = 10//date.getHours()
+				let hour = date.getHours()
 
 				let ary = schedules.filter((sch) => {
 					let nodes = sch.middle_nodes
-					let node_from = nodes.filter(node => node.main_node_id == this.orderObj.address.from
-						.main_node_id)[0]
+					let node_from = sch.start_main_node_data
+					let node_from_time = new Date(node_from.node_schedule_date)
+					
 					//如果本周还有班次
-					return (sch.start_week_day + node_from.trip_day == weekday_now && node_from.trip_time > hour +
+					return (sch.start_week_day + node_from.trip_day == weekday_now && node_from_time.getHours() > hour +
 						5) || sch.start_week_day + node_from.trip_day > weekday_now
 				})
 				//本周没有班次则下周所有线路都符合
 				if (ary.length == 0) {
 					ary = schedules
 				}
-				return ary.sort((a, b) => a.start_week_day - b.start_week_day)[0]
+				return (ary.sort((a, b) => a.start_week_day - b.start_week_day))[0].id
 			},
 			submit() {
 				let data = {};
@@ -251,8 +259,12 @@
 				data.route_end_main_node_id = obj.address.to.main_node_id
 				data.route_end_sub_node_id = obj.address.to.sub_node_id
 				data.order_item = obj.boxs
+				
+				data.picked_schedule_route_id = obj.schedule_id
 
-				console.log(data)
+				CreateOrderRequest(data).then((res)=>{
+					console.log(res)
+				})
 			}
 		}
 	}

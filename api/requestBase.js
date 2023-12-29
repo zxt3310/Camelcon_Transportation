@@ -151,7 +151,7 @@ $http.dataFactory = async function(res) {
 		//判断数据是否请求成功
 		if (httpData.status = "success" || httpData.code == 200) {
 			// 返回正确的结果(then接受数据)
-			return Promise.resolve(httpData.data);
+			return Promise.resolve(httpData.data?httpData.data:httpData);
 		} else if (httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100) {
 			let content = '此时此刻需要您登录喔~';
 			if (loginPopupNum <= 0) {
@@ -165,7 +165,7 @@ $http.dataFactory = async function(res) {
 						loginPopupNum--;
 						if (res.confirm) {
 							uni.navigateTo({
-								url: "/pages/user/login"
+								url: "/pages/Login/Login"
 							});
 						}
 					}

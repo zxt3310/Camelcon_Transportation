@@ -15,7 +15,7 @@
 
 				<u-row customStyle="padding:10px" gutter="5" justify="around">
 					<u-col span="3" customStyle="text-align: center">
-						<view class="">{{order.sender_city}}</view>
+						<view class="">{{formatCity(order.sender_province,order.sender_city)}}</view>
 						<view style="font-size: 24upx; color: gray;">{{order.sender_contact}}</view>
 					</u-col>
 					<u-col span="3" customStyle="text-align: center;">
@@ -23,7 +23,7 @@
 						<view style="font-size: 24upx; color: gray;">{{order.status}}</view>
 					</u-col>
 					<u-col span="3" customStyle="text-align: center">
-						<view class="">{{order.receiver_city}}</view>
+						<view class="">{{formatCity(order.receiver_province,order.receiver_city)}}</view>
 						<view style="font-size: 24upx; color: gray;">{{order.receiver_contact}}</view>
 					</u-col>
 				</u-row>
@@ -36,77 +36,13 @@
 
 <script>
 	import {getOrder} from "@/api/Order"
+	import {city_format} from "@/Tootls/CityFormat.js"
 	export default {
 		data() {
 			return {
 				current: 0,
 				currentList: [],
-				shipping_list: [{
-						id: "SF123456123456",
-						from: "北京市",
-						to: "上海市",
-						sender: "张三",
-						receiver: "李四",
-						status: "进行中"
-					},
-					{
-						id: "SF123456123456",
-						from: "北京市",
-						to: "上海市",
-						sender: "张三",
-						receiver: "李四",
-						status: "进行中"
-					},
-					{
-						id: "SF123456123456",
-						from: "北京市",
-						to: "上海市",
-						sender: "张三",
-						receiver: "李四",
-						status: "进行中"
-					},
-					{
-						id: "SF123456123456",
-						from: "北京市",
-						to: "上海市",
-						sender: "张三",
-						receiver: "李四",
-						status: "进行中"
-					}
-				],
-				deliver_list: [{
-						id: "SF12398054231",
-						from: "南京",
-						to: "广州",
-						sender: "刘天勤",
-						receiver: "赵秉承",
-						status: "已完成"
-					},
-					{
-						id: "SF12398054231",
-						from: "南京",
-						to: "广州",
-						sender: "刘天勤",
-						receiver: "赵秉承",
-						status: "已完成"
-					},
-					{
-						id: "SF12398054231",
-						from: "南京",
-						to: "广州",
-						sender: "刘天勤",
-						receiver: "赵秉承",
-						status: "已完成"
-					},
-					{
-						id: "SF12398054231",
-						from: "南京",
-						to: "广州",
-						sender: "刘天勤",
-						receiver: "赵秉承",
-						status: "已完成"
-					}
-				]
+				
 			}
 			// created_at: "2023-11-18 20:29:50"
 			// deleted_at: null
@@ -164,6 +100,9 @@
 				uni.navigateTo({
 					url: "/pages/OrderList/OrderDetail"
 				})
+			},
+			formatCity(province,city){
+				return city_format(province,city)
 			}
 		}
 	}
