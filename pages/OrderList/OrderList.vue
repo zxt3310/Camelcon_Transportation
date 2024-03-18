@@ -2,7 +2,7 @@
 	<view>
 		<u-subsection fontSize="26" :list="['进行中','已完成']" :current="current" @change="onChange"></u-subsection>
 		<view style="padding: 40upx;">
-			<view class="order_unit" v-for="(order,index) in currentList" :key="index" @click="jumpToDetail">
+			<view class="order_unit" v-for="(order,index) in currentList" :key="index" @click="jumpToDetail(index)">
 				<u-row>
 					<u-col span="10" customStyle="font-size:13px; color:gray;">
 						{{`运单号:${order.id}`}}
@@ -42,7 +42,6 @@
 			return {
 				current: 0,
 				currentList: [],
-				
 			}
 			// created_at: "2023-11-18 20:29:50"
 			// deleted_at: null
@@ -84,7 +83,7 @@
 			// updated_at: "2023-12-07 13:40:07"
 		},
 		onLoad() {
-			this.currentList = this.shipping_list;
+			
 		},
 		onShow() {
 			getOrder().then((res)=>{
@@ -96,9 +95,11 @@
 				this.current = index;
 				this.currentList = index ? this.deliver_list : this.shipping_list;
 			},
-			jumpToDetail() {
+			jumpToDetail(index) {
+				let order = this.currentList[index]
+				let option = JSON.stringify(order)
 				uni.navigateTo({
-					url: "/pages/OrderList/OrderDetail"
+					url: `/pages/OrderList/OrderDetail?order=${option}`
 				})
 			},
 			formatCity(province,city){

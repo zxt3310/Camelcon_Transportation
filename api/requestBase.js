@@ -1,7 +1,7 @@
 import request from "@/uni_modules/zhouWei-request/js_sdk/request";
 import storage from "@/Tootls/storage.js"
 // 全局配置的请求域名
-let baseUrl = "http://211.159.178.9/";
+let baseUrl = "https://wl.camelcon.cn/trans/";//http://211.159.178.9/
 //可以new多个request来支持多个域名请求
 let $http = new request({
 	//接口请求地址

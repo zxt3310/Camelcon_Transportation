@@ -26,16 +26,16 @@
 				<view class="title" style="padding: 20upx;">
 					<u-row gutter="5" justify="around">
 						<u-col span="3" customStyle="text-align: center">
-							<view class="">{{order.from}}</view>
-							<view style="font-size: 26upx;">张三</view>
+							<view class="">{{order.sender_city}}</view>
+							<view style="font-size: 26upx;">{{order.sender_contact}}</view>
 						</u-col>
 						<u-col span="3" customStyle="text-align: center;">
 							<u-icon width="100%" height="40" name="/static/icon/order_right.png"></u-icon>
 							<view style="font-size: 26upx;">进行中</view>
 						</u-col>
 						<u-col span="3" customStyle="text-align: center">
-							<view class="">{{order.to}}</view>
-							<view style="font-size: 26upx;">李四</view>
+							<view class="">{{order.receiver_city}}</view>
+							<view style="font-size: 26upx;">{{order.receiver_contact}}</view>
 						</u-col>
 					</u-row>
 				</view>
@@ -97,7 +97,10 @@
 				rate:3.5
 			}
 		},
-		onLoad() {
+		onLoad(option) {
+			let order_str = option.query.order
+			let order = JSON.parse(order_str)
+			this.order = order
 			this.step.reverse()
 		},
 		methods: {

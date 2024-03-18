@@ -96,6 +96,14 @@
 				"navigationBarTitleText" : "关于我们",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/Login/Register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {
