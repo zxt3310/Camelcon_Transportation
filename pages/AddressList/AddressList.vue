@@ -6,14 +6,14 @@
 		<view v-else>
 			<view class="addr_unit" v-for="(addr, index) in addr_list" :key="index" @click="selectAddr(index)">
 				<view class="">
-					<text style="font-size: 30upx; font-weight: 800;">{{addr.contact}}</text>
-					<text style="margin-left: 20upx;">{{addr.mobile}}</text>
+					<text style="font-size: 30upx; font-weight: 800;">{{addr.cName}}</text>
+					<text style="margin-left: 20upx;">{{addr.cPhone}}</text>
 				</view>
 				<view>
-					<text style="font-weight: bold;">{{addr.company}}</text>
+					<text style="font-weight: bold;">{{addr.cCorp}}</text>
 				</view>
 				<view style="margin-bottom: 20upx;">
-					<text>{{`${addr.province} ${addr.city} ${addr.address}`}}</text>
+					<text>{{`${addr.cProvince} ${addr.cCity} ${addr.cCounty} ${addr.cAddress}`}}</text>
 				</view>
 				<u-line color="gray"></u-line>
 				<view class="u-flex-row u-flex-end" style="padding-top: 15upx;">
@@ -37,12 +37,13 @@
 				option:null,
 				addr_list: [
 					// "user_id": 2,
-					// "company": "湖北天霸制药有限公司",
-					// "contact": "李四",
-					// "mobile": "18055733364",
-					// "province": "湖北省",
-					// "city": "武汉市",
-					// "address": "武昌区xxx路xx街道xx号",
+					// "cCorp": "湖北天霸制药有限公司",
+					// "cName": "李四",
+					// "cPhone": "18055733364",
+					// "cProvince": "湖北省",					
+					// "cCity": "武汉市",
+					// "cCounty": "xx区"
+					// "cAddress": "武昌区xxx路xx街道xx号",
 					// "main_node_id": 25,
 					// "sub_node_id": 10,
 					// "created_at": "2023-12-08 16:08:56",
@@ -60,7 +61,7 @@
 		methods: {
 			pull_addr_list() {
 				addr_get().then((res => {
-					this.addr_list = res
+					this.addr_list = res.result
 				})).catch((error) => {
 					console.log(error)
 				})

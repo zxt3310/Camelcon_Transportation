@@ -12,8 +12,12 @@
 				</u-form-item>
 				<block v-if="curNow==0">
 					<u-form-item prop="data.password" borderBottom ref="item2">
-						<u--input prefixIcon="lock-fill" placeholder="请输入密码" border="none"
-							prefixIconStyle="font-size:22px" v-model="model.data.password"></u--input>
+						<u-input prefixIcon="lock-fill" placeholder="请输入密码" border="none"
+							prefixIconStyle="font-size:22px" v-model="model.data.password">
+							<template slot="suffix">
+								<u-text size=24 type="primary" text="忘记密码" @click="ChangePwd"></u-text>
+							</template>
+						</u-input>
 					</u-form-item>
 				</block>
 				<block v-if="curNow==1">
@@ -38,7 +42,7 @@
 </template>
 
 <script>
-	import {sms_login} from "@/api/login"
+	import {sms_login, sms_send_code} from "@/api/login"
 	export default {
 		data() {
 			return {
@@ -47,8 +51,8 @@
 				login_methods:["密码登录","验证码登录"],
 				model: {
 					data: {
-						mobile: "15500000000",
-						password: "123456",
+						mobile: "15500000005",
+						password: "654321",
 						type:1
 					}
 				},
@@ -90,9 +94,11 @@
 			},
 			getCode() {
 				if (this.$refs.uCode.canGetCode) {
-					sms_login({
+					sms_send_code({
 						cPhoneNumber:this.model.data.mobile,
 						cCodeType:"wl.UserReg"
+					}).then((res)=>{
+						console.log(res)
 					})
 					// 模拟向后端请求验证码
 					uni.showLoading({
@@ -127,6 +133,9 @@
 				uni.navigateTo({
 					url: "/pages/Login/Register"
 				})
+			},
+			ChangePwd(){
+				
 			}
 		}
 	}

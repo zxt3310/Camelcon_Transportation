@@ -2,8 +2,8 @@
 	<view class="page_in">
 		<view class="header">
 			<view class="user-info u-flex-row">
-				<u-avatar size="100"></u-avatar>
-				<text style="margin-left: 40upx; color: white;">{{maskPhone(this.$store.state.user.username)}}</text>
+				<u-avatar size="100" :src="user.cPhoto"></u-avatar>
+				<text style="margin-left: 40upx; color: white;">{{maskPhone(this.$store.state.user.userinfo.cMobile)}}</text>
 			</view>
 			<view class="service_box">
 				<view style="font-size: 24upx; font-weight: 900; padding: 20upx;">基础服务</view>
@@ -45,8 +45,7 @@
 			return {
 				// show:false,
 				user:{
-					avatar:"",
-					phone:this.$store.state.user.username
+					
 				}
 				// list:[
 				// 	{name:"010-86683333"}
@@ -55,6 +54,9 @@
 		},
 		onLoad() {
 			
+		},
+		onShow() {
+			this.user = this.$store.state.user.userinfo
 		},
 		methods: {
 			maskPhone(phone){
@@ -76,8 +78,10 @@
 				})
 			},
 			logout(){
-				let node = this.$store.getters.getnode;
-				console.log(tools.queryNode(node,"淄博"));
+				this.$store.dispatch("logout")
+				uni.reLaunch({
+					url: '/pages/Login/Login'
+				})
 			}
 		}
 	}

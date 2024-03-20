@@ -115,7 +115,7 @@ $http.requestStart = function(options) {
 		}
 	}
 	//请求前加入token
-	options.header['Authorization'] = storage.get("TOKEN")
+	options.header['UserAuthorization'] = storage.get("TOKEN")
 	return options; // return false 表示请求拦截，不会继续请求
 }
 //请求结束
@@ -140,7 +140,7 @@ $http.dataFactory = async function(res) {
 	// 	data: res.data,
 	// 	method: res.method,
 	// });
-	console.log(res)
+	// console.log(res)
 	if (res.response.statusCode && res.response.statusCode == 200) {
 		let httpData = res.response.data;
 		if (typeof (httpData) == "string") {
@@ -149,9 +149,11 @@ $http.dataFactory = async function(res) {
 		/*********以下只是模板(及共参考)，需要开发者根据各自的接口返回类型修改*********/
 
 		//判断数据是否请求成功
-		if (httpData.status = "success" || httpData.code == 200) {
+		if (httpData.success) {
 			// 返回正确的结果(then接受数据)
-			return Promise.resolve(httpData.data?httpData.data:httpData);
+			//如果是登录接口 则返回整个response 否则只返回业务数据
+			let token = res.response.header.Userauthorization
+			return Promise.resolve(typeof token=="undefined"?httpData:res.response);
 		} else if (httpData.code == "1000" || httpData.code == "1001" || httpData.code == 1100) {
 			let content = '此时此刻需要您登录喔~';
 			if (loginPopupNum <= 0) {
@@ -174,12 +176,12 @@ $http.dataFactory = async function(res) {
 			// 返回错误的结果(catch接受数据)
 			return Promise.reject({
 				statusCode: 0,
-				errMsg: "【request】" + (httpData.info || httpData.msg)
+				errMsg: "【request】" + (httpData.info || httpData.message)
 			});
 		} else { //其他错误提示
 			if (res.isPrompt) {
 				uni.showToast({
-					title: httpData.info || httpData.msg,
+					title: httpData.info || httpData.message,
 					icon: "none",
 					duration: 3000
 				});
@@ -187,7 +189,7 @@ $http.dataFactory = async function(res) {
 			// 返回错误的结果(catch接受数据)
 			return Promise.reject({
 				statusCode: 0,
-				errMsg: "【request】" + (httpData.info || httpData.msg)
+				errMsg: "【request】" + (httpData.info || httpData.message)
 			});
 		}
 

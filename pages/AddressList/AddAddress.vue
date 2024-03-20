@@ -35,9 +35,9 @@
 			return {
 				model: {
 					addrobj: {
-						contact: "",
-						mobile: "",
-						company: "",
+						cName: "",
+						cPhone: "",
+						cCorp: "",
 						addr_1: "",
 						address: ""
 					}

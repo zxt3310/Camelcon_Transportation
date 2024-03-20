@@ -3,7 +3,7 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
-			this.$store.getters.getnode
+			// this.$store.getters.getnode
 		},
 		onShow: function() {
 			

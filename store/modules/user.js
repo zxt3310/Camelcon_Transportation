@@ -2,7 +2,7 @@ import storage from '@/Tootls/storage.js'
 import * as loginApi from '@/api/login'
 const user = {
 	state: {
-		username: storage.get('PHONE')?storage.get('PHONE'):'未登录',
+		userinfo: JSON.parse(storage.get("PHONE")),
 		token: storage.get('TOKEN')?storage.get('TOKEN'):null,
 	},
 	mutations: {
@@ -10,7 +10,7 @@ const user = {
 			state.token = value;
 		},
 		SET_USER: (state, value) => {
-			state.username = value;
+			state.userinfo = value;
 		}
 	},
 	actions: {
@@ -21,14 +21,13 @@ const user = {
 				loginApi.login({
 					...data
 				}).then((res) => {
-					let result = res;
-					let expire = result.expires_in;
-					let token = `${result.token_type} ${result.access_token}`
-					let phone = data.username
+					console.log(res)
+					let data = res.data.result
+					let token = res.header.Userauthorization
+					let userinfo = JSON.stringify(data)
 					loginSuccess(commit, {
 						token,
-						phone,
-						expire
+						userinfo
 					})
 					resolve()
 				}).catch(reject)
@@ -51,12 +50,12 @@ const checkLogin = () => {
 
 const loginSuccess = (commit, {
 	token,
-	phone,
+	userinfo,
 	expire
 }) => {
-	storage.set("PHONE", phone)
-	storage.set("TOKEN", token, expire)
-	commit('SET_USER', phone)
+	storage.set("PHONE", userinfo)
+	storage.set("TOKEN", token)
+	commit('SET_USER', userinfo)
 	commit('SET_TOKEN', token)
 	let $store = getCurrentPages()[0].$vm.$store;
 	$store.dispatch("requestNode");

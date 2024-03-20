@@ -20,5 +20,9 @@ export const sms_login = (data) => {
 }
 
 export const sms_send_code = (data) =>{
-	return $http.get(api.smsCode,data)
+	return $http.post(api.smsCode,data)
+}
+
+export const register = (data)=>{
+	return $http.post(api.register, data)
 }

@@ -1,10 +1,10 @@
 import $http from "@/api/requestBase.js"
 
 const address = {
-	add:"api/v1/add-user-address",
-	update:"api/v1/update-user-address",
-	delete:"api/v1/delete-user-address",
-	get:"api/v1/query-user-address-by-id"
+	add:"api/v3/wechat/wluser/submit/add/3001",
+	update:"api/v3/wechat/wluser/submit/edit/3001",
+	delete:"api/v3/wechat/wluser/submit/del/3001",
+	get:"api/v3/wechat/wluser/request/sql/3001"
 }
 
 export const addr_add = (data) => {
@@ -12,7 +12,7 @@ export const addr_add = (data) => {
 }
 
 export const addr_get = () => {
-	return $http.get(address.get)
+	return $http.post(address.get)
 }
 
 export const addr_update = (data) =>{
@@ -20,5 +20,5 @@ export const addr_update = (data) =>{
 }
 
 export const addr_delete = (data) =>{
-	return $http.delete(address.delete, data)
+	return $http.post(address.delete, data)
 }

@@ -5,17 +5,17 @@
 	</view>
 		<view class="input_box">
 			<u--form :model="model" :rules="rules" ref="uForm">
-				<u-form-item prop="data.mobile" borderBottom ref="item1">
+				<u-form-item prop="data.cMobile" borderBottom ref="item1">
 					<u--input prefixIcon="phone-fill" placeholder="请输入手机号码" border="none"
-						prefixIconStyle="font-size:22px" v-model="model.data.mobile"></u--input>
+						prefixIconStyle="font-size:22px" v-model="model.data.cMobile"></u--input>
 				</u-form-item>
-				<u-form-item prop="data.password" borderBottom ref="item2">
-					<u--input prefixIcon="lock-fill" placeholder="请输入密码" border="none" prefixIconStyle="font-size:22px"
-						v-model="model.data.password"></u--input>
+				<u-form-item prop="data.cPassword" borderBottom ref="item2">
+					<u--input prefixIcon="lock-fill" type="password" placeholder="请输入密码" border="none" prefixIconStyle="font-size:22px"
+						v-model="model.data.cPassword"></u--input>
 				</u-form-item>
-				<u-form-item prop="data.captcha" borderBottom ref="item2">
+				<u-form-item prop="data.cSmsCode" borderBottom ref="item2">
 					<u-input prefixIcon="email-fill" placeholder="请输入验证码" border="none" prefixIconStyle="font-size:22px"
-						v-model="model.data.captcha">
+						v-model="model.data.cSmsCode">
 						<view slot="suffix">
 							<u-code ref="uCode" @change="codeChange" seconds="20" changeText="X秒重新获取"></u-code>
 							<u-button @tap="getCode" :text="tips" type="primary" size="mini"></u-button>
@@ -32,7 +32,7 @@
 
 <script>
 	import {
-		sms_login
+		register, sms_send_code
 	} from "@/api/login"
 	export default {
 		data() {
@@ -40,13 +40,13 @@
 				tips: "获取验证码",
 				model: {
 					data: {
-						mobile: "",
-						password: "",
-						type: 1
+						cMobile: "",
+						cPassword: "",
+						cSmsCode:""
 					}
 				},
 				rules: {
-					'data.mobile': [{
+					'data.cMobile': [{
 							type: 'number',
 							required: true,
 							message: '请填写手机号',
@@ -57,13 +57,18 @@
 							pattern: /^(13[0-9]|14[579]|15[012356789]|16[6]|17[0135678]|18[0-9]|19[89])\d{8}$/,
 							trigger: ['blur', 'change']
 						}
-					]
-					// 'data.captcha': {
-					// 	type: 'number',
-					// 	required: true,
-					// 	message: "请填写验证码",
-					// 	trigger: ['blur', 'change']
-					// }
+					],
+					'data.cPassword':{
+						required: true,
+						message: "请填写密码",
+						trigger: ['blur', 'change']
+					},
+					'data.cSmsCode': {
+						type: 'number',
+						required: true,
+						message: "请填写验证码",
+						trigger: ['blur', 'change']
+					}
 				}
 			};
 		},
@@ -83,8 +88,8 @@
 			},
 			getCode() {
 				if (this.$refs.uCode.canGetCode) {
-					sms_login({
-						cPhoneNumber: this.model.data.mobile,
+					sms_send_code({
+						cPhoneNumber: this.model.data.cMobile,
 						cCodeType: "wl.UserReg"
 					})
 					// 模拟向后端请求验证码
@@ -102,15 +107,11 @@
 					uni.$u.toast('倒计时结束后再发送');
 				}
 			},
-			change(e) {
-				console.log('change', e);
-			},
 			submit() {
 				this.$refs.uForm.validate().then(res => {
-					this.$store.dispatch('login', this.model.data).then(() => {
-						uni.reLaunch({
-							url: '/pages/index/index'
-						})
+					register(this.model.data).then((res)=>{
+						uni.$u.toast('注册成功');
+						uni.navigateBack()
 					})
 				}).catch((error) => {
 					console.log(error)
