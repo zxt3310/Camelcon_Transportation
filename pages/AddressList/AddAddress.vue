@@ -2,22 +2,22 @@
 	<view class="">
 		<view class="content">
 			<u-form :model="model" :rules="rules" ref="uForm" labelWidth="80px">
-				<u-form-item border-bottom prop="addrobj.contact" label="姓名:" ref="item1">
-					<u--input border="none" placeholder="请输入姓名" v-model="model.addrobj.contact"></u--input>
+				<u-form-item border-bottom prop="addrobj.cName" label="姓名:" ref="item1">
+					<u--input border="none" placeholder="请输入姓名" v-model="model.addrobj.cName"></u--input>
 				</u-form-item>
-				<u-form-item border-bottom prop="addrobj.mobile" label="手机号:" ref="item2">
-					<u--input border="none" placeholder="请输入手机号" v-model="model.addrobj.mobile"></u--input>
+				<u-form-item border-bottom prop="addrobj.cPhone" label="手机号:" ref="item2">
+					<u--input border="none" placeholder="请输入手机号" v-model="model.addrobj.cPhone"></u--input>
 				</u-form-item>
-				<u-form-item border-bottom prop="addrobj.company" label="单位:" ref="item3">
-					<u--input border="none" placeholder="请输入单位" v-model="model.addrobj.company"></u--input>
+				<u-form-item border-bottom prop="addrobj.cCorp" label="单位:" ref="item3">
+					<u--input border="none" placeholder="请输入单位" v-model="model.addrobj.cCorp"></u--input>
 				</u-form-item>
 				<u-form-item border-bottom prop="addrobj.addr_1" label="省市区:" @click.stop="show_picker" ref="item4">
 					<u--input border="none" readonly placeholder="请选择省市区"
 						v-model="model.addrobj.addr_1"></u--input>
 				</u-form-item>
-				<u-form-item border-bottom prop="addrobj.address" label="详细地址:" ref="item5">
+				<u-form-item border-bottom prop="addrobj.cAddress" label="详细地址:" ref="item5">
 					<u--textarea height="200" border="none" disableDefaultPadding placeholder="街道门牌号"
-						customStyle="padding: 1px;" v-model="model.addrobj.address"></u--textarea>
+						customStyle="padding: 1px;" v-model="model.addrobj.cAddress"></u--textarea>
 				</u-form-item>
 			</u-form>
 			<u-button customStyle="margin-top: 30px;" type="primary" color="#0081FF" shape="circle"
@@ -39,22 +39,22 @@
 						cPhone: "",
 						cCorp: "",
 						addr_1: "",
-						address: ""
+						cAddress: ""
 					}
 				},
 				addr_containor: {
-					province: "",
-					city: "",
-					district: ""
+					cProvince: "",
+					cCity: "",
+					cCounty: ""
 				},
 				rules: {
-					'addrobj.contact': {
+					'addrobj.cName': {
 						type: 'string',
 						required: true,
 						message: "请输入姓名",
 						trigger: ["blur", "change"]
 					},
-					'addrobj.mobile': [{
+					'addrobj.cPhone': [{
 						type: 'number',
 						required: true,
 						message: '请填写手机号',
@@ -64,7 +64,7 @@
 						pattern: /^(13[0-9]|14[579]|15[012356789]|16[6]|17[0135678]|18[0-9]|19[89])\d{8}$/,
 						trigger: ['blur', 'change'],
 					}],
-					'addrobj.company': {
+					'addrobj.cCorp': {
 						type: 'string',
 						required: true,
 						message: "请输入单位",
@@ -76,7 +76,7 @@
 						message: "请选择省市区",
 						trigger: ["blur", "change"]
 					},
-					'addrobj.address': {
+					'addrobj.cAddress': {
 						type: 'string',
 						required: true,
 						message: "请输入详细地址",
@@ -101,31 +101,26 @@
 				let city = val[1].label;
 				let district = val[2].label;
 				if(province == city){
-					city = district
-					district = ""
-					this.model.addrobj.addr_1 = `${province} ${city}`
+					this.model.addrobj.addr_1 = `${city} ${district}`
 				}else{
 					this.model.addrobj.addr_1 = `${province} ${city} ${district}`
 				}
 				this.addr_containor = {
-					province: province,
-					city: city,
-					district: district
+					cProvince: province,
+					cCity: city,
+					cCounty: district
 				}
 			},
 			submit(){
 				this.$refs.uForm.validate().then(res =>{
 					let addrObj = this.model.addrobj;
 					let addrContainor = this.addr_containor
-					// console.log(this.$store.state)
-					//查询节点信息
-					let nodeObj = queryNode(this.$store.state.Node.nodes,addrContainor.city)
+					// console.log(this.$store.state)			
 					//拼请求参数
-					addrObj.province = addrContainor.province
-					addrObj.city = addrContainor.city;
-					addrObj.address = `${addrContainor.district} ${addrObj.address}`
-					addrObj.main_node_id = nodeObj.main_node_id
-					addrObj.sub_node_id = nodeObj.id
+					addrObj.cProvince = addrContainor.cProvince
+					addrObj.cCity = addrContainor.cCity
+					addrObj.cCounty = addrContainor.cCounty
+
 					//请求
 					addr_add(addrObj).then((res)=>{
 						console.log(res)

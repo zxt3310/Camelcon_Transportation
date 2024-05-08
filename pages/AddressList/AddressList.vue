@@ -81,7 +81,7 @@
 					success: (res) => {
 						if(res.confirm){
 							let addr = this.addr_list[index]
-							addr_delete([addr.id]).then((res)=>{
+							addr_delete({"iUserAddrId":addr.iUserAddrId}).then((res)=>{
 								this.addr_list.splice(index,1)
 							})
 						}

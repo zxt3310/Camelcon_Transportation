@@ -10,19 +10,19 @@
 		data() {
 			return {
 				formData: {
-					type: "",
-					name: "",
-					gender: "",
-					quantity: "",
-					age: "",
-					gene_type: "",
-					memo: "",
+					cType: "",
+					cName: "",
+					cGender: "",
+					iCount: "",
+					iWeekAge: "",
+					cGene: "",
+					cNote: "",
 					box_num: ""
 				},
 				config: [{
 						label: "类别",
 						placeholder: "请输入类别",
-						key: "type",
+						key: "cType",
 						type: "input",
 						inputType: "text",
 						verify: true
@@ -30,7 +30,7 @@
 					{
 						label: "品系",
 						placeholder: "请输入品系名称",
-						key: "name",
+						key: "cName",
 						type: "input",
 						inputType: "text",
 						verify: true
@@ -38,7 +38,7 @@
 					{
 						label: "性别",
 						placeholder: "请输选择性别",
-						key: "gender",
+						key: "cGender",
 						type: "picker",
 						options: [{
 							label: "公",
@@ -52,7 +52,7 @@
 					{
 						label: "只数",
 						placeholder: "请输入小鼠数量",
-						key: "quantity",
+						key: "iCount",
 						type: "input",
 						inputType: "number",
 						verify: true
@@ -60,7 +60,7 @@
 					{
 						label: "周龄",
 						placeholder: "请输入周龄",
-						key: "age",
+						key: "iWeekAge",
 						type: "input",
 						inputType: "text",
 						verify: true
@@ -68,7 +68,7 @@
 					{
 						label: "基因型",
 						placeholder: "请输入基因型",
-						key: "gene_type",
+						key: "cGene",
 						type: "input",
 						inputType: "text",
 						verify: true
@@ -76,7 +76,7 @@
 					{
 						label: "备注",
 						placeholder: "请输入",
-						key: "memo",
+						key: "cNote",
 						type: "input",
 						inputType: "text"
 					},
@@ -90,27 +90,27 @@
 					}
 				],
 				rules: {
-					type: [{
+					cType: [{
 						required: true,
 						message: "请输入类别"
 					}],
-					name: [{
+					cName: [{
 						required: true,
 						message: "请输入品系名称"
 					}],
-					gender: [{
+					cGender: [{
 						required: true,
 						message: "请选择性别"
 					}],
-					quantity: [{
+					iCount: [{
 						required: true,
 						message: "请输入数量"
 					}],
-					age: [{
+					iWeekAge: [{
 						required: true,
 						message: "请输入周龄"
 					}],
-					gene_type: [{
+					cGene: [{
 						required: true,
 						message: "请输入基因型"
 					}],

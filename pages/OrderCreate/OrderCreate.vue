@@ -79,16 +79,16 @@
 				</view>
 				<view class="box_content">
 					<view class="u-flex-row">
-						<u--text size="24" :text="`类别:${item.type}`"></u--text>
-						<u--text size="24" :text="`性别:${item.gender}`"></u--text>
-						<u--text size="24" :text="`只数:${item.quantity}`"></u--text>
-						<u--text size="24" :text="`周龄:${item.age}`"></u--text>
+						<u--text size="24" :text="`类别:${item.cType}`"></u--text>
+						<u--text size="24" :text="`性别:${item.cGender}`"></u--text>
+						<u--text size="24" :text="`只数:${item.iCount}`"></u--text>
+						<u--text size="24" :text="`周龄:${item.iWeekAge}`"></u--text>
 					</view>
 					<view class="u-flex-row">
-						<u--text size="24" :text="`品系:${item.name}`"></u--text>
-						<u--text size="24" :text="`基因型:${item.gene_type}`"></u--text>
+						<u--text size="24" :text="`品系:${item.cName}`"></u--text>
+						<u--text size="24" :text="`基因型:${item.cGene}`"></u--text>
 					</view>
-					<u--text size="24" :text="`备注:${item.memo}`"></u--text>
+					<u--text size="24" :text="`备注:${item.cNote}`"></u--text>
 					<view class="remove_btn">
 						<u-button size="mini" type="error" plain="true" text="移除" @click="remove_box(index)"></u-button>
 					</view>
@@ -152,25 +152,25 @@
 					if (newObj.from) {
 						let from = newObj.from
 						this.ship_from =
-							`${from.contact} ${from.mobile}\n${from.company}\n${from.province} ${from.city} ${from.address}`
+							`${from.cName} ${from.cPhone}\n${from.cCorp}\n${from.cProvince} ${from.cCity} ${from.cCounty} ${from.cAddress}`
 					}
 					if (newObj.to) {
 						let to = newObj.to
-						this.ship_to = `${to.contact} ${to.mobile}\n${to.company}\n${to.province} ${to.city} ${to.address}`
+						this.ship_to = `${to.cName} ${to.cPhone}\n${to.cCorp}\n${to.cProvince} ${to.cCity} ${to.cCounty} ${to.cAddress}`
 					}
-					if (newObj.from && newObj.to) {
-						//此处写请求获取运输线路
-						let data = {
-							start_node_province_id: newObj.from.main_node_id,
-							start_node_city_id: newObj.from.sub_node_id,
-							end_node_province_id: newObj.to.main_node_id,
-							end_node_city_id: newObj.to.sub_node_id
-						}
-						checkSchedule(data).then((res) => {
-							let schedule_id =this.schedule_filter(res)
-							this.orderObj.schedule_id = schedule_id
-						})
-					}
+					// if (newObj.from && newObj.to) {
+					// 	//此处写请求获取运输线路
+					// 	let data = {
+					// 		start_node_province_id: newObj.from.main_node_id,
+					// 		start_node_city_id: newObj.from.sub_node_id,
+					// 		end_node_province_id: newObj.to.main_node_id,
+					// 		end_node_city_id: newObj.to.sub_node_id
+					// 	}
+					// 	checkSchedule(data).then((res) => {
+					// 		let schedule_id =this.schedule_filter(res)
+					// 		this.orderObj.schedule_id = schedule_id
+					// 	})
+					// }
 				}
 			}
 		},
@@ -227,42 +227,42 @@
 			},
 			submit() {
 				let data = {};
-				let obj = this.orderObj;
+				let obj = this.orderObj
 				let invoice = obj.invoice
-				data.sender_company = obj.address.from.company
-				data.sender_contact = obj.address.from.contact
-				data.sender_mobile = obj.address.from.mobile
-				data.sender_province = obj.address.from.province
-				data.sender_city = obj.address.from.city
-				data.sender_address = obj.address.from.address
-
-				data.receiver_company = obj.address.to.company
-				data.receiver_contact = obj.address.to.contact
-				data.receiver_mobile = obj.address.to.mobile
-				data.receiver_province = obj.address.to.province
-				data.receiver_city = obj.address.to.city
-				data.receiver_address = obj.address.to.address
+				data.iSendUserAddrId = obj.address.from.iUserAddrId
+				data.cSendCorp = obj.address.from.cCorp
+				data.cSendName = obj.address.from.cName
+				data.cSendPhone = obj.address.from.cPhone
+				data.cSendProvince = obj.address.from.cProvince
+				data.cSendCity = obj.address.from.cCity
+				data.cSendCounty = obj.address.from.cCounty
+				data.cSendAddress = obj.address.from.cAddress
+				
+				data.iRecvUserAddrId = obj.address.to.iUserAddrId
+				data.cRecvCorp = obj.address.to.cCorp
+				data.cRecvName = obj.address.to.cName
+				data.cRecvPhone = obj.address.to.cPhone
+				data.cRecvProvince = obj.address.to.cProvince
+				data.cRecvCity = obj.address.to.cCity
+				data.cRecvCounty = obj.address.to.cCounty
+				data.cRecvAddress = obj.address.to.cAddress
 
 				data.package_options = ""
-				data.invoice_header = invoice.title
-				data.invoice_code = invoice.code
-				data.invoice_content = "运输服务费"
+				data.cTickTitle = invoice.title
+				data.cTickTaxNo = invoice.code
+				data.cTickNote = "运输服务费"
 				//此处是checkbox
 				data.need_detail_list = invoice.needDetail
 
-				data.payer_contact = obj.payer.contact
-				data.payer_mobile = obj.payer.mobile
-				data.payer_address = obj.payer.address
+				data.cPayName = obj.payer.contact
+				data.cPayPhone = obj.payer.mobile
+				data.cPayAddress = obj.payer.address
+				//盒子
+				let postObj = {}
+				postObj.order = data
+				postObj.boxs = obj.boxs
 
-				data.route_start_main_node_id = obj.address.from.main_node_id
-				data.route_start_sub_node_id = obj.address.from.sub_node_id
-				data.route_end_main_node_id = obj.address.to.main_node_id
-				data.route_end_sub_node_id = obj.address.to.sub_node_id
-				data.order_item = obj.boxs
-				
-				data.picked_schedule_route_id = obj.schedule_id
-
-				CreateOrderRequest(data).then((res)=>{
+				CreateOrderRequest(postObj).then((res)=>{
 					console.log(res)
 				})
 			}
