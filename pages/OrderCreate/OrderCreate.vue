@@ -104,11 +104,11 @@
 		</view>
 		<view class="submit_btn">
 			<view class="u-flex-row u-flex-grow">
-				<text>定金:</text>
-				<text style="color: #0081FF;">￥500</text>
+				<!-- <text>定金:</text>
+				<text style="color: #0081FF;">￥500</text> -->
 			</view>
 			<view style="margin-right: 40px;">
-				<u-button text="支付并提交" type="primary" shape="circle" @click="submit()"></u-button>
+				<u-button text="提交订单" width="100px" type="primary" shape="circle" @click="submit()"></u-button>
 			</view>
 		</view>
 	</view>
@@ -189,7 +189,7 @@
 				})
 			},
 			remove_box(index) {
-				this.unit_obj.splice(index, 1);
+				this.orderObj.boxs.splice(index, 1);
 			},
 			invoiceValueChange(e) {
 				let invoice = this.orderObj.invoice
@@ -259,8 +259,8 @@
 				data.cPayAddress = obj.payer.address
 				//盒子
 				let postObj = {}
-				postObj.order = data
-				postObj.boxs = obj.boxs
+				postObj.order = JSON.stringify(data)
+				postObj.boxs = JSON.stringify(obj.boxs)
 
 				CreateOrderRequest(postObj).then((res)=>{
 					console.log(res)
@@ -327,7 +327,7 @@
 		width: 100%;
 		padding: 20upx;
 		font-size: 28upx;
-		position: fixed;
+		// position: fixed;
 		bottom: 30px;
 		background-color: white;
 	}

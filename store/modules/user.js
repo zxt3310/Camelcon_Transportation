@@ -57,7 +57,5 @@ const loginSuccess = (commit, {
 	storage.set("TOKEN", token)
 	commit('SET_USER', userinfo)
 	commit('SET_TOKEN', token)
-	let $store = getCurrentPages()[0].$vm.$store;
-	$store.dispatch("requestNode");
 }
 export default user

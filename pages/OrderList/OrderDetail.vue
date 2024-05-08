@@ -21,25 +21,50 @@
 			</u-row>
 		</view>
 		<view class="content_box">
-			<view style="line-height: 50upx; font-size: 28upx; color: gray;">运单号:{{order.id}}</view>
+			<view style="line-height: 50upx; font-size: 28upx; color: gray;">运单号: {{order.cOrderId}}</view>
 			<view class="detail_box">
 				<view class="title" style="padding: 20upx;">
 					<u-row gutter="5" justify="around">
-						<u-col span="3" customStyle="text-align: center">
-							<view class="">{{order.sender_city}}</view>
-							<view style="font-size: 26upx;">{{order.sender_contact}}</view>
+						<u-col span="4.5" customStyle="text-align: center">
+							<view class="">{{order.cSendCity}}</view>
+							<view style="font-size: 24upx; color: gray;">{{order.cSendName}}</view>
+							<view style="font-size: 24upx;">{{order.cSendCorp}}</view>
 						</u-col>
 						<u-col span="3" customStyle="text-align: center;">
 							<u-icon width="100%" height="40" name="/static/icon/order_right.png"></u-icon>
-							<view style="font-size: 26upx;">进行中</view>
+							<view style="font-size: 26upx;"></view>
 						</u-col>
-						<u-col span="3" customStyle="text-align: center">
-							<view class="">{{order.receiver_city}}</view>
-							<view style="font-size: 26upx;">{{order.receiver_contact}}</view>
+						<u-col span="4.5" customStyle="text-align: center">
+							<view class="">{{order.cRecvCity}}</view>
+							<view style="font-size: 24upx; color: gray;">{{order.cRecvName}}</view>
+							<view style="font-size: 24upx;">{{order.cRecvCorp}}</view>
 						</u-col>
 					</u-row>
 				</view>
-				<u-line color="#C4CDD7"></u-line>
+				<u-gap height="20" bg-color="#F4F7FC"></u-gap>
+				
+				<view class="box_list_unit" v-for="(item, index) in order.boxs" :key="index">
+					<u-badge type="primary" absolute :offset="[-5 ,-5]" shape="horn" :value="`${item.box_num}盒`"></u-badge>
+					<view
+						style="position: absolute; left:0,top:0; background-color: #0081FF; border-radius: 0 0 100% 0; padding:5upx 10upx 10upx 5upx; color: white;">
+						{{index+1}}
+					</view>
+					<view class="box_content">
+						<view class="u-flex-row">
+							<u--text size="24" :text="`类别:${item.cType}`"></u--text>
+							<u--text size="24" :text="`性别:${item.cGender}`"></u--text>
+							<u--text size="24" :text="`只数:${item.iCount}`"></u--text>
+							<u--text size="24" :text="`周龄:${item.iWeekAge}`"></u--text>
+						</view>
+						<view class="u-flex-row">
+							<u--text size="24" :text="`品系:${item.cName}`"></u--text>
+							<u--text size="24" :text="`基因型:${item.cGene}`"></u--text>
+						</view>
+						<u--text size="24" :text="`备注:${item.cNote}`"></u--text>
+					</view>
+					<u-gap height="20" bg-color="#F4F7FC"></u-gap>
+				</view>
+				
 				<view class="content">
 					<cc-defineStep colors="#0081FF" :stepData="step"></cc-defineStep>
 				</view>
@@ -49,13 +74,15 @@
 </template>
 
 <script>
+	import {getBoxs} from "@/api/Order"
 	export default {
 		data() {
 			return {
 				order:{
 					id:"SF123456123456",
 					from:"北京市",
-					to:"上海市"
+					to:"上海市",
+					boxs:[]
 				},
 				step:[
 					{
@@ -100,8 +127,11 @@
 		onLoad(option) {
 			let order_str = option.query.order
 			let order = JSON.parse(order_str)
-			this.order = order
 			this.step.reverse()
+			getBoxs(order.cOrderId).then((res)=>{
+				order.boxs = res.result
+				this.order = order
+			})
 		},
 		methods: {
 			
@@ -129,6 +159,24 @@
 				.content{
 					padding: 20upx;
 				}
+			}
+		}
+	}
+	
+	.box_list_unit {
+		position: relative;
+		font-size: 20upx;
+	
+		.box_content {
+			padding: 30upx;
+			position: relative;
+	
+			.remove_btn {
+				position: absolute;
+				width: 100upx;
+				height: 40upx;
+				right: 10upx;
+				bottom: 20upx;
 			}
 		}
 	}

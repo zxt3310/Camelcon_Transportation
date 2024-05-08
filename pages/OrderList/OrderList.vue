@@ -1,11 +1,11 @@
 <template>
 	<view>
-		<u-subsection fontSize="26" :list="['进行中','已完成']" :current="current" @change="onChange"></u-subsection>
+		<u-subsection fontSize="26" :list="[`进行中 (${numberOfUndelivered})`,'已完成']" :current="current" @change="onChange"></u-subsection>
 		<view style="padding: 40upx;">
 			<view class="order_unit" v-for="(order,index) in currentList" :key="index" @click="jumpToDetail(index)">
 				<u-row>
-					<u-col span="10" customStyle="font-size:13px; color:gray;">
-						{{`运单号:${order.id}`}}
+					<u-col span="10" customStyle="font-size:13px; font-weight:bold; color:black;">
+						{{`运单号: ${order.cOrderId}`}}
 					</u-col>
 					<u-col span="2">
 						<u-icon labelPos="left" name="arrow-right" label="查看" label-size="28"
@@ -13,21 +13,21 @@
 					</u-col>
 				</u-row>
 
-				<u-row customStyle="padding:10px" gutter="5" justify="around">
-					<u-col span="3" customStyle="text-align: center">
-						<view class="">{{formatCity(order.sender_province,order.sender_city)}}</view>
-						<view style="font-size: 24upx; color: gray;">{{order.sender_contact}}</view>
+				<u-row customStyle="padding:10px" justify="around">
+					<u-col span="4.5" customStyle="text-align: center">
+						<view class="">{{formatCity(order.cSendProvince,order.cSendCity)}}</view>
+						<view style="font-size: 24upx; color: gray;">{{order.cSendName}}</view>
+						<view style="font-size: 24upx;">{{order.cSendCorp}}</view>
 					</u-col>
 					<u-col span="3" customStyle="text-align: center;">
 						<u-icon width="100%" height="40" name="/static/icon/order_right.png"></u-icon>
 						<view style="font-size: 24upx; color: gray;">{{order.status}}</view>
 					</u-col>
-					<u-col span="3" customStyle="text-align: center">
-						<view class="">{{formatCity(order.receiver_province,order.receiver_city)}}</view>
-						<view style="font-size: 24upx; color: gray;">{{order.receiver_contact}}</view>
+					<u-col span="4.5" customStyle="text-align: center">
+						<view class="">{{formatCity(order.cRecvProvince,order.cRecvCity)}}</view>
+						<view style="font-size: 24upx; color: gray;">{{order.cRecvName}}</view>
+						<view style="font-size: 24upx;">{{order.cRecvCorp}}</view>
 					</u-col>
-				</u-row>
-
 				</u-row>
 			</view>
 		</view>
@@ -42,58 +42,28 @@
 			return {
 				current: 0,
 				currentList: [],
+				//未完成订单的数量
+				numberOfUndelivered:""
 			}
-			// created_at: "2023-11-18 20:29:50"
-			// deleted_at: null
-			// id: 2
-			// invoice_code: "1000000000000000000"
-			// invoice_content: null
-			// invoice_header: "湖北xxx水果批发有限公司"
-			// invoice_type: "e-invoice"
-			// need_detail_list: 0
-			// order_item: []
-			// package_options: "保鲜"
-			// payer_address: "武昌区xxx路xxx街道xxx号"
-			// payer_city: "武汉市"
-			// payer_company: "湖北xxx水果批发有限公司"
-			// payer_contact: "李四"
-			// payer_mobile: "18374734843"
-			// payer_province: "湖北省"
-			// picked_schedule_route_id: 0
-			// receiver_address: "武昌区xxx路xxx街道xxx号"
-			// receiver_address_id: null
-			// receiver_company: "湖北xxx水果批发有限公司"
-			// receiver_contact: "李四"
-			// receiver_mobile: "18072575604"
-			// receiver_province: "湖北省"
-			// receiver_user_id: 4
-			// route_end_main_node_id: null
-			// route_end_sub_node_id: null
-			// route_start_main_node_id: 0
-			// route_start_sub_node_id: 0
-			// sender_address: "天山区xxx路xxx街道xx号"
-			// sender_address_id: null
-			// sender_city: "乌鲁木齐市"
-			// sender_company: "新疆xxx果业有限公司"
-			// sender_contact: "张三"
-			// sender_mobile: "17705055577"
-			// sender_province: "新疆省"
-			// sender_user_id: 16845211
-			// transport_fee: "200000.00"
-			// updated_at: "2023-12-07 13:40:07"
 		},
 		onLoad() {
 			
 		},
 		onShow() {
-			getOrder().then((res)=>{
-				this.currentList = res.data
-			})
+			this.getOrderList(this.current+1)
 		},
 		methods: {
+			getOrderList(status){
+				getOrder(status).then((res)=>{
+					this.currentList = res.result
+					if(status == 1){
+						this.numberOfUndelivered = this.currentList.length
+					}
+				})
+			},
 			onChange(index) {
 				this.current = index;
-				this.currentList = index ? this.deliver_list : this.shipping_list;
+				this.getOrderList(index+1)
 			},
 			jumpToDetail(index) {
 				let order = this.currentList[index]
